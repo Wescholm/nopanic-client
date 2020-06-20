@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nopanic-client"
+    }
+  },
+  "defaultProject": "nopanic-client",
+  "cli": {
+    "analytics": false
+  }
 }
