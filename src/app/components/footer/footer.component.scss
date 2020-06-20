@@ -1,0 +1,57 @@
+@import "src/app/styles/_config";
+footer{
+  @include regular-text;
+  height: 128px;
+  background-color: $fourth-color;
+}
+.footer-content{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.logo-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 526px;
+}
+.menu-container ul {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.menu-container ul li{
+  cursor: pointer;
+}
+.menu-container ul li:hover{
+  color: $seventh-color;
+  text-decoration: underline;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #AEAFB2;
+  padding-top: 15px;
+}
+.copyright-container{
+  font-size: 16px;
+}
+.politic-container{
+  font-size: 14px;
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+.politic-container a{
+  color: $seventh-color;
+  text-decoration: none;
+}
+
