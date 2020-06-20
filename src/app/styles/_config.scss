@@ -56,3 +56,8 @@ $eighth-color: #FFC600;
   background-image: url($image);
   border-radius: 100px;
 }
+ @mixin base-flex {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+ }
