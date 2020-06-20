@@ -1,0 +1,58 @@
+$first-color: #000000;
+$second-color: #707070;
+$third-color: #DDDDDD;
+$fourth-color: #f0f1f7;
+$fifth-color: #2E80D2;
+$sixth-color: #1e5083;
+$seventh-color: #1d4185;
+$eighth-color: #FFC600;
+
+@mixin basic-btn {
+  background: $fifth-color;
+  color: white;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  &:hover {
+    background: #0060c4;
+    transition: .3s;
+  }
+}
+
+@mixin light-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+@mixin regular-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+@mixin medium-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+@mixin semi-bold-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+@mixin bold-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+@mixin profile-image($image) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url($image);
+  border-radius: 100px;
+}
