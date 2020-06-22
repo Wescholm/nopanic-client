@@ -1,29 +1,39 @@
 <footer>
   <div class="footer-content">
     <div class="footer-top">
-      <div class="logo-menu">
-        <div class="logo-container">ЛОГО</div>
-        <nav class="menu-container">
+      <div class="elements-container">
+        <div class="logo-container"></div>
+        <nav class="navigation-container">
           <ul>
-            <li>Услуги</li>
-            <li>Барахолка</li>
-            <li>Аукцион</li>
+            <li routerLinkActive="active">
+              <a [routerLink]="['/']">Services</a>
+            </li>
+            <li routerLinkActive="active">
+              <a>Marketplace</a>
+            </li>
+            <li routerLinkActive="active">
+              <a>Auction</a>
+            </li>
           </ul>
         </nav>
       </div>
       <div class="social-media-container">
-        <a href="">fac</a>
-        <a href="">inst</a>
-        <a href="">twi</a>
+        <a class="footer-icon-container">
+          <img class=footer-icon src="../../../assets/data/images/icons/facebook.svg" alt="facebook">
+        </a>
+        <a class="footer-icon-container">
+          <img class=footer-icon src="../../../assets/data/images/icons/instagram.svg" alt="instagram">
+        </a>
+        <a class="footer-icon-container">
+          <img class=footer-icon src="../../../assets/data/images/icons/telegram.svg" alt="telegram">
+        </a>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="copyright-container">
-        <div>© 2001—2020 Название.</div>
-      </div>
-      <div class="politic-container">
-        <a href="">Политика конфиденциальности</a>
-        <a href="">Поддержка пользователей</a>
+      <div>© 2020 nopanic.co.il</div>
+      <div class="additional-information">
+        <a>Privacy policy</a>
+        <a>User support</a>
       </div>
     </div>
   </div>
