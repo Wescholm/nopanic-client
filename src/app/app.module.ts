@@ -10,13 +10,15 @@ import {HeaderSearchComponent} from "./components/header/header-search/header-se
 import {MaterialModule} from "./material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HeaderProfileComponent} from "./components/header/header-profile/header-profile.component";
+import {FooterComponent} from "./components/footer/footer.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HeaderSearchComponent,
-    HeaderProfileComponent
+    HeaderProfileComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

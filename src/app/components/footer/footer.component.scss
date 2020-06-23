@@ -1,0 +1,90 @@
+@import "src/app/styles/_config";
+
+footer {
+  @include regular-text;
+  height: 128px;
+  background-color: $fourth-color;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  @include base-flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.active {
+  color: $seventh-color;
+}
+
+.elements-container {
+  display: flex;
+  justify-content: space-between;
+  width: 526px;
+}
+
+.navigation-container ul {
+  @include base-flex;
+  justify-content: space-between;
+  width: 340px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  li {
+    cursor: pointer;
+    &:hover {
+      color: $seventh-color;
+    }
+  }
+}
+
+.footer-bottom {
+  @include base-flex;
+  justify-content: space-between;
+  font-size: 16px;
+  border-top: 1px solid #AEAFB2;
+  padding-top: 15px;
+}
+
+.additional-information {
+  @include base-flex;
+  justify-content: space-between;
+  color: $seventh-color;
+  font-size: 14px;
+  a {
+    cursor: pointer;
+    &:nth-child(odd) {
+      margin-right: 30px;
+    }
+  }
+}
+
+.social-media-container {
+  @include base-flex;
+  justify-content: space-around;
+  width: fit-content;
+  height: fit-content;
+}
+
+.footer-icon-container {
+  @include base-flex;
+  justify-content: center;
+  background-color: $sixth-color;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  &:nth-child(even) {
+    margin: 0 14px;
+  }
+}
+
+.footer-icon {
+  width: 50%;
+  height: 50%;
+}
