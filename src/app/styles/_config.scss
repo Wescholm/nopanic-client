@@ -10,7 +10,7 @@ $eighth-color: #FFC600;
 @mixin basic-btn {
   background: $fifth-color;
   color: white;
-  border-radius: 15px;
+  border-radius: 50px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -62,7 +62,8 @@ $eighth-color: #FFC600;
    flex-wrap: wrap;
 }
 
-@mixin add-image {
+@mixin add-image($url) {
+  background-image: url($url);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

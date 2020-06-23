@@ -11,6 +11,7 @@ import {MaterialModule} from "./material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HeaderProfileComponent} from "./components/header/header-profile/header-profile.component";
 import {FooterComponent} from "./components/footer/footer.component";
+import {CentralBannerComponent} from "./components/central-banner/central-banner.component";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {FooterComponent} from "./components/footer/footer.component";
     HeaderComponent,
     HeaderSearchComponent,
     HeaderProfileComponent,
+    CentralBannerComponent,
     FooterComponent
   ],
   imports: [
