@@ -5,7 +5,7 @@
 }
 
 .service-content {
-  //@include base-flex;
+  @include base-flex;
   justify-content: space-between;
   margin: 30px auto 130px auto;
   width: 100%;
@@ -14,6 +14,16 @@
 
 .content {
   border: 1px solid green;
-  width: 70%;
+  width: 77%;
   height: 880px;
+}
+
+.filters-container {
+  width: 20%;
+}
+
+.orders-container {
+  width: 100px;
+  height: 100%;
+  border: 1px solid blue;
 }

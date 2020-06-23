@@ -14,6 +14,7 @@ import {FooterComponent} from "./components/footer/footer.component";
 import {CentralBannerComponent} from "./components/service-content/central-banner/central-banner.component";
 import {ServiceContentComponent} from "./components/service-content/service-content.component";
 import {FiltersComponent} from "./components/service-content/filters/filters.component";
+import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import {FiltersComponent} from "./components/service-content/filters/filters.com
     CentralBannerComponent,
     ServiceContentComponent,
     FiltersComponent,
+    OrdersNavigationComponent,
     FooterComponent
   ],
   imports: [
