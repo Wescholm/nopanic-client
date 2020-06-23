@@ -1,0 +1,27 @@
+@import "./src/app/styles/config";
+
+.header-profile-container {
+  @include base-flex;
+  justify-content: flex-start;
+  height: 100%;
+  span {
+    cursor: pointer;
+    transition: all .3s;
+    &:hover {
+      transition: all .3s;
+      color: $sixth-color;
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.user-email {
+  @include medium-text;
+  font-size: 14px;
+}

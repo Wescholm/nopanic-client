@@ -62,9 +62,8 @@ $eighth-color: #FFC600;
    flex-wrap: wrap;
 }
 
-@mixin add-image($image) {
+@mixin add-image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url($image);
 }
