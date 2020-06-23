@@ -1,0 +1,19 @@
+@import "src/app/styles/config";
+
+.service-container {
+  width: 100%;
+}
+
+.service-content {
+  //@include base-flex;
+  justify-content: space-between;
+  margin: 30px auto 130px auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.content {
+  border: 1px solid green;
+  width: 70%;
+  height: 880px;
+}

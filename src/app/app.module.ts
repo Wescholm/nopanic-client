@@ -11,7 +11,9 @@ import {MaterialModule} from "./material.module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HeaderProfileComponent} from "./components/header/header-profile/header-profile.component";
 import {FooterComponent} from "./components/footer/footer.component";
-import {CentralBannerComponent} from "./components/central-banner/central-banner.component";
+import {CentralBannerComponent} from "./components/service-content/central-banner/central-banner.component";
+import {ServiceContentComponent} from "./components/service-content/service-content.component";
+import {FiltersComponent} from "./components/service-content/filters/filters.component";
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import {CentralBannerComponent} from "./components/central-banner/central-banner
     HeaderSearchComponent,
     HeaderProfileComponent,
     CentralBannerComponent,
+    ServiceContentComponent,
+    FiltersComponent,
     FooterComponent
   ],
   imports: [

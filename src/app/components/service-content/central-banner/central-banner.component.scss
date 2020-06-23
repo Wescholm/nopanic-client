@@ -1,7 +1,7 @@
-@import "src/app/styles/_config";
+@import "../../../styles/config";
 
 section {
-  @include add-image("../../../assets/data/images/services-bg.png");
+  @include add-image("../../../../assets/data/images/services-bg.png");
   @include base-flex;
   justify-content: center;
   width: 100%;

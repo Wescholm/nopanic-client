@@ -1,0 +1,9 @@
+@import "src/app/styles/config";
+
+.filters-container {
+  width: 20% !important;
+  min-width: 20% !important;
+  height: 880px;
+  background: $fourth-color;
+  border-radius: 10px;
+}
