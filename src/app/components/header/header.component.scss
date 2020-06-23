@@ -19,24 +19,24 @@
   @include regular-text;
   font-size: 16px;
   display: flex;
-}
-
-.nav-element {
-  user-select: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: .3s;
-  &:nth-child(even) {
-    margin: 0 56px;
-  }
-  &.active {
-    background: $fourth-color;
-    border-radius: 29.5px;
-  }
-  a {
-    &:hover {
-      transition: .3s;
-      color: $sixth-color;
+  li {
+    user-select: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+    &:nth-child(even) {
+      margin: 0 56px;
+    }
+    &.active {
+      background: $fourth-color;
+      border-radius: 29.5px;
+    }
+    a {
+      &:hover {
+        transition: .3s;
+        color: $sixth-color;
+      }
     }
   }
 }
+
