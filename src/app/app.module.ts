@@ -15,6 +15,7 @@ import {CentralBannerComponent} from "./components/service-content/central-banne
 import {ServiceContentComponent} from "./components/service-content/service-content.component";
 import {FiltersComponent} from "./components/service-content/filters/filters.component";
 import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
+import {OrderComponent} from "./components/service-content/order/order.component";
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {OrdersNavigationComponent} from "./components/service-content/orders-nav
     ServiceContentComponent,
     FiltersComponent,
     OrdersNavigationComponent,
+    OrderComponent,
     FooterComponent
   ],
   imports: [
