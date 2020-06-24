@@ -6,7 +6,7 @@
     </div>
     <div class="content">
         <orders-navigation></orders-navigation>
-      <div class="orders-container">
+      <div *ngFor="let order of orders" class="orders-container">
         <order></order>
       </div>
     </div>

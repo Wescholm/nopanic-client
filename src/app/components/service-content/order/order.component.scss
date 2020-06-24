@@ -6,24 +6,26 @@
   flex-wrap: nowrap;
   width: 100%;
   height: 200px;
+  border: 2px solid transparent;
+  border-radius: 10px;
   margin-top: 20px;
-  a{
+  a {
     display: block;
     width: 20%;
     height: 100%;
     border-radius: 10px 0 0 10px;
     position: relative;
     cursor: pointer;
-    &:hover{
-      .gallery-indicator{
+    &:hover {
+      .gallery-indicator {
         display: block;
       }
     }
-    img{
+    img {
       width: 100%;
       height: 100%;
     }
-    .gallery-indicator{
+    .gallery-indicator {
       display: none;
       width: 50px;
       height: 50px;
@@ -46,68 +48,72 @@
     width: 80%;
     border-radius: 0 10px 10px 0;
     position: relative;
-    .data-content-inner{
+    .data-content-inner {
       height: 100%;
       padding: 0 40px;
-      .title{
+      .title {
         display: flex;
         justify-content: space-between;
         margin: 23px 0 10px 0;
-        p{
+        p {
           @include bold-text;
           font-size: 24px;
           color: #191815;
           margin:0;
         }
       }
-      .location{
+      .location {
         display: flex;
         justify-content: space-between;
         margin: 14px 0;
-        .city{
+        .city {
           display: flex;
           justify-content: space-between;
-          width: 50%;
-          p{
+          width: 36%;
+          p {
             @include medium-text;
+            @include base-flex;
             font-size: 14px;
             color: #191815;
-            margin:0;
+            margin: 0;
           }
         }
-        .status{
-          p{
+        .status {
+          p {
             @include medium-text;
-            font-size: 14px;
+            font-size: 16px;
             color: #191815;
-            margin:0;
+            margin: 0;
           }
         }
       }
-      .description{
+      .description {
         max-width: 500px;
-        p{
+        p {
           @include regular-text;
           font-size: 14px;
           color: #191815;
           margin: 0;
         }
       }
-      .more{
+      .more {
         display: flex;
         justify-content: space-between;
         margin: 17px 0 0 0;
-        button{
-          @include basic-btn;
-          &:nth-child(1){
+        button {
+          &:nth-child(1) {
+            @include basic-btn;
             @include bold-text;
             font-size: 14px;
-            padding: 5px 40px;
+            padding: 8px 64px;
           }
-          &:nth-child(2){
+          &:nth-child(2) {
+            @include base-flex;
             @include medium-text;
             font-size: 14px;
-            color: #191815;
+            border-radius: 4px;
+            background: none;
+            border: 1px solid $sixth-color;
             text-transform: uppercase;
             padding: 5px 20px;
             span{
@@ -118,9 +124,15 @@
       }
     }
   }
-  .label-vip{
+  .label-vip {
     position: absolute;
     right: -20px;
     top: -10%;
   }
+}
+
+.icon {
+  margin-right: 6px;
+  color: $sixth-color;
+  font-size: 18px;
 }
