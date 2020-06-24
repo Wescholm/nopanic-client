@@ -68,3 +68,6 @@ $eighth-color: #FFC600;
   background-repeat: no-repeat;
   background-position: center center;
 }
+*,*:after,*:before{
+  box-sizing: border-box;
+}

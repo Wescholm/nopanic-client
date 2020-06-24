@@ -2,14 +2,125 @@
 
 .order-content {
   @include base-flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   width: 100%;
   height: 200px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.data-content {
-  height: 100%;
-  background: red;
+  margin-top: 20px;
+  a{
+    display: block;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+    cursor: pointer;
+    &:hover{
+      .gallery-indicator{
+        display: block;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .gallery-indicator{
+      display: none;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+      background-color: $fifth-color;
+      opacity: 0.8;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      color: #fff;
+    }
+  }
+  .data-content {
+    height: 100%;
+    background: #F0F1F7;
+    width: 80%;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    .data-content-inner{
+      height: 100%;
+      padding: 0 40px;
+      .title{
+        display: flex;
+        justify-content: space-between;
+        margin: 23px 0 10px 0;
+        p{
+          @include bold-text;
+          font-size: 24px;
+          color: #191815;
+          margin:0;
+        }
+      }
+      .location{
+        display: flex;
+        justify-content: space-between;
+        margin: 14px 0;
+        .city{
+          display: flex;
+          justify-content: space-between;
+          width: 50%;
+          p{
+            @include medium-text;
+            font-size: 14px;
+            color: #191815;
+            margin:0;
+          }
+        }
+        .status{
+          p{
+            @include medium-text;
+            font-size: 14px;
+            color: #191815;
+            margin:0;
+          }
+        }
+      }
+      .description{
+        max-width: 500px;
+        p{
+          @include regular-text;
+          font-size: 14px;
+          color: #191815;
+          margin: 0;
+        }
+      }
+      .more{
+        display: flex;
+        justify-content: space-between;
+        margin: 17px 0 0 0;
+        button{
+          @include basic-btn;
+          &:nth-child(1){
+            @include bold-text;
+            font-size: 14px;
+            padding: 5px 40px;
+          }
+          &:nth-child(2){
+            @include medium-text;
+            font-size: 14px;
+            color: #191815;
+            text-transform: uppercase;
+            padding: 5px 20px;
+            span{
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .label-vip{
+    position: absolute;
+    right: -20px;
+    top: -10%;
+  }
 }
