@@ -15,12 +15,12 @@
 
 .content {
   width: 77%;
-  height: 880px;
-  padding: 0 10px;//this
+  padding: 0 10px;
 }
 
 .filters-container {
   width: 20%;
+  align-self: flex-start;
 }
 
 .orders-container {
