@@ -1,10 +1,10 @@
 <div class="drop-down-container">
   <div *ngFor="let list of data; let listIndex = index">
-    <div (click)="dropDownToggle(list.title)">
+    <div (click)="dropDownToggle(listIndex)">
       {{list.title}}
-      <span id="{{'arrow_' + list.title}}" class="material-icons">keyboard_arrow_down</span>
+      <span id="{{'arr_' + listIndex}}" class="material-icons">keyboard_arrow_down</span>
     </div>
-    <ul id="{{'elements_' + list.title}}">
+    <ul id="{{'el_' + listIndex}}">
       <li *ngFor="let element of list.data; let elementIndex = index">
         <mat-checkbox [(ngModel)]="element.value" (ngModelChange)="this.changedValue.emit(this.data)">
         </mat-checkbox>

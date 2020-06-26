@@ -13,10 +13,10 @@ export class DropDownListComponent {
 
   constructor() { }
 
-  dropDownToggle(listName) {
-    const isOpen = this.elementIsOpen(listName)
-    const listContent: HTMLElement = document.getElementById('elements_' + listName)
-    const listArrow: HTMLElement = document.getElementById('arrow_' + listName);
+  dropDownToggle(id) {
+    const isOpen = this.elementIsOpen(id)
+    const listContent: HTMLElement = document.getElementById('el_' + id)
+    const listArrow: HTMLElement = document.getElementById('arr_' + id);
     listContent.style.display = isOpen ? 'none' : 'block';
     listArrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
   }
@@ -26,8 +26,8 @@ export class DropDownListComponent {
     this.changedValue.emit(this.data)
   }
 
-  elementIsOpen(listName) {
-    const elementStyle = document.getElementById('elements_' + listName).style.display;
+  elementIsOpen(id) {
+    const elementStyle = document.getElementById('el_' + id).style.display;
     return elementStyle === 'block';
   }
 }
