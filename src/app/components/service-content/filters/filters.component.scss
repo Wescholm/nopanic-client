@@ -5,4 +5,19 @@
   height: 880px;
   background: $fourth-color;
   border-radius: 10px;
+  h3 {
+    @include bold-text;
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+    padding: 14px 0 18px 0;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  height: 90%;
+  width: 90%;
+  border-top: 1px solid $third-color;
+  border-bottom: 1px solid $third-color;
 }

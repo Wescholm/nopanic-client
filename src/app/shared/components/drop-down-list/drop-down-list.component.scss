@@ -1,0 +1,53 @@
+@import "src/app/styles/config";
+
+.drop-down-container  {
+  @include regular-text;
+  font-size: 14px;
+  padding: 12px 0;
+  cursor: pointer;
+  div {
+    @include base-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4px;
+    &:hover {
+      color: $seventh-color;
+    }
+  }
+  span {
+    user-select: none;
+  }
+  ul {
+    display: none;
+    width: 100%;
+    li {
+      @include base-flex;
+      flex-wrap: nowrap;
+      margin: 3px 0;
+      &:hover {
+         a {
+          color: $seventh-color;
+        }
+      }
+      a {
+        width: 100%;
+        color: black;
+        padding-left: 6px;
+      }
+    }
+  }
+}
+
+
+// Customizing material checkbox
+::ng-deep .mat-checkbox .mat-checkbox-frame {
+  border: 1px solid $third-color;
+  background: #fff;
+}
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-accent .mat-pseudo-checkbox-checked, .mat-accent .mat-pseudo-checkbox-indeterminate, .mat-pseudo-checkbox-checked, .mat-pseudo-checkbox-indeterminate {
+  background-color: $seventh-color !important;
+}
+::ng-deep .mat-ripple {
+  display: none;
+}
+
