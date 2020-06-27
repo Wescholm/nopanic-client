@@ -18,6 +18,7 @@ import {OrderComponent} from "./components/service-content/order/order.component
 import {LogInComponent} from "./components/authorization/log-in/log-in.component";
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
 import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
+import {RegistrationComponent} from "./components/authorization/registration/registration.component";
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.c
     OrderComponent,
     FooterComponent,
     LogInComponent,
-    PasswordRecoveryComponent
+    PasswordRecoveryComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
