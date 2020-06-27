@@ -57,9 +57,9 @@ $eighth-color: #FFC600;
 }
 
 @mixin base-flex {
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 @mixin add-image($url) {

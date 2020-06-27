@@ -1,3 +1,9 @@
 <aside class="filters-content">
-
+  <h3>Search filter</h3>
+  <div class="content">
+    <drop-down-list
+      [data]="listElements"
+      (changedValue)="changed($event)">
+    </drop-down-list>
+  </div>
 </aside>

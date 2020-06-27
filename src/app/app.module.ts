@@ -8,7 +8,6 @@ import {CoreModule} from "./core/core.module";
 import {HeaderComponent} from "./components/header/header.component";
 import {HeaderSearchComponent} from "./components/header/header-search/header-search.component";
 import {MaterialModule} from "./material.module";
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HeaderProfileComponent} from "./components/header/header-profile/header-profile.component";
 import {FooterComponent} from "./components/footer/footer.component";
 import {CentralBannerComponent} from "./components/service-content/central-banner/central-banner.component";
@@ -38,7 +37,6 @@ import {RegistrationComponent} from "./components/registration/registration.comp
     SharedModule,
     CoreModule,
     MaterialModule,
-    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
