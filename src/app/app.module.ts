@@ -15,7 +15,7 @@ import {ServiceContentComponent} from "./components/service-content/service-cont
 import {FiltersComponent} from "./components/service-content/filters/filters.component";
 import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
 import {OrderComponent} from "./components/service-content/order/order.component";
-import {RegistrationComponent} from "./components/registration/registration.component";
+import {LogInComponent} from "./components/authorization/log-in/log-in.component";
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import {RegistrationComponent} from "./components/registration/registration.comp
     OrdersNavigationComponent,
     OrderComponent,
     FooterComponent,
-    RegistrationComponent
+    LogInComponent
   ],
   imports: [
     BrowserModule,
