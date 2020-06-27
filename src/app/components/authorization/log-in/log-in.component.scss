@@ -21,7 +21,7 @@
   background-color: rgba(84,110,143,.6);
   width: 100%;
   max-width: 570px;
-  padding: 80px 35px;
+  padding: 3% 35px;
 }
 .registration-name {
   text-align: center;
@@ -92,7 +92,11 @@
     width: 80%;
     border: none;
     background-color: $seventh-color;
-    color: #ffffff;
+    color: #fff;
+    &:-webkit-autofill{
+      -webkit-box-shadow: 0 0 0 1000px $seventh-color inset !important;
+      -webkit-text-fill-color: #fff;
+    }
   }
   input::-moz-placeholder {
     @include regular-text;
@@ -141,8 +145,18 @@
   font-size: 16px;
   margin-top: 25px;
   a {
-    color: #ffffff;
+    color: #0DC5D5;
     cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+    padding-bottom: 4px;
+    &:hover{
+      background-size: 100% 2px;
+    }
   }
 }
 .registration-forget-password{
@@ -151,6 +165,15 @@
   margin-top: 25px;
   a {
     cursor: pointer;
-    color: #ffffff;
+    color: #0DC5D5;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .3s;
+    padding-bottom: 4px;
+    &:hover{
+      background-size: 100% 2px;
+    }
   }
 }
