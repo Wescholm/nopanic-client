@@ -16,6 +16,7 @@ import {FiltersComponent} from "./components/service-content/filters/filters.com
 import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
 import {OrderComponent} from "./components/service-content/order/order.component";
 import {LogInComponent} from "./components/authorization/log-in/log-in.component";
+import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {LogInComponent} from "./components/authorization/log-in/log-in.component
     HeaderComponent,
     HeaderSearchComponent,
     HeaderProfileComponent,
+    HeaderMenuComponent,
     CentralBannerComponent,
     ServiceContentComponent,
     FiltersComponent,
