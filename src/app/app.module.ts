@@ -17,8 +17,7 @@ import {OrdersNavigationComponent} from "./components/service-content/orders-nav
 import {OrderComponent} from "./components/service-content/order/order.component";
 import {LogInComponent} from "./components/authorization/log-in/log-in.component";
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
-
-
+import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
 
 @NgModule({
   declarations: [
@@ -26,6 +25,7 @@ import {PasswordRecoveryComponent} from "./components/authorization/password-rec
     HeaderComponent,
     HeaderSearchComponent,
     HeaderProfileComponent,
+    HeaderMenuComponent,
     CentralBannerComponent,
     ServiceContentComponent,
     FiltersComponent,

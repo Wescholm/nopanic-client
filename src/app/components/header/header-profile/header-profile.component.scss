@@ -4,13 +4,13 @@
   @include base-flex;
   justify-content: flex-start;
   height: 100%;
+  &:hover {
+    transition: all .3s;
+    color: $sixth-color;
+  }
   span {
     cursor: pointer;
     transition: all .3s;
-    &:hover {
-      transition: all .3s;
-      color: $sixth-color;
-    }
   }
 }
 
