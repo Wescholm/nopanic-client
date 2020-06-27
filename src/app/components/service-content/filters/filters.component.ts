@@ -13,11 +13,11 @@ export class FiltersComponent implements OnInit {
         [
           {subtitle: '1.1', value: false},
           {subtitle: '1.2', value: false},
-          {subtitle: '1.3', value: false}
+          {subtitle: '1.3', value: false},
         ]
     },
     {
-      title: 'First', data:
+      title: 'Second', data:
         [
           {subtitle: '2.1', value: false},
           {subtitle: '2.2', value: false},

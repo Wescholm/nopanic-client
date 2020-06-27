@@ -39,6 +39,17 @@
         padding-left: 6px;
       }
     }
+    &.open {
+      opacity: 1;
+      max-height: 1000px;
+      visibility: visible;
+    }
+
+    &.close {
+      opacity: 0;
+      max-height: 0;
+      visibility: hidden;
+    }
   }
 }
 
