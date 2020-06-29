@@ -1,0 +1,67 @@
+@import "src/app/styles/config";
+
+.response-fields {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.response-fields-name {
+  @include bold-text;
+  font-size: 36px;
+  margin-bottom: 38px;
+}
+
+.response-fields-description {
+  width: 100%;
+  position: relative;
+  p {
+    @include semi-bold-text;
+    position: absolute;
+    left: 35px;
+    top: 19px;
+    margin: 0;
+    font-size: 18px;
+  }
+  textarea {
+    @include light-text;
+    width: 100%;
+    margin: 28px 0;
+    border-radius: 26px;
+    border: 1px solid #ddd;
+    resize: none;
+    outline: none;
+    padding: 18px 35px;
+  }
+}
+
+.response-fields-price {
+  width: 100%;
+  position: relative;
+  p {
+    @include semi-bold-text;
+    position: absolute;
+    left: 35px;
+    top: -9px;
+    margin: 0;
+    font-size: 18px;
+  }
+  input {
+    @include light-text;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 17px 35px;
+    margin-bottom: 20px;
+  }
+}
+
+.response-fields-button {
+  @include basic-btn;
+  @include semi-bold-text;
+  font-size: 18px;
+  padding: 20px 80px;
+  float: right;
+}
