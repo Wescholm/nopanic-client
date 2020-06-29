@@ -1,6 +1,6 @@
 @import "../../../styles/config";
 
-.log-in {
+.registration {
   overflow-y: scroll;
   position: fixed;
   top: 0;
@@ -12,7 +12,7 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-.log-in-container {
+.registration-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,7 +23,7 @@
   max-width: 570px;
   padding: 3% 35px;
 }
-.log-in-name {
+.registration-name {
   text-align: center;
   p {
     color: white;
@@ -46,7 +46,7 @@
     padding: 30px 0;
   }
 }
-.log-in-social-media {
+.social-media {
   display: flex;
   justify-content: center;
   a {
@@ -80,7 +80,7 @@
   }
 }
 
-.log-in-main-container {
+.registration-main-container {
   display: flex;
   flex-direction: column;
   p {
@@ -92,7 +92,7 @@
     width: 80%;
     border: none;
     background-color: $seventh-color;
-    color: #fff;
+    color: #ffffff;
     &:-webkit-autofill{
       -webkit-box-shadow: 0 0 0 1000px $seventh-color inset !important;
       -webkit-text-fill-color: #fff;
@@ -112,7 +112,7 @@
     height: 60px;
   }
 }
-.log-in-input-container {
+.input-container {
   display: flex;
   align-items: center;
   position:relative;
@@ -125,7 +125,7 @@
   @include regular-text;
   color: #ffffff;
 }
-.log-in-main-input {
+.registration-main-input {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,14 +140,16 @@
     height: 20px;
   }
 }
-.log-in-link {
-  @include regular-text;
+.registration-link {
+  @include semi-bold-text;
+  display: flex;
+  justify-content: center;
   font-size: 16px;
   margin-top: 25px;
   a {
     color: #0DC5D5;
     cursor: pointer;
-    text-decoration: none;
+    padding-left: 5px;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 50% 100%;
     background-repeat: no-repeat;
@@ -159,8 +161,8 @@
     }
   }
 }
-.log-in-forget-password{
-  @include regular-text;
+.registration-rules{
+  @include semi-bold-text;
   font-size: 16px;
   margin-top: 25px;
   a {

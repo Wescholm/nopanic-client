@@ -1,5 +1,14 @@
-<div class="header-profile-container">
-  <img class="avatar" src="../../../../assets/data/images/default-avatar.svg" alt="avatar">
-  <span class="user-email">User@gmail.com</span>
-  <span class="material-icons">expand_more</span>
+<div class="header-profile-container" (click)="menuToggle()">
+  <div class="profile-preview">
+    <img class="avatar" src="../../../../assets/data/images/default-avatar.svg" alt="avatar">
+    <span class="user-email">User@gmail.com</span>
+    <span class="material-icons">expand_more</span>
+  </div>
+
+  <div id="dropdown" class="dropdown">
+    <div id="arr" class="arrow"></div>
+    <p>Inbox</p>
+    <p>Settings</p>
+    <p>Sign Out</p>
+  </div>
 </div>

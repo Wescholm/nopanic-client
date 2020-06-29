@@ -9,7 +9,16 @@ export class HeaderProfileComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
+  menuToggle() {
+    const dropdown = document.getElementById('dropdown');
+    const arrow = document.getElementById('arr');
+    dropdown.classList.toggle('down');
+    arrow.classList.toggle('gone');
+
+    dropdown.classList.contains('down') ?
+      setTimeout(() => {dropdown.style.overflow = 'visible'}, 500) :
+      dropdown.style.overflow = 'hidden';
+  }
 }

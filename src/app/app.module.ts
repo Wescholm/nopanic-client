@@ -17,6 +17,11 @@ import {OrdersNavigationComponent} from "./components/service-content/orders-nav
 import {OrderComponent} from "./components/service-content/order/order.component";
 import {LogInComponent} from "./components/authorization/log-in/log-in.component";
 import {PlaceOrderComponent} from "./components/place-order/place-order.component";
+import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
+import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
+import {RegistrationComponent} from "./components/authorization/registration/registration.component";
+import {ResponseFieldsComponent} from "./components/order-content/response-fields/response-fields.component";
+import {ResponseComponent} from "./components/order-content/response/response.component";
 
 @NgModule({
   declarations: [
@@ -24,6 +29,7 @@ import {PlaceOrderComponent} from "./components/place-order/place-order.componen
     HeaderComponent,
     HeaderSearchComponent,
     HeaderProfileComponent,
+    HeaderMenuComponent,
     CentralBannerComponent,
     ServiceContentComponent,
     FiltersComponent,
@@ -31,7 +37,11 @@ import {PlaceOrderComponent} from "./components/place-order/place-order.componen
     OrderComponent,
     FooterComponent,
     LogInComponent,
-    PlaceOrderComponent
+    PlaceOrderComponent,
+    PasswordRecoveryComponent,
+    RegistrationComponent,
+    ResponseFieldsComponent,
+    ResponseComponent
   ],
   imports: [
     BrowserModule,
