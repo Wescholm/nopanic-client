@@ -16,6 +16,7 @@ import {FiltersComponent} from "./components/service-content/filters/filters.com
 import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
 import {OrderComponent} from "./components/service-content/order/order.component";
 import {LogInComponent} from "./components/authorization/log-in/log-in.component";
+import {PlaceOrderComponent} from "./components/place-order/place-order.component";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {LogInComponent} from "./components/authorization/log-in/log-in.component
     OrdersNavigationComponent,
     OrderComponent,
     FooterComponent,
-    LogInComponent
+    LogInComponent,
+    PlaceOrderComponent
   ],
   imports: [
     BrowserModule,
