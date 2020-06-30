@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'response-fields',
-  templateUrl: './response-fields.component.html',
-  styleUrls: ['./response-fields.component.scss']
+  selector: 'add-response',
+  templateUrl: './add-response.component.html',
+  styleUrls: ['./add-response.component.scss']
 })
-export class ResponseFieldsComponent implements OnInit {
+export class AddResponseComponent implements OnInit {
 
   constructor() { }
 

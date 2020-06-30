@@ -1,20 +1,2 @@
 @import "src/app/styles/config";
 
-.order-content {
-  @include base-flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  width: 100%;
-  max-width: 1440px;
-  height: 200px;
-  border-radius: 10px;
-  margin-top: 30px;
-  -webkit-box-shadow: 0 6px 26px -5px rgba(0, 0, 0, 0.14);
-  -moz-box-shadow: 0 6px 26px -5px rgba(0, 0, 0, 0.14);
-  box-shadow: 0 6px 26px -5px rgba(0, 0, 0, 0.14);
-  img {
-    height: 200px;
-    position: absolute;
-    bottom: 159px;
-  }
-}

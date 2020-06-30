@@ -19,8 +19,8 @@ import {LogInComponent} from "./components/authorization/log-in/log-in.component
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
 import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
 import {RegistrationComponent} from "./components/authorization/registration/registration.component";
-import {ResponseFieldsComponent} from "./components/order-content/response-fields/response-fields.component";
-import {ResponseComponent} from "./components/order-content/response/response.component";
+import {AddResponseComponent} from "./components/order-content/add-response/add-response.component";
+import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
 
 @NgModule({
   declarations: [
@@ -38,8 +38,8 @@ import {ResponseComponent} from "./components/order-content/response/response.co
     LogInComponent,
     PasswordRecoveryComponent,
     RegistrationComponent,
-    ResponseFieldsComponent,
-    ResponseComponent
+    AddResponseComponent,
+    OrderResponseComponent
   ],
   imports: [
     BrowserModule,
