@@ -1,5 +1,8 @@
 <div class="log-in">
   <div class="log-in-container">
+    <span class="material-icons close">
+      close
+    </span>
     <div class="log-in-name">
       <p class="enter">Sign in</p>
       <div class="social-media-text">
@@ -9,10 +12,10 @@
             <img class=footer-icon src="../../../../assets/data/images/icons/facebook-registration.svg" alt="facebook">
           </a>
           <a>
-            <img class=footer-icon src="../../../../assets/data/images/icons/vk.svg" alt="vk">
+            <img class=footer-icon src="../../../../assets/data/images/icons/Google_Logo.svg" alt="gmail">
           </a>
           <a>
-            <img class=footer-icon src="../../../../assets/data/images/icons/google-plus.svg" alt="gmail">
+            <img class=footer-icon src="../../../../assets/data/images/icons/vk.svg" alt="vk">
           </a>
         </div>
       </div>
@@ -33,10 +36,10 @@
         <button>Sign in</button>
       </div>
       <div class="log-in-link">
-        <a>Register on nopanic</a>
+        <a [routerLink]="['/registration']">Register on nopanic</a>
       </div>
       <div class="log-in-forget-password">
-        <a>I don't remember the password</a>
+        <a [routerLink]="['/password-recovery']">I don't remember the password</a>
       </div>
     </div>
   </div>
