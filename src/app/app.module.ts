@@ -22,6 +22,7 @@ import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.c
 import {RegistrationComponent} from "./components/authorization/registration/registration.component";
 import {AddResponseComponent} from "./components/order-content/add-response/add-response.component";
 import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
+import {Response} from "./components/order-content/response/response.component";
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import {OrderResponseComponent} from "./components/order-content/order-response/
     PasswordRecoveryComponent,
     RegistrationComponent,
     AddResponseComponent,
-    OrderResponseComponent
+    OrderResponseComponent,
+    Response
   ],
   imports: [
     BrowserModule,

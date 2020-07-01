@@ -11,5 +11,12 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  openMenu() {
+    const dropdown = document.getElementById('dropdown-menu');
+    dropdown.classList.add('down');
+  }
+  closeMenu() {
+    const dropdown = document.getElementById('dropdown-menu');
+    dropdown.classList.remove('down');
+  }
 }
