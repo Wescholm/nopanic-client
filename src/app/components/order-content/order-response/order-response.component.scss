@@ -1,2 +1,93 @@
-@import "src/app/styles/config";
+@import "../../../styles/config";
+
+.common-order-content {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+
+  .order-response-content {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 0 10px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+
+    .response {
+      padding: 0 30px 0 250px;
+
+      .response-image {
+        position: absolute;
+        top: -40px;
+        left: 0;
+      }
+
+      .performer {
+        @include bold-text;
+        font-size: 24px;
+      }
+
+      .rating {
+        display: flex;
+
+        .review {
+          @include regular-text;
+          font-size: 14px;
+          opacity: 0.5;
+          margin-left: 20px;
+        }
+      }
+
+      .work-description {
+        @include regular-text;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: justify;
+      }
+
+      .accept-order {
+        @include base-flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        .date {
+          @include regular-text;
+          font-size: 14px;
+          opacity: 0.5;
+        }
+      }
+
+      .price {
+        @include base-flex;
+        flex-basis: 45%;
+        justify-content: space-between;
+
+        button {
+          @include semi-bold-text;
+          font-size: 12px;
+          width: 185px;
+          height: 35px;
+          border: none;
+          border-radius: 50px;
+          background-color: $fifth-color;
+          color: #fff;
+        }
+
+        p {
+          @include bold-text;
+          color: $eighth-color;
+          font-size: 30px;
+          margin: 0;
+        }
+      }
+    }
+    &:hover {
+      border: 2px solid $fifth-color;
+    }
+  }
+
+}
+
+
+
 

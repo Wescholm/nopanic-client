@@ -15,7 +15,7 @@ import {ServiceContentComponent} from "./components/service-content/service-cont
 import {FiltersComponent} from "./components/service-content/filters/filters.component";
 import {OrdersNavigationComponent} from "./components/service-content/orders-navigation/orders-navigation.component";
 import {OrderComponent} from "./components/service-content/order/order.component";
-import {LogInComponent} from "./components/authorization/log-in/log-in.component";
+import {LoginComponent} from "./components/authorization/login/login.component";
 import {PlaceOrderComponent} from "./components/place-order/place-order.component";
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
 import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
@@ -36,7 +36,7 @@ import {OrderResponseComponent} from "./components/order-content/order-response/
     OrdersNavigationComponent,
     OrderComponent,
     FooterComponent,
-    LogInComponent,
+    LoginComponent,
     PlaceOrderComponent,
     PasswordRecoveryComponent,
     RegistrationComponent,

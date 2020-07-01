@@ -40,3 +40,13 @@
   }
 }
 
+.auth {
+  @include semi-bold-text;
+  font-size: 16px;
+  color: $sixth-color;
+  span {
+    cursor: pointer;
+    outline: none;
+    text-decoration: underline;
+  }
+}
