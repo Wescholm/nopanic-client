@@ -1,0 +1,72 @@
+@import "../../../styles/config";
+
+section {
+  @include add-image("../../../../assets/data/images/services-bg.png");
+  width: 100%;
+  max-width: 1920px;
+  padding: 31px 0;
+  .inner{
+    width: 100%;
+    min-height: 150px;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    .description-min{
+      position: absolute;
+      max-width: 810px;
+      width: 100%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      p{
+        &.title{
+          @include bold-text;
+          font-size: 36px;
+          color: #fff;
+          margin-bottom: 10px;
+        }
+        &.subtitle{
+          @include medium-text;
+          font-size: 24px;
+          color: #fff;
+        }
+      }
+    }
+    .profile-icon{
+      position: absolute;
+      bottom: -50%;
+      left: 2%;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      box-shadow: 0 7px 28px 0 rgba(0,0,0,0.42);
+      background-image: url("src/assets/data/images/profile-icon.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .price{
+      @include bold-text;
+      position: absolute;
+      right: 6%;
+      bottom: -30%;
+      color: #fff;
+      font-size: 36px;
+      width: 200px;
+      height: 65px;
+      &:before{
+        content: '';
+        position: absolute;
+        border-bottom: 65px solid #FFC600;
+        border-left: 50px solid transparent;
+        box-shadow: 18px 4px 30px -8px rgba(0,0,0,0.57);
+        width: 200px;
+      }
+      span{
+        position: absolute;
+        left: 70px;
+        top: 12px;
+      }
+    }
+  }
+}

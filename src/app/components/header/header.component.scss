@@ -2,39 +2,92 @@
 
 .header {
   height: 60px;
-}
-
-.header-content {
-  margin: 0 auto;
-  @include base-flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1440px;
-  height: 100%;
-  padding: 0 10px;
-}
-
-.navigation {
-  @include regular-text;
-  font-size: 16px;
-  display: flex;
-  li {
-    user-select: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: .3s;
-    &:nth-child(even) {
-      margin: 0 56px;
-    }
-    &.active {
-      background: $fourth-color;
-      border-radius: 29.5px;
-    }
-    a {
-      &:hover {
-        transition: .3s;
-        color: $sixth-color;
+  .header-content {
+    margin: 0 auto;
+    @include base-flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    padding: 0 10px;
+    .navigation {
+      @include regular-text;
+      font-size: 16px;
+      display: flex;
+      li {
+        user-select: none;
+        height: 60px;
+        &:nth-child(even) {
+          margin: 0 56px;
+        }
+        &.active {
+          a{
+            background: $fourth-color;
+            border-radius: 29.5px;
+          }
+        }
+        a {
+          padding: 10px 20px;
+          cursor: pointer;
+          transition: .3s;
+          line-height: 60px;
+          &:hover {
+            transition: .3s;
+            color: $sixth-color;
+          }
+        }
+        .dropdown {
+          padding: 50px 100px 50px 100px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 60px;
+          visibility: hidden;
+          opacity: 0;
+          color: #505050;
+          transition: all 0.5s;
+          transform: scaleY(0);
+          background-color: #f0f1f6;
+          p {
+            padding: 0 10px;
+            @include regular-text;
+            &.title{
+              font-size: 18px;
+            }
+          }
+          .dropdown-inner{
+            @include base-flex;
+            justify-content: space-between;
+            .main-navigation{
+              flex-basis: 25%;
+              padding: 0 10px 0 10px;
+              .dropdown-title{
+                @include medium-text;
+                font-size: 24px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $sixth-color;
+                margin-bottom: 5px;
+              }
+              .dropdown-news-list{
+                .dropdown-news-item{
+                  cursor: pointer;
+                  height: unset;
+                  margin: 0 0 10px 0;
+                  padding: 0;
+                  &:hover{
+                    color: $fifth-color;
+                  }
+                }
+              }
+            }
+          }
+          &.down {
+            transform: scaleY(1);
+            visibility: visible;
+            opacity: 1;
+          }
+        }
       }
     }
   }

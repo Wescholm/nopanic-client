@@ -167,7 +167,7 @@
     top: 11px;
     right: 31px;
     font-size: 30px;
-  }
+}
 
   @media screen and (max-width: 1000px) {
     .visible {
@@ -230,61 +230,5 @@
       }
     }
   }
-
-  //@media screen and (max-width: 375px) {
-  //    padding: 36px 20px 30px 20px;
-  //   p{
-  //     @include semi-bold-text;
-  //     font-size: 18px;
-  //   }
-  //  .section-caption {
-  //    display: block;
-  //    .section {
-  //      padding-bottom: 30px;
-  //    }
-  //  }
-  //  .section-description {
-  //    padding-bottom: 30px;
-  //    p {
-  //      top: -10px;
-  //    }
-  //    textarea {
-  //      margin: 0;
-  //    }
-  //  }
-  //  .section, .short-description, .date, .address, .name, .checkbox, .phone-valid {
-  //    width: 100%;
-  //    padding-bottom: 30px;
-  //    margin-bottom: 0;
-  //}
-  //  .price {
-  //    width: 100%;
-  //    padding-bottom: 10px;
-  //  }
-  //  .phone {
-  //    width: 100%;
-  //    padding-bottom: 10px;
-  //  }
-  //  .section-address, .date-complete {
-  //    margin-bottom: 0;
-  //  }
-  //  .price-checkbox, .phone-checkbox {
-  //    width: 100%;
-  //  }
-  //  .visible {
-  //    width: 100%;
-  //  }
-  //  .place-order {
-  //    .phone-valid {
-  //      width: 100%;
-  //      padding-bottom: 20px;
-  //    }
-  //    button {
-  //      width: 100%;
-  //      margin-bottom: 20px;
-  //      padding: 20px 0;
-  //    }
-  //  }
-
 }
 

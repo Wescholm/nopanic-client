@@ -11,12 +11,13 @@
     ul {
       @include base-flex;
       justify-content: space-between;
+      flex-wrap: nowrap;
       height: 100%;
       li {
         @include regular-text;
         font-size: 18px;
         color: #191815;
-        padding: 15px 70px;
+        padding: 15px 60px;
         border-radius: 10px 10px 0 0;
         cursor: pointer;
         transition: all 0.2s;
