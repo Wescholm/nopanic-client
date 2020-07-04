@@ -1,0 +1,56 @@
+<app-header></app-header>
+<app-response></app-response>
+<div class="orders-navigation-container">
+  <div class="order-left">
+    <ul>
+       <li><img class=footer-icon src="../../../../assets/data/images/icons/location.svg" alt="location">Minsk</li>
+      <li><img class=footer-icon src="../../../../assets/data/images/icons/wall-clock.svg" alt="clock">Until June 28, 2020</li>
+      <li>Active</li>
+    </ul>
+  </div>
+  <div class="order-right">
+    <img class=footer-icon src="../../../../assets/data/images/icons/bag.svg" alt="bag"><p>Other building and repair work</p>
+  </div>
+</div>
+
+<div class="order-gallery">
+  GALLERY
+</div>
+
+<div class="order-container">
+
+  <div class="order-text">
+    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+    literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+    College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+    and going through the cites of the word in classical literature, discovered the undoubtable source.
+    Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+    by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+    The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+    in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+  </div>
+  <div class="social-media">
+    <p>Share :</p>
+      <a>
+        <img class=footer-icon src="../../../../assets/data/images/icons/facebook-registration.svg" alt="facebook">
+      </a>
+      <a>
+        <img class=footer-icon src="../../../../assets/data/images/icons/twitter.svg" alt="gmail">
+      </a>
+      <a>
+        <img class=footer-icon src="../../../../assets/data/images/icons/vk.svg" alt="vk">
+      </a>
+    </div>
+
+  <div class="count-response">
+    5 response
+  </div>
+  </div>
+<div *ngFor="let order of orders">
+<app-order-response></app-order-response>
+</div>
+<app-add-response></app-add-response>
+<app-footer></app-footer>

@@ -2,7 +2,7 @@
 
 .common-order-content {
   width: 100%;
-  max-width: 950px;
+  max-width: 1440px;
   margin: 0 auto;
 
   .order-response-content {
@@ -12,9 +12,10 @@
     border: 2px solid transparent;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 0 10px rgba(0, 0, 0, 0.10);
     cursor: pointer;
+    padding: 30px 0;
 
     .response {
-      padding: 0 30px 0 250px;
+      padding: 0 150px 0 250px;
 
       .response-image {
         position: absolute;
@@ -25,10 +26,16 @@
       .performer {
         @include bold-text;
         font-size: 24px;
+        padding-bottom: 15px;
       }
 
       .rating {
         display: flex;
+
+        .star {
+          color: $eighth-color;
+          padding-bottom: 25px;
+        }
 
         .review {
           @include regular-text;
@@ -43,12 +50,12 @@
         font-size: 14px;
         line-height: 19px;
         text-align: justify;
+        padding-bottom: 25px;
       }
 
       .accept-order {
         @include base-flex;
         justify-content: space-between;
-        margin-bottom: 20px;
 
         .date {
           @include regular-text;
