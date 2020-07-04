@@ -61,5 +61,20 @@
       or
       <span [routerLink]="['/registration']">Register</span>
     </div>
+    <div class="mobile-menu-cont">
+<!--      <div class="auth-mobile">-->
+<!--        <span [routerLink]="['/login']">Login</span>-->
+<!--        or-->
+<!--        <span [routerLink]="['/registration']">Register</span>-->
+<!--      </div>-->
+      <header-burger-menu></header-burger-menu>
+    </div>
+    <div class="toggle-button" (click)="mobileMenuToggle()">
+					<span class="inner">
+						<div></div>
+						<div></div>
+						<div></div>
+					</span>
+    </div>
   </div>
 </header>

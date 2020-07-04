@@ -3,27 +3,24 @@
 .search-container {
   position: relative;
   height: 100%;
-}
-
-.search-input {
-  @include light-text;
-  font-size: 14px;
-  border: 1px solid $third-color;
-  border-radius: 30px;
-  padding: 8px 34px 8px 20px;
-}
-
-.search-btn {
-  height: 100%;
-  width: 34px;
-  position: absolute;
-  right: 0;
-  border: none;
-  background: $sixth-color;
-  border-radius: 0 20.5px 20.5px 20.5px;
-}
-
-.icon {
-  color: white;
-  font-size: 16px;
+  .search-input {
+    @include light-text;
+    font-size: 14px;
+    border: 1px solid $third-color;
+    border-radius: 30px;
+    padding: 8px 34px 8px 20px;
+  }
+  .search-btn {
+    height: 100%;
+    width: 34px;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: $sixth-color;
+    border-radius: 0 20.5px 20.5px 20.5px;
+    .icon {
+      color: white;
+      font-size: 16px;
+    }
+  }
 }

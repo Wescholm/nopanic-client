@@ -38,4 +38,13 @@
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 1024px) {
+    .order-left{
+      ul{
+        li{
+          padding: 15px 40px;
+        }
+      }
+    }
+  }
 }

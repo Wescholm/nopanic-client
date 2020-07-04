@@ -1,0 +1,108 @@
+@import "./src/app/styles/config";
+.header-profile-container {
+  justify-content: flex-start;
+  height: 100%;
+  position: relative;
+  span {
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .profile-preview {
+    @include base-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .top{
+      @include base-flex;
+      .avatar {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-right: 30px;
+      }
+      .user-name-email{
+        color: #fff;
+      }
+    }
+    .search-container {
+      position: relative;
+      height: 100%;
+      margin: 10px 0 10px 0;
+      .search-input {
+        @include light-text;
+        font-size: 14px;
+        border: 1px solid $third-color;
+        border-radius: 30px;
+        padding: 8px 34px 8px 20px;
+      }
+      .search-btn {
+        height: 100%;
+        width: 34px;
+        position: absolute;
+        right: 0;
+        border: none;
+        background: $fifth-color;
+        border-radius: 0 20.5px 20.5px 20.5px;
+        .icon {
+          color: white;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .dropdown {
+    .dropdown-content {
+      @include regular-text;
+      div {
+        &:nth-child(1) {
+          margin: 8px 0;
+          p {
+            @include base-flex;
+            cursor: pointer;
+            margin: 6px 0;
+            width: 100%;
+            color: #fff;
+            span {
+              font-size: 17px;
+              margin-right: 5px;
+              color: #fff;
+            }
+          }
+        }
+        &:nth-child(2) {
+          @include base-flex;
+          cursor: pointer;
+          color: #fff;
+          border-bottom: 1px solid #6296C0;
+          padding-bottom: 5px;
+          span {
+            font-size: 17px;
+            margin-right: 5px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  nav{
+    .navigation-mobile{
+        .dropdown-title{
+          @include regular-text;
+          a{
+            color: #fff;
+          }
+          .dropdown-news-list{
+            border: 1px solid red;
+            padding-bottom: 10px;
+            max-height: 0;
+            opacity: 0;
+            transition:all .5s;
+            max-width: 300px;
+            &.open{
+              max-height: 500px;
+              opacity: 1;
+            }
+          }
+        }
+    }
+  }
+}

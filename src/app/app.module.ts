@@ -23,6 +23,7 @@ import {RegistrationComponent} from "./components/authorization/registration/reg
 import {AddResponseComponent} from "./components/order-content/add-response/add-response.component";
 import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
 import {Response} from "./components/order-content/response/response.component";
+import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import {Response} from "./components/order-content/response/response.component";
     RegistrationComponent,
     AddResponseComponent,
     OrderResponseComponent,
-    Response
+    Response,
+    HeaderBurgerMenuComponent
   ],
   imports: [
     BrowserModule,
