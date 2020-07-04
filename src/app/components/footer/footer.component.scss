@@ -2,7 +2,6 @@
 
 footer {
   @include regular-text;
-  height: 128px;
   background-color: $fourth-color;
 }
 
@@ -96,4 +95,34 @@ footer {
 .footer-icon {
   width: 50%;
   height: 50%;
+}
+
+@media screen and (max-width: 570px) {
+  .elements-container {
+    display: block;
+    padding: 0 5px;
+    a {
+      display: block;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    .navigation-container ul {
+      width: 100%;
+    }
+  }
+
+  .social-media-container {
+    margin: 0 auto;
+  }
+
+  .footer-bottom{
+    padding-top: 20px;
+    .company-information {
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+    .additional-information {
+      display: none;
+    }
+  }
 }
