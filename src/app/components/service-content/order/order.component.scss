@@ -104,24 +104,48 @@
         display: flex;
         justify-content: space-between;
         margin: 17px 0 0 0;
-        button {
-          &:nth-child(1) {
-            @include basic-btn;
-            @include bold-text;
-            font-size: 14px;
-            padding: 8px 64px;
+        .btn-more {
+          @include basic-btn;
+          @include bold-text;
+          font-size: 14px;
+          padding: 8px 64px;
+        }
+        .btn-lng {
+          @include base-flex;
+          @include medium-text;
+          font-size: 14px;
+          border-radius: 4px;
+          background: none;
+          border: 1px solid $sixth-color;
+          text-transform: uppercase;
+          padding: 5px 20px;
+          position: relative;
+          cursor: pointer;
+          span{
+            margin-right: 10px;
           }
-          &:nth-child(2) {
+          .current-lng{
             @include base-flex;
+            justify-content: space-between;
+          }
+          .chose-lang{
             @include medium-text;
             font-size: 14px;
-            border-radius: 4px;
+            position: absolute;
             background: none;
             border: 1px solid $sixth-color;
-            text-transform: uppercase;
-            padding: 5px 20px;
-            span{
-              margin-right: 10px;
+            border-right: none;
+            border-radius: 4px 0 0 4px;
+            transform: translateX(-63px);
+            visibility: hidden;
+            opacity: 0;
+            padding: 7px 20px;
+            transition: opacity .3s, visibility .3s, transform 0.7s;
+            &.open{
+              visibility: visible;
+              opacity: 1;
+              transform: translateX(-160px);
+              z-index: 1;
             }
           }
         }
@@ -133,8 +157,18 @@
     right: -20px;
     top: -10%;
   }
+  @media screen and (max-width: 1024px) {
+    .data-content{
+      .data-content-inner{
+        .location{
+          .city{
+            width: 46%;
+          }
+        }
+      }
+    }
+  }
 }
-
 .icon {
   margin-right: 6px;
   color: $sixth-color;

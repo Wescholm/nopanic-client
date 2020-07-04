@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  public click = false
   constructor() { }
 
   ngOnInit(): void {
@@ -18,5 +18,19 @@ export class HeaderComponent implements OnInit {
   closeMenu() {
     const dropdown = document.getElementById('dropdown-menu');
     dropdown.classList.remove('down');
+  }
+
+  mobileMenuToggle() {
+    const mobileMenuCont = document.querySelector('.mobile-menu-cont')
+    const toggleButton = document.querySelector('.toggle-button')
+    if (!this.click){
+      toggleButton.classList.add('open')
+      mobileMenuCont.classList.add('open')
+      this.click = true
+    }else{
+      toggleButton.classList.remove('open')
+      mobileMenuCont.classList.remove('open')
+      this.click = false
+    }
   }
 }

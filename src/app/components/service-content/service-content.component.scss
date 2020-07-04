@@ -2,27 +2,23 @@
 
 .service-container {
   width: 100%;
-}
-
-.service-content {
-  @include base-flex;
-  justify-content: space-between;
-  margin: 30px auto 130px auto;
-  width: 100%;
-  max-width: 1440px;
-  padding: 0 10px;
-}
-
-.content {
-  width: 77%;
-  padding: 0 10px;
-}
-
-.filters-container {
-  width: 20%;
-  align-self: flex-start;
-}
-
-.orders-container {
-  width: 100%;
+  .service-content {
+    @include base-flex;
+    justify-content: space-between;
+    margin: 30px auto 130px auto;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 10px;
+    .filters-container {
+      width: 20%;
+      align-self: flex-start;
+    }
+    .content {
+      width: 77%;
+      padding: 0 10px;
+      .orders-container {
+        width: 100%;
+      }
+    }
+  }
 }

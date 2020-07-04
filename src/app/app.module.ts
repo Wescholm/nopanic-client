@@ -24,6 +24,7 @@ import {AddResponseComponent} from "./components/order-content/add-response/add-
 import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
 import {ResponseComponent} from "./components/order-content/response/response.component";
 import {OrderContentComponent} from "./components/order-content/order-content.component";
+import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {OrderContentComponent} from "./components/order-content/order-content.co
     AddResponseComponent,
     OrderResponseComponent,
     ResponseComponent,
-    OrderContentComponent
+    OrderContentComponent,
+    HeaderBurgerMenuComponent
   ],
   imports: [
     BrowserModule,

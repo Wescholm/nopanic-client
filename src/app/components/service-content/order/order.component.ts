@@ -12,4 +12,8 @@ export class OrderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  toggleLng() {
+    const choseLang = document.getElementById('chose-lang');
+    choseLang.classList.toggle('open')
+  }
 }

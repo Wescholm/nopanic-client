@@ -14,12 +14,12 @@
     cursor: pointer;
     transition: all .3s;
   }
+  .profile-preview {
+    @include base-flex;
+    margin-right: 26px;
+  }
 }
 
-.profile-preview {
-  @include base-flex;
-  margin-right: 26px;
-}
 
 .avatar {
   border-radius: 50%;
