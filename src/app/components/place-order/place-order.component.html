@@ -1,10 +1,17 @@
-<app-header></app-header>
-<div>
+<!--<app-header></app-header>-->
+<div class="place-order-banner">
+  <h1>Create order</h1>
+  <h2>
+    Describe your order as detailed as possible. This will avoid issues and faster.
+    get feedback. We will also create a profile for you on the service.
+  </h2>
+</div>
   <div class="form">
     <form>
       <div class="section-caption">
         <div class="section">
           <p>Section</p>
+          <span class="material-icons arrow">keyboard_arrow_down</span>
           <input type="text" placeholder="Section">
         </div>
         <div class="section">
@@ -66,7 +73,7 @@
         <div class="phone-checkbox">
           <div class="phone">
             <p>Phone</p>
-            <input type="text" placeholder="Your phone">
+            <input type="text" placeholder="+972 XX XXX-XX-XX">
           </div>
           <div class="visible">Only visible your chosen performer</div>
         </div>
@@ -84,10 +91,9 @@
           <p>Phone for validation</p>
           <input type="text" placeholder="Your name">
         </div>
-        <button>Send code</button>
-        <button>Place order</button>
+        <button class="button-send">Send code</button>
+        <button class="button-order">Place order</button>
       </div>
     </form>
   </div>
-</div>
 <app-footer></app-footer>
