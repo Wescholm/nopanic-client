@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'add-response',
+  selector: 'app-add-response',
   templateUrl: './add-response.component.html',
   styleUrls: ['./add-response.component.scss']
 })
