@@ -21,4 +21,19 @@
       }
     }
   }
+  @media screen and (max-width: 768px) {
+    .service-content{
+      display: block;
+      margin: 0 auto 70px auto;
+      .content{
+        width: 100%;
+        orders-navigation{
+          display: none;
+        }
+      }
+      .filters-container{
+        display: none;
+      }
+    }
+  }
 }
