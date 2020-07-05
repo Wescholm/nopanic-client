@@ -76,7 +76,7 @@
         .city {
           display: flex;
           justify-content: space-between;
-          width: 36%;
+          width: 50%;
           p {
             @include medium-text;
             @include base-flex;
@@ -93,7 +93,7 @@
         }
       }
       .description {
-        max-width: 500px;
+        max-width: 480px;
         p {
           @include regular-text;
           font-size: 14px;
@@ -162,7 +162,7 @@
       .data-content-inner{
         .location{
           .city{
-            width: 46%;
+            width: 55%;
           }
         }
       }

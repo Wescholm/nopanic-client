@@ -8,14 +8,14 @@ section {
   .inner{
     width: 100%;
     min-height: 150px;
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
     position: relative;
     .description-min{
       position: absolute;
       max-width: 810px;
       width: 100%;
-      left: 50%;
+      left: 58%;
       top: 50%;
       transform: translate(-50%, -50%);
       p{
@@ -48,7 +48,7 @@ section {
     .price{
       @include bold-text;
       position: absolute;
-      right: 6%;
+      right: 0;
       bottom: -30%;
       color: #fff;
       font-size: 36px;

@@ -17,7 +17,7 @@
         @include regular-text;
         font-size: 18px;
         color: #191815;
-        padding: 15px 60px;
+        padding: 15px 40px;
         border-radius: 10px 10px 0 0;
         cursor: pointer;
         transition: all 0.2s;
@@ -36,15 +36,6 @@
       font-size: 18px;
       color: $sixth-color;
       cursor: pointer;
-    }
-  }
-  @media screen and (max-width: 1024px) {
-    .order-left{
-      ul{
-        li{
-          padding: 15px 40px;
-        }
-      }
     }
   }
 }
