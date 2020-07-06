@@ -1,26 +1,25 @@
 @import "src/app/styles/config";
 
 .orders-navigation-container {
-  width: 100%;
-  height: 53px;
   @include base-flex;
+  width: 100%;
   justify-content: space-between;
   max-width: 1440px;
   margin: 85px auto 0 auto;
+  padding: 0 10px;
   border-bottom: 4px solid $fifth-color;
+  font-size: 18px;
   .order-left{
-    width: 70%;
+    display: flex;
+    justify-content: space-between;
     ul {
-      @include base-flex;
-      width: 70%;
+      width: 100%;
+      display: flex;
       justify-content: space-between;
-      flex-wrap: nowrap;
-      height: 100%;
       li {
         @include regular-text;
-        font-size: 18px;
         color: #191815;
-        padding: 15px 60px;
+        padding: 15px;
         border-radius: 10px 10px 0 0;
         transition: all 0.2s;
         &.active {
@@ -37,11 +36,9 @@
 
   .order-right {
     display: flex;
-    padding-right: 60px;
-    text-align: right;
+    justify-content: flex-end;
     p {
       @include bold-text;
-      font-size: 18px;
       color: $sixth-color;
       cursor: pointer;
     }
