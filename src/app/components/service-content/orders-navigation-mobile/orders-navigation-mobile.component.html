@@ -1,0 +1,23 @@
+<div class="order-navigation-mobile-inner">
+  <div class="top">
+    <button class="current">Orders</button>
+    <button>Executor</button>
+  </div>
+  <div class="bottom">
+    <button (click)="toggleFilters()">Filters</button>
+    <a>Become Executor</a>
+    <div class="background-filter" (click)="hideFilter($event)">
+      <div class="background-filter-inner">
+        <aside class="filters-content">
+          <h3>Search filter</h3>
+          <div class="content">
+            <drop-down-list
+              [data]="listElements"
+              (changedValue)="changed($event)">
+            </drop-down-list>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>

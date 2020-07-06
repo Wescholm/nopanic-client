@@ -25,6 +25,7 @@ import {OrderResponseComponent} from "./components/order-content/order-response/
 import {ResponseComponent} from "./components/order-content/response/response.component";
 import {OrderContentComponent} from "./components/order-content/order-content.component";
 import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
+import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/
     RegistrationComponent,
     AddResponseComponent,
     OrderResponseComponent,
+    OrdersNavigationMobileComponent,
     ResponseComponent,
     OrderContentComponent,
     HeaderBurgerMenuComponent
