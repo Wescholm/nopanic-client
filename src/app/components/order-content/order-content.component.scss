@@ -36,6 +36,7 @@
   .order-right {
     display: flex;
     justify-content: flex-end;
+    padding: 15px;
     p {
       @include bold-text;
       color: $sixth-color;
@@ -46,13 +47,22 @@
       margin-right: 10px;
     }
   }
+  @media screen and (max-width: 480px) {
+      margin-top: 40px;
+    .order-left, .order-right {
+      margin: 0 auto;
+    }
+    .order-right {
+      padding-top: 0;
+    }
+  }
 }
-
 .order-gallery {
   padding-top: 25px;
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 10px;
 }
 .order-container {
   width: 100%;
@@ -63,6 +73,7 @@
     @include regular-text;
     font-size: 16px;
     padding-bottom: 30px;
+    text-align: justify;
   }
   .social-media {
     display: flex;

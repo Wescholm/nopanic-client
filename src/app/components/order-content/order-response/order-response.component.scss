@@ -32,10 +32,12 @@
 
       .rating {
         display: flex;
+        align-items: center;
+        padding-bottom: 15px;
 
         .star {
           color: $eighth-color;
-          padding-bottom: 15px;
+          font-size: 35px
         }
 
         .review {
@@ -57,35 +59,45 @@
       .accept-order {
         @include base-flex;
         justify-content: space-between;
-
         .date {
           @include regular-text;
           font-size: 14px;
           opacity: 0.5;
         }
+        .price {
+          @include base-flex;
+          flex-basis: 45%;
+          justify-content: space-between;
+          .btn-desktop {
+            @include semi-bold-text;
+            font-size: 12px;
+            width: 185px;
+            height: 35px;
+            border: none;
+            border-radius: 50px;
+            background-color: $fifth-color;
+            color: #fff;
+          }
+
+          p {
+            @include bold-text;
+            color: $eighth-color;
+            font-size: 30px;
+          }
+        }
       }
 
-      .price {
-        @include base-flex;
-        flex-basis: 45%;
-        justify-content: space-between;
-
-        button {
-          @include semi-bold-text;
-          font-size: 12px;
-          width: 185px;
-          height: 35px;
-          border: none;
-          border-radius: 50px;
-          background-color: $fifth-color;
-          color: #fff;
-        }
-
-        p {
-          @include bold-text;
-          color: $eighth-color;
-          font-size: 30px;
-        }
+      .btn-mobile {
+        display: none;
+        @include semi-bold-text;
+        font-size: 14px;
+        width: 200px;
+        height: 46px;
+        border: none;
+        border-radius: 50px;
+        background-color: #2E80D2;
+        color: #fff;
+        margin: 13px auto 0 auto;
       }
     }
     &:hover {
@@ -95,11 +107,13 @@
       &:hover {
         border: 2px solid $fifth-color;
       }
+
       .response {
         padding:0 20px 0 180px;
         .response-image {
           left: -12px;
         }
+
         .price {
           flex-basis: 50%;
           button {
@@ -109,30 +123,38 @@
         }
       }
     }
-    @media screen and (max-width: 470px) {
-      .response {
-        padding:0 10px;
-        .performer {
-          padding-top: 115px;
-          text-align: center;
-          font-size: 19px;
+    @media screen and (max-width: 480px) {
+        padding: 20px 40px;
+        .response {
+          padding: 0;
+          .response-image {
+            left: 125px;
+          }
+          .performer {
+            padding-top: 115px;
+            text-align: center;
+            font-size: 20px;
+          }
+          .rating {
+            display: block;
+            text-align: center;
+            padding-bottom: 10px;
+            .review {
+              margin-left: 0;
+            }
+          }
+          .accept-order {
+            .btn-desktop {
+              display: none;
+            }
+            .price {
+              justify-content: flex-end;
+            }
+          }
+          .btn-mobile {
+            display: block;
+          }
         }
-        .rating {
-          display: block;
-          text-align: center;
-          padding-bottom: 10px;
-        }
-        //.response-image {
-        //  left: -12px;
-        //}
-        //.price {
-        //  flex-basis: 50%;
-        //  button {
-        //    width: 180px;
-        //    height: 30px;
-        //  }
-        //}
-      }
     }
 
   }
