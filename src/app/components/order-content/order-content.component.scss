@@ -47,13 +47,32 @@
       margin-right: 10px;
     }
   }
+  @media screen and (max-width: 980px) {
+    .order-left {
+      margin: 0 auto;
+    }
+    .order-right {
+      margin: 0 auto;
+    }
+  }
   @media screen and (max-width: 480px) {
       margin-top: 40px;
+    font-size: 16px;
     .order-left, .order-right {
       margin: 0 auto;
     }
     .order-right {
       padding-top: 0;
+    }
+    }
+  @media screen and (max-width: 340px) {
+    font-size: 15px;
+    .order-left, .order-right {
+      ul {
+        li {
+          padding: 10px;
+        }
+      }
     }
   }
 }

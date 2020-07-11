@@ -128,7 +128,8 @@
         .response {
           padding: 0;
           .response-image {
-            left: 125px;
+            left: 50%;
+            transform: translateX(-50%);
           }
           .performer {
             padding-top: 115px;

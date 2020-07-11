@@ -92,8 +92,8 @@
     border: none;
     border-radius: 50px;
     padding: 20px 60px 20px 30px;
-    //background-color: $seventh-color;
-    color: #ffffff;
+    background-color: $seventh-color;
+    color: #fff;
   }
   input::-moz-placeholder {
     @include regular-text;
@@ -115,9 +115,9 @@
   position:relative;
   margin:0 0 20px 0;
   border-radius: 50px;
-  //height: 60px;
-  //border: none;
-  //background-color: $seventh-color;
+  height: 60px;
+  border: none;
+  background-color: $seventh-color;
   @include regular-text;
   color: #ffffff;
 }
@@ -183,6 +183,9 @@
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
+  a {
+    color: white;
+  }
   &:hover{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);

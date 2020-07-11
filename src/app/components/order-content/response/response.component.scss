@@ -91,7 +91,8 @@ section {
   background-size: cover;
   position: absolute;
   top: 80px;
-  left: 140px;
+  left: 50%;
+  transform: translateX(-50%);
   @media screen and (max-width: 480px) {
     display: block;
   }
