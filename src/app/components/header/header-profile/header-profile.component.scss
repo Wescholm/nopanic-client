@@ -28,6 +28,12 @@
       text-decoration: underline;
     }
   }
+  @media only screen and (max-width : 768px) {
+
+    .auth {
+      display: none;
+    }
+  }
 }
 
 
@@ -132,11 +138,5 @@
     overflow: visible;
     opacity: 1;
     max-height: 350px;
-  }
-
-  @media only screen and (max-width : 768px) {
-    .auth {
-      display: none;
-    }
   }
 }
