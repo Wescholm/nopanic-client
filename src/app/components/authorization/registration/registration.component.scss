@@ -94,6 +94,10 @@
     padding: 20px 60px 20px 30px;
     background-color: $seventh-color;
     color: #fff;
+    &:-webkit-autofill{
+      -webkit-box-shadow: 0 0 0 1000px $seventh-color inset !important;
+      -webkit-text-fill-color: #fff;
+    }
   }
   input::-moz-placeholder {
     @include regular-text;
