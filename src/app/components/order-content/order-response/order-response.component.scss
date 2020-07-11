@@ -32,19 +32,20 @@
 
       .rating {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         padding-bottom: 15px;
 
         .star {
           color: $eighth-color;
-          font-size: 35px
+          font-size: 35px;
+          margin-right: 20px;
         }
 
         .review {
           @include regular-text;
           font-size: 14px;
           opacity: 0.5;
-          margin-left: 20px;
         }
       }
 
@@ -65,7 +66,8 @@
           opacity: 0.5;
         }
         .price {
-          @include base-flex;
+          display: flex;
+          align-items: center;
           flex-basis: 45%;
           justify-content: space-between;
           .btn-desktop {
@@ -83,6 +85,7 @@
             @include bold-text;
             color: $eighth-color;
             font-size: 30px;
+            margin-left: 10px;
           }
         }
       }
@@ -143,9 +146,6 @@
             display: block;
             text-align: center;
             padding-bottom: 10px;
-            .review {
-              margin-left: 0;
-            }
           }
           .accept-order {
             .btn-desktop {
