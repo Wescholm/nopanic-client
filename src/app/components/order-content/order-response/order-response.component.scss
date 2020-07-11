@@ -109,18 +109,21 @@
       }
 
       .response {
-        padding:0 20px 0 180px;
+        padding: 0 20px 0 180px;
+
         .response-image {
           left: -12px;
         }
 
-        .price {
-          flex-basis: 50%;
+        .accept-order {
+          .price {
+            flex-basis: 50%;
           button {
             width: 180px;
             height: 30px;
           }
         }
+      }
       }
     }
     @media screen and (max-width: 480px) {
