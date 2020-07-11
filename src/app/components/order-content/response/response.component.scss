@@ -14,8 +14,9 @@ section {
     position: relative;
     .description-min{
       position: absolute;
-      //max-width: 810px;
-      //width: 100%;
+      max-width: 810px;
+      width: 70%;
+      text-align: center;
       left: 58%;
       top: 50%;
       transform: translate(-50%, -50%);

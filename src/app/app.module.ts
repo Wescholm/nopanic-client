@@ -26,6 +26,7 @@ import {ResponseComponent} from "./components/order-content/response/response.co
 import {OrderContentComponent} from "./components/order-content/order-content.component";
 import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 @NgModule({
   declarations: [
@@ -51,13 +52,14 @@ import {OrdersNavigationMobileComponent} from "./components/service-content/orde
     OrderContentComponent,
     HeaderBurgerMenuComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    SharedModule,
-    CoreModule,
-    MaterialModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        SharedModule,
+        CoreModule,
+        MaterialModule,
+        MatCheckboxModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

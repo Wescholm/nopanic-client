@@ -9,7 +9,7 @@
     @include bold-text;
     margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
     text-align: center;
     font-size: 36px;
     color: #ffffff;
@@ -19,7 +19,7 @@
     @include medium-text;
     margin: 0 auto;
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
     text-align: center;
     font-size: 24px;
     color: #ffffff;
@@ -28,7 +28,7 @@
 }
 .form {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 36px 20px 100px 20px;
   p {
@@ -147,12 +147,14 @@
     }
   }
   .checkbox {
+    display: flex;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 14px;
     p {
       @include medium-text;
       font-size: 16px;
+      padding-left: 15px;
     }
   }
   .visible {
@@ -259,5 +261,17 @@
       }
     }
   }
+}
+
+// Customizing material checkbox
+::ng-deep .mat-checkbox .mat-checkbox-frame {
+  border: 1px solid $third-color;
+  background: #fff;
+}
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-accent .mat-pseudo-checkbox-checked, .mat-accent .mat-pseudo-checkbox-indeterminate, .mat-pseudo-checkbox-checked, .mat-pseudo-checkbox-indeterminate {
+  background-color: $seventh-color !important;
+}
+::ng-deep .mat-ripple {
+  display: none;
 }
 
