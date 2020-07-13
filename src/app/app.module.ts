@@ -24,9 +24,10 @@ import {AddResponseComponent} from "./components/order-content/add-response/add-
 import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
 import {ResponseComponent} from "./components/order-content/response/response.component";
 import {OrderContentComponent} from "./components/order-content/order-content.component";
-import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
+import {BurgerMenuContentComponent} from "./components/header/burger-menu-content/burger-menu-content.component";
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.component";
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     OrdersNavigationMobileComponent,
     ResponseComponent,
     OrderContentComponent,
-    HeaderBurgerMenuComponent
+    BurgerMenuContentComponent,
+    BurgerMenuComponent
   ],
     imports: [
         BrowserModule,
