@@ -2,7 +2,7 @@
 
 .response-fields {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 80px 10px 50px 10px;
   .response-fields-name {
@@ -20,6 +20,7 @@
       left: 35px;
       top: 19px;
       font-size: 18px;
+      background: white;
     }
     textarea {
       @include light-text;
@@ -42,6 +43,7 @@
       left: 35px;
       top: -9px;
       font-size: 18px;
+      background: white;
     }
     input {
       @include light-text;
@@ -61,6 +63,12 @@
     margin-left: auto;
     font-size: 18px;
     padding: 20px 80px;
+  }
+  @media screen and (max-width: 500px) {
+    .response-fields-button {
+      width: 100%;
+    }
+
   }
 }
 

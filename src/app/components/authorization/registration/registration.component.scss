@@ -50,7 +50,7 @@
   justify-content: center;
   a {
     width: 30%;
-    background-color: #4267B2;
+    background-color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
     transition: all .3s;
@@ -68,10 +68,10 @@
       transition: all .3s;
     }
     &:nth-child(2) {
-      background-color: #ffffff;
+      background-color: #4267B2;
     }
     &:nth-child(3) {
-      background-color: #507299;
+      background-color: #ffffff;
     }
     &:nth-child(odd) {
       margin: 0 20px;
@@ -92,8 +92,12 @@
     border: none;
     border-radius: 50px;
     padding: 20px 60px 20px 30px;
-    //background-color: $seventh-color;
-    color: #ffffff;
+    background-color: $seventh-color;
+    color: #fff;
+    &:-webkit-autofill{
+      -webkit-box-shadow: 0 0 0 1000px $seventh-color inset !important;
+      -webkit-text-fill-color: #fff;
+    }
   }
   input::-moz-placeholder {
     @include regular-text;
@@ -115,9 +119,9 @@
   position:relative;
   margin:0 0 20px 0;
   border-radius: 50px;
-  //height: 60px;
-  //border: none;
-  //background-color: $seventh-color;
+  height: 60px;
+  border: none;
+  background-color: $seventh-color;
   @include regular-text;
   color: #ffffff;
 }
@@ -183,6 +187,9 @@
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
+  a {
+    color: white;
+  }
   &:hover{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);

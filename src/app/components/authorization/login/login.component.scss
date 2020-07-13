@@ -50,7 +50,7 @@
   justify-content: center;
   a {
     width: 30%;
-    background-color: #4267B2;
+    background-color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
     transition: all .3s;
@@ -68,10 +68,10 @@
       transition: all .3s;
     }
     &:nth-child(2) {
-      background-color: #ffffff;
+      background-color: #4267B2;
     }
     &:nth-child(3) {
-      background-color: #507299;
+      background-color: #ffffff;
     }
     &:nth-child(odd) {
       margin: 0 20px;
@@ -184,6 +184,9 @@
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
   transition:         transform .8s ease-in-out;
+  a {
+    color: white;
+  }
   &:hover{
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);

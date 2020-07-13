@@ -18,6 +18,22 @@
     @include base-flex;
     margin-right: 26px;
   }
+  .auth {
+    @include semi-bold-text;
+    font-size: 16px;
+    color: $sixth-color;
+    span {
+      cursor: pointer;
+      outline: none;
+      text-decoration: underline;
+    }
+  }
+  @media only screen and (max-width : 768px) {
+
+    .auth {
+      display: none;
+    }
+  }
 }
 
 
