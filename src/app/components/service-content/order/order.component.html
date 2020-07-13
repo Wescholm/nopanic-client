@@ -1,14 +1,14 @@
 <div class="order-content">
   <div class="data-content">
     <div class="data-content-inner">
-      <a>
-        <span></span>
-        <div class="gallery-indicator">+4</div>
-      </a>
       <div class="title">
         <p>Web developer</p>
         <p>500 ₪</p>
       </div>
+      <a>
+        <span></span>
+        <div class="gallery-indicator">+4</div>
+      </a>
       <div class="location">
         <div class="city">
           <p>
@@ -26,6 +26,19 @@
         </div>
         <div class="status">
           <p>Active</p>
+        </div>
+        <div id="btn-lng-mobile" class="btn-lng-mobile" (click)="toggleLngMobile()">
+          <div class="current-lng">
+            <span class="material-icons icon">
+            language
+          </span>
+            <span>Ru</span>
+          </div>
+          <div id="chose-lang-mobile" class="chose-lang-mobile">
+            <span>He</span>
+            <span>Eng</span>
+            <span>Fr</span>
+          </div>
         </div>
       </div>
       <div class="description">

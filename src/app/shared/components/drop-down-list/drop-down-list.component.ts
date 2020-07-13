@@ -20,6 +20,7 @@ export class DropDownListComponent {
       listContent.className.replace("close", "open")
     listArrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
   }
+э
 
   valueChanged(listIndex, elementIndex) {
     this.data[listIndex]["data"][elementIndex].value = !this.data[listIndex]["data"][elementIndex].value

@@ -16,4 +16,9 @@ export class OrderComponent implements OnInit {
     const choseLang = document.getElementById('chose-lang');
     choseLang.classList.toggle('open')
   }
+
+  toggleLngMobile() {
+    const choseLangMobile = document.getElementById('chose-lang-mobile');
+    choseLangMobile.classList.toggle('open')
+  }
 }
