@@ -4,6 +4,7 @@
   justify-content: flex-start;
   height: 100%;
   position: relative;
+  padding-left: 5px;
   &:hover {
     span {
       transition: all .3s;
@@ -25,11 +26,23 @@
     span {
       cursor: pointer;
       outline: none;
-      text-decoration: underline;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 50% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 1px;
+      transition: background-size .2s;
+      padding-bottom: 4px;
+      &:hover {
+        background-size: 100% 2px;
+      }
+        &.active {
+          padding-bottom: 4px;
+          background-image: linear-gradient(currentColor, currentColor);
+          background-size: 0% 2px;
+        }
     }
   }
-  @media only screen and (max-width : 768px) {
-
+  @media only screen and (max-width : 1004px) {
     .auth {
       display: none;
     }
@@ -48,8 +61,6 @@
   @include medium-text;
   font-size: 14px;
 }
-
-
 
 // Testing
 

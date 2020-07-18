@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 
   .order-response-content {
     position: relative;
@@ -79,6 +79,10 @@
             border-radius: 50px;
             background-color: $fifth-color;
             color: #fff;
+            &:hover {
+              background: #0060c4;
+              transition: 0.3s;
+            }
           }
 
           p {
@@ -101,6 +105,10 @@
         background-color: #2E80D2;
         color: #fff;
         margin: 13px auto 0 auto;
+        &:hover {
+          background: #0060c4;
+          transition: 0.3s;
+        }
       }
     }
     &:hover {

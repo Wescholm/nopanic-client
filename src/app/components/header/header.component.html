@@ -4,7 +4,7 @@
     <header-search></header-search>
     <nav>
       <ul class="navigation">
-        <li routerLinkActive="active" (mouseover)="openMenu()" (mouseout)="closeMenu()">
+        <li (mouseover)="openMenu()" (mouseout)="closeMenu()" (click)="onClick(1)" [ngClass]="{'active': tab === 'tab1'}">
           <a [routerLink]="['/']">Services</a>
           <div id="dropdown-menu" class="dropdown">
             <div class="dropdown-inner">
@@ -47,11 +47,11 @@
             </div>
           </div>
         </li>
-        <li routerLinkActive="active">
-          <a>Marketplace</a>
+        <li  (click)="onClick(2)" [ngClass]="{'active': tab === 'tab2'}">
+          <a [routerLink]="['/']">Marketplace</a>
         </li>
-        <li routerLinkActive="active">
-          <a>Auction</a>
+        <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
+          <a [routerLink]="['/']">Auction</a>
         </li>
       </ul>
     </nav>

@@ -1,12 +1,12 @@
 <div class="orders-navigation-container">
   <div class="order-left">
     <ul>
-      <li class="active">Orders</li>
-      <li>Executor</li>
-      <li>My Profile</li>
+      <li (click)="onClick(1)" [ngClass]="{'active': tab === 'tab1'}">Orders</li>
+      <li (click)="onClick(2)" [ngClass]="{'active': tab === 'tab2'}">Executor</li>
+      <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">My Profile</li>
     </ul>
   </div>
   <div class="order-right">
-    <p>Become a Executor</p>
+    <p (click)="onClick(4)" [ngClass]="{'active': tab==='tab4'}">Become a Executor</p>
   </div>
 </div>

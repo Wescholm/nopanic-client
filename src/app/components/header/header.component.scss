@@ -10,7 +10,7 @@
     width: 100%;
     max-width: 1140px;
     height: 100%;
-    padding: 0 10px;
+    padding: 0 20px;
     .navigation {
       @include regular-text;
       font-size: 16px;
@@ -18,14 +18,14 @@
       li {
         user-select: none;
         height: 60px;
-        &:nth-child(even) {
-          margin: 0 56px;
-        }
         &.active {
           a{
             background: $fourth-color;
             border-radius: 29.5px;
           }
+        }
+        &:nth-child(even) {
+          margin: 0 56px;
         }
         a {
           padding: 10px 20px;
@@ -102,7 +102,7 @@
     }
 
     /* --------------- /Toggle button ---------------- */
-    @media only screen and (max-width : 768px) {
+    @media only screen and (max-width : 1004px) {
       nav{
         display: none;
       }
