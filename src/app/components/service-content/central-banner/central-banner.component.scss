@@ -30,8 +30,7 @@ section {
       @include basic-btn;
       @include bold-text;
       font-size: 18px;
-      width: 15%;
-      padding: 10px 0;
+      padding: 15px 60px;
     }
   }
   @media screen and (max-width: 480px) {
@@ -43,7 +42,7 @@ section {
         }
       }
       .add-offer-btn{
-        width: 30%;
+        padding: 10px 30px;
       }
     }
   }
