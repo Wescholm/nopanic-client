@@ -4,6 +4,8 @@ import {ServiceContentComponent} from "./components/service-content/service-cont
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
 import {LoginComponent} from "./components/authorization/login/login.component";
 import {RegistrationComponent} from "./components/authorization/registration/registration.component";
+import {PlaceOrderComponent} from "./components/place-order/place-order.component";
+import {OrderContentComponent} from "./components/order-content/order-content.component";
 
 
 const routes: Routes = [
@@ -12,6 +14,8 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'password-recovery', component: PasswordRecoveryComponent},
   {path: 'services', component: ServiceContentComponent},
+  {path: 'place-order', component: PlaceOrderComponent},
+  {path: 'order-content', component: OrderContentComponent},
 ];
 
 @NgModule({

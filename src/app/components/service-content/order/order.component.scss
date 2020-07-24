@@ -181,6 +181,11 @@
             opacity: 0;
             padding: 7px 20px;
             transition: opacity .3s, visibility .3s, transform 0.7s;
+              span{
+                &:hover {
+                  color: #1e5083;
+                }
+              }
             &.open{
               visibility: visible;
               opacity: 1;

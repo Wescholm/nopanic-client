@@ -7,8 +7,8 @@
     </div>
     <div class="content">
         <orders-navigation></orders-navigation>
-      <div *ngFor="let order of orders" class="orders-container">
-        <order></order>
+      <div *ngFor="let order of orders; let i = index;" class="orders-container">
+        <order [orderIndex]="i"></order>
       </div>
     </div>
   </div>

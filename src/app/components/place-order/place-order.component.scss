@@ -57,6 +57,7 @@
       left: 35px;
       top: -10px;
       background: white;
+      padding: 0 3px;
     }
   }
   .price-checkbox, .phone-checkbox {
@@ -81,6 +82,7 @@
       left: 35px;
       top: 27px;
       background: white;
+      padding: 0 3px;
     }
     textarea {
       @include light-text;

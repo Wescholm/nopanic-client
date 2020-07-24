@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="54" viewBox="0 0 87 54">
+  <defs>
+    <filter id="Прямоугольник_10" x="0" y="0" width="97" height="54" filterUnits>
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.11"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(12 7)">
+    <path id="Многоугольник_1" data-name="Многоугольник 1" d="M1525.142,536.993,1525,522h18.99Z" transform="translate(-1471 -492)" fill="#ffc600"/>
+    <g transform="matrix(1, 0, 0, 1, -12, -7)" filter="url(#Прямоугольник_10)">
+      <path id="Прямоугольник_10-2" data-name="Прямоугольник 10" d="M1480.868,492H1544v30h-73Z" transform="translate(-1459 -485)" fill="#ffc600"/>
+    </g>
+    <text id="VIP" transform="translate(20.431 21.905)" fill="#fff" font-size="18" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">VIP</tspan></text>
+  </g>
+</svg>
