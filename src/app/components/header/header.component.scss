@@ -37,69 +37,6 @@
             color: $sixth-color;
           }
         }
-        .dropdown {
-          z-index: 10;
-          padding: 50px 100px 50px 100px;
-          position: absolute;
-          left: 0;
-          right: 0;
-          top: 60px;
-          visibility: hidden;
-          opacity: 0;
-          background-color: white;
-          height: 100%;
-          color: #505050;
-          transition: all 0.5s;
-          transform: scaleY(0);
-          p {
-            padding: 0 10px;
-            @include regular-text;
-            &.title{
-              font-size: 18px;
-            }
-          }
-          .dropdown-inner{
-            @include base-flex;
-            justify-content: space-between;
-            width: 1140px;
-            margin: 0 auto 80px auto;
-            padding: 0 20px;
-            .main-navigation{
-              flex-basis: 28%;
-              padding: 0 10px 0 10px;
-              .icon {
-                margin-right: 10px;
-                font-size: 36px;
-                color: #1e5083;;
-            }
-
-                  display: flex;
-                .dropdown-title{
-                  @include medium-text;
-                  font-size: 24px;
-                  padding-bottom: 10px;
-                  margin-bottom: 5px;
-                }
-                .dropdown-news-list{
-                  .dropdown-news-item{
-                    cursor: pointer;
-                    height: unset;
-                    margin: 0 0 10px 0;
-                    padding: 0;
-                    &:hover{
-                      color: $fifth-color;
-                    }
-                  }
-              }
-
-            }
-          }
-          &.down {
-            transform: scaleY(1);
-            visibility: visible;
-            opacity: 1;
-          }
-        }
       }
     }
     .auth {
@@ -112,6 +49,13 @@
         text-decoration: underline;
       }
     }
+    &.down {
+      background: red;
+      transform: scaleY(1);
+      visibility: visible;
+      opacity: 1;
+    }
+
 
     /* --------------- /Toggle button ---------------- */
     @media only screen and (max-width : 1004px) {

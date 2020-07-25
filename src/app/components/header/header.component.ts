@@ -11,12 +11,12 @@ export class HeaderComponent implements OnInit {
   tab1: any;
   tab2: any;
   tab3: any;
+  menu: any;
 
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   onClick(check) {
     if (check === 1){
@@ -28,13 +28,17 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  openMenu() {
-    const dropdown = document.getElementById('dropdown-menu');
-    dropdown.classList.add('down');
-  }
-  closeMenu() {
-    const dropdown = document.getElementById('dropdown-menu');
-    dropdown.classList.remove('down');
+  menuOpen () {
+    this.menu = document.getElementById('dropdown-menu');
+    this.menu.classList.add('down');
   }
 
+  menuClose () {
+    this.menu = document.getElementById('dropdown-menu');
+    this.menu.classList.remove('down');
+  }
+
+  closeMenu () {
+    this.menu.classList.remove('down');
+  }
 }

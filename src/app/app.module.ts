@@ -28,6 +28,7 @@ import {BurgerMenuContentComponent} from "./components/header/burger-menu-conten
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.component";
+import {ServicesMenuComponent} from "./components/header/services-menu/services-menu.component";
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.c
     ResponseComponent,
     OrderContentComponent,
     BurgerMenuContentComponent,
-    BurgerMenuComponent
+    BurgerMenuComponent,
+    ServicesMenuComponent
   ],
     imports: [
         BrowserModule,
