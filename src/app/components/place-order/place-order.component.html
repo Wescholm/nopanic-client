@@ -5,94 +5,94 @@
     It'll help avoid problems and get prompt responses. We'll also create a profile for you in our service.
   </h2>
 </div>
-  <div class="form">
-    <form>
-      <div class="section-caption">
-        <div class="section">
-          <p>Section</p>
-          <span class="material-icons arrow">keyboard_arrow_down</span>
-          <input type="text" placeholder="Section">
-        </div>
-        <div class="section">
-          <p>Caption</p>
-          <input type="text" placeholder="Caption">
-        </div>
+<div class="form">
+  <form [formGroup]="orderForm" (ngSubmit)="submit()">
+    <div class="section-caption">
+      <div class="section">
+        <p>Section</p>
+        <span class="material-icons arrow">keyboard_arrow_down</span>
+        <input type="text" placeholder="Section">
       </div>
-      <div class="section-description">
-        <p>Description</p>
-        <textarea type="text" placeholder="Description" rows="12"></textarea>
+      <div class="section">
+        <p>Caption</p>
+        <input type="text" placeholder="Caption">
       </div>
-      <div class="short-description">
-        <p>Short description</p>
-        <textarea type="text" placeholder="Short Description" rows="3"></textarea>
-      </div>
+    </div>
+    <div class="section-description">
+      <p>Description</p>
+      <textarea type="text" placeholder="Description" rows="12"></textarea>
+    </div>
+    <div class="short-description">
+      <p>Short description</p>
+      <textarea type="text" placeholder="Short Description" rows="3"></textarea>
+    </div>
 
-      <div>
-        <div class="files">Photos and files to order</div>
-        <p class="photo-format">Complete your order with photographs or clarifying documents. They will help the
-          performers to better assess the task and saving you from unnecessary questions.
-          Valid formats: jpeg, png, pdf, doc, docx, xls, xlsx, rtf. Maximum number: 5, size: 50 MB.</p>
-      </div>
+    <div>
+      <div class="files">Photos and files to order</div>
+      <p class="photo-format">Complete your order with photographs or clarifying documents. They will help the
+        performers to better assess the task and saving you from unnecessary questions.
+        Valid formats: jpeg, png, pdf, doc, docx, xls, xlsx, rtf. Maximum number: 5, size: 50 MB.</p>
+    </div>
 
-      <div class="order-photo">
-        <div class="photo"></div>
-        <div class="add-photo">+</div>
-      </div>
+    <div class="order-photo">
+      <div class="photo"></div>
+      <div class="add-photo">+</div>
+    </div>
 
-      <div class="section-address">
-        <div class="address">
-          <p>City</p>
-          <input type="text" placeholder="City">
+    <div class="section-address">
+      <div class="address">
+        <p>City</p>
+        <input type="text" placeholder="City">
+      </div>
+      <div class="address">
+        <p>Address (not necessary)</p>
+        <input type="text" placeholder="Your address">
+      </div>
+    </div>
+    <div class="date-complete">
+      <div class="date">
+        <p>Order execution date</p>
+        <input type="text" placeholder="Deadline when an order must be completed">
+      </div>
+      <div class="price-checkbox">
+        <div class="price">
+          <p>Price</p>
+          <input type="text" placeholder="Price">
         </div>
-        <div class="address">
-          <p>Address (not necessary)</p>
-          <input type="text" placeholder="Your address">
+        <div class="checkbox">
+          <mat-checkbox></mat-checkbox>
+          <p>Agreed</p>
         </div>
       </div>
-      <div class="date-complete">
-        <div class="date">
-          <p>Order execution date</p>
-          <input type="text" placeholder="Deadline when an order must be completed">
-        </div>
-        <div class="price-checkbox">
-          <div class="price">
-            <p>Price</p>
-            <input type="text" placeholder="Price">
-          </div>
-          <div class="checkbox">
-            <mat-checkbox></mat-checkbox>
-            <p>Agreed</p>
-          </div>
-        </div>
+    </div>
+    <div class="section-name">
+      <div class="name">
+        <p>Name</p>
+        <input type="text" placeholder="Your name">
       </div>
-      <div class="section-name">
-        <div class="name">
-          <p>Name</p>
-          <input type="text" placeholder="Your name">
+      <div class="phone-checkbox">
+        <div class="phone">
+          <p>Phone</p>
+          <input type="text" placeholder="+972 XX XXX-XX-XX">
         </div>
-        <div class="phone-checkbox">
-          <div class="phone">
-            <p>Phone</p>
-            <input type="text" placeholder="+972 XX XXX-XX-XX">
-          </div>
-          <div class="visible">Visible only to the selected contractor</div>
-        </div>
+        <div class="visible">Visible only to the selected contractor</div>
       </div>
+    </div>
 
-      <div class="verification">
-        <div class="check">Before you complete, please check</div>
-        <p class="send-code">This action needs to be done only once, it will take only a few moments and will be
-          absolutely free.
-          Enter your phone number in international format and click "Send code". The number you specify will be sent
-          special code required for validation.</p>
+    <div class="verification">
+      <div class="check">Before you complete, please check</div>
+      <p class="send-code">This action needs to be done only once, it will take only a few moments and will be
+        absolutely free.
+        Enter your phone number in international format and click "Send code". The number you specify will be sent
+        special code required for validation.</p>
+    </div>
+    <div class="place-order">
+      <div class="phone-valid">
+        <p>Phone for validation</p>
+        <input type="text" placeholder="Your name">
       </div>
-      <div class="place-order">
-        <div class="phone-valid">
-          <p>Phone for validation</p>
-          <input type="text" placeholder="Your name">
-        </div>
-        <button class="button-send">Send code</button>
-        <button class="button-order">Place an order</button>
-      </div>
-    </form>
-  </div>
+      <button class="button-send">Send code</button>
+      <button class="button-order">Place an order</button>
+    </div>
+  </form>
+</div>
