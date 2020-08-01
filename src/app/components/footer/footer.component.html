@@ -2,14 +2,14 @@
   <div class="footer-content">
     <div class="footer-top">
       <div class="elements-container">
-        <a><img src="../../../assets/data/images/logo.svg" alt="logo"></a>
+        <a [routerLink]="['/services']"><img src="../../../assets/data/images/logo.svg" alt="logo"></a>
         <nav class="navigation-container">
           <ul>
             <li (click)="onClick(1)" [ngClass]="{'active': tab === 'tab1'}">
               <a [routerLink]="['/']">Services</a>
             </li>
             <li (click)="onClick(2)" [ngClass]="{'active': tab === 'tab2'}">
-              <a>Flea market</a>
+              <a>Marketplace</a>
             </li>
             <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
               <a>Auction</a>

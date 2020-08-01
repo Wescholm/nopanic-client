@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header-content">
-    <a><img src="../../../assets/data/images/logo.svg" alt="logo"></a>
+    <a [routerLink]="['/services']"><img src="../../../assets/data/images/logo.svg" alt="logo"></a>
     <header-search></header-search>
     <nav>
       <ul class="navigation">
@@ -10,7 +10,7 @@
           <services-menu (click)="closeMenu()"></services-menu>
         </li>
         <li  (click)="onClick(2)" [ngClass]="{'active': tab === 'tab3'}">
-          <a [routerLink]="['/']">Flea market</a>
+          <a [routerLink]="['/']">Marketplace</a>
         </li>
         <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
           <a [routerLink]="['/']">Auction</a>
