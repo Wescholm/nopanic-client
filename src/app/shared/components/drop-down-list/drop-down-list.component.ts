@@ -15,9 +15,9 @@ export class DropDownListComponent {
     const isOpen = this.elementIsOpen(id)
     const listContent: HTMLElement = document.getElementById('el_' + id)
     const listArrow: HTMLElement = document.getElementById('arr_' + id);
-    listContent.className = isOpen ?
-      listContent.className.replace("open", "close") :
-      listContent.className.replace("close", "open")
+    listContent.className = isOpen
+      ? listContent.className.replace("open", "close")
+      : listContent.className.replace("close", "open")
     listArrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
   }
 
