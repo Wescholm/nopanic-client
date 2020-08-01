@@ -7,33 +7,37 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  public click = false
+  tab: any = 'tab1';
+  tab1: any;
+  tab2: any;
+  tab3: any;
+  menu: any;
 
   constructor() { }
 
   ngOnInit(): void { }
 
-  openMenu() {
-    const dropdown = document.getElementById('dropdown-menu');
-    dropdown.classList.add('down');
-  }
-
-  closeMenu() {
-    const dropdown = document.getElementById('dropdown-menu');
-    dropdown.classList.remove('down');
-  }
-
-  mobileMenuToggle() {
-    const mobileMenuCont = document.querySelector('.mobile-menu-cont')
-    const toggleButton = document.querySelector('.toggle-button')
-    if (!this.click) {
-      toggleButton.classList.add('open')
-      mobileMenuCont.classList.add('open')
-      this.click = true
+  onClick(check) {
+    if (check === 1){
+      this.tab = 'tab1';
+    } else if (check === 2){
+      this.tab = 'tab2';
     } else {
-      toggleButton.classList.remove('open')
-      mobileMenuCont.classList.remove('open')
-      this.click = false
+      this.tab = 'tab3';
     }
+  }
+
+  menuOpen () {
+    this.menu = document.getElementById('dropdown-menu');
+    this.menu.classList.add('down');
+  }
+
+  menuClose () {
+    this.menu = document.getElementById('dropdown-menu');
+    this.menu.classList.remove('down');
+  }
+
+  closeMenu () {
+    this.menu.classList.remove('down');
   }
 }

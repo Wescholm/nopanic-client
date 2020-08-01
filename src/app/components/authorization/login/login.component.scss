@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .log-in-container {
   position: absolute;
   top: 50%;
@@ -33,6 +34,7 @@
   @include bold-text;
   font-size: 36px;
 }
+
 .social-media-text {
   padding-bottom: 25px;
   border-top: 1px solid $seventh-color;
@@ -45,6 +47,7 @@
     padding: 30px 0;
   }
 }
+
 .log-in-social-media {
   display: flex;
   justify-content: center;
@@ -127,6 +130,7 @@
     }
   }
 }
+
 .log-in-input-container {
   display: flex;
   align-items: center;
@@ -151,6 +155,7 @@
     }
   }
 }
+
 .log-in-main-input {
   display: flex;
   align-items: center;
@@ -165,6 +170,7 @@
     color: $fifth-color;
   }
 }
+
 .log-in-link {
   @include regular-text;
   font-size: 16px;
@@ -184,6 +190,7 @@
     }
   }
 }
+
 .log-in-forget-password{
   @include regular-text;
   font-size: 16px;
@@ -202,6 +209,7 @@
     }
   }
 }
+
 .close {
   color: white;
   position: absolute;
