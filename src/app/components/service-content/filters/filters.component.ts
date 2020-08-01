@@ -9,7 +9,7 @@ export class FiltersComponent implements OnInit {
 
   public listElements: Object[] = [
     {
-      title: 'First', data:
+      title: 'First', icon: '', data:
         [
           {subtitle: '1.1', value: false},
           {subtitle: '1.2', value: false},
@@ -17,7 +17,7 @@ export class FiltersComponent implements OnInit {
         ]
     },
     {
-      title: 'Second', data:
+      title: 'Second', icon: '', data:
         [
           {subtitle: '2.1', value: false},
           {subtitle: '2.2', value: false},
@@ -25,13 +25,13 @@ export class FiltersComponent implements OnInit {
         ]
     },
     {
-      title: 'Third', data:
+      title: 'Third', icon: '', data:
         [
           {subtitle: '3.1', value: false},
           {subtitle: '3.2', value: false},
           {subtitle: '3.3', value: false}
         ]
-    },
+    }
   ];
 
   constructor() { }

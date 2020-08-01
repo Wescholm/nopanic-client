@@ -4,16 +4,15 @@
     <header-search></header-search>
     <nav>
       <ul class="navigation">
-        <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" (click)="onClick(2)"
-            [ngClass]="{'active': tab === 'tab3'}" [routerLinkActive]="'active'">
+        <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" [routerLinkActive]="'active'">
           <a [routerLink]="['/services']" >Services</a>
           <services-menu (click)="closeMenu()"></services-menu>
         </li>
-        <li  (click)="onClick(2)" [ngClass]="{'active': tab === 'tab3'}">
-          <a [routerLink]="['/']">Marketplace</a>
+        <li>
+          <a [routerLink]="['/marketplace']">Marketplace</a>
         </li>
-        <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
-          <a [routerLink]="['/']">Auction</a>
+        <li>
+          <a [routerLink]="['/auctions']">Auction</a>
         </li>
       </ul>
     </nav>
