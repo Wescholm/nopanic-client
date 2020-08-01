@@ -20,26 +20,70 @@
         </div>
       </div>
       <div class="registration-main-container">
-        <p>Or with nickname or email</p>
-        <div class="input-container">
-          <input type="email" placeholder="E-mail"/>
-          <div class="registration-main-input">
-            <img src="../../../../assets/data/images/icons/man-user.svg" alt="">
+        <p>Or with username or email</p>
+        <form [formGroup]="regForm" (ngSubmit)="submit()">
+          <div class="input-container">
+            <input type="text" placeholder="Username" formControlName="UserName"/>
+            <div class="registration-main-input">
+              <span class="material-icons">person</span>
+              <ngx-spinner
+                [fullScreen]="false"
+                name="UserName"
+                bdColor="none"
+                size="10px"
+                color="#0dc5d57d"
+                type="ball-clip-rotate">
+              </ngx-spinner>
+            </div>
+            <span class="error-message" *ngIf="checkControlsValidity('UserName')">
+               {{ getErrorMessage('UserName') }}
+            </span>
+            <span class="error-message" *ngIf="!userAvailability.includes('UserName') && !isChecking">
+               Username <strong>{{regForm.get('UserName').value}}</strong> is taken by another user
+            </span>
           </div>
-        </div>
-        <div class="input-container">
-          <input type="password" placeholder="Password"/>
-          <div class="registration-main-input">
-            <img src="../../../../assets/data/images/icons/lock.svg" alt="">
+          <div class="input-container">
+            <input type="email" placeholder="E-mail" formControlName="Email"/>
+            <div class="registration-main-input">
+              <span class="material-icons">email</span>
+              <ngx-spinner
+                [fullScreen]="false"
+                name="Email"
+                bdColor="none"
+                size="10px"
+                color="#0dc5d57d"
+                type="ball-clip-rotate">
+              </ngx-spinner>
+            </div>
+            <span class="error-message" *ngIf="checkControlsValidity('Email')">
+               {{ getErrorMessage('Email') }}
+            </span>
+            <span class="error-message" *ngIf="!userAvailability.includes('Email') && !isChecking">
+               User with this email is already registered
+            </span>
           </div>
-        </div>
-        <div class="input-container">
-          <input type="password" placeholder="Repeat password"/>
-          <div class="registration-main-input">
-            <img src="../../../../assets/data/images/icons/lock.svg" alt="">
+          <div class="input-container">
+            <input type="password" placeholder="Password" formControlName="Password" autocomplete="on"/>
+            <div class="registration-main-input">
+              <span class="material-icons">lock</span>
+            </div>
+            <span class="error-message" *ngIf="checkControlsValidity('Password')">
+               {{ getErrorMessage('Password') }}
+            </span>
           </div>
-        </div>
-        <button>Registration</button>
+          <div class="input-container">
+            <input type="password" placeholder="Repeat password" formControlName="ConfirmPassword" autocomplete="on"/>
+            <div class="registration-main-input">
+              <span class="material-icons">lock</span>
+            </div>
+            <span class="error-message" *ngIf="checkControlsValidity('ConfirmPassword')">
+              {{ getErrorMessage('ConfirmPassword') }}
+            </span>
+          </div>
+          <button [ngClass]="!checkFormValidity() ? 'disabled' : null">
+            Registration
+          </button>
+        </form>
       </div>
       <div class="registration-link">
         <p>Have a profile on nopanic?</p>
@@ -50,4 +94,14 @@
       </div>
     </div>
   </div>
+
+  <ngx-spinner
+    [fullScreen]="true"
+    name="Submit"
+    bdColor="rgba(0, 0, 0, 0.5)"
+    size="large"
+    color="#0DC5D5"
+    type="ball-grid-pulse">
+    <p class="spinner-text">Registration in progress...</p>
+  </ngx-spinner>
 </div>

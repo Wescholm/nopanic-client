@@ -4,7 +4,7 @@ import {ServiceContentComponent} from "./components/service-content/service-cont
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
 import {LoginComponent} from "./components/authorization/login/login.component";
 import {RegistrationComponent} from "./components/authorization/registration/registration.component";
-
+import {AuthGuard} from "./auth/guards/auth.guard";
 
 const routes: Routes = [
   {path: '', redirectTo: 'services', pathMatch: 'full'},

@@ -1,45 +1,51 @@
 <div class="header-profile-container" (click)="profileToggle()">
-<!--  <div>-->
-<!--    <div class="profile-preview">-->
+
+  <div *ngIf="authService.loggedUser; else unAuth">
+    <div class="profile-preview">
+      <div id="avatar" class="default-avatar" (load)="getUserInfo()">
+        {{authService.loggedUser.unique_name[0].toUpperCase()}}
+      </div>
 <!--      <img class="avatar" src="../../../../assets/data/images/default-avatar.svg" alt="avatar">-->
-<!--      <span class="user-email">User@gmail.com</span>-->
-<!--      <span class="material-icons">expand_more</span>-->
-<!--    </div>-->
+      <span class="user-email">{{authService.loggedUser.unique_name}}</span>
+      <span class="material-icons">expand_more</span>
+    </div>
 
-<!--    <div id="dropdown" class="dropdown">-->
-<!--      <div class="dropdown-content">-->
-<!--        <div>Name Surname</div>-->
-<!--        <div>User@gmail.com</div>-->
-<!--        <div>-->
-<!--          <p>-->
-<!--            <span class="material-icons">receipt_long</span>-->
-<!--            Orders-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <span class="material-icons">mail</span>-->
-<!--            Messages-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <span class="material-icons">bookmarks</span>-->
-<!--            Bookmarks-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <span class="material-icons">settings</span>-->
-<!--            Account settings-->
-<!--          </p>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--          <span class="material-icons">exit_to_app</span>-->
-<!--          Sign Out-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
-  <div class="auth">
-    <span [routerLink]="['/login']">Login</span>
-    or
-    <span [routerLink]="['/registration']">Register</span>
+    <div id="dropdown" class="dropdown">
+      <div class="dropdown-content">
+        <div>{{authService.loggedUser.unique_name}}</div>
+        <div>{{authService.loggedUser.email}}</div>
+        <div>
+          <p>
+            <span class="material-icons">receipt_long</span>
+            Orders
+          </p>
+          <p>
+            <span class="material-icons">mail</span>
+            Messages
+          </p>
+          <p>
+            <span class="material-icons">bookmarks</span>
+            Bookmarks
+          </p>
+          <p (click)="getUserInfo()">
+            <span class="material-icons">settings</span>
+            Account settings
+          </p>
+        </div>
+        <div (click)="logout()">
+          <span class="material-icons">exit_to_app</span>
+          Log Out
+        </div>
+      </div>
+    </div>
   </div>
+
+  <ng-template #unAuth>
+    <div class="auth">
+      <span [routerLink]="['/login']">Login</span>
+      or
+      <span [routerLink]="['/registration']">Register</span>
+    </div>
+  </ng-template>
 
 </div>

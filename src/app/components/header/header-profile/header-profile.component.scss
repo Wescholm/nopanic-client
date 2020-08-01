@@ -38,6 +38,21 @@
   margin-right: 8px;
 }
 
+.default-avatar {
+  @include base-flex;
+  @include semi-bold-text;
+  font-size: 20px;
+  background-color: $sixth-color;
+  color: #fff;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  user-select: none;
+  cursor: pointer;
+}
+
 .user-email {
   @include medium-text;
   font-size: 14px;

@@ -18,7 +18,6 @@ import {OrderComponent} from "./components/service-content/order/order.component
 import {LoginComponent} from "./components/authorization/login/login.component";
 import {PlaceOrderComponent} from "./components/place-order/place-order.component";
 import {PasswordRecoveryComponent} from "./components/authorization/password-recovery/password-recovery.component";
-import {HeaderMenuComponent} from "./components/header/header-menu/header-menu.component";
 import {RegistrationComponent} from "./components/authorization/registration/registration.component";
 import {AddResponseComponent} from "./components/order-content/add-response/add-response.component";
 import {OrderResponseComponent} from "./components/order-content/order-response/order-response.component";
@@ -27,6 +26,10 @@ import {OrderContentComponent} from "./components/order-content/order-content.co
 import {HeaderBurgerMenuComponent} from "./components/header/header-burger-menu/header-burger-menu.component";
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {AuthModule} from "./auth/auth.module";
+import {ReactiveFormsModule} from "@angular/forms";
+import {NgxSpinnerModule} from "ngx-spinner";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -34,7 +37,6 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
     HeaderComponent,
     HeaderSearchComponent,
     HeaderProfileComponent,
-    HeaderMenuComponent,
     CentralBannerComponent,
     ServiceContentComponent,
     FiltersComponent,
@@ -54,11 +56,15 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
   ],
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         AppRoutingModule,
+        AuthModule,
         SharedModule,
         CoreModule,
         MaterialModule,
         MatCheckboxModule,
+        ReactiveFormsModule,
+        NgxSpinnerModule
     ],
   providers: [],
   bootstrap: [AppComponent]

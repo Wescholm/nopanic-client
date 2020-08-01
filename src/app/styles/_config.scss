@@ -68,6 +68,13 @@ $eighth-color: #FFC600;
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.disabled {
+  background: #b9b2b2a1 !important;
+  color: rgba(0,0,0,.26) !important;
+  cursor: no-drop !important;
+}
+
 *,*:after,*:before{
   box-sizing: border-box;
 }

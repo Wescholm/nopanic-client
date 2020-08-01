@@ -21,7 +21,7 @@
   background-color: rgba(84,110,143,.6);
   width: 100%;
   max-width: 570px;
-  padding: 3% 35px;
+  padding: 1% 35px;
 }
 .registration-name {
   text-align: center;
@@ -94,7 +94,7 @@
     padding: 20px 60px 20px 30px;
     background-color: $seventh-color;
     color: #fff;
-    &:-webkit-autofill{
+    &:-webkit-autofill {
       -webkit-box-shadow: 0 0 0 1000px $seventh-color inset !important;
       -webkit-text-fill-color: #fff;
     }
@@ -107,24 +107,40 @@
     @include regular-text;
     color: #ffffff;
   }
-  button {
-    @include basic-btn;
-    font-size: 18px;
-    height: 60px;
+  form {
+    button {
+      @include basic-btn;
+      font-size: 18px;
+      height: 60px;
+      width: 100%;
+    }
   }
 }
+
 .input-container {
+  @include regular-text;
   display: flex;
   align-items: center;
-  position:relative;
-  margin:0 0 20px 0;
+  position: relative;
+  margin: 0 0 30px 0;
   border-radius: 50px;
   height: 60px;
   border: none;
   background-color: $seventh-color;
-  @include regular-text;
   color: #ffffff;
+  span {
+    &.error-message {
+      @include medium-text;
+      position: absolute;
+      top: 100%;
+      text-align: start;
+      font-size: 14px;
+      margin: 2px 0 0 14px;
+      color: #0DC5D5;
+    }
+  }
 }
+
 .registration-main-input {
   display: flex;
   align-items: center;
@@ -135,11 +151,11 @@
   max-width: 13%;
   height: 40px;
   border-left: 1px solid #1F5587;
-  img {
-    width: 20px;
-    height: 20px;
+  span {
+    color: $fifth-color;
   }
 }
+
 .registration-link {
   @include semi-bold-text;
   display: flex;
@@ -161,7 +177,8 @@
     }
   }
 }
-.registration-rules{
+
+.registration-rules {
   @include semi-bold-text;
   font-size: 16px;
   margin-top: 25px;
@@ -171,7 +188,7 @@
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 50% 100%;
     background-repeat: no-repeat;
-    background-size: 0% 1px;
+    background-size: 0 1px;
     transition: background-size .3s;
     padding-bottom: 4px;
     &:hover{
@@ -179,6 +196,7 @@
     }
   }
 }
+
 .close {
   color: white;
   position: absolute;
@@ -186,7 +204,7 @@
   top: 21px;
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
-  transition:         transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
   a {
     color: white;
   }
@@ -195,4 +213,9 @@
     transform: rotate(360deg);
     cursor: pointer;
   }
+}
+
+.spinner-text {
+  @include regular-text;
+  color: #fff;
 }

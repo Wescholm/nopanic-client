@@ -21,19 +21,26 @@
       </div>
       <div class="log-in-main-container">
         <p>Or with name and email</p>
-        <div class="log-in-input-container">
-          <input type="email" placeholder="E-mail"/>
-          <div class="log-in-main-input">
-            <img src="../../../../assets/data/images/icons/man-user.svg" alt="">
+        <form [formGroup]="logForm" (ngSubmit)="submit()">
+          <div class="log-in-input-container">
+            <input type="email" placeholder="E-mail or Username" formControlName="Email"/>
+            <div class="log-in-main-input">
+              <span class="material-icons">email</span>
+            </div>
           </div>
-        </div>
-        <div class="log-in-input-container">
-          <input type="password" placeholder="Password"/>
-          <div class="log-in-main-input">
-            <img src="../../../../assets/data/images/icons/lock.svg" alt="">
+          <div class="log-in-input-container">
+            <input type="password" placeholder="Password" formControlName="Password" autocomplete="on"/>
+            <div class="log-in-main-input">
+              <span class="material-icons">lock</span>
+            </div>
           </div>
-        </div>
-        <button>Sign in</button>
+          <button [ngClass]="!logForm.valid ? 'disabled' : null">
+            Sign in
+          </button>
+          <span class="auth-failed" *ngIf="errorMsg">
+               {{this.errorMsg}}
+          </span>
+        </form>
       </div>
       <div class="log-in-link">
         <a [routerLink]="['/registration']">Register on nopanic</a>
@@ -43,4 +50,14 @@
       </div>
     </div>
   </div>
+
+  <ngx-spinner
+    [fullScreen]="true"
+    name="Submit"
+    bdColor="rgba(0, 0, 0, 0.5)"
+    size="large"
+    color="#0DC5D5"
+    type="ball-grid-pulse">
+    <p class="spinner-text">Authorization is in progress...</p>
+  </ngx-spinner>
 </div>

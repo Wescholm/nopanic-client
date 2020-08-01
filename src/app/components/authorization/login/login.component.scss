@@ -21,7 +21,7 @@
   background-color: rgba(84,110,143,.6);
   width: 100%;
   max-width: 570px;
-  padding: 3% 35px;
+  padding: 1% 35px;
 }
 .log-in-name {
   text-align: center;
@@ -105,10 +105,26 @@
     @include regular-text;
     color: #ffffff;
   }
-  button {
-    @include basic-btn;
-    font-size: 18px;
-    height: 60px;
+  form {
+    button {
+      @include basic-btn;
+      font-size: 18px;
+      height: 60px;
+      width: 100%;
+      margin-bottom: 6px;
+    }
+    span {
+      &.auth-failed {
+        @include medium-text;
+        font-size: 16px;
+        margin-top: 3px;
+        color: #0DC5D5;
+        background: rgb(255,0,0);
+        background: linear-gradient(90deg, rgba(255,0,0,0) 0%, rgba(255,0,0,0.6488970588235294) 25%,
+          rgba(255,0,0,0.7497373949579832) 50%, rgba(255,0,0,0.65) 75%, rgba(255,0,0,0) 100%);
+        padding: 0 40px;
+      }
+    }
   }
 }
 .log-in-input-container {
@@ -116,13 +132,24 @@
   align-items: center;
   position:relative;
   padding:0 0 0 33px;
-  margin:0 0 20px 0;
+  margin:0 0 30px 0;
   border-radius: 50px;
   height: 60px;
   border: none;
   background-color: $seventh-color;
   @include regular-text;
   color: #ffffff;
+  span {
+    &.error-message {
+      @include medium-text;
+      position: absolute;
+      top: 100%;
+      text-align: start;
+      font-size: 14px;
+      margin-top: 3px;
+      color: #0DC5D5;
+    }
+  }
 }
 .log-in-main-input {
   display: flex;
@@ -134,9 +161,8 @@
   max-width: 13%;
   height: 40px;
   border-left: 1px solid #1F5587;
-  img {
-    width: 20px;
-    height: 20px;
+  span {
+    color: $fifth-color;
   }
 }
 .log-in-link {
@@ -192,4 +218,9 @@
     transform: rotate(360deg);
     cursor: pointer;
   }
+}
+
+.spinner-text {
+  @include regular-text;
+  color: #fff;
 }
