@@ -1,0 +1,9 @@
+.ngx-gallery {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+::ng-deep .ngx-gallery-thumbnail {
+  border-radius: 15px;
+}
+

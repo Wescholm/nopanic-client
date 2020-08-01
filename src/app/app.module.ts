@@ -29,6 +29,9 @@ import {OrdersNavigationMobileComponent} from "./components/service-content/orde
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.component";
 import {ServicesMenuComponent} from "./components/header/services-menu/services-menu.component";
+import {GalleryComponent} from "./components/order-content/gallery/gallery.component";
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -54,7 +57,8 @@ import {ServicesMenuComponent} from "./components/header/services-menu/services-
     OrderContentComponent,
     BurgerMenuContentComponent,
     BurgerMenuComponent,
-    ServicesMenuComponent
+    ServicesMenuComponent,
+    GalleryComponent
   ],
     imports: [
         BrowserModule,
@@ -63,6 +67,8 @@ import {ServicesMenuComponent} from "./components/header/services-menu/services-
         CoreModule,
         MaterialModule,
         MatCheckboxModule,
+        HttpClientModule,
+        NgxGalleryModule,
     ],
   providers: [],
   bootstrap: [AppComponent]
