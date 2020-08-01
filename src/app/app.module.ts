@@ -24,14 +24,17 @@ import {OrderResponseComponent} from "./components/order-content/order-response/
 import {ResponseComponent} from "./components/order-content/response/response.component";
 import {OrderContentComponent} from "./components/order-content/order-content.component";
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
-import {MatCheckboxModule} from "@angular/material/checkbox";
 import {AuthModule} from "./auth/auth.module";
-import {ReactiveFormsModule} from "@angular/forms";
-import {NgxSpinnerModule} from "ngx-spinner";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.component";
 import {BurgerMenuContentComponent} from "./components/header/burger-menu-content/burger-menu-content.component";
 import {ServicesMenuComponent} from "./components/header/services-menu/services-menu.component";
+import {GalleryComponent} from "./components/order-content/gallery/gallery.component";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {NgxSpinnerModule} from "ngx-spinner";
+import {HttpClientModule} from "@angular/common/http";
+import {NgxGalleryModule} from "@kolkov/ngx-gallery";
 
 @NgModule({
   declarations: [
@@ -56,20 +59,23 @@ import {ServicesMenuComponent} from "./components/header/services-menu/services-
     OrderContentComponent,
     BurgerMenuComponent,
     BurgerMenuContentComponent,
-    ServicesMenuComponent
+    ServicesMenuComponent,
+    GalleryComponent
   ],
-    imports: [
-        BrowserModule,
-        BrowserAnimationsModule,
-        AppRoutingModule,
-        AuthModule,
-        SharedModule,
-        CoreModule,
-        MaterialModule,
-        MatCheckboxModule,
-        ReactiveFormsModule,
-        NgxSpinnerModule
-    ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    AuthModule,
+    SharedModule,
+    CoreModule,
+    MaterialModule,
+    MatCheckboxModule,
+    ReactiveFormsModule,
+    NgxSpinnerModule,
+    HttpClientModule,
+    NgxGalleryModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
