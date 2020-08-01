@@ -5,13 +5,13 @@
         <a><img src="../../../assets/data/images/logo.svg" alt="logo"></a>
         <nav class="navigation-container">
           <ul>
-            <li routerLinkActive="active">
+            <li (click)="onClick(1)" [ngClass]="{'active': tab === 'tab1'}">
               <a [routerLink]="['/']">Services</a>
             </li>
-            <li routerLinkActive="active">
-              <a>Marketplace</a>
+            <li (click)="onClick(2)" [ngClass]="{'active': tab === 'tab2'}">
+              <a>Flea market</a>
             </li>
-            <li routerLinkActive="active">
+            <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
               <a>Auction</a>
             </li>
           </ul>

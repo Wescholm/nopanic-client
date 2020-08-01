@@ -1,14 +1,14 @@
 <div class="order-content">
   <div class="data-content">
     <div class="data-content-inner">
-      <a>
-        <span></span>
-        <div class="gallery-indicator">+4</div>
-      </a>
       <div class="title">
         <p>Web developer</p>
         <p>500 ₪</p>
       </div>
+      <a>
+        <span></span>
+        <div class="gallery-indicator">+4</div>
+      </a>
       <div class="location">
         <div class="city">
           <p>
@@ -27,20 +27,33 @@
         <div class="status">
           <p>Active</p>
         </div>
-      </div>
-      <div class="description">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque earum fugit laboriosam obcaecati placeat.</p>
-      </div>
-      <div class="more">
-        <button class="btn-more">More</button>
-        <div id="btn-lng" class="btn-lng" (click)="toggleLng()">
+        <div id="btn-lng-mobile" class="btn-lng-mobile" (click)="toggleLanguageMobile()">
           <div class="current-lng">
             <span class="material-icons icon">
             language
           </span>
             <span>Ru</span>
           </div>
-          <div id="chose-lang" class="chose-lang">
+          <div id="chose-lang-mobile" class="chose-lang-mobile">
+            <span>He</span>
+            <span>Eng</span>
+            <span>Fr</span>
+          </div>
+        </div>
+      </div>
+      <div class="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci atque earum fugit laboriosam obcaecati placeat.</p>
+      </div>
+      <div class="more">
+        <button class="btn-more" [routerLink]="['/order-content']">More</button>
+        <div id="btn-lng" class="btn-lng" (click)="toggleLanguage()">
+          <div class="current-lng">
+            <span class="material-icons icon">
+            language
+          </span>
+            <span>Ru</span>
+          </div>
+          <div id="{{'chose-lang_' + orderIndex}}" class="chose-lang">
             <span>He</span>
             <span>Eng</span>
             <span>Fr</span>

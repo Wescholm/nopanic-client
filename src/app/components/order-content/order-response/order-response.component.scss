@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 
   .order-response-content {
     position: relative;
@@ -32,19 +32,20 @@
 
       .rating {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         padding-bottom: 15px;
 
         .star {
           color: $eighth-color;
-          font-size: 35px
+          font-size: 35px;
+          margin-right: 20px;
         }
 
         .review {
           @include regular-text;
           font-size: 14px;
           opacity: 0.5;
-          margin-left: 20px;
         }
       }
 
@@ -65,7 +66,8 @@
           opacity: 0.5;
         }
         .price {
-          @include base-flex;
+          display: flex;
+          align-items: center;
           flex-basis: 45%;
           justify-content: space-between;
           .btn-desktop {
@@ -77,12 +79,17 @@
             border-radius: 50px;
             background-color: $fifth-color;
             color: #fff;
+            &:hover {
+              background: #0060c4;
+              transition: 0.3s;
+            }
           }
 
           p {
             @include bold-text;
             color: $eighth-color;
             font-size: 30px;
+            margin-left: 10px;
           }
         }
       }
@@ -98,6 +105,10 @@
         background-color: #2E80D2;
         color: #fff;
         margin: 13px auto 0 auto;
+        &:hover {
+          background: #0060c4;
+          transition: 0.3s;
+        }
       }
     }
     &:hover {
@@ -126,7 +137,7 @@
       }
       }
     }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 590px) {
         padding: 20px 40px;
         .response {
           padding: 0;
@@ -143,9 +154,6 @@
             display: block;
             text-align: center;
             padding-bottom: 10px;
-            .review {
-              margin-left: 0;
-            }
           }
           .accept-order {
             .btn-desktop {

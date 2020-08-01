@@ -12,7 +12,7 @@ section {
     max-width: 1140px;
     margin: 0 auto;
     position: relative;
-    .description-min{
+    .description-min {
       position: absolute;
       max-width: 810px;
       width: 70%;
@@ -20,21 +20,21 @@ section {
       left: 58%;
       top: 50%;
       transform: translate(-50%, -50%);
-      p{
-        &.title{
+      p {
+        &.title {
           @include bold-text;
           font-size: 36px;
           color: #fff;
           margin-bottom: 10px;
         }
-        &.subtitle{
+        &.subtitle {
           @include medium-text;
           font-size: 24px;
           color: #fff;
         }
       }
     }
-    .profile-icon{
+    .profile-icon {
       position: absolute;
       bottom: -50%;
       left: 2%;
@@ -47,7 +47,7 @@ section {
       background-repeat: no-repeat;
       background-size: cover;
     }
-    .price{
+    .price {
       @include bold-text;
       position: absolute;
       right: 0;
@@ -64,10 +64,28 @@ section {
         box-shadow: 18px 4px 30px -8px rgba(0,0,0,0.57);
         width: 200px;
       }
-      span{
+      span {
         position: absolute;
         left: 70px;
         top: 12px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .inner {
+      .description-min {
+        p {
+          &.title {
+            font-size: 28px;
+          }
+          &.subtitle {
+            font-size: 20px;
+          }
+        }
+      }
+      .profile-icon {
+        width: 180px;
+        height: 180px;
       }
     }
   }

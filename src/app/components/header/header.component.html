@@ -4,73 +4,21 @@
     <header-search></header-search>
     <nav>
       <ul class="navigation">
-        <li routerLinkActive="active" (mouseover)="openMenu()" (mouseout)="closeMenu()">
-          <a [routerLink]="['/']">Services</a>
-          <div id="dropdown-menu" class="dropdown">
-            <div class="dropdown-inner">
-              <div class="main-navigation">
-                <div class="dropdown-title">Internet</div>
-                <ul class="dropdown-news-list">
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor.</li>
-                  <li class="dropdown-news-item">Lorem ipsum.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet, consectetur.</li>
-                </ul>
-              </div>
-              <div class="main-navigation">
-                <div class="dropdown-title">Sport</div>
-                <ul class="dropdown-news-list">
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor.</li>
-                  <li class="dropdown-news-item">Lorem ipsum.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet, consectetur.</li>
-                </ul>
-              </div>
-              <div class="main-navigation">
-                <div class="dropdown-title">House</div>
-                <ul class="dropdown-news-list">
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor.</li>
-                  <li class="dropdown-news-item">Lorem ipsum.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet, consectetur.</li>
-                </ul>
-              </div>
-              <div class="main-navigation">
-                <div class="dropdown-title">Beauty</div>
-                <ul class="dropdown-news-list">
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor.</li>
-                  <li class="dropdown-news-item">Lorem ipsum.</li>
-                  <li class="dropdown-news-item">Lorem ipsum dolor sit amet, consectetur.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" (click)="onClick(2)"
+            [ngClass]="{'active': tab === 'tab3'}" [routerLinkActive]="'active'">
+          <a [routerLink]="['/services']" >Services</a>
+          <services-menu (click)="closeMenu()"></services-menu>
         </li>
-        <li routerLinkActive="active">
-          <a>Marketplace</a>
+        <li  (click)="onClick(2)" [ngClass]="{'active': tab === 'tab3'}">
+          <a [routerLink]="['/']">Flea market</a>
         </li>
-        <li routerLinkActive="active">
-          <a>Auction</a>
+        <li (click)="onClick(3)" [ngClass]="{'active': tab === 'tab3'}">
+          <a [routerLink]="['/']">Auction</a>
         </li>
       </ul>
     </nav>
     <header-profile></header-profile>
 
-    <div class="mobile-menu-cont">
-<!--      <div class="auth-mobile">-->
-<!--        <span [routerLink]="['/login']">Login</span>-->
-<!--        or-->
-<!--        <span [routerLink]="['/registration']">Register</span>-->
-<!--      </div>-->
-      <header-burger-menu></header-burger-menu>
-    </div>
-    <div class="toggle-button" (click)="mobileMenuToggle()">
-					<span class="inner">
-						<div></div>
-						<div></div>
-						<div></div>
-					</span>
-    </div>
+    <burger-menu></burger-menu>
   </div>
 </header>

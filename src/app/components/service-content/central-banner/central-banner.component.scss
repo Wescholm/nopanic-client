@@ -6,35 +6,44 @@ section {
   justify-content: center;
   width: 100%;
   height: 321px;
-}
-
-.content {
-  @include base-flex;
-  justify-content: center;
-  width: 100%;
-  color: white;
-}
-
-.title {
-  flex-basis: 100%;
-  text-align: center;
-  margin-bottom: 32px;
-  h1 {
-    @include bold-text;
-    font-size: 48px;
-    margin: 16px 0;
+  .content {
+    @include base-flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    .title {
+      flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 32px;
+      h1 {
+        @include bold-text;
+        font-size: 48px;
+        margin: 16px 0;
+      }
+      h2 {
+        @include regular-text;
+        font-size: 16px;
+        margin:  8px 0;
+      }
+    }
+    .add-offer-btn {
+      @include basic-btn;
+      @include bold-text;
+      font-size: 18px;
+      padding: 15px 60px;
+    }
   }
-  h2 {
-    @include regular-text;
-    font-size: 16px;
-    margin:  8px 0;
+  @media screen and (max-width: 480px) {
+    height: 250px;
+    .content{
+      .title{
+        h1{
+          font-size: 34px;
+        }
+      }
+      .add-offer-btn{
+        padding: 10px 30px;
+      }
+    }
   }
-}
-
-.add-offer-btn {
-  @include basic-btn;
-  @include bold-text;
-  font-size: 18px;
-  width: 15%;
-  padding: 10px 0;
 }
