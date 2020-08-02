@@ -1,0 +1,8509 @@
+[
+  {
+    "cityName": "אבו ג'ווייעד (שבט)",
+    "symbol": "967",
+    "englishCopy": "ABU JUWEI'ID",
+    "englishName": "Abu Juway'ad"
+  },
+  {
+    "cityName": "אבו גוש",
+    "symbol": "472",
+    "englishCopy": "ABU GHOSH",
+    "englishName": "Abu Ghosh"
+  },
+  {
+    "cityName": "אבו סנאן",
+    "symbol": "473",
+    "englishCopy": "ABU SINAN",
+    "englishName": "Abu Sinan"
+  },
+  {
+    "cityName": "אבו סריחאן (שבט)",
+    "symbol": "935",
+    "englishCopy": "ABU SUREIHAN",
+    "englishName": "Abu Surayhan"
+  },
+  {
+    "cityName": "אבו עבדון (שבט)",
+    "symbol": "958",
+    "englishCopy": "ABU  ABDUN",
+    "englishName": "Abu 'Abdun"
+  },
+  {
+    "cityName": "אבו עמאר (שבט)",
+    "symbol": "1042",
+    "englishCopy": "ABU  AMMAR",
+    "englishName": "Abu 'Ammar"
+  },
+  {
+    "cityName": "אבו עמרה (שבט)",
+    "symbol": "932",
+    "englishCopy": "ABU  AMRE",
+    "englishName": "Abu 'Amra"
+  },
+  {
+    "cityName": "אבו קורינאת (יישוב)",
+    "symbol": "1342",
+    "englishCopy": "ABU QUREINAT",
+    "englishName": "Abu Qureinat"
+  },
+  {
+    "cityName": "אבו קורינאת (שבט)",
+    "symbol": "968",
+    "englishCopy": "ABU QUREINAT",
+    "englishName": "Abu Kuraynat"
+  },
+  {
+    "cityName": "אבו רובייעה (שבט)",
+    "symbol": "966",
+    "englishCopy": "ABU RUBEI'A",
+    "englishName": "Abu Rubay'a"
+  },
+  {
+    "cityName": "אבו רוקייק (שבט)",
+    "symbol": "961",
+    "englishCopy": "ABU RUQAYYEQ",
+    "englishName": "Abu Rukayyek"
+  },
+  {
+    "cityName": "אבו תלול",
+    "symbol": "1375",
+    "englishCopy": "ABU TULUL",
+    "englishName": "Abu Tulul                                         "
+  },
+  {
+    "cityName": "אבטין",
+    "symbol": "652",
+    "englishCopy": "IBTIN",
+    "englishName": "Ibtin"
+  },
+  {
+    "cityName": "אבטליון",
+    "symbol": "1275",
+    "englishCopy": "AVTALYON",
+    "englishName": "Avtalyon"
+  },
+  {
+    "cityName": "אביאל",
+    "symbol": "679",
+    "englishCopy": "AVI'EL",
+    "englishName": "Avi'el"
+  },
+  {
+    "cityName": "אביבים",
+    "symbol": "1115",
+    "englishCopy": "AVIVIM",
+    "englishName": "Avivim"
+  },
+  {
+    "cityName": "אביגדור",
+    "symbol": "819",
+    "englishCopy": "AVIGEDOR",
+    "englishName": "Avigedor"
+  },
+  {
+    "cityName": "אביחיל",
+    "symbol": "175",
+    "englishCopy": "AVIHAYIL",
+    "englishName": "Avihayil"
+  },
+  {
+    "cityName": "אביטל",
+    "symbol": "2052",
+    "englishCopy": "AVITAL",
+    "englishName": "Avital"
+  },
+  {
+    "cityName": "אביעזר",
+    "symbol": "1070",
+    "englishCopy": "AVI'EZER",
+    "englishName": "Avi'ezer"
+  },
+  {
+    "cityName": "אבירים",
+    "symbol": "1220",
+    "englishCopy": "ABBIRIM",
+    "englishName": "Abbirim"
+  },
+  {
+    "cityName": "אבן יהודה",
+    "symbol": "182",
+    "englishCopy": "EVEN YEHUDA",
+    "englishName": "Even Yehuda"
+  },
+  {
+    "cityName": "אבן מנחם",
+    "symbol": "1081",
+    "englishCopy": "EVEN MENAHEM",
+    "englishName": "Even Menahem"
+  },
+  {
+    "cityName": "אבן ספיר",
+    "symbol": "783",
+    "englishCopy": "EVEN SAPPIR",
+    "englishName": "Even Sappir"
+  },
+  {
+    "cityName": "אבן שמואל",
+    "symbol": "400",
+    "englishCopy": "EVEN SHEMU'EL",
+    "englishName": "Even Shemu'el"
+  },
+  {
+    "cityName": "אבני איתן",
+    "symbol": "4011",
+    "englishCopy": "AVNE ETAN",
+    "englishName": "Avne Etan"
+  },
+  {
+    "cityName": "אבני חפץ",
+    "symbol": "3793",
+    "englishCopy": "AVNE HEFEZ",
+    "englishName": "Avne Hefez"
+  },
+  {
+    "cityName": "אבנת",
+    "symbol": "3786",
+    "englishCopy": "AVENAT",
+    "englishName": "Avenat"
+  },
+  {
+    "cityName": "אבשלום",
+    "symbol": "1311",
+    "englishCopy": "AVSHALOM",
+    "englishName": "Avshalom"
+  },
+  {
+    "cityName": "אדורה",
+    "symbol": "3759",
+    "englishCopy": "ADORA",
+    "englishName": "Adora"
+  },
+  {
+    "cityName": "אדירים",
+    "symbol": "113",
+    "englishCopy": "ADDIRIM",
+    "englishName": "Addirim"
+  },
+  {
+    "cityName": "אדמית",
+    "symbol": "1068",
+    "englishCopy": "ADAMIT",
+    "englishName": "Adamit"
+  },
+  {
+    "cityName": "אדרת",
+    "symbol": "1123",
+    "englishCopy": "ADDERET",
+    "englishName": "Adderet"
+  },
+  {
+    "cityName": "אודים",
+    "symbol": "446",
+    "englishCopy": "UDIM",
+    "englishName": "Udim"
+  },
+  {
+    "cityName": "אודם",
+    "symbol": "4010",
+    "englishCopy": "ODEM",
+    "englishName": "Odem"
+  },
+  {
+    "cityName": "אוהד",
+    "symbol": "1046",
+    "englishCopy": "OHAD",
+    "englishName": "Ohad"
+  },
+  {
+    "cityName": "אום אל-פחם",
+    "symbol": "2710",
+    "englishCopy": "UMM AL-FAHM",
+    "englishName": "Umm al-Fahm"
+  },
+  {
+    "cityName": "אום אל-קוטוף",
+    "symbol": "2024",
+    "englishCopy": "UMM AL-QUTUF",
+    "englishName": "Umm Al-Qutuf"
+  },
+  {
+    "cityName": "אום בטין",
+    "symbol": "1358",
+    "englishCopy": "UMM BATIN",
+    "englishName": "Umm Batin"
+  },
+  {
+    "cityName": "אומן",
+    "symbol": "1108",
+    "englishCopy": "OMEN",
+    "englishName": "Omen"
+  },
+  {
+    "cityName": "אומץ",
+    "symbol": "680",
+    "englishCopy": "OMEZ",
+    "englishName": "Omez"
+  },
+  {
+    "cityName": "אופקים",
+    "symbol": "31",
+    "englishCopy": "OFAQIM",
+    "englishName": "Ofaqim"
+  },
+  {
+    "cityName": "אור הגנוז",
+    "symbol": "1294",
+    "englishCopy": "OR HAGANUZ",
+    "englishName": "Or HaGanuz"
+  },
+  {
+    "cityName": "אור הנר",
+    "symbol": "67",
+    "englishCopy": "OR HANER",
+    "englishName": "Or HaNer"
+  },
+  {
+    "cityName": "אור יהודה",
+    "symbol": "2400",
+    "englishCopy": "OR YEHUDA",
+    "englishName": "Or Yehuda"
+  },
+  {
+    "cityName": "אור עקיבא",
+    "symbol": "1020",
+    "englishCopy": "OR AQIVA",
+    "englishName": "Or Aqiva"
+  },
+  {
+    "cityName": "אורה",
+    "symbol": "780",
+    "englishCopy": "ORA",
+    "englishName": "Ora"
+  },
+  {
+    "cityName": "אורון",
+    "symbol": "1771",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "אורות",
+    "symbol": "2012",
+    "englishCopy": "OROT",
+    "englishName": "Orot"
+  },
+  {
+    "cityName": "אורטל",
+    "symbol": "4013",
+    "englishCopy": "ORTAL",
+    "englishName": "Ortal"
+  },
+  {
+    "cityName": "אורים",
+    "symbol": "403",
+    "englishCopy": "URIM",
+    "englishName": "Urim"
+  },
+  {
+    "cityName": "אורנים",
+    "symbol": "882",
+    "englishCopy": "ORANIM",
+    "englishName": "Oranim"
+  },
+  {
+    "cityName": "אורנית",
+    "symbol": "3760",
+    "englishCopy": "ORANIT",
+    "englishName": "Oranit"
+  },
+  {
+    "cityName": "אושה",
+    "symbol": "278",
+    "englishCopy": "USHA",
+    "englishName": "Usha"
+  },
+  {
+    "cityName": "אזור",
+    "symbol": "565",
+    "englishCopy": "AZOR",
+    "englishName": "Azor"
+  },
+  {
+    "cityName": "אזור אילון מ\"א 4",
+    "symbol": "1852"
+  },
+  {
+    "cityName": "אזור אילון מ\"א 52",
+    "symbol": "1851"
+  },
+  {
+    "cityName": "אזור אילון של\"ש",
+    "symbol": "1853"
+  },
+  {
+    "cityName": "אזור אשדוד מ\"א 29",
+    "symbol": "1922"
+  },
+  {
+    "cityName": "אזור אשדוד מ\"א 33",
+    "symbol": "1921"
+  },
+  {
+    "cityName": "אזור אשדוד של\"ש",
+    "symbol": "1923"
+  },
+  {
+    "cityName": "אזור אשקלון מ\"א 36",
+    "symbol": "1924"
+  },
+  {
+    "cityName": "אזור אשקלון מ\"א 37",
+    "symbol": "1926"
+  },
+  {
+    "cityName": "אזור באר שבע מ\"א 41",
+    "symbol": "1937"
+  },
+  {
+    "cityName": "אזור באר שבע מ\"א 51",
+    "symbol": "1938"
+  },
+  {
+    "cityName": "אזור באר שבע של\"ש",
+    "symbol": "1939"
+  },
+  {
+    "cityName": "אזור בשור מ\"א 38",
+    "symbol": "1933"
+  },
+  {
+    "cityName": "אזור בשור מ\"א 39",
+    "symbol": "1935"
+  },
+  {
+    "cityName": "אזור בשור מ\"א 42",
+    "symbol": "1934"
+  },
+  {
+    "cityName": "אזור גלילות מ\"א 19",
+    "symbol": "1907"
+  },
+  {
+    "cityName": "אזור גרר מ\"א 39",
+    "symbol": "1931"
+  },
+  {
+    "cityName": "אזור גרר מ\"א 41",
+    "symbol": "1929"
+  },
+  {
+    "cityName": "אזור גרר מ\"א 42",
+    "symbol": "1930"
+  },
+  {
+    "cityName": "אזור זכרון יעקב מ\"א 15",
+    "symbol": "1866"
+  },
+  {
+    "cityName": "אזור זכרון יעקב של\"ש",
+    "symbol": "1867"
+  },
+  {
+    "cityName": "אזור חדרה מ\"א 14",
+    "symbol": "1873"
+  },
+  {
+    "cityName": "אזור חדרה מ\"א 15",
+    "symbol": "1872"
+  },
+  {
+    "cityName": "אזור חדרה מ\"א 45",
+    "symbol": "1871"
+  },
+  {
+    "cityName": "אזור חדרה של\"ש",
+    "symbol": "1874"
+  },
+  {
+    "cityName": "אזור חולון של\"ש",
+    "symbol": "1909"
+  },
+  {
+    "cityName": "אזור חיפה מ\"א 12",
+    "symbol": "1860"
+  },
+  {
+    "cityName": "אזור חיפה של\"ש",
+    "symbol": "1862"
+  },
+  {
+    "cityName": "אזור חצור מ\"א 1",
+    "symbol": "1813"
+  },
+  {
+    "cityName": "אזור חצור מ\"א 55",
+    "symbol": "1814"
+  },
+  {
+    "cityName": "אזור חצור של\"ש",
+    "symbol": "1815"
+  },
+  {
+    "cityName": "אזור יחיעם מ\"א 2",
+    "symbol": "1848"
+  },
+  {
+    "cityName": "אזור יחיעם מ\"א 4",
+    "symbol": "1846"
+  },
+  {
+    "cityName": "אזור יחיעם מ\"א 52",
+    "symbol": "1847"
+  },
+  {
+    "cityName": "אזור יחיעם מ\"א 56",
+    "symbol": "1849"
+  },
+  {
+    "cityName": "אזור יחיעם של\"ש",
+    "symbol": "1850"
+  },
+  {
+    "cityName": "אזור ים המלח מ\"א 51",
+    "symbol": "1942"
+  },
+  {
+    "cityName": "אזור יקנעם מ\"א 13",
+    "symbol": "1836"
+  },
+  {
+    "cityName": "אזור יקנעם מ\"א 9",
+    "symbol": "1835"
+  },
+  {
+    "cityName": "אזור כינרות מ\"א 3",
+    "symbol": "1805"
+  },
+  {
+    "cityName": "אזור כנרות מ\"א 1",
+    "symbol": "1816"
+  },
+  {
+    "cityName": "אזור כנרות מ\"א 6",
+    "symbol": "1817"
+  },
+  {
+    "cityName": "אזור כנרות של\"ש",
+    "symbol": "1818"
+  },
+  {
+    "cityName": "אזור כרמיאל מ\"א 2",
+    "symbol": "1843"
+  },
+  {
+    "cityName": "אזור כרמיאל מ\"א 56",
+    "symbol": "1844"
+  },
+  {
+    "cityName": "אזור כרמיאל של\"ש",
+    "symbol": "1845"
+  },
+  {
+    "cityName": "אזור לכיש מ\"א 34",
+    "symbol": "1919"
+  },
+  {
+    "cityName": "אזור לכיש מ\"א 35",
+    "symbol": "1917"
+  },
+  {
+    "cityName": "אזור לכיש מ\"א 41",
+    "symbol": "1920"
+  },
+  {
+    "cityName": "אזור לכיש מ\"א 50",
+    "symbol": "1918"
+  },
+  {
+    "cityName": "אזור מודיעין מ\"א 25",
+    "symbol": "1887"
+  },
+  {
+    "cityName": "אזור מודיעין מ\"א 30",
+    "symbol": "1890"
+  },
+  {
+    "cityName": "אזור מודיעין של\"ש",
+    "symbol": "1895"
+  },
+  {
+    "cityName": "אזור מלאכי מ\"א 33",
+    "symbol": "1911"
+  },
+  {
+    "cityName": "אזור מלאכי מ\"א 34",
+    "symbol": "1915"
+  },
+  {
+    "cityName": "אזור מלאכי מ\"א 35",
+    "symbol": "1913"
+  },
+  {
+    "cityName": "אזור מלאכי מ\"א 50",
+    "symbol": "1914"
+  },
+  {
+    "cityName": "אזור נהרייה מ\"א 4",
+    "symbol": "1855"
+  },
+  {
+    "cityName": "אזור נהרייה של\"ש",
+    "symbol": "1856"
+  },
+  {
+    "cityName": "אזור עכו מ\"א 4",
+    "symbol": "1858"
+  },
+  {
+    "cityName": "אזור עכו מ\"א 56",
+    "symbol": "1857"
+  },
+  {
+    "cityName": "אזור עכו של\"ש",
+    "symbol": "1859"
+  },
+  {
+    "cityName": "אזור פתח תקווה מ\"א 20",
+    "symbol": "1888"
+  },
+  {
+    "cityName": "אזור פתח תקווה מ\"א 25",
+    "symbol": "1886"
+  },
+  {
+    "cityName": "אזור פתח תקווה של\"ש",
+    "symbol": "1889"
+  },
+  {
+    "cityName": "אזור ראשל\"צ מ\"א 27",
+    "symbol": "1903"
+  },
+  {
+    "cityName": "אזור ראשל\"צ של\"ש",
+    "symbol": "1904"
+  },
+  {
+    "cityName": "אזור רחובות מ\"א 28",
+    "symbol": "1896"
+  },
+  {
+    "cityName": "אזור רחובות מ\"א 29",
+    "symbol": "1899"
+  },
+  {
+    "cityName": "אזור רחובות מ\"א 30",
+    "symbol": "1898"
+  },
+  {
+    "cityName": "אזור רחובות מ\"א 31",
+    "symbol": "1901"
+  },
+  {
+    "cityName": "אזור רחובות מ\"א 32",
+    "symbol": "1897"
+  },
+  {
+    "cityName": "אזור רחובות של\"ש",
+    "symbol": "1902"
+  },
+  {
+    "cityName": "אזור רמלה מ\"א 25",
+    "symbol": "1892"
+  },
+  {
+    "cityName": "אזור רמלה מ\"א 30",
+    "symbol": "1891"
+  },
+  {
+    "cityName": "אזור רמלה מ\"א 40",
+    "symbol": "1893"
+  },
+  {
+    "cityName": "אזור רמלה של\"ש",
+    "symbol": "1894"
+  },
+  {
+    "cityName": "אזור רמת גן של\"ש",
+    "symbol": "1908"
+  },
+  {
+    "cityName": "אזור שפרעם מ\"א 56",
+    "symbol": "1841"
+  },
+  {
+    "cityName": "אזור שפרעם מ\"א 9",
+    "symbol": "1840"
+  },
+  {
+    "cityName": "אזור שפרעם של\"ש",
+    "symbol": "1842"
+  },
+  {
+    "cityName": "אזור תל אביב של\"ש",
+    "symbol": "1905"
+  },
+  {
+    "cityName": "אזור תעסוקה משגב(תרדיון)",
+    "symbol": "1724",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "אזור תעשיה אכסאל מ\"א 9",
+    "symbol": "1865"
+  },
+  {
+    "cityName": "אזור תעשייה אכזיב (מילואות)",
+    "symbol": "1726",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "אזור תעשייה נעמן (מילואות)",
+    "symbol": "1727",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "אחווה",
+    "symbol": "1157",
+    "englishCopy": "AHAWA",
+    "englishName": "Ahawa"
+  },
+  {
+    "cityName": "אחוזם",
+    "symbol": "821",
+    "englishCopy": "AHUZZAM",
+    "englishName": "Ahuzzam"
+  },
+  {
+    "cityName": "אחוזת ברק",
+    "symbol": "1330",
+    "englishCopy": "AHUZZAT BARAQ",
+    "englishName": "Ahuzzat Baraq"
+  },
+  {
+    "cityName": "אחיהוד",
+    "symbol": "785",
+    "englishCopy": "AHIHUD",
+    "englishName": "Ahihud"
+  },
+  {
+    "cityName": "אחיטוב",
+    "symbol": "850",
+    "englishCopy": "AHITUV",
+    "englishName": "Ahituv"
+  },
+  {
+    "cityName": "אחיסמך",
+    "symbol": "804",
+    "englishCopy": "AHISAMAKH",
+    "englishName": "Ahisamakh"
+  },
+  {
+    "cityName": "אחיעזר",
+    "symbol": "797",
+    "englishCopy": "AHI'EZER",
+    "englishName": "Ahi'ezer"
+  },
+  {
+    "cityName": "אטרש (שבט)",
+    "symbol": "965",
+    "englishCopy": "ATRASH",
+    "englishName": "Atrash"
+  },
+  {
+    "cityName": "איבים",
+    "symbol": "338",
+    "englishCopy": "IBBIM",
+    "englishName": "Ibbim"
+  },
+  {
+    "cityName": "אייל",
+    "symbol": "716",
+    "englishCopy": "EYAL",
+    "englishName": "Eyal"
+  },
+  {
+    "cityName": "איילת השחר",
+    "symbol": "77",
+    "englishCopy": "AYYELET HASHAHAR",
+    "englishName": "Ayyelet HaShahar"
+  },
+  {
+    "cityName": "אילון",
+    "symbol": "294",
+    "englishCopy": "ELON",
+    "englishName": "Elon"
+  },
+  {
+    "cityName": "אילון תבור*",
+    "symbol": "1716",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "אילות",
+    "symbol": "1126",
+    "englishCopy": "ELOT",
+    "englishName": "Elot"
+  },
+  {
+    "cityName": "אילנייה",
+    "symbol": "49",
+    "englishCopy": "ILANIYYA",
+    "englishName": "Ilaniyya"
+  },
+  {
+    "cityName": "אילת",
+    "symbol": "2600",
+    "englishCopy": "ELAT",
+    "englishName": "Elat"
+  },
+  {
+    "cityName": "אירוס",
+    "symbol": "1336",
+    "englishCopy": "IRUS",
+    "englishName": "Irus"
+  },
+  {
+    "cityName": "איתמר",
+    "symbol": "3762",
+    "englishCopy": "ITAMAR",
+    "englishName": "Itamar"
+  },
+  {
+    "cityName": "איתן",
+    "symbol": "37",
+    "englishCopy": "ETAN",
+    "englishName": "Etan"
+  },
+  {
+    "cityName": "איתנים",
+    "symbol": "886",
+    "englishCopy": "ETANIM",
+    "englishName": "Etanim"
+  },
+  {
+    "cityName": "אכסאל",
+    "symbol": "478",
+    "englishCopy": "IKSAL",
+    "englishName": "Iksal"
+  },
+  {
+    "cityName": "אל -עזי",
+    "symbol": "1339",
+    "englishCopy": "AL-AZY",
+    "englishName": "Al-Azy"
+  },
+  {
+    "cityName": "אל -עריאן",
+    "symbol": "1316",
+    "englishCopy": "AL-ARYAN",
+    "englishName": "Al-Aryan"
+  },
+  {
+    "cityName": "אל -רום",
+    "symbol": "4003",
+    "englishCopy": "EL-ROM",
+    "englishName": "El-Rom"
+  },
+  {
+    "cityName": "אל סייד",
+    "symbol": "1359",
+    "englishCopy": "AL SAYYID",
+    "englishName": "Al Sayyid"
+  },
+  {
+    "cityName": "אלומה",
+    "symbol": "1145",
+    "englishCopy": "ALUMMA",
+    "englishName": "Alumma"
+  },
+  {
+    "cityName": "אלומות",
+    "symbol": "330",
+    "englishCopy": "ALUMMOT",
+    "englishName": "Alummot"
+  },
+  {
+    "cityName": "אלון הגליל",
+    "symbol": "1182",
+    "englishCopy": "ALLON HAGALIL",
+    "englishName": "Allon HaGalil    "
+  },
+  {
+    "cityName": "אלון מורה",
+    "symbol": "3579",
+    "englishCopy": "ELON MORE",
+    "englishName": "Elon More   "
+  },
+  {
+    "cityName": "אלון שבות",
+    "symbol": "3604",
+    "englishCopy": "ALLON SHEVUT",
+    "englishName": "Allon Shevut"
+  },
+  {
+    "cityName": "אלוני אבא",
+    "symbol": "429",
+    "englishCopy": "ALLONE ABBA",
+    "englishName": "Allone Abba"
+  },
+  {
+    "cityName": "אלוני הבשן",
+    "symbol": "4017",
+    "englishCopy": "ALLONE HABASHAN",
+    "englishName": "Allone HaBashan"
+  },
+  {
+    "cityName": "אלוני יצחק",
+    "symbol": "868",
+    "englishCopy": "ALLONE YIZHAQ",
+    "englishName": "Allone Yizhaq"
+  },
+  {
+    "cityName": "אלונים",
+    "symbol": "285",
+    "englishCopy": "ALLONIM",
+    "englishName": "Allonim"
+  },
+  {
+    "cityName": "אלי-עד",
+    "symbol": "4002",
+    "englishCopy": "ELI-AD",
+    "englishName": "Eli-Ad"
+  },
+  {
+    "cityName": "אליאב",
+    "symbol": "1365",
+    "englishCopy": "ELIAV",
+    "englishName": "Eliav"
+  },
+  {
+    "cityName": "אליכין",
+    "symbol": "41",
+    "englishCopy": "ELYAKHIN",
+    "englishName": "Elyakhin"
+  },
+  {
+    "cityName": "אליפז",
+    "symbol": "1248",
+    "englishCopy": "ELIFAZ",
+    "englishName": "Elifaz"
+  },
+  {
+    "cityName": "אליפלט",
+    "symbol": "730",
+    "englishCopy": "ELIFELET",
+    "englishName": "Elifelet"
+  },
+  {
+    "cityName": "אליקים",
+    "symbol": "682",
+    "englishCopy": "ELYAQIM",
+    "englishName": "Elyaqim"
+  },
+  {
+    "cityName": "אלישיב",
+    "symbol": "204",
+    "englishCopy": "ELYASHIV",
+    "englishName": "Elyashiv"
+  },
+  {
+    "cityName": "אלישמע",
+    "symbol": "841",
+    "englishCopy": "ELISHAMA",
+    "englishName": "Elishama"
+  },
+  {
+    "cityName": "אלמגור",
+    "symbol": "1125",
+    "englishCopy": "ALMAGOR",
+    "englishName": "Almagor"
+  },
+  {
+    "cityName": "אלמוג",
+    "symbol": "3556",
+    "englishCopy": "ALMOG",
+    "englishName": "Almog"
+  },
+  {
+    "cityName": "אלעד",
+    "symbol": "1309",
+    "englishCopy": "EL'AD",
+    "englishName": "El'ad"
+  },
+  {
+    "cityName": "אלעזר",
+    "symbol": "3618",
+    "englishCopy": "EL'AZAR",
+    "englishName": "El'azar"
+  },
+  {
+    "cityName": "אלפי מנשה",
+    "symbol": "3750",
+    "englishCopy": "ALFE MENASHE",
+    "englishName": "Alfe Menashe"
+  },
+  {
+    "cityName": "אלקוש",
+    "symbol": "603",
+    "englishCopy": "ELQOSH",
+    "englishName": "Elqosh"
+  },
+  {
+    "cityName": "אלקנה",
+    "symbol": "3560",
+    "englishCopy": "ELQANA",
+    "englishName": "Elqana"
+  },
+  {
+    "cityName": "אמונים",
+    "symbol": "772",
+    "englishCopy": "EMUNIM",
+    "englishName": "Emunim"
+  },
+  {
+    "cityName": "אמירים",
+    "symbol": "1064",
+    "englishCopy": "AMIRIM",
+    "englishName": "Amirim"
+  },
+  {
+    "cityName": "אמנון",
+    "symbol": "1253",
+    "englishCopy": "AMNUN",
+    "englishName": "Amnun"
+  },
+  {
+    "cityName": "אמציה",
+    "symbol": "23",
+    "englishCopy": "AMAZYA",
+    "englishName": "Amazya"
+  },
+  {
+    "cityName": "אניעם",
+    "symbol": "4012",
+    "englishCopy": "ANI'AM",
+    "englishName": "Ani'am"
+  },
+  {
+    "cityName": "אסד (שבט)",
+    "symbol": "960",
+    "englishCopy": "ASAD",
+    "englishName": "Asad"
+  },
+  {
+    "cityName": "אספר",
+    "symbol": "3754",
+    "englishCopy": "ASFAR",
+    "englishName": "Asfar"
+  },
+  {
+    "cityName": "אעבלין",
+    "symbol": "529",
+    "englishCopy": "I'BILLIN",
+    "englishName": "I'billin"
+  },
+  {
+    "cityName": "אעצם (שבט)",
+    "symbol": "963",
+    "englishCopy": "A'SAM",
+    "englishName": "A'sam"
+  },
+  {
+    "cityName": "אפיניש (שבט)",
+    "symbol": "959",
+    "englishCopy": "AFEINISH",
+    "englishName": "Afaynish"
+  },
+  {
+    "cityName": "אפיק",
+    "symbol": "4301",
+    "englishCopy": "AFIQ",
+    "englishName": "Afiq"
+  },
+  {
+    "cityName": "אפיקים",
+    "symbol": "176",
+    "englishCopy": "AFIQIM",
+    "englishName": "Afiqim"
+  },
+  {
+    "cityName": "אפק",
+    "symbol": "313",
+    "englishCopy": "AFEQ",
+    "englishName": "Afeq"
+  },
+  {
+    "cityName": "אפרת",
+    "symbol": "3650",
+    "englishCopy": "EFRAT",
+    "englishName": "Efrat"
+  },
+  {
+    "cityName": "ארבל",
+    "symbol": "701",
+    "englishCopy": "ARBEL",
+    "englishName": "Arbel"
+  },
+  {
+    "cityName": "ארגמן",
+    "symbol": "3598",
+    "englishCopy": "ARGAMAN",
+    "englishName": "Argaman"
+  },
+  {
+    "cityName": "ארז",
+    "symbol": "714",
+    "englishCopy": "EREZ",
+    "englishName": "Erez"
+  },
+  {
+    "cityName": "אריאל",
+    "symbol": "3570",
+    "englishCopy": "ARI'EL",
+    "englishName": "Ari'el"
+  },
+  {
+    "cityName": "ארסוף",
+    "symbol": "1324",
+    "englishCopy": "ARSUF",
+    "englishName": "Arsuf"
+  },
+  {
+    "cityName": "אשבול",
+    "symbol": "71",
+    "englishCopy": "ESHBOL",
+    "englishName": "Eshbol"
+  },
+  {
+    "cityName": "אשבל",
+    "symbol": "1276",
+    "englishCopy": "ESHBAL",
+    "englishName": "Eshbal"
+  },
+  {
+    "cityName": "אשדוד",
+    "symbol": "70",
+    "englishCopy": "ASHDOD",
+    "englishName": "Ashdod"
+  },
+  {
+    "cityName": "אשדות יעקב (איחוד)",
+    "symbol": "199",
+    "englishCopy": "ASHDOT YA'AQOV(IHUD)",
+    "englishName": "Ashdot Ya'aqov(Ihud)"
+  },
+  {
+    "cityName": "אשדות יעקב (מאוחד)",
+    "symbol": "188",
+    "englishCopy": "ASHDOT YA'AQOV(ME'UHAD)",
+    "englishName": "Ashdot Ya'aqov(Me'uhad)"
+  },
+  {
+    "cityName": "אשחר",
+    "symbol": "1188",
+    "englishCopy": "ESHHAR",
+    "englishName": "Eshhar"
+  },
+  {
+    "cityName": "אשכולות",
+    "symbol": "3722",
+    "englishCopy": "ESHKOLOT",
+    "englishName": "Eshkolot"
+  },
+  {
+    "cityName": "אשל הנשיא",
+    "symbol": "2021",
+    "englishCopy": "ESHEL HANASI",
+    "englishName": "Eshel HaNasi"
+  },
+  {
+    "cityName": "אשלים",
+    "symbol": "1152",
+    "englishCopy": "ASHALIM",
+    "englishName": "Ashalim"
+  },
+  {
+    "cityName": "אשקלון",
+    "symbol": "7100",
+    "englishCopy": "ASHQELON",
+    "englishName": "Ashqelon"
+  },
+  {
+    "cityName": "אשרת",
+    "symbol": "1256",
+    "englishCopy": "ASHERAT",
+    "englishName": "Asherat"
+  },
+  {
+    "cityName": "אשתאול",
+    "symbol": "740",
+    "englishCopy": "ESHTA'OL",
+    "englishName": "Eshta'ol"
+  },
+  {
+    "cityName": "באקה אל-גרביה",
+    "symbol": "6000",
+    "englishCopy": "BAQA AL-GHARBIYYE",
+    "englishName": "Baqa Al-Gharbiyye                                 "
+  },
+  {
+    "cityName": "באר אורה",
+    "symbol": "21",
+    "englishCopy": "BE'ER ORA",
+    "englishName": "Be'er Ora"
+  },
+  {
+    "cityName": "באר גנים",
+    "symbol": "1376",
+    "englishCopy": "BE'ER GANNIM",
+    "englishName": "Be'er Gannim"
+  },
+  {
+    "cityName": "באר טוביה",
+    "symbol": "155",
+    "englishCopy": "BE'ER TOVIYYA",
+    "englishName": "Be'er Toviyya"
+  },
+  {
+    "cityName": "באר יעקב",
+    "symbol": "2530",
+    "englishCopy": "BE'ER YA'AQOV",
+    "englishName": "Be'er Ya'aqov"
+  },
+  {
+    "cityName": "באר מילכה",
+    "symbol": "1278",
+    "englishCopy": "BE'ER MILKA",
+    "englishName": "Be'er Milka"
+  },
+  {
+    "cityName": "באר שבע",
+    "symbol": "9000",
+    "englishCopy": "BE'ER SHEVA",
+    "englishName": "Be'er Sheva"
+  },
+  {
+    "cityName": "בארות יצחק",
+    "symbol": "450",
+    "englishCopy": "BE'EROT YIZHAQ",
+    "englishName": "Be'erot Yizhaq"
+  },
+  {
+    "cityName": "בארותיים",
+    "symbol": "697",
+    "englishCopy": "BE'EROTAYIM",
+    "englishName": "Be'erotayim"
+  },
+  {
+    "cityName": "בארי",
+    "symbol": "399",
+    "englishCopy": "BE'ERI",
+    "englishName": "Be'eri"
+  },
+  {
+    "cityName": "בוסתן הגליל",
+    "symbol": "559",
+    "englishCopy": "BUSTAN HAGALIL",
+    "englishName": "Bustan HaGalil"
+  },
+  {
+    "cityName": "בועיינה-נוג'ידאת",
+    "symbol": "482",
+    "englishCopy": "BU'EINE-NUJEIDAT",
+    "englishName": "Bu'eine-Nujeidat"
+  },
+  {
+    "cityName": "בוקעאתא",
+    "symbol": "4001",
+    "englishCopy": "BUQ'ATA",
+    "englishName": "Buq'ata"
+  },
+  {
+    "cityName": "בורגתה",
+    "symbol": "698",
+    "englishCopy": "BURGETA",
+    "englishName": "Burgeta"
+  },
+  {
+    "cityName": "בחן",
+    "symbol": "2043",
+    "englishCopy": "BAHAN",
+    "englishName": "Bahan"
+  },
+  {
+    "cityName": "בטחה",
+    "symbol": "762",
+    "englishCopy": "BITHA",
+    "englishName": "Bitha"
+  },
+  {
+    "cityName": "בי\"ס אזורי מקיף (אשר)",
+    "symbol": "1725",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "ביצרון",
+    "symbol": "234",
+    "englishCopy": "BIZZARON",
+    "englishName": "Bizzaron"
+  },
+  {
+    "cityName": "ביר אל-מכסור",
+    "symbol": "998",
+    "englishCopy": "BIR EL-MAKSUR",
+    "englishName": "Bir El-Maksur"
+  },
+  {
+    "cityName": "ביר הדאג'",
+    "symbol": "1348",
+    "englishCopy": "BIR HADAGE",
+    "englishName": "Bir Hadage"
+  },
+  {
+    "cityName": "בירייה",
+    "symbol": "368",
+    "englishCopy": "BIRIYYA",
+    "englishName": "Biriyya"
+  },
+  {
+    "cityName": "בית אורן",
+    "symbol": "317",
+    "englishCopy": "BET OREN",
+    "englishName": "Bet Oren"
+  },
+  {
+    "cityName": "בית אל",
+    "symbol": "3574",
+    "englishCopy": "BET EL",
+    "englishName": "Bet El"
+  },
+  {
+    "cityName": "בית אלעזרי",
+    "symbol": "562",
+    "englishCopy": "BET EL'AZARI",
+    "englishName": "Bet El'azari"
+  },
+  {
+    "cityName": "בית אלפא",
+    "symbol": "95",
+    "englishCopy": "BET ALFA",
+    "englishName": "Bet Alfa"
+  },
+  {
+    "cityName": "בית אריה",
+    "symbol": "3652",
+    "englishCopy": "BET ARYE",
+    "englishName": "Bet Arye"
+  },
+  {
+    "cityName": "בית ברל",
+    "symbol": "1076",
+    "englishCopy": "BET BERL",
+    "englishName": "Bet Berl"
+  },
+  {
+    "cityName": "בית ג'ן",
+    "symbol": "480",
+    "englishCopy": "BEIT JANN",
+    "englishName": "Beit Jann"
+  },
+  {
+    "cityName": "בית גוברין",
+    "symbol": "619",
+    "englishCopy": "BET GUVRIN",
+    "englishName": "Bet Guvrin"
+  },
+  {
+    "cityName": "בית גמליאל",
+    "symbol": "571",
+    "englishCopy": "BET GAMLI'EL",
+    "englishName": "Bet Gamli'el"
+  },
+  {
+    "cityName": "בית דגן",
+    "symbol": "466",
+    "englishCopy": "BET DAGAN",
+    "englishName": "Bet Dagan"
+  },
+  {
+    "cityName": "בית הגדי",
+    "symbol": "723",
+    "englishCopy": "BET HAGADDI",
+    "englishName": "Bet HaGaddi"
+  },
+  {
+    "cityName": "בית הלוי",
+    "symbol": "373",
+    "englishCopy": "BET HALEWI",
+    "englishName": "Bet HaLewi"
+  },
+  {
+    "cityName": "בית הלל",
+    "symbol": "322",
+    "englishCopy": "BET HILLEL",
+    "englishName": "Bet Hillel"
+  },
+  {
+    "cityName": "בית העמק",
+    "symbol": "572",
+    "englishCopy": "BET HAEMEQ",
+    "englishName": "Bet HaEmeq"
+  },
+  {
+    "cityName": "בית הערבה",
+    "symbol": "3645",
+    "englishCopy": "BET HAARAVA",
+    "englishName": "Bet HaArava"
+  },
+  {
+    "cityName": "בית השיטה",
+    "symbol": "242",
+    "englishCopy": "BET HASHITTA",
+    "englishName": "Bet HaShitta"
+  },
+  {
+    "cityName": "בית זיד",
+    "symbol": "353",
+    "englishCopy": "BET ZEID",
+    "englishName": "Bet Zeid"
+  },
+  {
+    "cityName": "בית זית",
+    "symbol": "710",
+    "englishCopy": "BET ZAYIT",
+    "englishName": "Bet Zayit"
+  },
+  {
+    "cityName": "בית זרע",
+    "symbol": "143",
+    "englishCopy": "BET ZERA",
+    "englishName": "Bet Zera"
+  },
+  {
+    "cityName": "בית חולים פוריה",
+    "symbol": "1712",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "בית חורון",
+    "symbol": "3575",
+    "englishCopy": "BET HORON",
+    "englishName": "Bet Horon"
+  },
+  {
+    "cityName": "בית חירות",
+    "symbol": "877",
+    "englishCopy": "BET HERUT",
+    "englishName": "Bet Herut"
+  },
+  {
+    "cityName": "בית חלקיה",
+    "symbol": "2033",
+    "englishCopy": "BET HILQIYYA",
+    "englishName": "Bet Hilqiyya"
+  },
+  {
+    "cityName": "בית חנן",
+    "symbol": "159",
+    "englishCopy": "BET HANAN",
+    "englishName": "Bet Hanan"
+  },
+  {
+    "cityName": "בית חנניה",
+    "symbol": "800",
+    "englishCopy": "BET HANANYA",
+    "englishName": "Bet Hananya"
+  },
+  {
+    "cityName": "בית חשמונאי",
+    "symbol": "1050",
+    "englishCopy": "BET HASHMONAY",
+    "englishName": "Bet Hashmonay"
+  },
+  {
+    "cityName": "בית יהושע",
+    "symbol": "288",
+    "englishCopy": "BET YEHOSHUA",
+    "englishName": "Bet Yehoshua"
+  },
+  {
+    "cityName": "בית יוסף",
+    "symbol": "265",
+    "englishCopy": "BET YOSEF",
+    "englishName": "Bet Yosef"
+  },
+  {
+    "cityName": "בית ינאי",
+    "symbol": "200",
+    "englishCopy": "BET YANNAY",
+    "englishName": "Bet Yannay"
+  },
+  {
+    "cityName": "בית יצחק-שער חפר",
+    "symbol": "326",
+    "englishCopy": "BET YIZHAQ-SH. HEFER",
+    "englishName": "Bet Yizhaq-Sh. Hefer"
+  },
+  {
+    "cityName": "בית לחם הגלילית",
+    "symbol": "430",
+    "englishCopy": "BET LEHEM HAGELILIT",
+    "englishName": "Bet Lehem HaGelilit "
+  },
+  {
+    "cityName": "בית מאיר",
+    "symbol": "751",
+    "englishCopy": "BET ME'IR",
+    "englishName": "Bet Me'ir"
+  },
+  {
+    "cityName": "בית נחמיה",
+    "symbol": "784",
+    "englishCopy": "BET NEHEMYA",
+    "englishName": "Bet Nehemya"
+  },
+  {
+    "cityName": "בית ניר",
+    "symbol": "16",
+    "englishCopy": "BET NIR",
+    "englishName": "Bet Nir"
+  },
+  {
+    "cityName": "בית נקופה",
+    "symbol": "672",
+    "englishCopy": "BET NEQOFA",
+    "englishName": "Bet Neqofa"
+  },
+  {
+    "cityName": "בית עובד",
+    "symbol": "202",
+    "englishCopy": "BET OVED",
+    "englishName": "Bet Oved"
+  },
+  {
+    "cityName": "בית עוזיאל",
+    "symbol": "301",
+    "englishCopy": "BET UZZI'EL",
+    "englishName": "Bet Uzzi'el"
+  },
+  {
+    "cityName": "בית עזרא",
+    "symbol": "756",
+    "englishCopy": "BET EZRA",
+    "englishName": "Bet Ezra"
+  },
+  {
+    "cityName": "בית עריף",
+    "symbol": "604",
+    "englishCopy": "BET ARIF",
+    "englishName": "Bet Arif"
+  },
+  {
+    "cityName": "בית צבי",
+    "symbol": "212",
+    "englishCopy": "BET ZEVI",
+    "englishName": "Bet Zevi"
+  },
+  {
+    "cityName": "בית קמה",
+    "symbol": "598",
+    "englishCopy": "BET QAMA",
+    "englishName": "Bet Qama"
+  },
+  {
+    "cityName": "בית קשת",
+    "symbol": "365",
+    "englishCopy": "BET QESHET",
+    "englishName": "Bet Qeshet"
+  },
+  {
+    "cityName": "בית רבן",
+    "symbol": "848",
+    "englishCopy": "BET RABBAN",
+    "englishName": "Bet Rabban "
+  },
+  {
+    "cityName": "בית רימון",
+    "symbol": "1162",
+    "englishCopy": "BET RIMMON",
+    "englishName": "Bet Rimmon"
+  },
+  {
+    "cityName": "בית שאן",
+    "symbol": "9200",
+    "englishCopy": "BET SHE'AN",
+    "englishName": "Bet She'an "
+  },
+  {
+    "cityName": "בית שמש",
+    "symbol": "2610",
+    "englishCopy": "BET SHEMESH",
+    "englishName": "Bet Shemesh"
+  },
+  {
+    "cityName": "בית שערים",
+    "symbol": "248",
+    "englishCopy": "BET SHE'ARIM",
+    "englishName": "Bet She'arim "
+  },
+  {
+    "cityName": "בית שקמה",
+    "symbol": "747",
+    "englishCopy": "BET SHIQMA",
+    "englishName": "Bet Shiqma"
+  },
+  {
+    "cityName": "ביתן אהרן",
+    "symbol": "252",
+    "englishCopy": "BITAN AHARON",
+    "englishName": "Bitan Aharon"
+  },
+  {
+    "cityName": "ביתר עילית",
+    "symbol": "3780",
+    "englishCopy": "BETAR ILLIT",
+    "englishName": "Betar Illit"
+  },
+  {
+    "cityName": "בלפוריה",
+    "symbol": "94",
+    "englishCopy": "BALFURYA",
+    "englishName": "Balfurya"
+  },
+  {
+    "cityName": "בן זכאי",
+    "symbol": "760",
+    "englishCopy": "BEN ZAKKAY",
+    "englishName": "Ben Zakkay"
+  },
+  {
+    "cityName": "בן עמי",
+    "symbol": "712",
+    "englishCopy": "BEN AMMI",
+    "englishName": "Ben Ammi"
+  },
+  {
+    "cityName": "בן שמן (כפר נוער)",
+    "symbol": "1084",
+    "englishCopy": "BEN SHEMEN(K.NO'AR)",
+    "englishName": "Ben Shemen(K.No'ar)"
+  },
+  {
+    "cityName": "בן שמן (מושב)",
+    "symbol": "2013",
+    "englishCopy": "BEN SHEMEN (MOSHAV)",
+    "englishName": "Ben Shemen (Moshav)"
+  },
+  {
+    "cityName": "בני ברק",
+    "symbol": "6100",
+    "englishCopy": "BENE BERAQ",
+    "englishName": "Bene Beraq"
+  },
+  {
+    "cityName": "בני דקלים",
+    "symbol": "1368",
+    "englishCopy": "BNE DEQALIM",
+    "englishName": "Bne Dkalim"
+  },
+  {
+    "cityName": "בני דרום",
+    "symbol": "592",
+    "englishCopy": "BENE DAROM",
+    "englishName": "Bene Darom"
+  },
+  {
+    "cityName": "בני דרור",
+    "symbol": "386",
+    "englishCopy": "BENE DEROR",
+    "englishName": "Bene Deror"
+  },
+  {
+    "cityName": "בני יהודה",
+    "symbol": "4015",
+    "englishCopy": "BENE YEHUDA",
+    "englishName": "Bene Yehuda"
+  },
+  {
+    "cityName": "בני נצרים",
+    "symbol": "1363",
+    "englishCopy": "BNE NETSARIM",
+    "englishName": "Bne Netsarim"
+  },
+  {
+    "cityName": "בני עטרות",
+    "symbol": "448",
+    "englishCopy": "BENE ATAROT",
+    "englishName": "Bene Atarot"
+  },
+  {
+    "cityName": "בני עי\"ש",
+    "symbol": "1066",
+    "englishCopy": "BENE AYISH",
+    "englishName": "Bene Ayish"
+  },
+  {
+    "cityName": "בני ציון",
+    "symbol": "418",
+    "englishCopy": "BENE ZIYYON",
+    "englishName": "Bene Ziyyon"
+  },
+  {
+    "cityName": "בני ראם",
+    "symbol": "588",
+    "englishCopy": "BENE RE'EM",
+    "englishName": "Bene Re'em"
+  },
+  {
+    "cityName": "בניה",
+    "symbol": "685",
+    "englishCopy": "BENAYA",
+    "englishName": "Benaya"
+  },
+  {
+    "cityName": "בנימינה-גבעת עדה*",
+    "symbol": "9800",
+    "englishCopy": "BINYAMINA-GIV'AT ADA",
+    "englishName": "Binyamina-Giv'at Ada"
+  },
+  {
+    "cityName": "בסמ\"ה",
+    "symbol": "1326",
+    "englishCopy": "BASMA",
+    "englishName": "Basma"
+  },
+  {
+    "cityName": "בסמת טבעון",
+    "symbol": "944",
+    "englishCopy": "BASMAT TAB'UN",
+    "englishName": "Basmat Tab'un"
+  },
+  {
+    "cityName": "בענה",
+    "symbol": "483",
+    "englishCopy": "BI'NE",
+    "englishName": "Bi'ne"
+  },
+  {
+    "cityName": "בצרה",
+    "symbol": "389",
+    "englishCopy": "BAZRA",
+    "englishName": "Bazra"
+  },
+  {
+    "cityName": "בצת",
+    "symbol": "589",
+    "englishCopy": "BEZET",
+    "englishName": "Bezet"
+  },
+  {
+    "cityName": "בקוע",
+    "symbol": "864",
+    "englishCopy": "BEQOA",
+    "englishName": "Beqoa"
+  },
+  {
+    "cityName": "בקעות",
+    "symbol": "3612",
+    "englishCopy": "BEQA'OT",
+    "englishName": "Beqa'ot"
+  },
+  {
+    "cityName": "בקעת נטופה מ\"א 56",
+    "symbol": "1854"
+  },
+  {
+    "cityName": "בקעת תירען מ\"א 3",
+    "symbol": "1884"
+  },
+  {
+    "cityName": "בר-לב",
+    "symbol": "1728",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "בר גיורא",
+    "symbol": "823",
+    "englishCopy": "BAR GIYYORA",
+    "englishName": "Bar Giyyora"
+  },
+  {
+    "cityName": "בר יוחאי",
+    "symbol": "1191",
+    "englishCopy": "BAR YOHAY",
+    "englishName": "Bar Yohay"
+  },
+  {
+    "cityName": "ברוכין",
+    "symbol": "3744",
+    "englishCopy": "BRUKHIN",
+    "englishName": "Brukhin"
+  },
+  {
+    "cityName": "ברור חיל",
+    "symbol": "428",
+    "englishCopy": "BEROR HAYIL",
+    "englishName": "Beror Hayil"
+  },
+  {
+    "cityName": "ברוש",
+    "symbol": "2060",
+    "englishCopy": "BEROSH",
+    "englishName": "Berosh"
+  },
+  {
+    "cityName": "ברכה",
+    "symbol": "3710",
+    "englishCopy": "BERAKHA",
+    "englishName": "Berakha"
+  },
+  {
+    "cityName": "ברכיה",
+    "symbol": "746",
+    "englishCopy": "BEREKHYA",
+    "englishName": "Berekhya"
+  },
+  {
+    "cityName": "ברעם",
+    "symbol": "667",
+    "englishCopy": "BAR'AM",
+    "englishName": "Bar'am"
+  },
+  {
+    "cityName": "ברק",
+    "symbol": "141",
+    "englishCopy": "BARAQ",
+    "englishName": "Baraq"
+  },
+  {
+    "cityName": "ברקאי",
+    "symbol": "617",
+    "englishCopy": "BARQAY",
+    "englishName": "Barqay"
+  },
+  {
+    "cityName": "ברקן",
+    "symbol": "3654",
+    "englishCopy": "BARQAN",
+    "englishName": "Barqan"
+  },
+  {
+    "cityName": "ברקת",
+    "symbol": "2038",
+    "englishCopy": "BAREQET",
+    "englishName": "Bareqet"
+  },
+  {
+    "cityName": "בת הדר",
+    "symbol": "1323",
+    "englishCopy": "BAT HADAR",
+    "englishName": "Bat Hadar"
+  },
+  {
+    "cityName": "בת חן",
+    "symbol": "1361",
+    "englishCopy": "BAT HEN",
+    "englishName": "Bat Hen"
+  },
+  {
+    "cityName": "בת חפר",
+    "symbol": "1319",
+    "englishCopy": "BAT HEFER",
+    "englishName": "Bat Hefer"
+  },
+  {
+    "cityName": "בת ים",
+    "symbol": "6200",
+    "englishCopy": "BAT YAM",
+    "englishName": "Bat Yam"
+  },
+  {
+    "cityName": "בת עין",
+    "symbol": "3794",
+    "englishCopy": "BAT AYIN",
+    "englishName": "Bat Ayin"
+  },
+  {
+    "cityName": "בת שלמה",
+    "symbol": "33",
+    "englishCopy": "BAT SHELOMO",
+    "englishName": "Bat Shelomo"
+  },
+  {
+    "cityName": "בתי זיקוק - קישון",
+    "symbol": "1736",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "ג'דיידה-מכר",
+    "symbol": "1292",
+    "englishCopy": "JUDEIDE-MAKER",
+    "englishName": "Judeide-Maker"
+  },
+  {
+    "cityName": "ג'ולס",
+    "symbol": "485",
+    "englishCopy": "JULIS",
+    "englishName": "Julis"
+  },
+  {
+    "cityName": "ג'לג'וליה",
+    "symbol": "627",
+    "englishCopy": "JALJULYE",
+    "englishName": "Jaljulye"
+  },
+  {
+    "cityName": "ג'נאביב (שבט)",
+    "symbol": "976",
+    "englishCopy": "JUNNABIB",
+    "englishName": "Janabib"
+  },
+  {
+    "cityName": "ג'סר א-זרקא",
+    "symbol": "541",
+    "englishCopy": "JISR AZ-ZARQA",
+    "englishName": "Jisr Az-Zarqa"
+  },
+  {
+    "cityName": "ג'ש (גוש חלב)",
+    "symbol": "487",
+    "englishCopy": "JISH(GUSH HALAV)",
+    "englishName": "Jish(Gush Halav)"
+  },
+  {
+    "cityName": "ג'ת",
+    "symbol": "628",
+    "englishCopy": "JATT",
+    "englishName": "Jatt                                              "
+  },
+  {
+    "cityName": "גאולי תימן",
+    "symbol": "872",
+    "englishCopy": "GE'ULE TEMAN",
+    "englishName": "Ge'ule Teman"
+  },
+  {
+    "cityName": "גאולים",
+    "symbol": "379",
+    "englishCopy": "GE'ULIM",
+    "englishName": "Ge'ulim"
+  },
+  {
+    "cityName": "גאון הירדן מ\"א 3",
+    "symbol": "1963"
+  },
+  {
+    "cityName": "גאליה",
+    "symbol": "853",
+    "englishCopy": "GE'ALYA",
+    "englishName": "Ge'alya"
+  },
+  {
+    "cityName": "גבולות",
+    "symbol": "352",
+    "englishCopy": "GEVULOT",
+    "englishName": "Gevulot"
+  },
+  {
+    "cityName": "גבים",
+    "symbol": "424",
+    "englishCopy": "GEVIM",
+    "englishName": "Gevim"
+  },
+  {
+    "cityName": "גבע",
+    "symbol": "86",
+    "englishCopy": "GEVA",
+    "englishName": "Geva"
+  },
+  {
+    "cityName": "גבע בנימין",
+    "symbol": "3763",
+    "englishCopy": "GEVA BINYAMIN",
+    "englishName": "Geva Binyamin"
+  },
+  {
+    "cityName": "גבע כרמל",
+    "symbol": "683",
+    "englishCopy": "GEVA  KARMEL",
+    "englishName": "Geva  Karmel"
+  },
+  {
+    "cityName": "גבעולים",
+    "symbol": "2014",
+    "englishCopy": "GIV'OLIM",
+    "englishName": "Giv'olim"
+  },
+  {
+    "cityName": "גבעון החדשה",
+    "symbol": "3644",
+    "englishCopy": "GIV'ON HAHADASHA",
+    "englishName": "Giv'on HaHadasha"
+  },
+  {
+    "cityName": "גבעות בר",
+    "symbol": "1344",
+    "englishCopy": "GEVA'OT BAR",
+    "englishName": "Geva'ot Bar"
+  },
+  {
+    "cityName": "גבעת אבני",
+    "symbol": "1293",
+    "englishCopy": "GIV'AT AVNI",
+    "englishName": "Giv'at Avni"
+  },
+  {
+    "cityName": "גבעת אלה",
+    "symbol": "1288",
+    "englishCopy": "GIV'AT ELA",
+    "englishName": "Giv'at Ela"
+  },
+  {
+    "cityName": "גבעת ברנר",
+    "symbol": "147",
+    "englishCopy": "GIV'AT BRENNER",
+    "englishName": "Giv'at Brenner"
+  },
+  {
+    "cityName": "גבעת השלושה",
+    "symbol": "870",
+    "englishCopy": "GIV'AT HASHELOSHA",
+    "englishName": "Giv'at HaShelosha"
+  },
+  {
+    "cityName": "גבעת זאב",
+    "symbol": "3730",
+    "englishCopy": "GIV'AT ZE'EV",
+    "englishName": "Giv'at Ze'ev"
+  },
+  {
+    "cityName": "גבעת ח\"ן",
+    "symbol": "207",
+    "englishCopy": "GIV'AT HEN",
+    "englishName": "Giv'at Hen"
+  },
+  {
+    "cityName": "גבעת חביבה",
+    "symbol": "1740",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "גבעת חיים (איחוד)",
+    "symbol": "2018",
+    "englishCopy": "GIV'AT HAYYIM (IHUD)",
+    "englishName": "Giv'at Hayyim (Ihud)"
+  },
+  {
+    "cityName": "גבעת חיים (מאוחד)",
+    "symbol": "173",
+    "englishCopy": "GIV'AT HAYYIM(ME'UHAD)",
+    "englishName": "Giv'at Hayyim(Me'uhad)"
+  },
+  {
+    "cityName": "גבעת יואב",
+    "symbol": "4021",
+    "englishCopy": "GIV'AT YO'AV",
+    "englishName": "Giv'at Yo'av"
+  },
+  {
+    "cityName": "גבעת יערים",
+    "symbol": "787",
+    "englishCopy": "GIV'AT YE'ARIM",
+    "englishName": "Giv'at Ye'arim"
+  },
+  {
+    "cityName": "גבעת ישעיהו",
+    "symbol": "919",
+    "englishCopy": "GIV'AT YESHA'YAHU",
+    "englishName": "Giv'at Yesha'yahu"
+  },
+  {
+    "cityName": "גבעת כ\"ח",
+    "symbol": "802",
+    "englishCopy": "GIV'AT KOAH",
+    "englishName": "Giv'at Koah"
+  },
+  {
+    "cityName": "גבעת ניל\"י",
+    "symbol": "360",
+    "englishCopy": "GIV'AT NILI",
+    "englishName": "Giv'at Nili"
+  },
+  {
+    "cityName": "גבעת עוז",
+    "symbol": "703",
+    "englishCopy": "GIV'AT OZ",
+    "englishName": "Giv'at Oz"
+  },
+  {
+    "cityName": "גבעת שמואל",
+    "symbol": "681",
+    "englishCopy": "GIV'AT SHEMU'EL",
+    "englishName": "Giv'at Shemu'el"
+  },
+  {
+    "cityName": "גבעת שמש",
+    "symbol": "566",
+    "englishCopy": "GIV'AT SHEMESH",
+    "englishName": "Giv'at Shemesh"
+  },
+  {
+    "cityName": "גבעת שפירא",
+    "symbol": "1077",
+    "englishCopy": "GIV'AT SHAPPIRA",
+    "englishName": "Giv'at Shappira"
+  },
+  {
+    "cityName": "גבעתי",
+    "symbol": "793",
+    "englishCopy": "GIV'ATI",
+    "englishName": "Giv'ati"
+  },
+  {
+    "cityName": "גבעתיים",
+    "symbol": "6300",
+    "englishCopy": "GIV'ATAYIM",
+    "englishName": "Giv'atayim"
+  },
+  {
+    "cityName": "גברעם",
+    "symbol": "342",
+    "englishCopy": "GEVAR'AM",
+    "englishName": "Gevar'am"
+  },
+  {
+    "cityName": "גבת",
+    "symbol": "133",
+    "englishCopy": "GEVAT",
+    "englishName": "Gevat"
+  },
+  {
+    "cityName": "גדות",
+    "symbol": "35",
+    "englishCopy": "GADOT",
+    "englishName": "Gadot"
+  },
+  {
+    "cityName": "גדיש",
+    "symbol": "145",
+    "englishCopy": "GADISH",
+    "englishName": "Gadish"
+  },
+  {
+    "cityName": "גדעונה",
+    "symbol": "442",
+    "englishCopy": "GID'ONA",
+    "englishName": "Gid'ona"
+  },
+  {
+    "cityName": "גדרה",
+    "symbol": "2550",
+    "englishCopy": "GEDERA",
+    "englishName": "Gedera"
+  },
+  {
+    "cityName": "גולן דרומי מ\"א 71",
+    "symbol": "1966"
+  },
+  {
+    "cityName": "גולן צפוני מ\"א 71",
+    "symbol": "1962"
+  },
+  {
+    "cityName": "גולן תיכון מ\"א 71",
+    "symbol": "1964"
+  },
+  {
+    "cityName": "גונן",
+    "symbol": "852",
+    "englishCopy": "GONEN",
+    "englishName": "Gonen"
+  },
+  {
+    "cityName": "גורן",
+    "symbol": "755",
+    "englishCopy": "GOREN",
+    "englishName": "Goren"
+  },
+  {
+    "cityName": "גורנות הגליל",
+    "symbol": "1219",
+    "englishCopy": "GORNOT HAGALIL",
+    "englishName": "Gornot HaGalil"
+  },
+  {
+    "cityName": "גזית",
+    "symbol": "457",
+    "englishCopy": "GAZIT",
+    "englishName": "Gazit"
+  },
+  {
+    "cityName": "גזר",
+    "symbol": "370",
+    "englishCopy": "GEZER",
+    "englishName": "Gezer"
+  },
+  {
+    "cityName": "גיאה",
+    "symbol": "706",
+    "englishCopy": "GE'A",
+    "englishName": "Ge'a"
+  },
+  {
+    "cityName": "גיבתון",
+    "symbol": "196",
+    "englishCopy": "GIBBETON",
+    "englishName": "Gibbeton"
+  },
+  {
+    "cityName": "גיזו",
+    "symbol": "1043",
+    "englishCopy": "GIZO",
+    "englishName": "Gizo"
+  },
+  {
+    "cityName": "גילון",
+    "symbol": "1204",
+    "englishCopy": "GILON",
+    "englishName": "Gilon"
+  },
+  {
+    "cityName": "גילת",
+    "symbol": "736",
+    "englishCopy": "GILAT",
+    "englishName": "Gilat"
+  },
+  {
+    "cityName": "גינוסר",
+    "symbol": "262",
+    "englishCopy": "GINNOSAR",
+    "englishName": "Ginnosar"
+  },
+  {
+    "cityName": "גיניגר",
+    "symbol": "92",
+    "englishCopy": "GINNEGAR",
+    "englishName": "Ginnegar"
+  },
+  {
+    "cityName": "גינתון",
+    "symbol": "863",
+    "englishCopy": "GINNATON",
+    "englishName": "Ginnaton"
+  },
+  {
+    "cityName": "גיתה",
+    "symbol": "1206",
+    "englishCopy": "GITTA",
+    "englishName": "Gitta"
+  },
+  {
+    "cityName": "גיתית",
+    "symbol": "3613",
+    "englishCopy": "GITTIT",
+    "englishName": "Gittit"
+  },
+  {
+    "cityName": "גלאון",
+    "symbol": "393",
+    "englishCopy": "GAL'ON",
+    "englishName": "Gal'on"
+  },
+  {
+    "cityName": "גלגל",
+    "symbol": "3606",
+    "englishCopy": "GILGAL",
+    "englishName": "Gilgal"
+  },
+  {
+    "cityName": "גליל ים",
+    "symbol": "346",
+    "englishCopy": "GELIL YAM",
+    "englishName": "Gelil Yam"
+  },
+  {
+    "cityName": "גליל עליון מז מ\"א 1",
+    "symbol": "1809"
+  },
+  {
+    "cityName": "גליל עליון מז מ\"א 2",
+    "symbol": "1811"
+  },
+  {
+    "cityName": "גליל עליון מז מ\"א 55",
+    "symbol": "1810"
+  },
+  {
+    "cityName": "גליל עליון מז של\"ש",
+    "symbol": "1812"
+  },
+  {
+    "cityName": "גליל תחתון מז מ\"א 2",
+    "symbol": "1820"
+  },
+  {
+    "cityName": "גליל תחתון מז מ\"א 3",
+    "symbol": "1819"
+  },
+  {
+    "cityName": "גליל תחתון מז מ\"א 6",
+    "symbol": "1821"
+  },
+  {
+    "cityName": "גליל תחתון מז של\"ש",
+    "symbol": "1822"
+  },
+  {
+    "cityName": "גלעד (אבן יצחק)",
+    "symbol": "369",
+    "englishCopy": "GAL'ED (EVEN YIZHAQ)",
+    "englishName": "Gal'ed (Even Yizhaq)"
+  },
+  {
+    "cityName": "גמ\"ל מחוז דרום",
+    "symbol": "1997"
+  },
+  {
+    "cityName": "גמזו",
+    "symbol": "745",
+    "englishCopy": "GIMZO",
+    "englishName": "Gimzo"
+  },
+  {
+    "cityName": "גן הדרום",
+    "symbol": "1072",
+    "englishCopy": "GAN HADAROM",
+    "englishName": "Gan HaDarom"
+  },
+  {
+    "cityName": "גן השומרון",
+    "symbol": "225",
+    "englishCopy": "GAN HASHOMERON",
+    "englishName": "Gan HaShomeron"
+  },
+  {
+    "cityName": "גן חיים",
+    "symbol": "239",
+    "englishCopy": "GAN HAYYIM",
+    "englishName": "Gan Hayyim"
+  },
+  {
+    "cityName": "גן יאשיה",
+    "symbol": "734",
+    "englishCopy": "GAN YOSHIYYA",
+    "englishName": "Gan Yoshiyya"
+  },
+  {
+    "cityName": "גן יבנה",
+    "symbol": "166",
+    "englishCopy": "GAN YAVNE",
+    "englishName": "Gan Yavne"
+  },
+  {
+    "cityName": "גן נר",
+    "symbol": "1274",
+    "englishCopy": "GAN NER",
+    "englishName": "Gan Ner"
+  },
+  {
+    "cityName": "גן שורק",
+    "symbol": "311",
+    "englishCopy": "GAN SOREQ",
+    "englishName": "Gan Soreq"
+  },
+  {
+    "cityName": "גן שלמה",
+    "symbol": "144",
+    "englishCopy": "GAN SHELOMO",
+    "englishName": "Gan Shelomo"
+  },
+  {
+    "cityName": "גן שמואל",
+    "symbol": "72",
+    "englishCopy": "GAN SHEMU'EL",
+    "englishName": "Gan Shemu'el"
+  },
+  {
+    "cityName": "גנות",
+    "symbol": "836",
+    "englishCopy": "GANNOT",
+    "englishName": "Gannot"
+  },
+  {
+    "cityName": "גנות הדר",
+    "symbol": "549",
+    "englishCopy": "GANNOT HADAR",
+    "englishName": "Gannot Hadar"
+  },
+  {
+    "cityName": "גני הדר",
+    "symbol": "1103",
+    "englishCopy": "GANNE HADAR",
+    "englishName": "Ganne Hadar"
+  },
+  {
+    "cityName": "גני טל",
+    "symbol": "1371",
+    "englishCopy": "GANNE TAL",
+    "englishName": "Ganne Tal                                         "
+  },
+  {
+    "cityName": "גני יוחנן",
+    "symbol": "862",
+    "englishCopy": "GANNE YOHANAN",
+    "englishName": "Ganne Yohanan"
+  },
+  {
+    "cityName": "גני מודיעין",
+    "symbol": "3823",
+    "englishCopy": "GANNE MODI'IN",
+    "englishName": "Ganne Modi'in"
+  },
+  {
+    "cityName": "גני עם",
+    "symbol": "218",
+    "englishCopy": "GANNE AM",
+    "englishName": "Ganne Am"
+  },
+  {
+    "cityName": "גני תקווה",
+    "symbol": "229",
+    "englishCopy": "GANNE TIQWA",
+    "englishName": "Ganne Tiqwa"
+  },
+  {
+    "cityName": "געש",
+    "symbol": "842",
+    "englishCopy": "GA'ASH",
+    "englishName": "Ga'ash"
+  },
+  {
+    "cityName": "געתון",
+    "symbol": "463",
+    "englishCopy": "GA'TON",
+    "englishName": "Ga'ton"
+  },
+  {
+    "cityName": "גפן",
+    "symbol": "39",
+    "englishCopy": "GEFEN",
+    "englishName": "Gefen"
+  },
+  {
+    "cityName": "גרופית",
+    "symbol": "1129",
+    "englishCopy": "GEROFIT",
+    "englishName": "Gerofit"
+  },
+  {
+    "cityName": "גשור",
+    "symbol": "4022",
+    "englishCopy": "GESHUR",
+    "englishName": "Geshur"
+  },
+  {
+    "cityName": "גשר",
+    "symbol": "305",
+    "englishCopy": "GESHER",
+    "englishName": "Gesher"
+  },
+  {
+    "cityName": "גשר הזיו",
+    "symbol": "574",
+    "englishCopy": "GESHER HAZIW",
+    "englishName": "Gesher HaZiw"
+  },
+  {
+    "cityName": "גת (קיבוץ)",
+    "symbol": "340",
+    "englishCopy": "GAT(QIBBUZ)",
+    "englishName": "Gat(Qibbuz)"
+  },
+  {
+    "cityName": "גת רימון",
+    "symbol": "128",
+    "englishCopy": "GAT RIMMON",
+    "englishName": "Gat Rimmon"
+  },
+  {
+    "cityName": "דאלית אל-כרמל",
+    "symbol": "494",
+    "englishCopy": "DALIYAT AL-KARMEL",
+    "englishName": "Daliyat Al-Karmel"
+  },
+  {
+    "cityName": "דבורה",
+    "symbol": "146",
+    "englishCopy": "DEVORA",
+    "englishName": "Devora"
+  },
+  {
+    "cityName": "דבורייה",
+    "symbol": "489",
+    "englishCopy": "DABURIYYA",
+    "englishName": "Daburiyya"
+  },
+  {
+    "cityName": "דבירה",
+    "symbol": "849",
+    "englishCopy": "DEVIRA",
+    "englishName": "Devira"
+  },
+  {
+    "cityName": "דברת",
+    "symbol": "407",
+    "englishCopy": "DAVERAT",
+    "englishName": "Daverat"
+  },
+  {
+    "cityName": "דגניה א'",
+    "symbol": "62",
+    "englishCopy": "DEGANYA ALEF",
+    "englishName": "Deganya Alef"
+  },
+  {
+    "cityName": "דגניה ב'",
+    "symbol": "79",
+    "englishCopy": "DEGANYA BET",
+    "englishName": "Deganya Bet"
+  },
+  {
+    "cityName": "דוב\"ב",
+    "symbol": "1067",
+    "englishCopy": "DOVEV",
+    "englishName": "Dovev"
+  },
+  {
+    "cityName": "דולב",
+    "symbol": "3747",
+    "englishCopy": "DOLEV",
+    "englishName": "Dolev"
+  },
+  {
+    "cityName": "דור",
+    "symbol": "738",
+    "englishCopy": "DOR",
+    "englishName": "Dor"
+  },
+  {
+    "cityName": "דורות",
+    "symbol": "336",
+    "englishCopy": "DOROT",
+    "englishName": "Dorot"
+  },
+  {
+    "cityName": "דחי",
+    "symbol": "475",
+    "englishCopy": "DAHI",
+    "englishName": "Dahi"
+  },
+  {
+    "cityName": "דייר אל-אסד",
+    "symbol": "490",
+    "englishCopy": "DEIR AL-ASAD",
+    "englishName": "Deir Al-Asad"
+  },
+  {
+    "cityName": "דייר חנא",
+    "symbol": "492",
+    "englishCopy": "DEIR HANNA",
+    "englishName": "Deir Hanna"
+  },
+  {
+    "cityName": "דייר ראפאת",
+    "symbol": "493",
+    "englishCopy": "DEIR RAFAT",
+    "englishName": "Deir Rafat"
+  },
+  {
+    "cityName": "דימונה",
+    "symbol": "2200",
+    "englishCopy": "DIMONA",
+    "englishName": "Dimona"
+  },
+  {
+    "cityName": "דישון",
+    "symbol": "2063",
+    "englishCopy": "DISHON",
+    "englishName": "Dishon"
+  },
+  {
+    "cityName": "דלייה",
+    "symbol": "300",
+    "englishCopy": "DALIYYA",
+    "englishName": "Daliyya"
+  },
+  {
+    "cityName": "דלתון",
+    "symbol": "431",
+    "englishCopy": "DALTON",
+    "englishName": "Dalton "
+  },
+  {
+    "cityName": "דלתון",
+    "symbol": "1709",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "דמיידה",
+    "symbol": "1317",
+    "englishCopy": "DEMEIDE",
+    "englishName": "Demeide"
+  },
+  {
+    "cityName": "דן",
+    "symbol": "303",
+    "englishCopy": "DAN",
+    "englishName": "Dan"
+  },
+  {
+    "cityName": "דפנה",
+    "symbol": "302",
+    "englishCopy": "DAFNA",
+    "englishName": "Dafna"
+  },
+  {
+    "cityName": "דקל",
+    "symbol": "1241",
+    "englishCopy": "DEQEL",
+    "englishName": "Deqel"
+  },
+  {
+    "cityName": "דרום השרון מ\"א 18",
+    "symbol": "1881"
+  },
+  {
+    "cityName": "דרום השרון מ\"א 20",
+    "symbol": "1882"
+  },
+  {
+    "cityName": "דרום השרון של\"ש",
+    "symbol": "1885"
+  },
+  {
+    "cityName": "דרום יהודה",
+    "symbol": "1998"
+  },
+  {
+    "cityName": "דריג'את",
+    "symbol": "1349",
+    "englishCopy": "DERIG'AT",
+    "englishName": "Derig'at"
+  },
+  {
+    "cityName": "האון",
+    "symbol": "702",
+    "englishCopy": "HAON",
+    "englishName": "HaOn"
+  },
+  {
+    "cityName": "הבונים",
+    "symbol": "675",
+    "englishCopy": "HABONIM",
+    "englishName": "HaBonim"
+  },
+  {
+    "cityName": "הגושרים",
+    "symbol": "356",
+    "englishCopy": "HAGOSHERIM",
+    "englishName": "HaGosherim"
+  },
+  {
+    "cityName": "הדר עם",
+    "symbol": "191",
+    "englishCopy": "HADAR AM",
+    "englishName": "Hadar Am "
+  },
+  {
+    "cityName": "הוד השרון",
+    "symbol": "9700",
+    "englishCopy": "HOD HASHARON",
+    "englishName": "Hod HaSharon"
+  },
+  {
+    "cityName": "הודיות",
+    "symbol": "1322",
+    "englishCopy": "HODAYOT",
+    "englishName": "Hodayot"
+  },
+  {
+    "cityName": "הודייה",
+    "symbol": "726",
+    "englishCopy": "HODIYYA",
+    "englishName": "Hodiyya"
+  },
+  {
+    "cityName": "הוואשלה (שבט)",
+    "symbol": "1169",
+    "englishCopy": "HAWASHLA",
+    "englishName": "Al-Hawashila"
+  },
+  {
+    "cityName": "הוזייל (שבט)",
+    "symbol": "956",
+    "englishCopy": "HUZAYYEL",
+    "englishName": "Al-Huzayyil"
+  },
+  {
+    "cityName": "הושעיה",
+    "symbol": "1186",
+    "englishCopy": "HOSHA'AYA",
+    "englishName": "Hosha'aya"
+  },
+  {
+    "cityName": "הזורע",
+    "symbol": "250",
+    "englishCopy": "HAZOREA",
+    "englishName": "HaZorea"
+  },
+  {
+    "cityName": "הזורעים",
+    "symbol": "307",
+    "englishCopy": "HAZORE'IM",
+    "englishName": "HaZore'im"
+  },
+  {
+    "cityName": "החותרים",
+    "symbol": "434",
+    "englishCopy": "HAHOTERIM",
+    "englishName": "HaHoterim"
+  },
+  {
+    "cityName": "היוגב",
+    "symbol": "684",
+    "englishCopy": "HAYOGEV",
+    "englishName": "HaYogev"
+  },
+  {
+    "cityName": "הילה",
+    "symbol": "1208",
+    "englishCopy": "HILLA",
+    "englishName": "Hilla"
+  },
+  {
+    "cityName": "המעפיל",
+    "symbol": "377",
+    "englishCopy": "HAMA'PIL",
+    "englishName": "HaMa'pil"
+  },
+  {
+    "cityName": "המרכז למחקר-נחל שורק",
+    "symbol": "1751",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "הסוללים",
+    "symbol": "677",
+    "englishCopy": "HASOLELIM",
+    "englishName": "HaSolelim "
+  },
+  {
+    "cityName": "העוגן",
+    "symbol": "423",
+    "englishCopy": "HAOGEN",
+    "englishName": "HaOgen"
+  },
+  {
+    "cityName": "הערבה מ\"א 51",
+    "symbol": "1944"
+  },
+  {
+    "cityName": "הערבה מ\"א 53",
+    "symbol": "1945"
+  },
+  {
+    "cityName": "הערבה מ\"א 54",
+    "symbol": "1946"
+  },
+  {
+    "cityName": "הר אדר",
+    "symbol": "3769",
+    "englishCopy": "HAR ADAR",
+    "englishName": "Har Adar"
+  },
+  {
+    "cityName": "הר אלכסנדר מ\"א 14",
+    "symbol": "1869"
+  },
+  {
+    "cityName": "הר אלכסנדר מ\"א 45",
+    "symbol": "1868"
+  },
+  {
+    "cityName": "הר אלכסנדר של\"ש",
+    "symbol": "1870"
+  },
+  {
+    "cityName": "הר גילה",
+    "symbol": "3603",
+    "englishCopy": "HAR GILLO",
+    "englishName": "Har Gillo"
+  },
+  {
+    "cityName": "הר הנגב הדרומי מ\"א 48",
+    "symbol": "1953"
+  },
+  {
+    "cityName": "הר הנגב הדרומי מ\"א 53",
+    "symbol": "1951"
+  },
+  {
+    "cityName": "הר הנגב הדרומי מ\"א 54",
+    "symbol": "1952"
+  },
+  {
+    "cityName": "הר הנגב הצפוני מ\"א 48",
+    "symbol": "1948"
+  },
+  {
+    "cityName": "הר הנגב הצפוני מ\"א 51",
+    "symbol": "1949"
+  },
+  {
+    "cityName": "הר הנגב הצפוני מ\"א 53",
+    "symbol": "1947"
+  },
+  {
+    "cityName": "הר הנגב הצפוני מ\"א 54",
+    "symbol": "1950"
+  },
+  {
+    "cityName": "הר עמשא",
+    "symbol": "1261",
+    "englishCopy": "HAR AMASA",
+    "englishName": "Har Amasa"
+  },
+  {
+    "cityName": "הראל",
+    "symbol": "464",
+    "englishCopy": "HAR'EL",
+    "englishName": "Har'el"
+  },
+  {
+    "cityName": "הרדוף",
+    "symbol": "1249",
+    "englishCopy": "HARDUF",
+    "englishName": "Harduf"
+  },
+  {
+    "cityName": "הרי יהודה מ\"א 26",
+    "symbol": "1801"
+  },
+  {
+    "cityName": "הרי יהודה של\"ש",
+    "symbol": "1802"
+  },
+  {
+    "cityName": "הרי נצרת-תירען",
+    "symbol": "1823"
+  },
+  {
+    "cityName": "הרי נצרת-תירען מ\"א 9",
+    "symbol": "1839"
+  },
+  {
+    "cityName": "הרצלייה",
+    "symbol": "6400",
+    "englishCopy": "HERZLIYYA",
+    "englishName": "Herzliyya"
+  },
+  {
+    "cityName": "הררית",
+    "symbol": "1203",
+    "englishCopy": "HARARIT",
+    "englishName": "Hararit"
+  },
+  {
+    "cityName": "השומרון",
+    "symbol": "1999"
+  },
+  {
+    "cityName": "ורד יריחו",
+    "symbol": "3639",
+    "englishCopy": "WERED YERIHO",
+    "englishName": "Wered Yeriho"
+  },
+  {
+    "cityName": "ורדון",
+    "symbol": "1133",
+    "englishCopy": "WARDON",
+    "englishName": "Wardon"
+  },
+  {
+    "cityName": "זבארגה (שבט)",
+    "symbol": "2742",
+    "englishCopy": "ZABARGA",
+    "englishName": "Az-Zabarika"
+  },
+  {
+    "cityName": "זבדיאל",
+    "symbol": "815",
+    "englishCopy": "ZAVDI'EL",
+    "englishName": "Zavdi'el"
+  },
+  {
+    "cityName": "זוהר",
+    "symbol": "44",
+    "englishCopy": "ZOHAR",
+    "englishName": "Zohar"
+  },
+  {
+    "cityName": "זיקים",
+    "symbol": "584",
+    "englishCopy": "ZIQIM",
+    "englishName": "Ziqim"
+  },
+  {
+    "cityName": "זיתן",
+    "symbol": "788",
+    "englishCopy": "ZETAN",
+    "englishName": "Zetan"
+  },
+  {
+    "cityName": "זכרון יעקב",
+    "symbol": "9300",
+    "englishCopy": "ZIKHRON YA'AQOV",
+    "englishName": "Zikhron Ya'aqov"
+  },
+  {
+    "cityName": "זכריה",
+    "symbol": "799",
+    "englishCopy": "ZEKHARYA",
+    "englishName": "Zekharya"
+  },
+  {
+    "cityName": "זמר",
+    "symbol": "1290",
+    "englishCopy": "ZEMER",
+    "englishName": "Zemer"
+  },
+  {
+    "cityName": "זמרת",
+    "symbol": "1065",
+    "englishCopy": "ZIMRAT",
+    "englishName": "Zimrat"
+  },
+  {
+    "cityName": "זנוח",
+    "symbol": "816",
+    "englishCopy": "ZANOAH",
+    "englishName": "Zanoah"
+  },
+  {
+    "cityName": "זרועה",
+    "symbol": "2064",
+    "englishCopy": "ZERU'A",
+    "englishName": "Zeru'a"
+  },
+  {
+    "cityName": "זרזיר",
+    "symbol": "975",
+    "englishCopy": "ZARZIR",
+    "englishName": "Zarzir"
+  },
+  {
+    "cityName": "זרחיה",
+    "symbol": "818",
+    "englishCopy": "ZERAHYA",
+    "englishName": "Zerahya"
+  },
+  {
+    "cityName": "ח'ואלד",
+    "symbol": "1321",
+    "englishCopy": "KHAWALED",
+    "englishName": "Khawaled"
+  },
+  {
+    "cityName": "ח'ואלד (שבט)",
+    "symbol": "986",
+    "englishCopy": "KHAWALED",
+    "englishName": "Khawalid     /  Al-Khawalid"
+  },
+  {
+    "cityName": "חבצלת השרון",
+    "symbol": "235",
+    "englishCopy": "HAVAZZELET HASHARON",
+    "englishName": "Havazzelet HaSharon"
+  },
+  {
+    "cityName": "חבר",
+    "symbol": "1110",
+    "englishCopy": "HEVER",
+    "englishName": "Hever"
+  },
+  {
+    "cityName": "חגור",
+    "symbol": "717",
+    "englishCopy": "HAGOR",
+    "englishName": "Hagor"
+  },
+  {
+    "cityName": "חגי",
+    "symbol": "3764",
+    "englishCopy": "HAGGAY",
+    "englishName": "Haggay"
+  },
+  {
+    "cityName": "חגלה",
+    "symbol": "205",
+    "englishCopy": "HOGLA",
+    "englishName": "Hogla"
+  },
+  {
+    "cityName": "חד-נס",
+    "symbol": "4026",
+    "englishCopy": "HAD-NES",
+    "englishName": "Had-Nes"
+  },
+  {
+    "cityName": "חדיד",
+    "symbol": "618",
+    "englishCopy": "HADID",
+    "englishName": "Hadid"
+  },
+  {
+    "cityName": "חדרה",
+    "symbol": "6500",
+    "englishCopy": "HADERA",
+    "englishName": "Hadera"
+  },
+  {
+    "cityName": "חוג'ייראת (ד'הרה) (שבט)",
+    "symbol": "948",
+    "englishCopy": "HUJEIRAT (DAHRA)",
+    "englishName": "Al-Hujayrat (Zahra)"
+  },
+  {
+    "cityName": "חולדה",
+    "symbol": "160",
+    "englishCopy": "HULDA",
+    "englishName": "Hulda"
+  },
+  {
+    "cityName": "חולון",
+    "symbol": "6600",
+    "englishCopy": "HOLON",
+    "englishName": "Holon"
+  },
+  {
+    "cityName": "חולית",
+    "symbol": "1239",
+    "englishCopy": "HOLIT",
+    "englishName": "Holit"
+  },
+  {
+    "cityName": "חולתה",
+    "symbol": "253",
+    "englishCopy": "HULATA",
+    "englishName": "Hulata"
+  },
+  {
+    "cityName": "חוסן",
+    "symbol": "662",
+    "englishCopy": "HOSEN",
+    "englishName": "Hosen"
+  },
+  {
+    "cityName": "חוסנייה",
+    "symbol": "1332",
+    "englishCopy": "HUSSNIYYA",
+    "englishName": "Hussniyya"
+  },
+  {
+    "cityName": "חוף הכרמל מ\"א 15",
+    "symbol": "1864"
+  },
+  {
+    "cityName": "חופית",
+    "symbol": "115",
+    "englishCopy": "HOFIT",
+    "englishName": "Hofit"
+  },
+  {
+    "cityName": "חוקוק",
+    "symbol": "374",
+    "englishCopy": "HUQOQ",
+    "englishName": "Huqoq"
+  },
+  {
+    "cityName": "חורה",
+    "symbol": "1303",
+    "englishCopy": "HURA",
+    "englishName": "Hura"
+  },
+  {
+    "cityName": "חורפיש",
+    "symbol": "496",
+    "englishCopy": "HURFEISH",
+    "englishName": "Hurfeish"
+  },
+  {
+    "cityName": "חורשים",
+    "symbol": "355",
+    "englishCopy": "HORESHIM",
+    "englishName": "Horeshim"
+  },
+  {
+    "cityName": "חזון",
+    "symbol": "1047",
+    "englishCopy": "HAZON",
+    "englishName": "Hazon"
+  },
+  {
+    "cityName": "חיבת ציון",
+    "symbol": "219",
+    "englishCopy": "HIBBAT ZIYYON",
+    "englishName": "Hibbat Ziyyon"
+  },
+  {
+    "cityName": "חיננית",
+    "symbol": "3643",
+    "englishCopy": "HINNANIT",
+    "englishName": "Hinnanit"
+  },
+  {
+    "cityName": "חיפה",
+    "symbol": "4000",
+    "englishCopy": "HAIFA",
+    "englishName": "Haifa"
+  },
+  {
+    "cityName": "חירות",
+    "symbol": "162",
+    "englishCopy": "HERUT",
+    "englishName": "Herut"
+  },
+  {
+    "cityName": "חלוץ",
+    "symbol": "1272",
+    "englishCopy": "HALUZ",
+    "englishName": "Haluz"
+  },
+  {
+    "cityName": "חלמיש",
+    "symbol": "3573",
+    "englishCopy": "HALLAMISH",
+    "englishName": "Hallamish"
+  },
+  {
+    "cityName": "חלץ",
+    "symbol": "820",
+    "englishCopy": "HELEZ",
+    "englishName": "Helez"
+  },
+  {
+    "cityName": "חמאם",
+    "symbol": "993",
+    "englishCopy": "HAMAM",
+    "englishName": "Hamam"
+  },
+  {
+    "cityName": "חמד",
+    "symbol": "801",
+    "englishCopy": "HEMED",
+    "englishName": "Hemed"
+  },
+  {
+    "cityName": "חמדיה",
+    "symbol": "343",
+    "englishCopy": "HAMADYA",
+    "englishName": "Hamadya"
+  },
+  {
+    "cityName": "חמדת",
+    "symbol": "3646",
+    "englishCopy": "HEMDAT",
+    "englishName": "Hemdat"
+  },
+  {
+    "cityName": "חמרה",
+    "symbol": "3609",
+    "englishCopy": "HAMRA",
+    "englishName": "Hamra"
+  },
+  {
+    "cityName": "חניאל",
+    "symbol": "807",
+    "englishCopy": "HANNI'EL",
+    "englishName": "Hanni'el"
+  },
+  {
+    "cityName": "חניתה",
+    "symbol": "280",
+    "englishCopy": "HANITA",
+    "englishName": "Hanita"
+  },
+  {
+    "cityName": "חנתון",
+    "symbol": "1257",
+    "englishCopy": "HANNATON",
+    "englishName": "Hannaton"
+  },
+  {
+    "cityName": "חספין",
+    "symbol": "4005",
+    "englishCopy": "HASPIN",
+    "englishName": "Haspin"
+  },
+  {
+    "cityName": "חפץ חיים",
+    "symbol": "363",
+    "englishCopy": "HAFEZ HAYYIM",
+    "englishName": "Hafez Hayyim"
+  },
+  {
+    "cityName": "חפצי-בה",
+    "symbol": "90",
+    "englishCopy": "HEFZI-BAH",
+    "englishName": "Hefzi-Bah"
+  },
+  {
+    "cityName": "חצב",
+    "symbol": "700",
+    "englishCopy": "HAZAV",
+    "englishName": "Hazav"
+  },
+  {
+    "cityName": "חצבה",
+    "symbol": "13",
+    "englishCopy": "HAZEVA",
+    "englishName": "Hazeva"
+  },
+  {
+    "cityName": "חצור-אשדוד",
+    "symbol": "406",
+    "englishCopy": "HAZOR-ASHDOD",
+    "englishName": "Hazor-Ashdod"
+  },
+  {
+    "cityName": "חצור הגלילית",
+    "symbol": "2034",
+    "englishCopy": "HAZOR HAGELILIT",
+    "englishName": "Hazor HaGelilit"
+  },
+  {
+    "cityName": "חצרים",
+    "symbol": "397",
+    "englishCopy": "HAZERIM",
+    "englishName": "Hazerim"
+  },
+  {
+    "cityName": "חרב לאת",
+    "symbol": "422",
+    "englishCopy": "HEREV LE'ET",
+    "englishName": "Herev Le'Et"
+  },
+  {
+    "cityName": "חרוצים",
+    "symbol": "1024",
+    "englishCopy": "HARUZIM",
+    "englishName": "Haruzim"
+  },
+  {
+    "cityName": "חריש",
+    "symbol": "1247",
+    "englishCopy": "HARISH",
+    "englishName": "Harish"
+  },
+  {
+    "cityName": "חרמון מ\"א 71",
+    "symbol": "1960"
+  },
+  {
+    "cityName": "חרמש",
+    "symbol": "3717",
+    "englishCopy": "HERMESH",
+    "englishName": "Hermesh"
+  },
+  {
+    "cityName": "חרשים",
+    "symbol": "1209",
+    "englishCopy": "HARASHIM",
+    "englishName": "Harashim"
+  },
+  {
+    "cityName": "חשמונאים",
+    "symbol": "3770",
+    "englishCopy": "HASHMONA'IM",
+    "englishName": "Hashmona'im"
+  },
+  {
+    "cityName": "טבריה",
+    "symbol": "6700",
+    "englishCopy": "TIBERIAS",
+    "englishName": "Tiberias"
+  },
+  {
+    "cityName": "טובא-זנגרייה",
+    "symbol": "962",
+    "englishCopy": "TUBA-ZANGARIYYE",
+    "englishName": "Tuba-Zangariyye"
+  },
+  {
+    "cityName": "טורעאן",
+    "symbol": "498",
+    "englishCopy": "TUR'AN",
+    "englishName": "Tur'an"
+  },
+  {
+    "cityName": "טייבה",
+    "symbol": "2730",
+    "englishCopy": "TAYIBE",
+    "englishName": "Tayibe"
+  },
+  {
+    "cityName": "טייבה (בעמק)",
+    "symbol": "497",
+    "englishCopy": "TAYIBE(BAEMEQ)",
+    "englishName": "Tayibe(Baemeq)"
+  },
+  {
+    "cityName": "טירה",
+    "symbol": "2720",
+    "englishCopy": "TIRE",
+    "englishName": "Tire"
+  },
+  {
+    "cityName": "טירת יהודה",
+    "symbol": "663",
+    "englishCopy": "TIRAT YEHUDA",
+    "englishName": "Tirat Yehuda"
+  },
+  {
+    "cityName": "טירת כרמל",
+    "symbol": "2100",
+    "englishCopy": "TIRAT KARMEL",
+    "englishName": "Tirat Karmel"
+  },
+  {
+    "cityName": "טירת צבי",
+    "symbol": "268",
+    "englishCopy": "TIRAT ZEVI",
+    "englishName": "Tirat Zevi"
+  },
+  {
+    "cityName": "טל-אל",
+    "symbol": "1181",
+    "englishCopy": "TAL-EL",
+    "englishName": "Tal-El"
+  },
+  {
+    "cityName": "טל שחר",
+    "symbol": "462",
+    "englishCopy": "TAL SHAHAR",
+    "englishName": "Tal Shahar"
+  },
+  {
+    "cityName": "טללים",
+    "symbol": "1177",
+    "englishCopy": "TELALIM",
+    "englishName": "Telalim"
+  },
+  {
+    "cityName": "טלמון",
+    "symbol": "3788",
+    "englishCopy": "TALMON",
+    "englishName": "Talmon"
+  },
+  {
+    "cityName": "טמרה",
+    "symbol": "8900",
+    "englishCopy": "TAMRA",
+    "englishName": "Tamra"
+  },
+  {
+    "cityName": "טמרה (יזרעאל)",
+    "symbol": "547",
+    "englishCopy": "TAMRA (YIZRE'EL)",
+    "englishName": "Tamra (Yizre'el)"
+  },
+  {
+    "cityName": "טנא",
+    "symbol": "3743",
+    "englishCopy": "TENE",
+    "englishName": "Tene"
+  },
+  {
+    "cityName": "טפחות",
+    "symbol": "1214",
+    "englishCopy": "TEFAHOT",
+    "englishName": "Tefahot"
+  },
+  {
+    "cityName": "יאנוח-ג'ת",
+    "symbol": "1295",
+    "englishCopy": "YANUH-JAT",
+    "englishName": "Yanuh-Jat"
+  },
+  {
+    "cityName": "יבול",
+    "symbol": "1232",
+    "englishCopy": "YEVUL",
+    "englishName": "Yevul"
+  },
+  {
+    "cityName": "יבנאל",
+    "symbol": "46",
+    "englishCopy": "YAVNE'EL",
+    "englishName": "Yavne'el"
+  },
+  {
+    "cityName": "יבנה",
+    "symbol": "2660",
+    "englishCopy": "YAVNE",
+    "englishName": "Yavne"
+  },
+  {
+    "cityName": "יגור",
+    "symbol": "96",
+    "englishCopy": "YAGUR",
+    "englishName": "Yagur"
+  },
+  {
+    "cityName": "יגל",
+    "symbol": "798",
+    "englishCopy": "YAGEL",
+    "englishName": "Yagel"
+  },
+  {
+    "cityName": "יד בנימין",
+    "symbol": "577",
+    "englishCopy": "YAD BINYAMIN",
+    "englishName": "Yad Binyamin"
+  },
+  {
+    "cityName": "יד השמונה",
+    "symbol": "1134",
+    "englishCopy": "YAD HASHEMONA",
+    "englishName": "Yad HaShemona"
+  },
+  {
+    "cityName": "יד חנה",
+    "symbol": "758",
+    "englishCopy": "YAD HANNA",
+    "englishName": "Yad Hanna"
+  },
+  {
+    "cityName": "יד מרדכי",
+    "symbol": "358",
+    "englishCopy": "YAD MORDEKHAY",
+    "englishName": "Yad Mordekhay"
+  },
+  {
+    "cityName": "יד נתן",
+    "symbol": "775",
+    "englishCopy": "YAD NATAN",
+    "englishName": "Yad Natan"
+  },
+  {
+    "cityName": "יד רמב\"ם",
+    "symbol": "64",
+    "englishCopy": "YAD RAMBAM",
+    "englishName": "Yad Rambam             "
+  },
+  {
+    "cityName": "ידידה",
+    "symbol": "1144",
+    "englishCopy": "YEDIDA",
+    "englishName": "Yedida"
+  },
+  {
+    "cityName": "יהוד",
+    "symbol": "9400",
+    "englishCopy": "YEHUD",
+    "englishName": "Yehud"
+  },
+  {
+    "cityName": "יהל",
+    "symbol": "1158",
+    "englishCopy": "YAHEL",
+    "englishName": "Yahel"
+  },
+  {
+    "cityName": "יובל",
+    "symbol": "2009",
+    "englishCopy": "YUVAL",
+    "englishName": "Yuval"
+  },
+  {
+    "cityName": "יובלים",
+    "symbol": "1226",
+    "englishCopy": "YUVALLIM",
+    "englishName": "Yuvallim"
+  },
+  {
+    "cityName": "יודפת",
+    "symbol": "1112",
+    "englishCopy": "YODEFAT",
+    "englishName": "Yodefat"
+  },
+  {
+    "cityName": "יונתן",
+    "symbol": "4007",
+    "englishCopy": "YONATAN",
+    "englishName": "Yonatan"
+  },
+  {
+    "cityName": "יושיביה",
+    "symbol": "803",
+    "englishCopy": "YOSHIVYA",
+    "englishName": "Yoshivya"
+  },
+  {
+    "cityName": "יזרעאל",
+    "symbol": "452",
+    "englishCopy": "YIZRE'EL",
+    "englishName": "Yizre'el "
+  },
+  {
+    "cityName": "יחיעם",
+    "symbol": "409",
+    "englishCopy": "YEHI'AM",
+    "englishName": "Yehi'am"
+  },
+  {
+    "cityName": "יטבתה",
+    "symbol": "866",
+    "englishCopy": "YOTVATA",
+    "englishName": "Yotvata"
+  },
+  {
+    "cityName": "ייט\"ב",
+    "symbol": "3607",
+    "englishCopy": "YITAV",
+    "englishName": "Yitav"
+  },
+  {
+    "cityName": "יכיני",
+    "symbol": "811",
+    "englishCopy": "YAKHINI",
+    "englishName": "Yakhini"
+  },
+  {
+    "cityName": "ים המלח - בתי מלון",
+    "symbol": "1772",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "ינוב",
+    "symbol": "753",
+    "englishCopy": "YANUV",
+    "englishName": "Yanuv"
+  },
+  {
+    "cityName": "ינון",
+    "symbol": "2011",
+    "englishCopy": "YINNON",
+    "englishName": "Yinnon"
+  },
+  {
+    "cityName": "יסוד המעלה",
+    "symbol": "29",
+    "englishCopy": "YESUD HAMA'ALA",
+    "englishName": "Yesud HaMa'ala"
+  },
+  {
+    "cityName": "יסודות",
+    "symbol": "440",
+    "englishCopy": "YESODOT",
+    "englishName": "Yesodot"
+  },
+  {
+    "cityName": "יסעור",
+    "symbol": "575",
+    "englishCopy": "YAS'UR",
+    "englishName": "Yas'ur"
+  },
+  {
+    "cityName": "יעד",
+    "symbol": "1138",
+    "englishCopy": "YA'AD",
+    "englishName": "Ya'ad"
+  },
+  {
+    "cityName": "יעל",
+    "symbol": "1117",
+    "englishCopy": "YA'EL",
+    "englishName": "Ya'el"
+  },
+  {
+    "cityName": "יעף",
+    "symbol": "1044",
+    "englishCopy": "YE'AF",
+    "englishName": "Ye'af"
+  },
+  {
+    "cityName": "יערה",
+    "symbol": "795",
+    "englishCopy": "YA'ARA",
+    "englishName": "Ya'ara"
+  },
+  {
+    "cityName": "יערות גבעת המורה מ\"א 9",
+    "symbol": "1863"
+  },
+  {
+    "cityName": "יפיע",
+    "symbol": "499",
+    "englishCopy": "YAFI",
+    "englishName": "Yafi"
+  },
+  {
+    "cityName": "יפית",
+    "symbol": "3566",
+    "englishCopy": "YAFIT",
+    "englishName": "Yafit"
+  },
+  {
+    "cityName": "יפעת",
+    "symbol": "134",
+    "englishCopy": "YIF'AT",
+    "englishName": "Yif'at"
+  },
+  {
+    "cityName": "יפתח",
+    "symbol": "453",
+    "englishCopy": "YIFTAH",
+    "englishName": "Yiftah"
+  },
+  {
+    "cityName": "יצהר",
+    "symbol": "3749",
+    "englishCopy": "YIZHAR",
+    "englishName": "Yizhar"
+  },
+  {
+    "cityName": "יציץ",
+    "symbol": "759",
+    "englishCopy": "YAZIZ",
+    "englishName": "Yaziz"
+  },
+  {
+    "cityName": "יקום",
+    "symbol": "417",
+    "englishCopy": "YAQUM",
+    "englishName": "Yaqum"
+  },
+  {
+    "cityName": "יקיר",
+    "symbol": "3647",
+    "englishCopy": "YAQIR",
+    "englishName": "Yaqir"
+  },
+  {
+    "cityName": "יקנעם (מושבה)",
+    "symbol": "241",
+    "englishCopy": "YOQNE'AM(MOSHAVA)",
+    "englishName": "Yoqne'am(Moshava)"
+  },
+  {
+    "cityName": "יקנעם עילית",
+    "symbol": "240",
+    "englishCopy": "YOQNE'AM ILLIT",
+    "englishName": "Yoqne'am Illit"
+  },
+  {
+    "cityName": "יראון",
+    "symbol": "623",
+    "englishCopy": "YIR'ON",
+    "englishName": "Yir'on"
+  },
+  {
+    "cityName": "ירדנה",
+    "symbol": "2026",
+    "englishCopy": "YARDENA",
+    "englishName": "Yardena"
+  },
+  {
+    "cityName": "ירוחם",
+    "symbol": "831",
+    "englishCopy": "YEROHAM",
+    "englishName": "Yeroham"
+  },
+  {
+    "cityName": "ירושלים",
+    "symbol": "3000",
+    "englishCopy": "JERUSALEM",
+    "englishName": "Jerusalem"
+  },
+  {
+    "cityName": "ירחיב",
+    "symbol": "718",
+    "englishCopy": "YARHIV",
+    "englishName": "Yarhiv"
+  },
+  {
+    "cityName": "ירכא",
+    "symbol": "502",
+    "englishCopy": "YIRKA",
+    "englishName": "Yirka"
+  },
+  {
+    "cityName": "ירקונה",
+    "symbol": "183",
+    "englishCopy": "YARQONA",
+    "englishName": "Yarqona"
+  },
+  {
+    "cityName": "ישע",
+    "symbol": "916",
+    "englishCopy": "YESHA",
+    "englishName": "Yesha"
+  },
+  {
+    "cityName": "ישעי",
+    "symbol": "805",
+    "englishCopy": "YISH'I",
+    "englishName": "Yish'i"
+  },
+  {
+    "cityName": "ישרש",
+    "symbol": "828",
+    "englishCopy": "YASHRESH",
+    "englishName": "Yashresh"
+  },
+  {
+    "cityName": "יתד",
+    "symbol": "1227",
+    "englishCopy": "YATED",
+    "englishName": "Yated"
+  },
+  {
+    "cityName": "כאבול",
+    "symbol": "504",
+    "englishCopy": "KABUL",
+    "englishName": "Kabul"
+  },
+  {
+    "cityName": "כאוכב אבו אל-היג'א",
+    "symbol": "505",
+    "englishCopy": "KAOKAB ABU AL-HIJA",
+    "englishName": "Kaokab Abu Al-Hija"
+  },
+  {
+    "cityName": "כברי",
+    "symbol": "576",
+    "englishCopy": "KABRI",
+    "englishName": "Kabri"
+  },
+  {
+    "cityName": "כדורי",
+    "symbol": "371",
+    "englishCopy": "KADOORIE",
+    "englishName": "Kadoorie"
+  },
+  {
+    "cityName": "כדיתה",
+    "symbol": "1338",
+    "englishCopy": "KADDITA",
+    "englishName": "Kaddita"
+  },
+  {
+    "cityName": "כוכב השחר",
+    "symbol": "3564",
+    "englishCopy": "KOKHAV HASHAHAR",
+    "englishName": "Kokhav HaShahar"
+  },
+  {
+    "cityName": "כוכב יאיר",
+    "symbol": "1224",
+    "englishCopy": "KOKHAV YA'IR",
+    "englishName": "Kokhav Ya'ir"
+  },
+  {
+    "cityName": "כוכב יעקב",
+    "symbol": "3779",
+    "englishCopy": "KOKHAV YA'AQOV",
+    "englishName": "Kokhav Ya'aqov"
+  },
+  {
+    "cityName": "כוכב מיכאל",
+    "symbol": "824",
+    "englishCopy": "KOKHAV MIKHA'EL",
+    "englishName": "Kokhav Mikha'el "
+  },
+  {
+    "cityName": "כורזים",
+    "symbol": "1252",
+    "englishCopy": "KORAZIM",
+    "englishName": "Korazim "
+  },
+  {
+    "cityName": "כחל",
+    "symbol": "1210",
+    "englishCopy": "KAHAL",
+    "englishName": "Kahal"
+  },
+  {
+    "cityName": "כחלה",
+    "symbol": "1367",
+    "englishCopy": "KOCHLEA",
+    "englishName": "Kochlea"
+  },
+  {
+    "cityName": "כיסופים",
+    "symbol": "840",
+    "englishCopy": "KISSUFIM",
+    "englishName": "Kissufim "
+  },
+  {
+    "cityName": "כישור",
+    "symbol": "1153",
+    "englishCopy": "KISHOR",
+    "englishName": "Kishor"
+  },
+  {
+    "cityName": "כליל",
+    "symbol": "1183",
+    "englishCopy": "KELIL",
+    "englishName": "Kelil"
+  },
+  {
+    "cityName": "כלנית",
+    "symbol": "1229",
+    "englishCopy": "KALLANIT",
+    "englishName": "Kallanit"
+  },
+  {
+    "cityName": "כמאנה",
+    "symbol": "1331",
+    "englishCopy": "KAMANE",
+    "englishName": "Kamane"
+  },
+  {
+    "cityName": "כמהין",
+    "symbol": "1291",
+    "englishCopy": "KEMEHIN",
+    "englishName": "Kemehin"
+  },
+  {
+    "cityName": "כמון",
+    "symbol": "1201",
+    "englishCopy": "KAMMON",
+    "englishName": "Kammon"
+  },
+  {
+    "cityName": "כנות",
+    "symbol": "2006",
+    "englishCopy": "KANNOT",
+    "englishName": "Kannot"
+  },
+  {
+    "cityName": "כנף",
+    "symbol": "4028",
+    "englishCopy": "KANAF",
+    "englishName": "Kanaf"
+  },
+  {
+    "cityName": "כנרת (מושבה)",
+    "symbol": "63",
+    "englishCopy": "KINNERET(MOSHAVA)",
+    "englishName": "Kinneret(Moshava)"
+  },
+  {
+    "cityName": "כנרת (קבוצה)",
+    "symbol": "57",
+    "englishCopy": "KINNERET(QEVUZA)",
+    "englishName": "Kinneret(Qevuza)"
+  },
+  {
+    "cityName": "כסיפה",
+    "symbol": "1059",
+    "englishCopy": "KUSEIFE",
+    "englishName": "Kuseife"
+  },
+  {
+    "cityName": "כסלון",
+    "symbol": "859",
+    "englishCopy": "KESALON",
+    "englishName": "Kesalon"
+  },
+  {
+    "cityName": "כסרא-סמיע",
+    "symbol": "1296",
+    "englishCopy": "KISRA-SUMEI",
+    "englishName": "Kisra-Sumei"
+  },
+  {
+    "cityName": "כעביה-טבאש-חג'אג'רה",
+    "symbol": "978",
+    "englishCopy": "KA'ABIYYE-TABBASH-HAJAJRE",
+    "englishName": "Ka'abiyye-Tabbash-Hajajre"
+  },
+  {
+    "cityName": "כפר אביב",
+    "symbol": "857",
+    "englishCopy": "KEFAR AVIV",
+    "englishName": "Kefar Aviv"
+  },
+  {
+    "cityName": "כפר אדומים",
+    "symbol": "3638",
+    "englishCopy": "KEFAR ADUMMIM",
+    "englishName": "Kefar Adummim"
+  },
+  {
+    "cityName": "כפר אוריה",
+    "symbol": "364",
+    "englishCopy": "KEFAR URIYYA",
+    "englishName": "Kefar Uriyya"
+  },
+  {
+    "cityName": "כפר אחים",
+    "symbol": "690",
+    "englishCopy": "KEFAR AHIM",
+    "englishName": "Kefar Ahim"
+  },
+  {
+    "cityName": "כפר ביאליק",
+    "symbol": "220",
+    "englishCopy": "KEFAR BIALIK",
+    "englishName": "Kefar Bialik"
+  },
+  {
+    "cityName": "כפר ביל\"ו",
+    "symbol": "177",
+    "englishCopy": "KEFAR BILU",
+    "englishName": "Kefar Bilu"
+  },
+  {
+    "cityName": "כפר בלום",
+    "symbol": "357",
+    "englishCopy": "KEFAR BLUM",
+    "englishName": "Kefar Blum"
+  },
+  {
+    "cityName": "כפר בן נון",
+    "symbol": "2010",
+    "englishCopy": "KEFAR BIN NUN",
+    "englishName": "Kefar Bin Nun"
+  },
+  {
+    "cityName": "כפר ברא",
+    "symbol": "633",
+    "englishCopy": "KAFAR BARA",
+    "englishName": "Kafar Bara"
+  },
+  {
+    "cityName": "כפר ברוך",
+    "symbol": "132",
+    "englishCopy": "KEFAR BARUKH",
+    "englishName": "Kefar Barukh"
+  },
+  {
+    "cityName": "כפר גדעון",
+    "symbol": "106",
+    "englishCopy": "KEFAR GID'ON",
+    "englishName": "Kefar Gid'on"
+  },
+  {
+    "cityName": "כפר גלים",
+    "symbol": "427",
+    "englishCopy": "KEFAR GALLIM",
+    "englishName": "Kefar Gallim"
+  },
+  {
+    "cityName": "כפר גליקסון",
+    "symbol": "310",
+    "englishCopy": "KEFAR GLIKSON",
+    "englishName": "Kefar Glikson"
+  },
+  {
+    "cityName": "כפר גלעדי",
+    "symbol": "76",
+    "englishCopy": "KEFAR GIL'ADI",
+    "englishName": "Kefar Gil'adi"
+  },
+  {
+    "cityName": "כפר דניאל",
+    "symbol": "707",
+    "englishCopy": "KEFAR DANIYYEL",
+    "englishName": "Kefar Daniyyel"
+  },
+  {
+    "cityName": "כפר האורנים",
+    "symbol": "3796",
+    "englishCopy": "KEFAR HAORANIM",
+    "englishName": "Kefar HaOranim"
+  },
+  {
+    "cityName": "כפר החורש",
+    "symbol": "192",
+    "englishCopy": "KEFAR HAHORESH",
+    "englishName": "Kefar HaHoresh"
+  },
+  {
+    "cityName": "כפר המכבי",
+    "symbol": "254",
+    "englishCopy": "KEFAR HAMAKKABBI",
+    "englishName": "Kefar HaMakkabbi"
+  },
+  {
+    "cityName": "כפר הנגיד",
+    "symbol": "582",
+    "englishCopy": "KEFAR HANAGID",
+    "englishName": "Kefar HaNagid"
+  },
+  {
+    "cityName": "כפר הנוער הדתי",
+    "symbol": "890",
+    "englishCopy": "KEFAR HANO'AR HADATI",
+    "englishName": "Kefar HaNo'ar Hadati"
+  },
+  {
+    "cityName": "כפר הנשיא",
+    "symbol": "443",
+    "englishCopy": "KEFAR HANASI",
+    "englishName": "Kefar HaNasi"
+  },
+  {
+    "cityName": "כפר הס",
+    "symbol": "187",
+    "englishCopy": "KEFAR HESS",
+    "englishName": "Kefar Hess"
+  },
+  {
+    "cityName": "כפר הרא\"ה",
+    "symbol": "217",
+    "englishCopy": "KEFAR HARO'E",
+    "englishName": "Kefar HaRo'e"
+  },
+  {
+    "cityName": "כפר הרי\"ף",
+    "symbol": "888",
+    "englishCopy": "KEFAR HARIF",
+    "englishName": "Kefar Harif"
+  },
+  {
+    "cityName": "כפר ויתקין",
+    "symbol": "190",
+    "englishCopy": "KEFAR VITKIN",
+    "englishName": "Kefar Vitkin"
+  },
+  {
+    "cityName": "כפר ורבורג",
+    "symbol": "320",
+    "englishCopy": "KEFAR WARBURG",
+    "englishName": "Kefar Warburg"
+  },
+  {
+    "cityName": "כפר ורדים",
+    "symbol": "1263",
+    "englishCopy": "KEFAR WERADIM",
+    "englishName": "Kefar Weradim"
+  },
+  {
+    "cityName": "כפר זוהרים",
+    "symbol": "1325",
+    "englishCopy": "KEFAR ZOHARIM",
+    "englishName": "Kefar Zoharim                                     "
+  },
+  {
+    "cityName": "כפר זיתים",
+    "symbol": "786",
+    "englishCopy": "KEFAR ZETIM",
+    "englishName": "Kefar Zetim"
+  },
+  {
+    "cityName": "כפר חב\"ד",
+    "symbol": "696",
+    "englishCopy": "KEFAR HABAD",
+    "englishName": "Kefar Habad"
+  },
+  {
+    "cityName": "כפר חושן",
+    "symbol": "609",
+    "englishCopy": "KEFAR HOSHEN",
+    "englishName": "Kefar Hoshen"
+  },
+  {
+    "cityName": "כפר חיטים",
+    "symbol": "255",
+    "englishCopy": "KEFAR HITTIM",
+    "englishName": "Kefar Hittim"
+  },
+  {
+    "cityName": "כפר חיים",
+    "symbol": "193",
+    "englishCopy": "KEFAR HAYYIM",
+    "englishName": "Kefar Hayyim"
+  },
+  {
+    "cityName": "כפר חנניה",
+    "symbol": "1297",
+    "englishCopy": "KEFAR HANANYA",
+    "englishName": "Kefar Hananya"
+  },
+  {
+    "cityName": "כפר חסידים א'",
+    "symbol": "112",
+    "englishCopy": "KEFAR HASIDIM ALEF",
+    "englishName": "Kefar Hasidim Alef"
+  },
+  {
+    "cityName": "כפר חסידים ב'",
+    "symbol": "889",
+    "englishCopy": "KEFAR HASIDIM BET",
+    "englishName": "Kefar Hasidim Bet"
+  },
+  {
+    "cityName": "כפר חרוב",
+    "symbol": "4004",
+    "englishCopy": "KEFAR HARUV",
+    "englishName": "Kefar Haruv"
+  },
+  {
+    "cityName": "כפר טרומן",
+    "symbol": "673",
+    "englishCopy": "KEFAR TRUMAN",
+    "englishName": "Kefar Truman"
+  },
+  {
+    "cityName": "כפר יאסיף",
+    "symbol": "507",
+    "englishCopy": "KAFAR YASIF",
+    "englishName": "Kafar Yasif"
+  },
+  {
+    "cityName": "כפר ידידיה",
+    "symbol": "233",
+    "englishCopy": "KEFAR YEDIDYA",
+    "englishName": "Kefar Yedidya"
+  },
+  {
+    "cityName": "כפר יהושע",
+    "symbol": "140",
+    "englishCopy": "KEFAR YEHOSHUA",
+    "englishName": "Kefar Yehoshua"
+  },
+  {
+    "cityName": "כפר יונה",
+    "symbol": "168",
+    "englishCopy": "KEFAR YONA",
+    "englishName": "Kefar Yona"
+  },
+  {
+    "cityName": "כפר יחזקאל",
+    "symbol": "85",
+    "englishCopy": "KEFAR YEHEZQEL",
+    "englishName": "Kefar Yehezqel"
+  },
+  {
+    "cityName": "כפר יעבץ",
+    "symbol": "170",
+    "englishCopy": "KEFAR YA'BEZ",
+    "englishName": "Kefar Ya'bez"
+  },
+  {
+    "cityName": "כפר כמא",
+    "symbol": "508",
+    "englishCopy": "KAFAR KAMA",
+    "englishName": "Kafar Kama"
+  },
+  {
+    "cityName": "כפר כנא",
+    "symbol": "509",
+    "englishCopy": "KAFAR KANNA",
+    "englishName": "Kafar Kanna"
+  },
+  {
+    "cityName": "כפר מונש",
+    "symbol": "387",
+    "englishCopy": "KEFAR MONASH",
+    "englishName": "Kefar Monash"
+  },
+  {
+    "cityName": "כפר מימון",
+    "symbol": "1095",
+    "englishCopy": "KEFAR MAYMON",
+    "englishName": "Kefar Maymon"
+  },
+  {
+    "cityName": "כפר מל\"ל",
+    "symbol": "98",
+    "englishCopy": "KEFAR MALAL",
+    "englishName": "Kefar Malal"
+  },
+  {
+    "cityName": "כפר מנדא",
+    "symbol": "510",
+    "englishCopy": "KAFAR MANDA",
+    "englishName": "Kafar Manda"
+  },
+  {
+    "cityName": "כפר מנחם",
+    "symbol": "274",
+    "englishCopy": "KEFAR MENAHEM",
+    "englishName": "Kefar Menahem"
+  },
+  {
+    "cityName": "כפר מסריק",
+    "symbol": "297",
+    "englishCopy": "KEFAR MASARYK",
+    "englishName": "Kefar Masaryk"
+  },
+  {
+    "cityName": "כפר מצר",
+    "symbol": "512",
+    "englishCopy": "KAFAR MISR",
+    "englishName": "Kafar Misr"
+  },
+  {
+    "cityName": "כפר מרדכי",
+    "symbol": "764",
+    "englishCopy": "KEFAR MORDEKHAY",
+    "englishName": "Kefar Mordekhay"
+  },
+  {
+    "cityName": "כפר נטר",
+    "symbol": "316",
+    "englishCopy": "KEFAR NETTER",
+    "englishName": "Kefar Netter"
+  },
+  {
+    "cityName": "כפר סאלד",
+    "symbol": "345",
+    "englishCopy": "KEFAR SZOLD",
+    "englishName": "Kefar Szold"
+  },
+  {
+    "cityName": "כפר סבא",
+    "symbol": "6900",
+    "englishCopy": "KEFAR SAVA",
+    "englishName": "Kefar Sava"
+  },
+  {
+    "cityName": "כפר סילבר",
+    "symbol": "107",
+    "englishCopy": "KEFAR SILVER",
+    "englishName": "Kefar Silver"
+  },
+  {
+    "cityName": "כפר סירקין",
+    "symbol": "249",
+    "englishCopy": "KEFAR SIRKIN",
+    "englishName": "Kefar Sirkin"
+  },
+  {
+    "cityName": "כפר עבודה",
+    "symbol": "875",
+    "englishCopy": "KEFAR AVODA",
+    "englishName": "Kefar Avoda"
+  },
+  {
+    "cityName": "כפר עזה",
+    "symbol": "845",
+    "englishCopy": "KEFAR AZZA",
+    "englishName": "Kefar Azza"
+  },
+  {
+    "cityName": "כפר עציון",
+    "symbol": "3488",
+    "englishCopy": "KEFAR EZYON",
+    "englishName": "Kefar Ezyon"
+  },
+  {
+    "cityName": "כפר פינס",
+    "symbol": "189",
+    "englishCopy": "KEFAR PINES",
+    "englishName": "Kefar Pines"
+  },
+  {
+    "cityName": "כפר קאסם",
+    "symbol": "634",
+    "englishCopy": "KAFAR QASEM",
+    "englishName": "Kafar Qasem"
+  },
+  {
+    "cityName": "כפר קיש",
+    "symbol": "388",
+    "englishCopy": "KEFAR KISCH",
+    "englishName": "Kefar Kisch"
+  },
+  {
+    "cityName": "כפר קרע",
+    "symbol": "654",
+    "englishCopy": "KAFAR QARA",
+    "englishName": "Kafar Qara"
+  },
+  {
+    "cityName": "כפר ראש הנקרה",
+    "symbol": "579",
+    "englishCopy": "KEFAR ROSH HANIQRA",
+    "englishName": "Kefar Rosh HaNiqra"
+  },
+  {
+    "cityName": "כפר רוזנואלד (זרעית)",
+    "symbol": "1130",
+    "englishCopy": "KEFAR ROZENWALD(ZARIT)",
+    "englishName": "Kefar Rozenwald(Zarit)"
+  },
+  {
+    "cityName": "כפר רופין",
+    "symbol": "295",
+    "englishCopy": "KEFAR RUPPIN",
+    "englishName": "Kefar Ruppin"
+  },
+  {
+    "cityName": "כפר רות",
+    "symbol": "1166",
+    "englishCopy": "KEFAR RUT",
+    "englishName": "Kefar Rut"
+  },
+  {
+    "cityName": "כפר שמאי",
+    "symbol": "605",
+    "englishCopy": "KEFAR SHAMMAY",
+    "englishName": "Kefar Shammay"
+  },
+  {
+    "cityName": "כפר שמואל",
+    "symbol": "743",
+    "englishCopy": "KEFAR SHEMU'EL",
+    "englishName": "Kefar Shemu'el"
+  },
+  {
+    "cityName": "כפר שמריהו",
+    "symbol": "267",
+    "englishCopy": "KEFAR SHEMARYAHU",
+    "englishName": "Kefar Shemaryahu"
+  },
+  {
+    "cityName": "כפר תבור",
+    "symbol": "47",
+    "englishCopy": "KEFAR TAVOR",
+    "englishName": "Kefar Tavor"
+  },
+  {
+    "cityName": "כפר תפוח",
+    "symbol": "3572",
+    "englishCopy": "KEFAR TAPPUAH",
+    "englishName": "Kefar Tappuah"
+  },
+  {
+    "cityName": "כרכום",
+    "symbol": "1285",
+    "englishCopy": "KARKOM",
+    "englishName": "Karkom"
+  },
+  {
+    "cityName": "כרם בן זמרה",
+    "symbol": "664",
+    "englishCopy": "KEREM BEN ZIMRA",
+    "englishName": "Kerem Ben Zimra"
+  },
+  {
+    "cityName": "כרם בן שמן",
+    "symbol": "88",
+    "englishCopy": "KEREM BEN SHEMEN",
+    "englishName": "Kerem Ben Shemen "
+  },
+  {
+    "cityName": "כרם יבנה (ישיבה)",
+    "symbol": "1094",
+    "englishCopy": "KEREM YAVNE(YESHIVA)",
+    "englishName": "Kerem Yavne(Yeshiva)"
+  },
+  {
+    "cityName": "כרם מהר\"ל",
+    "symbol": "580",
+    "englishCopy": "KEREM MAHARAL",
+    "englishName": "Kerem Maharal "
+  },
+  {
+    "cityName": "כרם שלום",
+    "symbol": "1085",
+    "englishCopy": "KEREM SHALOM",
+    "englishName": "Kerem Shalom"
+  },
+  {
+    "cityName": "כרמי יוסף",
+    "symbol": "1264",
+    "englishCopy": "KARME YOSEF",
+    "englishName": "Karme Yosef"
+  },
+  {
+    "cityName": "כרמי צור",
+    "symbol": "3766",
+    "englishCopy": "KARME ZUR",
+    "englishName": "Karme Zur"
+  },
+  {
+    "cityName": "כרמי קטיף",
+    "symbol": "1374",
+    "englishCopy": "KARME KATIF",
+    "englishName": "Karme Katif"
+  },
+  {
+    "cityName": "כרמיאל",
+    "symbol": "1139",
+    "englishCopy": "KARMI'EL",
+    "englishName": "Karmi'el"
+  },
+  {
+    "cityName": "כרמייה",
+    "symbol": "768",
+    "englishCopy": "KARMIYYA",
+    "englishName": "Karmiyya"
+  },
+  {
+    "cityName": "כרמים",
+    "symbol": "1198",
+    "englishCopy": "KERAMIM",
+    "englishName": "Keramim"
+  },
+  {
+    "cityName": "כרמל",
+    "symbol": "3656",
+    "englishCopy": "KARMEL",
+    "englishName": "Karmel"
+  },
+  {
+    "cityName": "לבון",
+    "symbol": "1207",
+    "englishCopy": "LAVON",
+    "englishName": "Lavon"
+  },
+  {
+    "cityName": "לביא",
+    "symbol": "585",
+    "englishCopy": "LAVI",
+    "englishName": "Lavi"
+  },
+  {
+    "cityName": "לבנים",
+    "symbol": "1230",
+    "englishCopy": "LIVNIM",
+    "englishName": "Livnim"
+  },
+  {
+    "cityName": "להב",
+    "symbol": "2023",
+    "englishCopy": "LAHAV",
+    "englishName": "Lahav "
+  },
+  {
+    "cityName": "להבות הבשן",
+    "symbol": "380",
+    "englishCopy": "LAHAVOT HABASHAN",
+    "englishName": "Lahavot HaBashan "
+  },
+  {
+    "cityName": "להבות חביבה",
+    "symbol": "715",
+    "englishCopy": "LAHAVOT HAVIVA",
+    "englishName": "Lahavot Haviva"
+  },
+  {
+    "cityName": "להבים",
+    "symbol": "1271",
+    "englishCopy": "LEHAVIM",
+    "englishName": "Lehavim "
+  },
+  {
+    "cityName": "לוד",
+    "symbol": "7000",
+    "englishCopy": "LOD",
+    "englishName": "Lod"
+  },
+  {
+    "cityName": "לוזית",
+    "symbol": "52",
+    "englishCopy": "LUZIT",
+    "englishName": "Luzit"
+  },
+  {
+    "cityName": "לוחמי הגיטאות",
+    "symbol": "595",
+    "englishCopy": "LOHAME HAGETA'OT",
+    "englishName": "Lohame HaGeta'ot "
+  },
+  {
+    "cityName": "לוטם",
+    "symbol": "1171",
+    "englishCopy": "LOTEM",
+    "englishName": "Lotem"
+  },
+  {
+    "cityName": "לוטן",
+    "symbol": "1255",
+    "englishCopy": "LOTAN",
+    "englishName": "Lotan"
+  },
+  {
+    "cityName": "לימן",
+    "symbol": "674",
+    "englishCopy": "LIMAN",
+    "englishName": "Liman "
+  },
+  {
+    "cityName": "לכיש",
+    "symbol": "24",
+    "englishCopy": "LAKHISH",
+    "englishName": "Lakhish"
+  },
+  {
+    "cityName": "לפיד",
+    "symbol": "1310",
+    "englishCopy": "LAPPID",
+    "englishName": "Lappid"
+  },
+  {
+    "cityName": "לפידות",
+    "symbol": "1173",
+    "englishCopy": "LAPPIDOT",
+    "englishName": "Lappidot"
+  },
+  {
+    "cityName": "לקיה",
+    "symbol": "1060",
+    "englishCopy": "LAQYE",
+    "englishName": "Laqye"
+  },
+  {
+    "cityName": "מאור",
+    "symbol": "2055",
+    "englishCopy": "MA'OR",
+    "englishName": "Ma'or"
+  },
+  {
+    "cityName": "מאיר שפיה",
+    "symbol": "102",
+    "englishCopy": "ME'IR SHEFEYA",
+    "englishName": "Me'ir Shefeya"
+  },
+  {
+    "cityName": "מבוא ביתר",
+    "symbol": "771",
+    "englishCopy": "MEVO BETAR",
+    "englishName": "Mevo Betar"
+  },
+  {
+    "cityName": "מבוא דותן",
+    "symbol": "3569",
+    "englishCopy": "MEVO DOTAN",
+    "englishName": "Mevo Dotan"
+  },
+  {
+    "cityName": "מבוא חורון",
+    "symbol": "3709",
+    "englishCopy": "MEVO HORON",
+    "englishName": "Mevo Horon "
+  },
+  {
+    "cityName": "מבוא חמה",
+    "symbol": "4204",
+    "englishCopy": "MEVO HAMMA",
+    "englishName": "Mevo Hamma"
+  },
+  {
+    "cityName": "מבוא מודיעים",
+    "symbol": "1141",
+    "englishCopy": "MEVO MODI'IM",
+    "englishName": "Mevo Modi'im"
+  },
+  {
+    "cityName": "מבואות ים",
+    "symbol": "1318",
+    "englishCopy": "MEVO'OT YAM",
+    "englishName": "Mevo'ot Yam "
+  },
+  {
+    "cityName": "מבועים",
+    "symbol": "1080",
+    "englishCopy": "MABBU'IM",
+    "englishName": "Mabbu'im "
+  },
+  {
+    "cityName": "מבטחים",
+    "symbol": "829",
+    "englishCopy": "MIVTAHIM",
+    "englishName": "Mivtahim "
+  },
+  {
+    "cityName": "מבקיעים",
+    "symbol": "573",
+    "englishCopy": "MAVQI'IM",
+    "englishName": "Mavqi'im"
+  },
+  {
+    "cityName": "מבשרת ציון",
+    "symbol": "1015",
+    "englishCopy": "MEVASSERET ZIYYON",
+    "englishName": "Mevasseret Ziyyon"
+  },
+  {
+    "cityName": "מג'ד אל-כרום",
+    "symbol": "516",
+    "englishCopy": "MAJD AL-KURUM",
+    "englishName": "Majd al-Kurum"
+  },
+  {
+    "cityName": "מג'דל שמס",
+    "symbol": "4201",
+    "englishCopy": "MAJDAL SHAMS",
+    "englishName": "Majdal Shams"
+  },
+  {
+    "cityName": "מגאר",
+    "symbol": "481",
+    "englishCopy": "MUGHAR",
+    "englishName": "Mughar"
+  },
+  {
+    "cityName": "מגדים",
+    "symbol": "689",
+    "englishCopy": "MEGADIM",
+    "englishName": "Megadim"
+  },
+  {
+    "cityName": "מגדל",
+    "symbol": "65",
+    "englishCopy": "MIGDAL",
+    "englishName": "Migdal "
+  },
+  {
+    "cityName": "מגדל העמק",
+    "symbol": "874",
+    "englishCopy": "MIGDAL HAEMEQ",
+    "englishName": "Migdal HaEmeq"
+  },
+  {
+    "cityName": "מגדל עוז",
+    "symbol": "3561",
+    "englishCopy": "MIGDAL OZ",
+    "englishName": "Migdal Oz"
+  },
+  {
+    "cityName": "מגדל תפן",
+    "symbol": "1722",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מגדלים",
+    "symbol": "3751",
+    "englishCopy": "MIGDALIM",
+    "englishName": "Migdalim "
+  },
+  {
+    "cityName": "מגידו",
+    "symbol": "586",
+    "englishCopy": "MEGIDDO",
+    "englishName": "Megiddo"
+  },
+  {
+    "cityName": "מגל",
+    "symbol": "375",
+    "englishCopy": "MAGGAL",
+    "englishName": "Maggal "
+  },
+  {
+    "cityName": "מגן",
+    "symbol": "695",
+    "englishCopy": "MAGEN",
+    "englishName": "Magen "
+  },
+  {
+    "cityName": "מגן שאול",
+    "symbol": "1155",
+    "englishCopy": "MAGEN SHA'UL",
+    "englishName": "Magen Sha'ul "
+  },
+  {
+    "cityName": "מגשימים",
+    "symbol": "722",
+    "englishCopy": "MAGSHIMIM",
+    "englishName": "Magshimim"
+  },
+  {
+    "cityName": "מדרך עוז",
+    "symbol": "2029",
+    "englishCopy": "MIDRAKH OZ",
+    "englishName": "Midrakh Oz"
+  },
+  {
+    "cityName": "מדרשת בן גוריון",
+    "symbol": "1140",
+    "englishCopy": "MIDRESHET BEN GURION",
+    "englishName": "Midreshet Ben Gurion"
+  },
+  {
+    "cityName": "מדרשת רופין",
+    "symbol": "897",
+    "englishCopy": "MIDRESHET RUPPIN",
+    "englishName": "Midreshet Ruppin "
+  },
+  {
+    "cityName": "מודיעין-מכבים-רעות*",
+    "symbol": "1200",
+    "englishCopy": "MODI'IN-MAKKABBIM-RE'UT",
+    "englishName": "Modi'in-Makkabbim-Re'ut"
+  },
+  {
+    "cityName": "מודיעין עילית",
+    "symbol": "3797",
+    "englishCopy": "MODI'IN ILLIT",
+    "englishName": "Modi'in Illit"
+  },
+  {
+    "cityName": "מולדת",
+    "symbol": "269",
+    "englishCopy": "MOLEDET",
+    "englishName": "Moledet"
+  },
+  {
+    "cityName": "מוצא עילית",
+    "symbol": "208",
+    "englishCopy": "MOZA ILLIT",
+    "englishName": "Moza Illit"
+  },
+  {
+    "cityName": "מוקייבלה",
+    "symbol": "635",
+    "englishCopy": "MUQEIBLE",
+    "englishName": "Muqeible"
+  },
+  {
+    "cityName": "מורן",
+    "symbol": "1163",
+    "englishCopy": "MORAN",
+    "englishName": "Moran "
+  },
+  {
+    "cityName": "מורשת",
+    "symbol": "1178",
+    "englishCopy": "MORESHET",
+    "englishName": "Moreshet"
+  },
+  {
+    "cityName": "מזור",
+    "symbol": "606",
+    "englishCopy": "MAZOR",
+    "englishName": "Mazor"
+  },
+  {
+    "cityName": "מזכרת בתיה",
+    "symbol": "28",
+    "englishCopy": "MAZKERET BATYA",
+    "englishName": "Mazkeret Batya"
+  },
+  {
+    "cityName": "מזרח השרון מ\"א 16",
+    "symbol": "1879"
+  },
+  {
+    "cityName": "מזרח השרון מ\"א 18",
+    "symbol": "1880"
+  },
+  {
+    "cityName": "מזרע",
+    "symbol": "104",
+    "englishCopy": "MIZRA",
+    "englishName": "Mizra"
+  },
+  {
+    "cityName": "מזרעה",
+    "symbol": "517",
+    "englishCopy": "MAZRA'A",
+    "englishName": "Mazra'a"
+  },
+  {
+    "cityName": "מחולה",
+    "symbol": "3599",
+    "englishCopy": "MEHOLA",
+    "englishName": "Mehola"
+  },
+  {
+    "cityName": "מחנה הילה*",
+    "symbol": "1411",
+    "englishCopy": "MAHANE HILLA",
+    "englishName": "Mahane Hilla"
+  },
+  {
+    "cityName": "מחנה טלי*",
+    "symbol": "1418",
+    "englishCopy": "MAHANE TALI",
+    "englishName": "Mahane Tali"
+  },
+  {
+    "cityName": "מחנה יהודית*",
+    "symbol": "1413",
+    "englishCopy": "MAHANE YEHUDIT",
+    "englishName": "Mahane Yehudit"
+  },
+  {
+    "cityName": "מחנה יוכבד*",
+    "symbol": "1416",
+    "englishCopy": "MAHANE YOKHEVED",
+    "englishName": "Mahane Yokheved"
+  },
+  {
+    "cityName": "מחנה יפה*",
+    "symbol": "1415",
+    "englishCopy": "MAHANE YAFA",
+    "englishName": "Mahane Yafa"
+  },
+  {
+    "cityName": "מחנה יתיר",
+    "symbol": "1196",
+    "englishCopy": "MAHANE YATTIR",
+    "englishName": "Mahane Yattir"
+  },
+  {
+    "cityName": "מחנה מרים*",
+    "symbol": "1414",
+    "englishCopy": "MAHANE MIRYAM",
+    "englishName": "Mahane Miryam"
+  },
+  {
+    "cityName": "מחנה עדי*",
+    "symbol": "1417",
+    "englishCopy": "MAHANE ADI",
+    "englishName": "Mahane Adi"
+  },
+  {
+    "cityName": "מחנה תל נוף*",
+    "symbol": "1412",
+    "englishCopy": "MAHANE TEL NOF",
+    "englishName": "Mahane Tel Nof"
+  },
+  {
+    "cityName": "מחניים",
+    "symbol": "308",
+    "englishCopy": "MAHANAYIM",
+    "englishName": "Mahanayim "
+  },
+  {
+    "cityName": "מחסיה",
+    "symbol": "776",
+    "englishCopy": "MAHSEYA",
+    "englishName": "Mahseya"
+  },
+  {
+    "cityName": "מטולה",
+    "symbol": "43",
+    "englishCopy": "METULA",
+    "englishName": "Metula"
+  },
+  {
+    "cityName": "מטע",
+    "symbol": "822",
+    "englishCopy": "MATTA",
+    "englishName": "Matta"
+  },
+  {
+    "cityName": "מי עמי",
+    "symbol": "1128",
+    "englishCopy": "ME AMMI",
+    "englishName": "Me Ammi"
+  },
+  {
+    "cityName": "מיטב",
+    "symbol": "2054",
+    "englishCopy": "METAV",
+    "englishName": "Metav"
+  },
+  {
+    "cityName": "מייסר",
+    "symbol": "649",
+    "englishCopy": "MEISER",
+    "englishName": "Meiser"
+  },
+  {
+    "cityName": "מיצר",
+    "symbol": "4019",
+    "englishCopy": "MEZAR",
+    "englishName": "Mezar"
+  },
+  {
+    "cityName": "מירב",
+    "symbol": "1282",
+    "englishCopy": "MERAV",
+    "englishName": "Merav"
+  },
+  {
+    "cityName": "מירון",
+    "symbol": "607",
+    "englishCopy": "MERON",
+    "englishName": "Meron"
+  },
+  {
+    "cityName": "מישר",
+    "symbol": "731",
+    "englishCopy": "MESHAR",
+    "englishName": "Meshar"
+  },
+  {
+    "cityName": "מיתר",
+    "symbol": "1268",
+    "englishCopy": "METAR",
+    "englishName": "Metar"
+  },
+  {
+    "cityName": "מכורה",
+    "symbol": "3614",
+    "englishCopy": "MEKHORA",
+    "englishName": "Mekhora"
+  },
+  {
+    "cityName": "מכחול",
+    "symbol": "1343",
+    "englishCopy": "MAKCHUL",
+    "englishName": "Makchul"
+  },
+  {
+    "cityName": "מכמורת",
+    "symbol": "382",
+    "englishCopy": "MIKHMORET",
+    "englishName": "Mikhmoret"
+  },
+  {
+    "cityName": "מכמנים",
+    "symbol": "1202",
+    "englishCopy": "MIKHMANNIM",
+    "englishName": "Mikhmannim"
+  },
+  {
+    "cityName": "מלאה",
+    "symbol": "164",
+    "englishCopy": "MELE'A",
+    "englishName": "Mele'a"
+  },
+  {
+    "cityName": "מלילות",
+    "symbol": "2044",
+    "englishCopy": "MELILOT",
+    "englishName": "Melilot"
+  },
+  {
+    "cityName": "מלכייה",
+    "symbol": "596",
+    "englishCopy": "MALKIYYA",
+    "englishName": "Malkiyya"
+  },
+  {
+    "cityName": "מלכישוע",
+    "symbol": "1154",
+    "englishCopy": "MALKISHUA",
+    "englishName": "Malkishua"
+  },
+  {
+    "cityName": "מנוחה",
+    "symbol": "2030",
+    "englishCopy": "MENUHA",
+    "englishName": "Menuha"
+  },
+  {
+    "cityName": "מנוף",
+    "symbol": "1174",
+    "englishCopy": "MANOF",
+    "englishName": "Manof"
+  },
+  {
+    "cityName": "מנות",
+    "symbol": "1205",
+    "englishCopy": "MANOT",
+    "englishName": "Manot"
+  },
+  {
+    "cityName": "מנחמיה",
+    "symbol": "48",
+    "englishCopy": "MENAHEMYA",
+    "englishName": "Menahemya"
+  },
+  {
+    "cityName": "מנרה",
+    "symbol": "347",
+    "englishCopy": "MENARA",
+    "englishName": "Menara"
+  },
+  {
+    "cityName": "מנשית זבדה",
+    "symbol": "994",
+    "englishCopy": "MANSHIYYET ZABDA",
+    "englishName": "Manshiyyet Zabda"
+  },
+  {
+    "cityName": "מסד",
+    "symbol": "1258",
+    "englishCopy": "MASSAD",
+    "englishName": "Massad"
+  },
+  {
+    "cityName": "מסדה",
+    "symbol": "263",
+    "englishCopy": "MASSADA",
+    "englishName": "Massada"
+  },
+  {
+    "cityName": "מסילות",
+    "symbol": "298",
+    "englishCopy": "MESILLOT",
+    "englishName": "Mesillot "
+  },
+  {
+    "cityName": "מסילת ציון",
+    "symbol": "742",
+    "englishCopy": "MESILLAT ZIYYON",
+    "englishName": "Mesillat Ziyyon"
+  },
+  {
+    "cityName": "מסלול",
+    "symbol": "748",
+    "englishCopy": "MASLUL",
+    "englishName": "Maslul"
+  },
+  {
+    "cityName": "מסעדה",
+    "symbol": "4203",
+    "englishCopy": "MAS'ADE",
+    "englishName": "Mas'ade"
+  },
+  {
+    "cityName": "מסעודין אל-עזאזמה (שבט)",
+    "symbol": "939",
+    "englishCopy": "MAS'UDIN AL-'AZAZME",
+    "englishName": "Mas'udin al 'Azazma"
+  },
+  {
+    "cityName": "מעברות",
+    "symbol": "197",
+    "englishCopy": "MA'BAROT",
+    "englishName": "Ma'barot"
+  },
+  {
+    "cityName": "מעגלים",
+    "symbol": "1082",
+    "englishCopy": "MA'GALIM",
+    "englishName": "Ma'galim "
+  },
+  {
+    "cityName": "מעגן",
+    "symbol": "678",
+    "englishCopy": "MA'AGAN",
+    "englishName": "Ma'agan"
+  },
+  {
+    "cityName": "מעגן מיכאל",
+    "symbol": "694",
+    "englishCopy": "MA'AGAN MIKHA'EL",
+    "englishName": "Ma'agan Mikha'el"
+  },
+  {
+    "cityName": "מעוז חיים",
+    "symbol": "272",
+    "englishCopy": "MA'OZ HAYYIM",
+    "englishName": "Ma'oz Hayyim "
+  },
+  {
+    "cityName": "מעון",
+    "symbol": "3657",
+    "englishCopy": "MA'ON",
+    "englishName": "Ma'on"
+  },
+  {
+    "cityName": "מעונה",
+    "symbol": "570",
+    "englishCopy": "ME'ONA",
+    "englishName": "Me'ona"
+  },
+  {
+    "cityName": "מעיין ברוך",
+    "symbol": "416",
+    "englishCopy": "MA'YAN BARUKH",
+    "englishName": "Ma'yan Barukh"
+  },
+  {
+    "cityName": "מעיין צבי",
+    "symbol": "290",
+    "englishCopy": "MA'YAN ZEVI",
+    "englishName": "Ma'yan Zevi"
+  },
+  {
+    "cityName": "מעיליא",
+    "symbol": "518",
+    "englishCopy": "MI'ELYA",
+    "englishName": "Mi'elya"
+  },
+  {
+    "cityName": "מעלה אדומים",
+    "symbol": "3616",
+    "englishCopy": "MA'ALE ADUMMIM",
+    "englishName": "Ma'ale Adummim "
+  },
+  {
+    "cityName": "מעלה אפרים",
+    "symbol": "3608",
+    "englishCopy": "MA'ALE EFRAYIM",
+    "englishName": "Ma'ale Efrayim"
+  },
+  {
+    "cityName": "מעלה גלבוע",
+    "symbol": "1127",
+    "englishCopy": "MA'ALE GILBOA",
+    "englishName": "Ma'ale Gilboa"
+  },
+  {
+    "cityName": "מעלה גמלא",
+    "symbol": "4008",
+    "englishCopy": "MA'ALE GAMLA",
+    "englishName": "Ma'ale Gamla"
+  },
+  {
+    "cityName": "מעלה החמישה",
+    "symbol": "286",
+    "englishCopy": "MA'ALE HAHAMISHA",
+    "englishName": "Ma'ale HaHamisha"
+  },
+  {
+    "cityName": "מעלה לבונה",
+    "symbol": "3752",
+    "englishCopy": "MA'ALE LEVONA",
+    "englishName": "Ma'ale Levona"
+  },
+  {
+    "cityName": "מעלה מכמש",
+    "symbol": "3651",
+    "englishCopy": "MA'ALE MIKHMAS",
+    "englishName": "Ma'ale Mikhmas"
+  },
+  {
+    "cityName": "מעלה עירון",
+    "symbol": "1327",
+    "englishCopy": "MA'ALE IRON",
+    "englishName": "Ma'ale Iron "
+  },
+  {
+    "cityName": "מעלה עמוס",
+    "symbol": "3653",
+    "englishCopy": "MA'ALE AMOS",
+    "englishName": "Ma'ale Amos"
+  },
+  {
+    "cityName": "מעלה שומרון",
+    "symbol": "3637",
+    "englishCopy": "MA'ALE SHOMERON",
+    "englishName": "Ma'ale Shomeron"
+  },
+  {
+    "cityName": "מעלות-תרשיחא",
+    "symbol": "1063",
+    "englishCopy": "MA'ALOT-TARSHIHA",
+    "englishName": "Ma'alot-Tarshiha"
+  },
+  {
+    "cityName": "מענית",
+    "symbol": "344",
+    "englishCopy": "MA'ANIT",
+    "englishName": "Ma'anit"
+  },
+  {
+    "cityName": "מערב השרון מ\"א 16",
+    "symbol": "1876"
+  },
+  {
+    "cityName": "מערב השרון מ\"א 18",
+    "symbol": "1877"
+  },
+  {
+    "cityName": "מערב השרון מ\"א 19",
+    "symbol": "1878"
+  },
+  {
+    "cityName": "מעש",
+    "symbol": "230",
+    "englishCopy": "MA'AS",
+    "englishName": "Ma'as"
+  },
+  {
+    "cityName": "מפלסים",
+    "symbol": "668",
+    "englishCopy": "MEFALLESIM",
+    "englishName": "Mefallesim"
+  },
+  {
+    "cityName": "מפעלי אבשלו\"ם",
+    "symbol": "1767",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי ברקן",
+    "symbol": "1791",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי גליל עליון",
+    "symbol": "1706",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי גרנות",
+    "symbol": "1739",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי העמק (יזרעאל)",
+    "symbol": "1717",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי חבל מודיעים",
+    "symbol": "1729",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי חפר",
+    "symbol": "1745",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי ים המלח(סדום)",
+    "symbol": "1775",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי כנות",
+    "symbol": "1753",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי מישור רותם",
+    "symbol": "1773",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי מעון",
+    "symbol": "1769",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי נחם הרטוב",
+    "symbol": "1701",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי צומת מלאכי",
+    "symbol": "1761",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי צין - ערבה",
+    "symbol": "1776",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי צמח",
+    "symbol": "1711",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מפעלי שאן",
+    "symbol": "1719",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מצדות יהודה",
+    "symbol": "3745",
+    "englishCopy": "MEZADOT YEHUDA",
+    "englishName": "Mezadot Yehuda"
+  },
+  {
+    "cityName": "מצובה",
+    "symbol": "325",
+    "englishCopy": "MAZZUVA",
+    "englishName": "Mazzuva"
+  },
+  {
+    "cityName": "מצליח",
+    "symbol": "757",
+    "englishCopy": "MAZLIAH",
+    "englishName": "Mazliah"
+  },
+  {
+    "cityName": "מצפה",
+    "symbol": "58",
+    "englishCopy": "MIZPA",
+    "englishName": "Mizpa"
+  },
+  {
+    "cityName": "מצפה אבי\"ב",
+    "symbol": "1222",
+    "englishCopy": "MIZPE AVIV",
+    "englishName": "Mizpe Aviv"
+  },
+  {
+    "cityName": "מצפה אילן",
+    "symbol": "1370",
+    "englishCopy": "MITSPE ILAN",
+    "englishName": "Mitspe Ilan"
+  },
+  {
+    "cityName": "מצפה יריחו",
+    "symbol": "3576",
+    "englishCopy": "MIZPE YERIHO",
+    "englishName": "Mizpe Yeriho"
+  },
+  {
+    "cityName": "מצפה נטופה",
+    "symbol": "1190",
+    "englishCopy": "MIZPE NETOFA",
+    "englishName": "Mizpe Netofa"
+  },
+  {
+    "cityName": "מצפה רמון",
+    "symbol": "99",
+    "englishCopy": "MIZPE RAMON",
+    "englishName": "Mizpe Ramon"
+  },
+  {
+    "cityName": "מצפה שלם",
+    "symbol": "3610",
+    "englishCopy": "MIZPE SHALEM",
+    "englishName": "Mizpe Shalem"
+  },
+  {
+    "cityName": "מצר",
+    "symbol": "648",
+    "englishCopy": "MEZER",
+    "englishName": "Mezer"
+  },
+  {
+    "cityName": "מקווה ישראל",
+    "symbol": "22",
+    "englishCopy": "MIQWE YISRA'EL",
+    "englishName": "Miqwe Yisra'el"
+  },
+  {
+    "cityName": "מרגליות",
+    "symbol": "843",
+    "englishCopy": "MARGALIYYOT",
+    "englishName": "Margaliyyot"
+  },
+  {
+    "cityName": "מרום גולן",
+    "symbol": "4101",
+    "englishCopy": "MEROM GOLAN",
+    "englishName": "Merom Golan "
+  },
+  {
+    "cityName": "מרחב עם",
+    "symbol": "1340",
+    "englishCopy": "MERHAV AM",
+    "englishName": "Merhav Am"
+  },
+  {
+    "cityName": "מרחביה (מושב)",
+    "symbol": "97",
+    "englishCopy": "MERHAVYA(MOSHAV)",
+    "englishName": "Merhavya(Moshav)"
+  },
+  {
+    "cityName": "מרחביה (קיבוץ)",
+    "symbol": "66",
+    "englishCopy": "MERHAVYA(QIBBUZ)",
+    "englishName": "Merhavya(Qibbuz)"
+  },
+  {
+    "cityName": "מרכז אזורי כדורי",
+    "symbol": "1713",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז אזורי מרום הגליל",
+    "symbol": "1708",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז אזורי משגב",
+    "symbol": "1723",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז אזורי שוהם",
+    "symbol": "1747",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז כ\"ח",
+    "symbol": "1705",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז מיר\"ב*",
+    "symbol": "1715",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "מרכז שפירא",
+    "symbol": "1098",
+    "englishCopy": "MERKAZ SHAPPIRA",
+    "englishName": "Merkaz Shappira"
+  },
+  {
+    "cityName": "משאבי שדה",
+    "symbol": "421",
+    "englishCopy": "MASH'ABBE SADE",
+    "englishName": "Mash'abbe Sade"
+  },
+  {
+    "cityName": "משגב דב",
+    "symbol": "765",
+    "englishCopy": "MISGAV DOV",
+    "englishName": "Misgav Dov"
+  },
+  {
+    "cityName": "משגב עם",
+    "symbol": "378",
+    "englishCopy": "MISGAV AM",
+    "englishName": "Misgav Am"
+  },
+  {
+    "cityName": "משהד",
+    "symbol": "520",
+    "englishCopy": "MESHHED",
+    "englishName": "Meshhed"
+  },
+  {
+    "cityName": "משואה",
+    "symbol": "3605",
+    "englishCopy": "MASSU'A",
+    "englishName": "Massu'a"
+  },
+  {
+    "cityName": "משואות יצחק",
+    "symbol": "620",
+    "englishCopy": "MASSU'OT YIZHAQ",
+    "englishName": "Massu'ot Yizhaq"
+  },
+  {
+    "cityName": "משכיות",
+    "symbol": "3785",
+    "englishCopy": "MASKIYYOT",
+    "englishName": "Maskiyyot"
+  },
+  {
+    "cityName": "משמר איילון",
+    "symbol": "670",
+    "englishCopy": "MISHMAR AYYALON",
+    "englishName": "Mishmar Ayyalon"
+  },
+  {
+    "cityName": "משמר דוד",
+    "symbol": "563",
+    "englishCopy": "MISHMAR DAWID",
+    "englishName": "Mishmar Dawid"
+  },
+  {
+    "cityName": "משמר הירדן",
+    "symbol": "732",
+    "englishCopy": "MISHMAR HAYARDEN",
+    "englishName": "Mishmar HaYarden "
+  },
+  {
+    "cityName": "משמר הנגב",
+    "symbol": "395",
+    "englishCopy": "MISHMAR HANEGEV",
+    "englishName": "Mishmar HaNegev"
+  },
+  {
+    "cityName": "משמר העמק",
+    "symbol": "130",
+    "englishCopy": "MISHMAR HAEMEQ",
+    "englishName": "Mishmar HaEmeq"
+  },
+  {
+    "cityName": "משמר השבעה",
+    "symbol": "729",
+    "englishCopy": "MISHMAR HASHIV'A",
+    "englishName": "Mishmar HaShiv'a"
+  },
+  {
+    "cityName": "משמר השרון",
+    "symbol": "194",
+    "englishCopy": "MISHMAR HASHARON",
+    "englishName": "Mishmar HaSharon"
+  },
+  {
+    "cityName": "משמרות",
+    "symbol": "213",
+    "englishCopy": "MISHMAROT",
+    "englishName": "Mishmarot"
+  },
+  {
+    "cityName": "משמרת",
+    "symbol": "425",
+    "englishCopy": "MISHMERET",
+    "englishName": "Mishmeret"
+  },
+  {
+    "cityName": "משען",
+    "symbol": "791",
+    "englishCopy": "MASH'EN",
+    "englishName": "Mash'en "
+  },
+  {
+    "cityName": "מתן",
+    "symbol": "1315",
+    "englishCopy": "MATTAN",
+    "englishName": "Mattan"
+  },
+  {
+    "cityName": "מתת",
+    "symbol": "1184",
+    "englishCopy": "MATTAT",
+    "englishName": "Mattat"
+  },
+  {
+    "cityName": "מתתיהו",
+    "symbol": "3648",
+    "englishCopy": "MATTITYAHU",
+    "englishName": "Mattityahu"
+  },
+  {
+    "cityName": "נאות גולן",
+    "symbol": "4551",
+    "englishCopy": "NE'OT GOLAN",
+    "englishName": "Ne'ot Golan "
+  },
+  {
+    "cityName": "נאות הכיכר",
+    "symbol": "1124",
+    "englishCopy": "NE'OT HAKIKKAR",
+    "englishName": "Ne'ot HaKikkar"
+  },
+  {
+    "cityName": "נאות חובב",
+    "symbol": "1770",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "נאות מרדכי",
+    "symbol": "408",
+    "englishCopy": "NE'OT MORDEKHAY",
+    "englishName": "Ne'ot Mordekhay"
+  },
+  {
+    "cityName": "נאות סמדר",
+    "symbol": "1197",
+    "englishCopy": "NE'OT SMADAR",
+    "englishName": "Ne'ot Smadar"
+  },
+  {
+    "cityName": "נאעורה",
+    "symbol": "524",
+    "englishCopy": "NA'URA",
+    "englishName": "Na'ura"
+  },
+  {
+    "cityName": "נבטים",
+    "symbol": "396",
+    "englishCopy": "NEVATIM",
+    "englishName": "Nevatim "
+  },
+  {
+    "cityName": "נגבה",
+    "symbol": "315",
+    "englishCopy": "NEGBA",
+    "englishName": "Negba"
+  },
+  {
+    "cityName": "נגוהות",
+    "symbol": "3724",
+    "englishCopy": "NEGOHOT",
+    "englishName": "Negohot"
+  },
+  {
+    "cityName": "נהורה",
+    "symbol": "309",
+    "englishCopy": "NEHORA",
+    "englishName": "Nehora"
+  },
+  {
+    "cityName": "נהלל",
+    "symbol": "80",
+    "englishCopy": "NAHALAL",
+    "englishName": "Nahalal"
+  },
+  {
+    "cityName": "נהרייה",
+    "symbol": "9100",
+    "englishCopy": "NAHARIYYA",
+    "englishName": "Nahariyya"
+  },
+  {
+    "cityName": "נוב",
+    "symbol": "4304",
+    "englishCopy": "NOV",
+    "englishName": "Nov"
+  },
+  {
+    "cityName": "נוגה",
+    "symbol": "55",
+    "englishCopy": "NOGAH",
+    "englishName": "Nogah"
+  },
+  {
+    "cityName": "נווה",
+    "symbol": "1366",
+    "englishCopy": "NAVE",
+    "englishName": "Nave"
+  },
+  {
+    "cityName": "נווה אבות",
+    "symbol": "926",
+    "englishCopy": "NEWE AVOT",
+    "englishName": "Newe Avot"
+  },
+  {
+    "cityName": "נווה אור",
+    "symbol": "590",
+    "englishCopy": "NEWE UR",
+    "englishName": "Newe Ur"
+  },
+  {
+    "cityName": "נווה אטי\"ב",
+    "symbol": "4303",
+    "englishCopy": "NEWE ATIV",
+    "englishName": "Newe Ativ"
+  },
+  {
+    "cityName": "נווה אילן",
+    "symbol": "405",
+    "englishCopy": "NEWE ILAN",
+    "englishName": "Newe Ilan"
+  },
+  {
+    "cityName": "נווה אילן*",
+    "symbol": "1702",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "נווה איתן",
+    "symbol": "296",
+    "englishCopy": "NEWE ETAN",
+    "englishName": "Newe Etan"
+  },
+  {
+    "cityName": "נווה דניאל",
+    "symbol": "3725",
+    "englishCopy": "NEWE DANIYYEL",
+    "englishName": "Newe Daniyyel"
+  },
+  {
+    "cityName": "נווה זוהר",
+    "symbol": "1057",
+    "englishCopy": "NEWE ZOHAR",
+    "englishName": "Newe Zohar"
+  },
+  {
+    "cityName": "נווה זיו",
+    "symbol": "1314",
+    "englishCopy": "NEWE ZIV",
+    "englishName": "Newe Ziv"
+  },
+  {
+    "cityName": "נווה חריף",
+    "symbol": "1279",
+    "englishCopy": "NEWE HARIF",
+    "englishName": "Newe Harif"
+  },
+  {
+    "cityName": "נווה ים",
+    "symbol": "312",
+    "englishCopy": "NEWE YAM",
+    "englishName": "Newe Yam"
+  },
+  {
+    "cityName": "נווה ימין",
+    "symbol": "686",
+    "englishCopy": "NEWE YAMIN",
+    "englishName": "Newe Yamin"
+  },
+  {
+    "cityName": "נווה ירק",
+    "symbol": "858",
+    "englishCopy": "NEWE YARAQ",
+    "englishName": "Newe Yaraq"
+  },
+  {
+    "cityName": "נווה מבטח",
+    "symbol": "827",
+    "englishCopy": "NEWE MIVTAH",
+    "englishName": "Newe Mivtah"
+  },
+  {
+    "cityName": "נווה מיכאל",
+    "symbol": "1071",
+    "englishCopy": "NEWE MIKHA'EL",
+    "englishName": "Newe Mikha'el"
+  },
+  {
+    "cityName": "נווה שלום",
+    "symbol": "1259",
+    "englishCopy": "NEWE SHALOM",
+    "englishName": "Newe Shalom"
+  },
+  {
+    "cityName": "נועם",
+    "symbol": "15",
+    "englishCopy": "NO'AM",
+    "englishName": "No'am"
+  },
+  {
+    "cityName": "נוף איילון",
+    "symbol": "1333",
+    "englishCopy": "NOF AYYALON",
+    "englishName": "Nof Ayyalon"
+  },
+  {
+    "cityName": "נופים",
+    "symbol": "3790",
+    "englishCopy": "NOFIM",
+    "englishName": "Nofim"
+  },
+  {
+    "cityName": "נופית",
+    "symbol": "1284",
+    "englishCopy": "NOFIT",
+    "englishName": "Nofit"
+  },
+  {
+    "cityName": "נופך",
+    "symbol": "257",
+    "englishCopy": "NOFEKH",
+    "englishName": "Nofekh"
+  },
+  {
+    "cityName": "נוקדים",
+    "symbol": "3726",
+    "englishCopy": "NOQEDIM",
+    "englishName": "Noqedim"
+  },
+  {
+    "cityName": "נורדייה",
+    "symbol": "447",
+    "englishCopy": "NORDIYYA",
+    "englishName": "Nordiyya"
+  },
+  {
+    "cityName": "נורית",
+    "symbol": "833",
+    "englishCopy": "NURIT",
+    "englishName": "Nurit"
+  },
+  {
+    "cityName": "נחושה",
+    "symbol": "59",
+    "englishCopy": "NEHUSHA",
+    "englishName": "Nehusha"
+  },
+  {
+    "cityName": "נחל יפתחאל מ\"א 3",
+    "symbol": "1883"
+  },
+  {
+    "cityName": "נחל עוז",
+    "symbol": "844",
+    "englishCopy": "NAHAL OZ",
+    "englishName": "Nahal Oz"
+  },
+  {
+    "cityName": "נחל תבור מ\"א 8",
+    "symbol": "1861"
+  },
+  {
+    "cityName": "נחלה",
+    "symbol": "2045",
+    "englishCopy": "NAHALA",
+    "englishName": "Nahala"
+  },
+  {
+    "cityName": "נחליאל",
+    "symbol": "3767",
+    "englishCopy": "NAHALI'EL",
+    "englishName": "Nahali'el"
+  },
+  {
+    "cityName": "נחלים",
+    "symbol": "449",
+    "englishCopy": "NEHALIM",
+    "englishName": "Nehalim"
+  },
+  {
+    "cityName": "נחם",
+    "symbol": "809",
+    "englishCopy": "NAHAM",
+    "englishName": "Naham"
+  },
+  {
+    "cityName": "נחף",
+    "symbol": "522",
+    "englishCopy": "NAHEF",
+    "englishName": "Nahef"
+  },
+  {
+    "cityName": "נחשולים",
+    "symbol": "433",
+    "englishCopy": "NAHSHOLIM",
+    "englishName": "Nahsholim"
+  },
+  {
+    "cityName": "נחשון",
+    "symbol": "777",
+    "englishCopy": "NAHSHON",
+    "englishName": "Nahshon"
+  },
+  {
+    "cityName": "נחשונים",
+    "symbol": "705",
+    "englishCopy": "NAHSHONIM",
+    "englishName": "Nahshonim "
+  },
+  {
+    "cityName": "נטועה",
+    "symbol": "1147",
+    "englishCopy": "NETU'A",
+    "englishName": "Netu'a"
+  },
+  {
+    "cityName": "נטור",
+    "symbol": "4014",
+    "englishCopy": "NATUR",
+    "englishName": "Natur"
+  },
+  {
+    "cityName": "נטע",
+    "symbol": "1369",
+    "englishCopy": "NETA",
+    "englishName": "Neta"
+  },
+  {
+    "cityName": "נטעים",
+    "symbol": "174",
+    "englishCopy": "NETA'IM",
+    "englishName": "Neta'im "
+  },
+  {
+    "cityName": "נטף",
+    "symbol": "1254",
+    "englishCopy": "NATAF",
+    "englishName": "Nataf"
+  },
+  {
+    "cityName": "ניין",
+    "symbol": "523",
+    "englishCopy": "NEIN",
+    "englishName": "Nein"
+  },
+  {
+    "cityName": "ניל\"י",
+    "symbol": "3655",
+    "englishCopy": "NILI",
+    "englishName": "Nili"
+  },
+  {
+    "cityName": "ניצן",
+    "symbol": "351",
+    "englishCopy": "NIZZAN",
+    "englishName": "Nizzan"
+  },
+  {
+    "cityName": "ניצן ב'",
+    "symbol": "1419",
+    "englishCopy": "NIZZAN B",
+    "englishName": "Nizzan B"
+  },
+  {
+    "cityName": "ניצנה (קהילת חינוך)",
+    "symbol": "1195",
+    "englishCopy": "NIZZANA (QEHILAT HINUH)",
+    "englishName": "Nizzana (Qehilat Hinuh)"
+  },
+  {
+    "cityName": "ניצני סיני",
+    "symbol": "1280",
+    "englishCopy": "NIZZANE SINAY",
+    "englishName": "Nizzane Sinay"
+  },
+  {
+    "cityName": "ניצני עוז",
+    "symbol": "851",
+    "englishCopy": "NIZZANE OZ",
+    "englishName": "Nizzane Oz"
+  },
+  {
+    "cityName": "ניצנים",
+    "symbol": "359",
+    "englishCopy": "NIZZANIM",
+    "englishName": "Nizzanim"
+  },
+  {
+    "cityName": "ניר אליהו",
+    "symbol": "808",
+    "englishCopy": "NIR ELIYYAHU",
+    "englishName": "Nir Eliyyahu"
+  },
+  {
+    "cityName": "ניר בנים",
+    "symbol": "553",
+    "englishCopy": "NIR BANIM",
+    "englishName": "Nir Banim"
+  },
+  {
+    "cityName": "ניר גלים",
+    "symbol": "720",
+    "englishCopy": "NIR GALLIM",
+    "englishName": "Nir Gallim"
+  },
+  {
+    "cityName": "ניר דוד (תל עמל)",
+    "symbol": "256",
+    "englishCopy": "NIR DAWID (TEL AMAL)",
+    "englishName": "Nir Dawid (Tel Amal)"
+  },
+  {
+    "cityName": "ניר ח\"ן",
+    "symbol": "11",
+    "englishCopy": "NIR HEN",
+    "englishName": "Nir Hen"
+  },
+  {
+    "cityName": "ניר יפה",
+    "symbol": "165",
+    "englishCopy": "NIR YAFE",
+    "englishName": "Nir Yafe"
+  },
+  {
+    "cityName": "ניר יצחק",
+    "symbol": "402",
+    "englishCopy": "NIR YIZHAQ",
+    "englishName": "Nir Yizhaq"
+  },
+  {
+    "cityName": "ניר ישראל",
+    "symbol": "699",
+    "englishCopy": "NIR YISRA'EL",
+    "englishName": "Nir Yisra'el"
+  },
+  {
+    "cityName": "ניר משה",
+    "symbol": "2047",
+    "englishCopy": "NIR MOSHE",
+    "englishName": "Nir Moshe"
+  },
+  {
+    "cityName": "ניר עוז",
+    "symbol": "69",
+    "englishCopy": "NIR OZ",
+    "englishName": "Nir Oz"
+  },
+  {
+    "cityName": "ניר עם",
+    "symbol": "348",
+    "englishCopy": "NIR AM",
+    "englishName": "Nir Am"
+  },
+  {
+    "cityName": "ניר עציון",
+    "symbol": "769",
+    "englishCopy": "NIR EZYON",
+    "englishName": "Nir Ezyon"
+  },
+  {
+    "cityName": "ניר עקיבא",
+    "symbol": "2048",
+    "englishCopy": "NIR AQIVA",
+    "englishName": "Nir Aqiva"
+  },
+  {
+    "cityName": "ניר צבי",
+    "symbol": "331",
+    "englishCopy": "NIR ZEVI",
+    "englishName": "Nir Zevi"
+  },
+  {
+    "cityName": "נירים",
+    "symbol": "602",
+    "englishCopy": "NIRIM",
+    "englishName": "Nirim"
+  },
+  {
+    "cityName": "נירית",
+    "symbol": "1236",
+    "englishCopy": "NIRIT",
+    "englishName": "Nirit"
+  },
+  {
+    "cityName": "נירן",
+    "symbol": "3620",
+    "englishCopy": "NIRAN",
+    "englishName": "Niran"
+  },
+  {
+    "cityName": "נמל תעופה בן-גוריון",
+    "symbol": "1748",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "נמרוד",
+    "symbol": "4035",
+    "englishCopy": "NIMROD",
+    "englishName": "Nimrod"
+  },
+  {
+    "cityName": "נס הרים",
+    "symbol": "825",
+    "englishCopy": "NES HARIM",
+    "englishName": "Nes Harim"
+  },
+  {
+    "cityName": "נס עמים",
+    "symbol": "1143",
+    "englishCopy": "NES AMMIM",
+    "englishName": "Nes Ammim"
+  },
+  {
+    "cityName": "נס ציונה",
+    "symbol": "7200",
+    "englishCopy": "NES ZIYYONA",
+    "englishName": "Nes Ziyyona"
+  },
+  {
+    "cityName": "נעורים",
+    "symbol": "186",
+    "englishCopy": "NE'URIM",
+    "englishName": "Ne'urim"
+  },
+  {
+    "cityName": "נעלה",
+    "symbol": "3787",
+    "englishCopy": "NA'ALE",
+    "englishName": "Na'ale"
+  },
+  {
+    "cityName": "נעמ\"ה",
+    "symbol": "3713",
+    "englishCopy": "NA'AMA",
+    "englishName": "Na'ama"
+  },
+  {
+    "cityName": "נען",
+    "symbol": "158",
+    "englishCopy": "NA'AN",
+    "englishName": "Na'an"
+  },
+  {
+    "cityName": "נפת בית לחם",
+    "symbol": "1982"
+  },
+  {
+    "cityName": "נפת בית לחם מ\"א 76",
+    "symbol": "1981"
+  },
+  {
+    "cityName": "נפת ג'נין  ",
+    "symbol": "1971"
+  },
+  {
+    "cityName": "נפת ג'נין  מ\"א 72",
+    "symbol": "1970"
+  },
+  {
+    "cityName": "נפת חברון",
+    "symbol": "1984"
+  },
+  {
+    "cityName": "נפת חברון מ\"א 78",
+    "symbol": "1983"
+  },
+  {
+    "cityName": "נפת טול כרם",
+    "symbol": "1975"
+  },
+  {
+    "cityName": "נפת טול כרם  מ\"א 72",
+    "symbol": "1974"
+  },
+  {
+    "cityName": "נפת ירדן",
+    "symbol": "1980"
+  },
+  {
+    "cityName": "נפת ירדן מ\"א 74",
+    "symbol": "1978"
+  },
+  {
+    "cityName": "נפת ירדן מ\"א 75",
+    "symbol": "1979"
+  },
+  {
+    "cityName": "נפת ראמאללה ",
+    "symbol": "1977"
+  },
+  {
+    "cityName": "נפת ראמאללה מ\"א  73",
+    "symbol": "1976"
+  },
+  {
+    "cityName": "נפת שכם",
+    "symbol": "1973"
+  },
+  {
+    "cityName": "נפת שכם מ\"א 72",
+    "symbol": "1972"
+  },
+  {
+    "cityName": "נצאצרה (שבט)",
+    "symbol": "1041",
+    "englishCopy": "NASASRA",
+    "englishName": "An-Nasasira"
+  },
+  {
+    "cityName": "נצר חזני",
+    "symbol": "1372",
+    "englishCopy": "NEZER HAZZANI",
+    "englishName": "Nezer Hazzani                                     "
+  },
+  {
+    "cityName": "נצר סרני",
+    "symbol": "435",
+    "englishCopy": "NEZER SERENI",
+    "englishName": "Nezer Sereni"
+  },
+  {
+    "cityName": "נצרת",
+    "symbol": "7300",
+    "englishCopy": "NAZARETH",
+    "englishName": "Nazareth"
+  },
+  {
+    "cityName": "נצרת עילית",
+    "symbol": "1061",
+    "englishCopy": "NAZERAT ILLIT",
+    "englishName": "Nazerat Illit"
+  },
+  {
+    "cityName": "נשר",
+    "symbol": "2500",
+    "englishCopy": "NESHER",
+    "englishName": "Nesher"
+  },
+  {
+    "cityName": "נתיב הגדוד",
+    "symbol": "3555",
+    "englishCopy": "NETIV HAGEDUD",
+    "englishName": "Netiv HaGedud"
+  },
+  {
+    "cityName": "נתיב הל\"ה",
+    "symbol": "693",
+    "englishCopy": "NETIV HALAMED-HE",
+    "englishName": "Netiv HaLamed-He"
+  },
+  {
+    "cityName": "נתיב העשרה",
+    "symbol": "1242",
+    "englishCopy": "NETIV HAASARA",
+    "englishName": "Netiv HaAsara"
+  },
+  {
+    "cityName": "נתיב השיירה",
+    "symbol": "792",
+    "englishCopy": "NETIV HASHAYYARA",
+    "englishName": "Netiv HaShayyara"
+  },
+  {
+    "cityName": "נתיבות",
+    "symbol": "246",
+    "englishCopy": "NETIVOT",
+    "englishName": "Netivot"
+  },
+  {
+    "cityName": "נתניה",
+    "symbol": "7400",
+    "englishCopy": "NETANYA",
+    "englishName": "Netanya"
+  },
+  {
+    "cityName": "סאג'ור",
+    "symbol": "525",
+    "englishCopy": "SAJUR",
+    "englishName": "Sajur"
+  },
+  {
+    "cityName": "סאסא",
+    "symbol": "578",
+    "englishCopy": "SASA",
+    "englishName": "Sasa"
+  },
+  {
+    "cityName": "סביון*",
+    "symbol": "587",
+    "englishCopy": "SAVYON",
+    "englishName": "Savyon"
+  },
+  {
+    "cityName": "סגולה",
+    "symbol": "2046",
+    "englishCopy": "SEGULLA",
+    "englishName": "Segulla"
+  },
+  {
+    "cityName": "סואעד (חמרייה)*",
+    "symbol": "942",
+    "englishCopy": "SAWA'ID(HAMRIYYE)",
+    "englishName": "Sawa'id(Hamriyye)"
+  },
+  {
+    "cityName": "סואעד (כמאנה) (שבט)",
+    "symbol": "989",
+    "englishCopy": "SAWA'ID (KAMANE)",
+    "englishName": "Sawa'id (Al-Kammana)"
+  },
+  {
+    "cityName": "סולם",
+    "symbol": "526",
+    "englishCopy": "SULAM",
+    "englishName": "Sulam"
+  },
+  {
+    "cityName": "סוסיה",
+    "symbol": "3756",
+    "englishCopy": "SUSEYA",
+    "englishName": "Suseya"
+  },
+  {
+    "cityName": "סופה",
+    "symbol": "1238",
+    "englishCopy": "SUFA",
+    "englishName": "Sufa"
+  },
+  {
+    "cityName": "סח'נין",
+    "symbol": "7500",
+    "englishCopy": "SAKHNIN",
+    "englishName": "Sakhnin"
+  },
+  {
+    "cityName": "סייד (שבט)",
+    "symbol": "1170",
+    "englishCopy": "SAYYID",
+    "englishName": "Sayyid"
+  },
+  {
+    "cityName": "סלמה",
+    "symbol": "1245",
+    "englishCopy": "SALLAMA",
+    "englishName": "Sallama"
+  },
+  {
+    "cityName": "סלעית",
+    "symbol": "3567",
+    "englishCopy": "SAL'IT",
+    "englishName": "Sal'it"
+  },
+  {
+    "cityName": "סמר",
+    "symbol": "1156",
+    "englishCopy": "SAMAR",
+    "englishName": "Samar"
+  },
+  {
+    "cityName": "סנסנה",
+    "symbol": "3777",
+    "englishCopy": "SANSANA",
+    "englishName": "Sansana"
+  },
+  {
+    "cityName": "סעד",
+    "symbol": "419",
+    "englishCopy": "SA'AD",
+    "englishName": "Sa'ad"
+  },
+  {
+    "cityName": "סעוה",
+    "symbol": "1360",
+    "englishCopy": "SA'WA",
+    "englishName": "Sa'Wa"
+  },
+  {
+    "cityName": "סער",
+    "symbol": "454",
+    "englishCopy": "SA'AR",
+    "englishName": "Sa'ar"
+  },
+  {
+    "cityName": "ספיר",
+    "symbol": "1176",
+    "englishCopy": "SAPPIR",
+    "englishName": "Sappir"
+  },
+  {
+    "cityName": "סתרייה",
+    "symbol": "610",
+    "englishCopy": "SITRIYYA",
+    "englishName": "Sitriyya"
+  },
+  {
+    "cityName": "ע'ג'ר",
+    "symbol": "4501",
+    "englishCopy": "GHAJAR",
+    "englishName": "Ghajar"
+  },
+  {
+    "cityName": "עבדון",
+    "symbol": "892",
+    "englishCopy": "AVDON",
+    "englishName": "Avdon"
+  },
+  {
+    "cityName": "עברון",
+    "symbol": "376",
+    "englishCopy": "EVRON",
+    "englishName": "Evron"
+  },
+  {
+    "cityName": "עגור",
+    "symbol": "794",
+    "englishCopy": "AGUR",
+    "englishName": "Agur"
+  },
+  {
+    "cityName": "עד הלום",
+    "symbol": "1762",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "עדי",
+    "symbol": "1199",
+    "englishCopy": "ADI",
+    "englishName": "Adi"
+  },
+  {
+    "cityName": "עדנים",
+    "symbol": "2035",
+    "englishCopy": "ADANIM",
+    "englishName": "Adanim "
+  },
+  {
+    "cityName": "עוזה",
+    "symbol": "826",
+    "englishCopy": "UZA",
+    "englishName": "Uza"
+  },
+  {
+    "cityName": "עוזייר",
+    "symbol": "528",
+    "englishCopy": "UZEIR",
+    "englishName": "Uzeir"
+  },
+  {
+    "cityName": "עולש",
+    "symbol": "737",
+    "englishCopy": "OLESH",
+    "englishName": "Olesh"
+  },
+  {
+    "cityName": "עומר",
+    "symbol": "666",
+    "englishCopy": "OMER",
+    "englishName": "Omer"
+  },
+  {
+    "cityName": "עופר",
+    "symbol": "810",
+    "englishCopy": "OFER",
+    "englishName": "Ofer"
+  },
+  {
+    "cityName": "עוצם",
+    "symbol": "32",
+    "englishCopy": "OZEM",
+    "englishName": "Ozem"
+  },
+  {
+    "cityName": "עוקבי (בנו עוקבה) (שבט)",
+    "symbol": "957",
+    "englishCopy": "UQBI (BANU UQBA)",
+    "englishName": "Al-'Ukbi"
+  },
+  {
+    "cityName": "עזוז",
+    "symbol": "328",
+    "englishCopy": "EZUZ",
+    "englishName": "Ezuz"
+  },
+  {
+    "cityName": "עזר",
+    "symbol": "1149",
+    "englishCopy": "EZER",
+    "englishName": "Ezer"
+  },
+  {
+    "cityName": "עזריאל",
+    "symbol": "837",
+    "englishCopy": "AZRI'EL",
+    "englishName": "Azri'el"
+  },
+  {
+    "cityName": "עזריה",
+    "symbol": "711",
+    "englishCopy": "AZARYA",
+    "englishName": "Azarya"
+  },
+  {
+    "cityName": "עזריקם",
+    "symbol": "817",
+    "englishCopy": "AZRIQAM",
+    "englishName": "Azriqam"
+  },
+  {
+    "cityName": "עטאוונה (שבט)",
+    "symbol": "969",
+    "englishCopy": "ATAWNE",
+    "englishName": "Al-'Atawina"
+  },
+  {
+    "cityName": "עטרת",
+    "symbol": "3658",
+    "englishCopy": "ATERET",
+    "englishName": "Ateret"
+  },
+  {
+    "cityName": "עידן",
+    "symbol": "1175",
+    "englishCopy": "IDDAN",
+    "englishName": "Iddan"
+  },
+  {
+    "cityName": "עידן הנגב",
+    "symbol": "1765",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "עיילבון",
+    "symbol": "530",
+    "englishCopy": "EILABUN",
+    "englishName": "Eilabun"
+  },
+  {
+    "cityName": "עיינות",
+    "symbol": "156",
+    "englishCopy": "AYANOT",
+    "englishName": "Ayanot"
+  },
+  {
+    "cityName": "עילוט",
+    "symbol": "511",
+    "englishCopy": "ILUT",
+    "englishName": "Ilut"
+  },
+  {
+    "cityName": "עין איילה",
+    "symbol": "687",
+    "englishCopy": "EN AYYALA",
+    "englishName": "En Ayyala"
+  },
+  {
+    "cityName": "עין אל-אסד",
+    "symbol": "546",
+    "englishCopy": "EIN AL-ASAD",
+    "englishName": "Ein Al-Asad"
+  },
+  {
+    "cityName": "עין גב",
+    "symbol": "273",
+    "englishCopy": "EN GEV",
+    "englishName": "En Gev"
+  },
+  {
+    "cityName": "עין גדי",
+    "symbol": "2042",
+    "englishCopy": "EN GEDI",
+    "englishName": "En Gedi"
+  },
+  {
+    "cityName": "עין דור",
+    "symbol": "436",
+    "englishCopy": "EN DOR",
+    "englishName": "En Dor"
+  },
+  {
+    "cityName": "עין הבשור",
+    "symbol": "1240",
+    "englishCopy": "EN HABESOR",
+    "englishName": "En HaBesor"
+  },
+  {
+    "cityName": "עין הוד",
+    "symbol": "74",
+    "englishCopy": "EN HOD",
+    "englishName": "En Hod"
+  },
+  {
+    "cityName": "עין החורש",
+    "symbol": "167",
+    "englishCopy": "EN HAHORESH",
+    "englishName": "En HaHoresh"
+  },
+  {
+    "cityName": "עין המפרץ",
+    "symbol": "289",
+    "englishCopy": "EN HAMIFRAZ",
+    "englishName": "En HaMifraz"
+  },
+  {
+    "cityName": "עין הנצי\"ב",
+    "symbol": "383",
+    "englishCopy": "EN HANAZIV",
+    "englishName": "En HaNaziv"
+  },
+  {
+    "cityName": "עין העמק",
+    "symbol": "367",
+    "englishCopy": "EN HAEMEQ",
+    "englishName": "En HaEmeq"
+  },
+  {
+    "cityName": "עין השופט",
+    "symbol": "270",
+    "englishCopy": "EN HASHOFET",
+    "englishName": "En HaShofet"
+  },
+  {
+    "cityName": "עין השלושה",
+    "symbol": "676",
+    "englishCopy": "EN HASHELOSHA",
+    "englishName": "En HaShelosha"
+  },
+  {
+    "cityName": "עין ורד",
+    "symbol": "157",
+    "englishCopy": "EN WERED",
+    "englishName": "En Wered"
+  },
+  {
+    "cityName": "עין זיוון",
+    "symbol": "4503",
+    "englishCopy": "EN ZIWAN",
+    "englishName": "En Ziwan"
+  },
+  {
+    "cityName": "עין חוד",
+    "symbol": "1320",
+    "englishCopy": "EIN HOD",
+    "englishName": "Ein Hod"
+  },
+  {
+    "cityName": "עין חצבה",
+    "symbol": "1053",
+    "englishCopy": "EN HAZEVA",
+    "englishName": "En Hazeva"
+  },
+  {
+    "cityName": "עין חרוד (איחוד)",
+    "symbol": "89",
+    "englishCopy": "EN HAROD (IHUD)",
+    "englishName": "En Harod (Ihud)"
+  },
+  {
+    "cityName": "עין חרוד (מאוחד)",
+    "symbol": "82",
+    "englishCopy": "EN HAROD(ME'UHAD)",
+    "englishName": "En Harod(Me'uhad)"
+  },
+  {
+    "cityName": "עין יהב",
+    "symbol": "806",
+    "englishCopy": "EN YAHAV",
+    "englishName": "En Yahav"
+  },
+  {
+    "cityName": "עין יעקב",
+    "symbol": "813",
+    "englishCopy": "EN YA'AQOV",
+    "englishName": "En Ya'aqov"
+  },
+  {
+    "cityName": "עין כרם-בי\"ס חקלאי",
+    "symbol": "1056",
+    "englishCopy": "EN KAREM-B.S.HAQLA'I",
+    "englishName": "En Karem-B.S.Haqla'i"
+  },
+  {
+    "cityName": "עין כרמל",
+    "symbol": "426",
+    "englishCopy": "EN KARMEL",
+    "englishName": "En Karmel "
+  },
+  {
+    "cityName": "עין מאהל",
+    "symbol": "532",
+    "englishCopy": "EIN MAHEL",
+    "englishName": "Ein Mahel"
+  },
+  {
+    "cityName": "עין נקובא",
+    "symbol": "521",
+    "englishCopy": "EIN NAQQUBA",
+    "englishName": "Ein Naqquba"
+  },
+  {
+    "cityName": "עין עירון",
+    "symbol": "223",
+    "englishCopy": "EN IRON",
+    "englishName": "En Iron"
+  },
+  {
+    "cityName": "עין צורים",
+    "symbol": "622",
+    "englishCopy": "EN ZURIM",
+    "englishName": "En Zurim"
+  },
+  {
+    "cityName": "עין קנייא",
+    "symbol": "4502",
+    "englishCopy": "EIN QINIYYE",
+    "englishName": "Ein Qiniyye"
+  },
+  {
+    "cityName": "עין ראפה",
+    "symbol": "514",
+    "englishCopy": "EIN RAFA",
+    "englishName": "Ein Rafa"
+  },
+  {
+    "cityName": "עין שמר",
+    "symbol": "139",
+    "englishCopy": "EN SHEMER",
+    "englishName": "En Shemer"
+  },
+  {
+    "cityName": "עין שריד",
+    "symbol": "880",
+    "englishCopy": "EN SARID",
+    "englishName": "En Sarid"
+  },
+  {
+    "cityName": "עין תמר",
+    "symbol": "1251",
+    "englishCopy": "EN TAMAR",
+    "englishName": "En Tamar"
+  },
+  {
+    "cityName": "עינת",
+    "symbol": "871",
+    "englishCopy": "ENAT",
+    "englishName": "Enat"
+  },
+  {
+    "cityName": "עיר אובות",
+    "symbol": "1187",
+    "englishCopy": "IR OVOT",
+    "englishName": "Ir Ovot"
+  },
+  {
+    "cityName": "עכו",
+    "symbol": "7600",
+    "englishCopy": "AKKO",
+    "englishName": "Akko"
+  },
+  {
+    "cityName": "עלומים",
+    "symbol": "1146",
+    "englishCopy": "ALUMIM",
+    "englishName": "Alumim "
+  },
+  {
+    "cityName": "עלי",
+    "symbol": "3765",
+    "englishCopy": "ELI",
+    "englishName": "Eli"
+  },
+  {
+    "cityName": "עלי זהב",
+    "symbol": "3727",
+    "englishCopy": "ALE ZAHAV",
+    "englishName": "Ale Zahav"
+  },
+  {
+    "cityName": "עלמה",
+    "symbol": "688",
+    "englishCopy": "ALMA",
+    "englishName": "Alma"
+  },
+  {
+    "cityName": "עלמון",
+    "symbol": "3715",
+    "englishCopy": "ALMON",
+    "englishName": "Almon"
+  },
+  {
+    "cityName": "עמוקה",
+    "symbol": "1212",
+    "englishCopy": "AMUQQA",
+    "englishName": "Amuqqa"
+  },
+  {
+    "cityName": "עמינדב",
+    "symbol": "779",
+    "englishCopy": "AMMINADAV",
+    "englishName": "Amminadav"
+  },
+  {
+    "cityName": "עמיעד",
+    "symbol": "385",
+    "englishCopy": "AMMI'AD",
+    "englishName": "Ammi'ad"
+  },
+  {
+    "cityName": "עמיעוז",
+    "symbol": "318",
+    "englishCopy": "AMMI'OZ",
+    "englishName": "Ammi'oz"
+  },
+  {
+    "cityName": "עמיקם",
+    "symbol": "773",
+    "englishCopy": "AMMIQAM",
+    "englishName": "Ammiqam"
+  },
+  {
+    "cityName": "עמיר",
+    "symbol": "319",
+    "englishCopy": "AMIR",
+    "englishName": "Amir"
+  },
+  {
+    "cityName": "עמנואל",
+    "symbol": "3660",
+    "englishCopy": "IMMANU'EL",
+    "englishName": "Immanu'el"
+  },
+  {
+    "cityName": "עמק בית שאן מ\"א 7",
+    "symbol": "1824"
+  },
+  {
+    "cityName": "עמק בית שאן של\"ש",
+    "symbol": "1825"
+  },
+  {
+    "cityName": "עמק חולה מ\"א 1",
+    "symbol": "1806"
+  },
+  {
+    "cityName": "עמק חולה מ\"א 55",
+    "symbol": "1807"
+  },
+  {
+    "cityName": "עמק חולה של\"ש",
+    "symbol": "1808"
+  },
+  {
+    "cityName": "עמק חפר מזרח מ\"א 16",
+    "symbol": "1875"
+  },
+  {
+    "cityName": "עמק חרוד מ\"א 8",
+    "symbol": "1826"
+  },
+  {
+    "cityName": "עמק חרוד של\"ש",
+    "symbol": "1827"
+  },
+  {
+    "cityName": "עמק יזרעאל מ\"א 13",
+    "symbol": "1834"
+  },
+  {
+    "cityName": "עמק יזרעאל מ\"א 8",
+    "symbol": "1832"
+  },
+  {
+    "cityName": "עמק יזרעאל מ\"א 9",
+    "symbol": "1833"
+  },
+  {
+    "cityName": "עמקה",
+    "symbol": "708",
+    "englishCopy": "AMQA",
+    "englishName": "Amqa"
+  },
+  {
+    "cityName": "ענב",
+    "symbol": "3712",
+    "englishCopy": "ENAV",
+    "englishName": "Enav"
+  },
+  {
+    "cityName": "עספיא",
+    "symbol": "534",
+    "englishCopy": "ISIFYA",
+    "englishName": "Isifya"
+  },
+  {
+    "cityName": "עפולה",
+    "symbol": "7700",
+    "englishCopy": "AFULA",
+    "englishName": "Afula"
+  },
+  {
+    "cityName": "עפרה",
+    "symbol": "3617",
+    "englishCopy": "OFRA",
+    "englishName": "Ofra"
+  },
+  {
+    "cityName": "עץ אפרים",
+    "symbol": "3778",
+    "englishCopy": "EZ EFRAYIM",
+    "englishName": "Ez Efrayim"
+  },
+  {
+    "cityName": "עצמון שגב",
+    "symbol": "917",
+    "englishCopy": "ATSMON SEGEV",
+    "englishName": "Atsmon Segev"
+  },
+  {
+    "cityName": "עראבה",
+    "symbol": "531",
+    "englishCopy": "ARRABE",
+    "englishName": "Arrabe"
+  },
+  {
+    "cityName": "עראמשה*",
+    "symbol": "1246",
+    "englishCopy": "ARAMSHA",
+    "englishName": "Aramsha"
+  },
+  {
+    "cityName": "ערב אל נעים",
+    "symbol": "1335",
+    "englishCopy": "ARAB AL NAIM",
+    "englishName": "Arab Al Naim"
+  },
+  {
+    "cityName": "ערד",
+    "symbol": "2560",
+    "englishCopy": "ARAD",
+    "englishName": "Arad"
+  },
+  {
+    "cityName": "ערוגות",
+    "symbol": "593",
+    "englishCopy": "ARUGOT",
+    "englishName": "Arugot"
+  },
+  {
+    "cityName": "ערערה",
+    "symbol": "637",
+    "englishCopy": "AR'ARA",
+    "englishName": "Ar'ara"
+  },
+  {
+    "cityName": "ערערה-בנגב",
+    "symbol": "1192",
+    "englishCopy": "AR'ARA-BANEGEV",
+    "englishName": "Ar'ara-BaNegev"
+  },
+  {
+    "cityName": "עשרת",
+    "symbol": "591",
+    "englishCopy": "ASERET",
+    "englishName": "Aseret"
+  },
+  {
+    "cityName": "עתלית",
+    "symbol": "53",
+    "englishCopy": "ATLIT",
+    "englishName": "Atlit"
+  },
+  {
+    "cityName": "עתניאל",
+    "symbol": "3748",
+    "englishCopy": "OTNI'EL",
+    "englishName": "Otni'el"
+  },
+  {
+    "cityName": "פארן",
+    "symbol": "1151",
+    "englishCopy": "PARAN",
+    "englishName": "Paran"
+  },
+  {
+    "cityName": "פארק הירדן מ\"א 6",
+    "symbol": "1961"
+  },
+  {
+    "cityName": "פארק תעשיות ספירים",
+    "symbol": "1763",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "פדואל",
+    "symbol": "3768",
+    "englishCopy": "PEDU'EL",
+    "englishName": "Pedu'el"
+  },
+  {
+    "cityName": "פדויים",
+    "symbol": "750",
+    "englishCopy": "PEDUYIM",
+    "englishName": "Peduyim"
+  },
+  {
+    "cityName": "פדיה",
+    "symbol": "838",
+    "englishCopy": "PEDAYA",
+    "englishName": "Pedaya"
+  },
+  {
+    "cityName": "פוריידיס",
+    "symbol": "537",
+    "englishCopy": "FUREIDIS",
+    "englishName": "Fureidis"
+  },
+  {
+    "cityName": "פורייה - כפר עבודה",
+    "symbol": "1104",
+    "englishCopy": "PORIYYA-KEFAR AVODA",
+    "englishName": "Poriyya-Kefar Avoda"
+  },
+  {
+    "cityName": "פורייה - נווה עובד",
+    "symbol": "1105",
+    "englishCopy": "PORIYYA-NEWE OVED",
+    "englishName": "Poriyya-Newe Oved"
+  },
+  {
+    "cityName": "פורייה עילית",
+    "symbol": "1313",
+    "englishCopy": "PORIYYA ILLIT",
+    "englishName": "Poriyya Illit"
+  },
+  {
+    "cityName": "פורת",
+    "symbol": "767",
+    "englishCopy": "PORAT",
+    "englishName": "Porat"
+  },
+  {
+    "cityName": "פטיש",
+    "symbol": "749",
+    "englishCopy": "PATTISH",
+    "englishName": "Pattish"
+  },
+  {
+    "cityName": "פלך",
+    "symbol": "1185",
+    "englishCopy": "PELEKH",
+    "englishName": "Pelekh"
+  },
+  {
+    "cityName": "פלמחים",
+    "symbol": "597",
+    "englishCopy": "PALMAHIM",
+    "englishName": "Palmahim"
+  },
+  {
+    "cityName": "פני חבר",
+    "symbol": "3723",
+    "englishCopy": "PENE HEVER",
+    "englishName": "Pene Hever"
+  },
+  {
+    "cityName": "פסגות",
+    "symbol": "3659",
+    "englishCopy": "PESAGOT",
+    "englishName": "Pesagot"
+  },
+  {
+    "cityName": "פסוטה",
+    "symbol": "535",
+    "englishCopy": "FASSUTA",
+    "englishName": "Fassuta"
+  },
+  {
+    "cityName": "פעמי תש\"ז",
+    "symbol": "2059",
+    "englishCopy": "PA'AME TASHAZ",
+    "englishName": "Pa'ame Tashaz"
+  },
+  {
+    "cityName": "פצאל",
+    "symbol": "3615",
+    "englishCopy": "PEZA'EL",
+    "englishName": "Peza'el"
+  },
+  {
+    "cityName": "פקיעין (בוקייעה)",
+    "symbol": "536",
+    "englishCopy": "PEQI'IN (BUQEI'A)",
+    "englishName": "Peqi'in (Buqei'a)"
+  },
+  {
+    "cityName": "פקיעין חדשה",
+    "symbol": "281",
+    "englishCopy": "PEQI'IN HADASHA",
+    "englishName": "Peqi'in Hadasha"
+  },
+  {
+    "cityName": "פרדס חנה-כרכור",
+    "symbol": "7800",
+    "englishCopy": "PARDES HANNA-KARKUR",
+    "englishName": "Pardes Hanna-Karkur"
+  },
+  {
+    "cityName": "פרדסייה",
+    "symbol": "171",
+    "englishCopy": "PARDESIYYA",
+    "englishName": "Pardesiyya"
+  },
+  {
+    "cityName": "פרוד",
+    "symbol": "599",
+    "englishCopy": "PAROD",
+    "englishName": "Parod"
+  },
+  {
+    "cityName": "פרזון",
+    "symbol": "2053",
+    "englishCopy": "PERAZON",
+    "englishName": "Perazon"
+  },
+  {
+    "cityName": "פרי גן",
+    "symbol": "1231",
+    "englishCopy": "PERI GAN",
+    "englishName": "Peri Gan"
+  },
+  {
+    "cityName": "פתח תקווה",
+    "symbol": "7900",
+    "englishCopy": "PETAH TIQWA",
+    "englishName": "Petah Tiqwa"
+  },
+  {
+    "cityName": "פתחיה",
+    "symbol": "839",
+    "englishCopy": "PETAHYA",
+    "englishName": "Petahya"
+  },
+  {
+    "cityName": "צאלים",
+    "symbol": "413",
+    "englishCopy": "ZE'ELIM",
+    "englishName": "Ze'elim"
+  },
+  {
+    "cityName": "צביה",
+    "symbol": "1180",
+    "englishCopy": "ZVIYYA",
+    "englishName": "Zviyya"
+  },
+  {
+    "cityName": "צבעון",
+    "symbol": "1213",
+    "englishCopy": "ZIV'ON",
+    "englishName": "Ziv'on"
+  },
+  {
+    "cityName": "צובה",
+    "symbol": "465",
+    "englishCopy": "ZOVA",
+    "englishName": "Zova"
+  },
+  {
+    "cityName": "צוחר",
+    "symbol": "1136",
+    "englishCopy": "ZOHAR",
+    "englishName": "Zohar"
+  },
+  {
+    "cityName": "צופייה",
+    "symbol": "1111",
+    "englishCopy": "ZOFIYYA",
+    "englishName": "Zofiyya "
+  },
+  {
+    "cityName": "צופים",
+    "symbol": "3791",
+    "englishCopy": "ZUFIM",
+    "englishName": "Zufim"
+  },
+  {
+    "cityName": "צופית",
+    "symbol": "198",
+    "englishCopy": "ZOFIT",
+    "englishName": "Zofit"
+  },
+  {
+    "cityName": "צופר",
+    "symbol": "1150",
+    "englishCopy": "ZOFAR",
+    "englishName": "Zofar"
+  },
+  {
+    "cityName": "צוקי ים",
+    "symbol": "1102",
+    "englishCopy": "ZUQI YAM",
+    "englishName": "Zuqi Yam"
+  },
+  {
+    "cityName": "צוקים",
+    "symbol": "1262",
+    "englishCopy": "ZUQIM",
+    "englishName": "Zuqim"
+  },
+  {
+    "cityName": "צור הדסה",
+    "symbol": "1113",
+    "englishCopy": "ZUR HADASSA",
+    "englishName": "Zur Hadassa"
+  },
+  {
+    "cityName": "צור יצחק",
+    "symbol": "1345",
+    "englishCopy": "ZUR YIZHAQ",
+    "englishName": "Zur Yizhaq"
+  },
+  {
+    "cityName": "צור משה",
+    "symbol": "276",
+    "englishCopy": "ZUR MOSHE",
+    "englishName": "Zur Moshe"
+  },
+  {
+    "cityName": "צור נתן",
+    "symbol": "1148",
+    "englishCopy": "ZUR NATAN",
+    "englishName": "Zur Natan"
+  },
+  {
+    "cityName": "צוריאל",
+    "symbol": "774",
+    "englishCopy": "ZURI'EL",
+    "englishName": "Zuri'el"
+  },
+  {
+    "cityName": "צורית",
+    "symbol": "1221",
+    "englishCopy": "ZURIT",
+    "englishName": "Zurit"
+  },
+  {
+    "cityName": "ציפורי",
+    "symbol": "613",
+    "englishCopy": "ZIPPORI",
+    "englishName": "Zippori"
+  },
+  {
+    "cityName": "צלפון",
+    "symbol": "796",
+    "englishCopy": "ZELAFON",
+    "englishName": "Zelafon"
+  },
+  {
+    "cityName": "צנדלה",
+    "symbol": "636",
+    "englishCopy": "SANDALA",
+    "englishName": "Sandala"
+  },
+  {
+    "cityName": "צפרייה",
+    "symbol": "594",
+    "englishCopy": "ZAFRIYYA",
+    "englishName": "Zafriyya"
+  },
+  {
+    "cityName": "צפרירים",
+    "symbol": "1079",
+    "englishCopy": "ZAFRIRIM",
+    "englishName": "Zafririm"
+  },
+  {
+    "cityName": "צפת",
+    "symbol": "8000",
+    "englishCopy": "ZEFAT",
+    "englishName": "Zefat"
+  },
+  {
+    "cityName": "צרופה",
+    "symbol": "612",
+    "englishCopy": "ZERUFA",
+    "englishName": "Zerufa"
+  },
+  {
+    "cityName": "צרעה",
+    "symbol": "567",
+    "englishCopy": "ZOR'A",
+    "englishName": "Zor'a"
+  },
+  {
+    "cityName": "קבועה (שבט)",
+    "symbol": "1234",
+    "englishCopy": "QABBO'A",
+    "englishName": "Kabbu'a"
+  },
+  {
+    "cityName": "קבוצת יבנה",
+    "symbol": "334",
+    "englishCopy": "QEVUZAT YAVNE",
+    "englishName": "Qevuzat Yavne"
+  },
+  {
+    "cityName": "קדומים",
+    "symbol": "3557",
+    "englishCopy": "QEDUMIM",
+    "englishName": "Qedumim"
+  },
+  {
+    "cityName": "קדימה-צורן",
+    "symbol": "195",
+    "englishCopy": "QADIMA-ZORAN",
+    "englishName": "Qadima- Zoran "
+  },
+  {
+    "cityName": "קדמה",
+    "symbol": "392",
+    "englishCopy": "QEDMA",
+    "englishName": "Qedma"
+  },
+  {
+    "cityName": "קדמת צבי",
+    "symbol": "4025",
+    "englishCopy": "QIDMAT ZEVI",
+    "englishName": "Qidmat Zevi"
+  },
+  {
+    "cityName": "קדר",
+    "symbol": "3781",
+    "englishCopy": "QEDAR",
+    "englishName": "Qedar"
+  },
+  {
+    "cityName": "קדרון",
+    "symbol": "615",
+    "englishCopy": "QIDRON",
+    "englishName": "Qidron"
+  },
+  {
+    "cityName": "קדרים",
+    "symbol": "1211",
+    "englishCopy": "QADDARIM",
+    "englishName": "Qaddarim"
+  },
+  {
+    "cityName": "קודייראת א-צאנע (שבט)",
+    "symbol": "964",
+    "englishCopy": "QUDEIRAT AS-SANI",
+    "englishName": "Kudayrat as-Sani'"
+  },
+  {
+    "cityName": "קוואעין (שבט)",
+    "symbol": "972",
+    "englishCopy": "QAWA'IN",
+    "englishName": "Kawa'in"
+  },
+  {
+    "cityName": "קוממיות",
+    "symbol": "766",
+    "englishCopy": "QOMEMIYYUT",
+    "englishName": "Qomemiyyut"
+  },
+  {
+    "cityName": "קורנית",
+    "symbol": "1179",
+    "englishCopy": "QORANIT",
+    "englishName": "Qoranit"
+  },
+  {
+    "cityName": "קטורה",
+    "symbol": "1052",
+    "englishCopy": "QETURA",
+    "englishName": "Qetura"
+  },
+  {
+    "cityName": "קיסריה",
+    "symbol": "1167",
+    "englishCopy": "QESARYYA",
+    "englishName": "Qesaryya"
+  },
+  {
+    "cityName": "קלחים",
+    "symbol": "414",
+    "englishCopy": "QELAHIM",
+    "englishName": "Qelahim"
+  },
+  {
+    "cityName": "קליה",
+    "symbol": "3601",
+    "englishCopy": "QALYA",
+    "englishName": "Qalya"
+  },
+  {
+    "cityName": "קלנסווה",
+    "symbol": "638",
+    "englishCopy": "QALANSAWE",
+    "englishName": "Qalansawe"
+  },
+  {
+    "cityName": "קלע",
+    "symbol": "4024",
+    "englishCopy": "QELA",
+    "englishName": "Qela"
+  },
+  {
+    "cityName": "קציר                ",
+    "symbol": "1243",
+    "englishCopy": "QAZIR               ",
+    "englishName": "Qazir"
+  },
+  {
+    "cityName": "קצר א-סר",
+    "symbol": "1347",
+    "englishCopy": "QASR A-SIR",
+    "englishName": "Qasr A-Sir"
+  },
+  {
+    "cityName": "קצרין",
+    "symbol": "4100",
+    "englishCopy": "QAZRIN",
+    "englishName": "Qazrin"
+  },
+  {
+    "cityName": "קריית אונו",
+    "symbol": "2620",
+    "englishCopy": "QIRYAT ONO",
+    "englishName": "Qiryat Ono"
+  },
+  {
+    "cityName": "קריית ארבע",
+    "symbol": "3611",
+    "englishCopy": "QIRYAT ARBA",
+    "englishName": "Qiryat Arba"
+  },
+  {
+    "cityName": "קריית אתא",
+    "symbol": "6800",
+    "englishCopy": "QIRYAT ATTA",
+    "englishName": "Qiryat Atta"
+  },
+  {
+    "cityName": "קריית ביאליק",
+    "symbol": "9500",
+    "englishCopy": "QIRYAT BIALIK",
+    "englishName": "Qiryat Bialik"
+  },
+  {
+    "cityName": "קריית גת",
+    "symbol": "2630",
+    "englishCopy": "QIRYAT GAT",
+    "englishName": "Qiryat Gat"
+  },
+  {
+    "cityName": "קריית חינוך מרחבים*",
+    "symbol": "1768",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "קריית טבעון",
+    "symbol": "2300",
+    "englishCopy": "QIRYAT TIV'ON",
+    "englishName": "Qiryat Tiv'on"
+  },
+  {
+    "cityName": "קריית ים",
+    "symbol": "9600",
+    "englishCopy": "QIRYAT YAM",
+    "englishName": "Qiryat Yam"
+  },
+  {
+    "cityName": "קריית יערים",
+    "symbol": "1137",
+    "englishCopy": "QIRYAT YE'ARIM",
+    "englishName": "Qiryat Ye'arim"
+  },
+  {
+    "cityName": "קריית יערים (מוסד)",
+    "symbol": "2039",
+    "englishCopy": "QIRYAT YE'ARIM(INSTITUTE)",
+    "englishName": "Qiryat Ye'arim(Institute)"
+  },
+  {
+    "cityName": "קריית מוצקין",
+    "symbol": "8200",
+    "englishCopy": "QIRYAT MOTZKIN",
+    "englishName": "Qiryat Motzkin"
+  },
+  {
+    "cityName": "קריית מלאכי",
+    "symbol": "1034",
+    "englishCopy": "QIRYAT MAL'AKHI",
+    "englishName": "Qiryat Mal'akhi"
+  },
+  {
+    "cityName": "קריית נטפים",
+    "symbol": "3746",
+    "englishCopy": "QIRYAT NETAFIM",
+    "englishName": "Qiryat Netafim"
+  },
+  {
+    "cityName": "קריית ענבים",
+    "symbol": "78",
+    "englishCopy": "QIRYAT ANAVIM",
+    "englishName": "Qiryat Anavim"
+  },
+  {
+    "cityName": "קריית עקרון",
+    "symbol": "469",
+    "englishCopy": "QIRYAT EQRON",
+    "englishName": "Qiryat Eqron"
+  },
+  {
+    "cityName": "קריית שלמה",
+    "symbol": "412",
+    "englishCopy": "QIRYAT SHELOMO",
+    "englishName": "Qiryat Shelomo"
+  },
+  {
+    "cityName": "קריית שמונה",
+    "symbol": "2800",
+    "englishCopy": "QIRYAT SHEMONA",
+    "englishName": "Qiryat Shemona"
+  },
+  {
+    "cityName": "קרית חינוך עזתה",
+    "symbol": "1766",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "קרית תעופה",
+    "symbol": "1746",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "קרני שומרון",
+    "symbol": "3640",
+    "englishCopy": "QARNE SHOMERON",
+    "englishName": "Qarne Shomeron"
+  },
+  {
+    "cityName": "קשת",
+    "symbol": "4006",
+    "englishCopy": "QESHET",
+    "englishName": "Qeshet"
+  },
+  {
+    "cityName": "ראמה",
+    "symbol": "543",
+    "englishCopy": "RAME",
+    "englishName": "Rame"
+  },
+  {
+    "cityName": "ראס אל-עין",
+    "symbol": "1334",
+    "englishCopy": "RAS AL-EIN",
+    "englishName": "Ras Al-Ein"
+  },
+  {
+    "cityName": "ראס עלי",
+    "symbol": "990",
+    "englishCopy": "RAS ALI",
+    "englishName": "Ras Ali"
+  },
+  {
+    "cityName": "ראש העין",
+    "symbol": "2640",
+    "englishCopy": "ROSH HAAYIN",
+    "englishName": "Rosh HaAyin"
+  },
+  {
+    "cityName": "ראש פינה",
+    "symbol": "26",
+    "englishCopy": "ROSH PINNA",
+    "englishName": "Rosh Pinna"
+  },
+  {
+    "cityName": "ראש צורים",
+    "symbol": "3602",
+    "englishCopy": "ROSH ZURIM",
+    "englishName": "Rosh Zurim"
+  },
+  {
+    "cityName": "ראשון לציון",
+    "symbol": "8300",
+    "englishCopy": "RISHON LEZIYYON",
+    "englishName": "Rishon LeZiyyon"
+  },
+  {
+    "cityName": "רבבה",
+    "symbol": "3795",
+    "englishCopy": "REVAVA",
+    "englishName": "Revava"
+  },
+  {
+    "cityName": "רבדים",
+    "symbol": "564",
+    "englishCopy": "REVADIM",
+    "englishName": "Revadim"
+  },
+  {
+    "cityName": "רביבים",
+    "symbol": "354",
+    "englishCopy": "REVIVIM",
+    "englishName": "Revivim "
+  },
+  {
+    "cityName": "רביד",
+    "symbol": "1225",
+    "englishCopy": "RAVID",
+    "englishName": "Ravid"
+  },
+  {
+    "cityName": "רגבה",
+    "symbol": "390",
+    "englishCopy": "REGBA",
+    "englishName": "Regba"
+  },
+  {
+    "cityName": "רגבים",
+    "symbol": "444",
+    "englishCopy": "REGAVIM",
+    "englishName": "Regavim"
+  },
+  {
+    "cityName": "רהט",
+    "symbol": "1161",
+    "englishCopy": "RAHAT",
+    "englishName": "Rahat"
+  },
+  {
+    "cityName": "רווחה",
+    "symbol": "2051",
+    "englishCopy": "REWAHA",
+    "englishName": "Rewaha"
+  },
+  {
+    "cityName": "רוויה",
+    "symbol": "2016",
+    "englishCopy": "REWAYA",
+    "englishName": "Rewaya"
+  },
+  {
+    "cityName": "רוח מדבר",
+    "symbol": "1341",
+    "englishCopy": "RUAH MIDBAR",
+    "englishName": "Ruah Midbar"
+  },
+  {
+    "cityName": "רוחמה",
+    "symbol": "362",
+    "englishCopy": "RUHAMA",
+    "englishName": "Ruhama"
+  },
+  {
+    "cityName": "רומאנה",
+    "symbol": "539",
+    "englishCopy": "RUMMANE",
+    "englishName": "Rummane"
+  },
+  {
+    "cityName": "רומת הייב",
+    "symbol": "997",
+    "englishCopy": "RUMAT HEIB",
+    "englishName": "Rumat Heib"
+  },
+  {
+    "cityName": "רועי",
+    "symbol": "3619",
+    "englishCopy": "RO'I",
+    "englishName": "Ro'i"
+  },
+  {
+    "cityName": "רותם",
+    "symbol": "3782",
+    "englishCopy": "ROTEM",
+    "englishName": "Rotem"
+  },
+  {
+    "cityName": "רחוב",
+    "symbol": "854",
+    "englishCopy": "REHOV",
+    "englishName": "Rehov"
+  },
+  {
+    "cityName": "רחובות",
+    "symbol": "8400",
+    "englishCopy": "REHOVOT",
+    "englishName": "Rehovot"
+  },
+  {
+    "cityName": "רחלים",
+    "symbol": "3822",
+    "englishCopy": "REHELIM",
+    "englishName": "Rehelim"
+  },
+  {
+    "cityName": "ריחאנייה",
+    "symbol": "540",
+    "englishCopy": "REIHANIYYE",
+    "englishName": "Reihaniyye"
+  },
+  {
+    "cityName": "ריחן",
+    "symbol": "3568",
+    "englishCopy": "REHAN",
+    "englishName": "Rehan "
+  },
+  {
+    "cityName": "ריינה",
+    "symbol": "542",
+    "englishCopy": "REINE",
+    "englishName": "Reine"
+  },
+  {
+    "cityName": "רימונים",
+    "symbol": "3565",
+    "englishCopy": "RIMMONIM",
+    "englishName": "Rimmonim "
+  },
+  {
+    "cityName": "רינתיה",
+    "symbol": "616",
+    "englishCopy": "RINNATYA",
+    "englishName": "Rinnatya"
+  },
+  {
+    "cityName": "רכסים",
+    "symbol": "922",
+    "englishCopy": "REKHASIM",
+    "englishName": "Rekhasim "
+  },
+  {
+    "cityName": "רם-און",
+    "symbol": "1069",
+    "englishCopy": "RAM-ON",
+    "englishName": "Ram-On "
+  },
+  {
+    "cityName": "רמות",
+    "symbol": "4702",
+    "englishCopy": "RAMOT",
+    "englishName": "Ramot"
+  },
+  {
+    "cityName": "רמות השבים",
+    "symbol": "206",
+    "englishCopy": "RAMOT HASHAVIM",
+    "englishName": "Ramot HaShavim"
+  },
+  {
+    "cityName": "רמות מאיר",
+    "symbol": "735",
+    "englishCopy": "RAMOT ME'IR",
+    "englishName": "Ramot Me'ir"
+  },
+  {
+    "cityName": "רמות מנשה",
+    "symbol": "445",
+    "englishCopy": "RAMOT MENASHE",
+    "englishName": "Ramot Menashe"
+  },
+  {
+    "cityName": "רמות נפתלי",
+    "symbol": "372",
+    "englishCopy": "RAMOT NAFTALI",
+    "englishName": "Ramot Naftali"
+  },
+  {
+    "cityName": "רמלה",
+    "symbol": "8500",
+    "englishCopy": "RAMLA",
+    "englishName": "Ramla "
+  },
+  {
+    "cityName": "רמת גן",
+    "symbol": "8600",
+    "englishCopy": "RAMAT GAN",
+    "englishName": "Ramat Gan "
+  },
+  {
+    "cityName": "רמת דוד",
+    "symbol": "135",
+    "englishCopy": "RAMAT DAWID",
+    "englishName": "Ramat Dawid"
+  },
+  {
+    "cityName": "רמת הכובש",
+    "symbol": "184",
+    "englishCopy": "RAMAT HAKOVESH",
+    "englishName": "Ramat HaKovesh"
+  },
+  {
+    "cityName": "רמת השופט",
+    "symbol": "335",
+    "englishCopy": "RAMAT HASHOFET",
+    "englishName": "Ramat HaShofet"
+  },
+  {
+    "cityName": "רמת השרון",
+    "symbol": "2650",
+    "englishCopy": "RAMAT HASHARON",
+    "englishName": "Ramat HaSharon"
+  },
+  {
+    "cityName": "רמת יוחנן",
+    "symbol": "178",
+    "englishCopy": "RAMAT YOHANAN",
+    "englishName": "Ramat Yohanan"
+  },
+  {
+    "cityName": "רמת ישי",
+    "symbol": "122",
+    "englishCopy": "RAMAT YISHAY",
+    "englishName": "Ramat Yishay"
+  },
+  {
+    "cityName": "רמת כוכב מ\"א 7",
+    "symbol": "1828"
+  },
+  {
+    "cityName": "רמת כוכב מ\"א 8",
+    "symbol": "1829"
+  },
+  {
+    "cityName": "רמת כוכב מ\"א 9",
+    "symbol": "1830"
+  },
+  {
+    "cityName": "רמת כוכב של\"ש",
+    "symbol": "1831"
+  },
+  {
+    "cityName": "רמת מגשימים",
+    "symbol": "4701",
+    "englishCopy": "RAMAT MAGSHIMIM",
+    "englishName": "Ramat Magshimim"
+  },
+  {
+    "cityName": "רמת מנשה מ\"א 13",
+    "symbol": "1837"
+  },
+  {
+    "cityName": "רמת מנשה של\"ש",
+    "symbol": "1838"
+  },
+  {
+    "cityName": "רמת צבי",
+    "symbol": "339",
+    "englishCopy": "RAMAT ZEVI",
+    "englishName": "Ramat Zevi"
+  },
+  {
+    "cityName": "רמת רזיאל",
+    "symbol": "460",
+    "englishCopy": "RAMAT RAZI'EL",
+    "englishName": "Ramat Razi'el"
+  },
+  {
+    "cityName": "רמת רחל",
+    "symbol": "127",
+    "englishCopy": "RAMAT RAHEL",
+    "englishName": "Ramat Rahel"
+  },
+  {
+    "cityName": "רנן",
+    "symbol": "789",
+    "englishCopy": "RANNEN",
+    "englishName": "Rannen"
+  },
+  {
+    "cityName": "רעים",
+    "symbol": "713",
+    "englishCopy": "RE'IM",
+    "englishName": "Re'im"
+  },
+  {
+    "cityName": "רעננה",
+    "symbol": "8700",
+    "englishCopy": "RA'ANNANA",
+    "englishName": "Ra'annana"
+  },
+  {
+    "cityName": "רקפת",
+    "symbol": "1228",
+    "englishCopy": "RAQQEFET",
+    "englishName": "Raqqefet"
+  },
+  {
+    "cityName": "רשפון",
+    "symbol": "247",
+    "englishCopy": "RISHPON",
+    "englishName": "Rishpon"
+  },
+  {
+    "cityName": "רשפים",
+    "symbol": "437",
+    "englishCopy": "RESHAFIM",
+    "englishName": "Reshafim"
+  },
+  {
+    "cityName": "רתמים",
+    "symbol": "1260",
+    "englishCopy": "RETAMIM",
+    "englishName": "Retamim"
+  },
+  {
+    "cityName": "שאר ישוב",
+    "symbol": "324",
+    "englishCopy": "SHE'AR YASHUV",
+    "englishName": "She'ar Yashuv"
+  },
+  {
+    "cityName": "שבי דרום",
+    "symbol": "1377",
+    "englishCopy": "SHAVE DAROM",
+    "englishName": "Shave Darom"
+  },
+  {
+    "cityName": "שבי ציון",
+    "symbol": "282",
+    "englishCopy": "SHAVE ZIYYON",
+    "englishName": "Shave Ziyyon"
+  },
+  {
+    "cityName": "שבי שומרון",
+    "symbol": "3571",
+    "englishCopy": "SHAVE SHOMERON",
+    "englishName": "Shave Shomeron"
+  },
+  {
+    "cityName": "שבלי - אום אל-גנם",
+    "symbol": "913",
+    "englishCopy": "SHIBLI-UMM AL-GHANAM",
+    "englishName": "Shibli-Umm Al-Ghanam"
+  },
+  {
+    "cityName": "שגב-שלום",
+    "symbol": "1286",
+    "englishCopy": "SEGEV-SHALOM",
+    "englishName": "Segev-Shalom"
+  },
+  {
+    "cityName": "שדה אילן",
+    "symbol": "721",
+    "englishCopy": "SEDE ILAN",
+    "englishName": "Sede Ilan"
+  },
+  {
+    "cityName": "שדה אליהו",
+    "symbol": "304",
+    "englishCopy": "SEDE ELIYYAHU",
+    "englishName": "Sede Eliyyahu"
+  },
+  {
+    "cityName": "שדה אליעזר",
+    "symbol": "861",
+    "englishCopy": "SEDE ELI'EZER",
+    "englishName": "Sede Eli'ezer"
+  },
+  {
+    "cityName": "שדה בוקר",
+    "symbol": "885",
+    "englishCopy": "SEDE BOQER",
+    "englishName": "Sede Boqer"
+  },
+  {
+    "cityName": "שדה דוד",
+    "symbol": "36",
+    "englishCopy": "SEDE DAWID",
+    "englishName": "Sede Dawid"
+  },
+  {
+    "cityName": "שדה ורבורג",
+    "symbol": "284",
+    "englishCopy": "SEDE WARBURG",
+    "englishName": "Sede Warburg"
+  },
+  {
+    "cityName": "שדה יואב",
+    "symbol": "293",
+    "englishCopy": "SEDE YO'AV",
+    "englishName": "Sede Yo'av"
+  },
+  {
+    "cityName": "שדה יעקב",
+    "symbol": "142",
+    "englishCopy": "SEDE YA'AQOV",
+    "englishName": "Sede Ya'aqov"
+  },
+  {
+    "cityName": "שדה יצחק",
+    "symbol": "2008",
+    "englishCopy": "SEDE YIZHAQ",
+    "englishName": "Sede Yizhaq"
+  },
+  {
+    "cityName": "שדה משה",
+    "symbol": "18",
+    "englishCopy": "SEDE MOSHE",
+    "englishName": "Sede Moshe"
+  },
+  {
+    "cityName": "שדה נחום",
+    "symbol": "259",
+    "englishCopy": "SEDE NAHUM",
+    "englishName": "Sede Nahum"
+  },
+  {
+    "cityName": "שדה נחמיה",
+    "symbol": "329",
+    "englishCopy": "SEDE NEHEMYA",
+    "englishName": "Sede Nehemya"
+  },
+  {
+    "cityName": "שדה ניצן",
+    "symbol": "1058",
+    "englishCopy": "SEDE NIZZAN",
+    "englishName": "Sede Nizzan"
+  },
+  {
+    "cityName": "שדה עוזיהו",
+    "symbol": "739",
+    "englishCopy": "SEDE UZZIYYAHU",
+    "englishName": "Sede Uzziyyahu"
+  },
+  {
+    "cityName": "שדה צבי",
+    "symbol": "2049",
+    "englishCopy": "SEDE ZEVI",
+    "englishName": "Sede Zevi"
+  },
+  {
+    "cityName": "שדות ים",
+    "symbol": "327",
+    "englishCopy": "SEDOT YAM",
+    "englishName": "Sedot Yam"
+  },
+  {
+    "cityName": "שדות מיכה",
+    "symbol": "27",
+    "englishCopy": "SEDOT MIKHA",
+    "englishName": "Sedot Mikha"
+  },
+  {
+    "cityName": "שדי אברהם",
+    "symbol": "1223",
+    "englishCopy": "SEDE AVRAHAM",
+    "englishName": "Sede Avraham"
+  },
+  {
+    "cityName": "שדי חמד",
+    "symbol": "2015",
+    "englishCopy": "SEDE HEMED",
+    "englishName": "Sede Hemed"
+  },
+  {
+    "cityName": "שדי תרומות",
+    "symbol": "2057",
+    "englishCopy": "SEDE TERUMOT",
+    "englishName": "Sede Terumot"
+  },
+  {
+    "cityName": "שדמה",
+    "symbol": "555",
+    "englishCopy": "SHEDEMA",
+    "englishName": "Shedema"
+  },
+  {
+    "cityName": "שדמות דבורה",
+    "symbol": "306",
+    "englishCopy": "SHADMOT DEVORA",
+    "englishName": "Shadmot Devora"
+  },
+  {
+    "cityName": "שדמות מחולה",
+    "symbol": "3578",
+    "englishCopy": "SHADMOT MEHOLA",
+    "englishName": "Shadmot Mehola"
+  },
+  {
+    "cityName": "שדרות",
+    "symbol": "1031",
+    "englishCopy": "SEDEROT",
+    "englishName": "Sederot"
+  },
+  {
+    "cityName": "שואבה",
+    "symbol": "741",
+    "englishCopy": "SHO'EVA",
+    "englishName": "Sho'eva"
+  },
+  {
+    "cityName": "שובה",
+    "symbol": "761",
+    "englishCopy": "SHUVA",
+    "englishName": "Shuva"
+  },
+  {
+    "cityName": "שובל",
+    "symbol": "394",
+    "englishCopy": "SHOVAL",
+    "englishName": "Shoval"
+  },
+  {
+    "cityName": "שוהם",
+    "symbol": "1304",
+    "englishCopy": "SHOHAM",
+    "englishName": "Shoham "
+  },
+  {
+    "cityName": "שומרה",
+    "symbol": "614",
+    "englishCopy": "SHOMERA",
+    "englishName": "Shomera"
+  },
+  {
+    "cityName": "שומרייה",
+    "symbol": "1265",
+    "englishCopy": "SHOMERIYYA",
+    "englishName": "Shomeriyya"
+  },
+  {
+    "cityName": "שוקדה",
+    "symbol": "415",
+    "englishCopy": "SHOQEDA",
+    "englishName": "Shoqeda"
+  },
+  {
+    "cityName": "שורש",
+    "symbol": "456",
+    "englishCopy": "SHORESH",
+    "englishName": "Shoresh"
+  },
+  {
+    "cityName": "שורשים",
+    "symbol": "1235",
+    "englishCopy": "SHORASHIM",
+    "englishName": "Shorashim"
+  },
+  {
+    "cityName": "שושנת העמקים",
+    "symbol": "224",
+    "englishCopy": "SHOSHANNAT HAAMAQIM",
+    "englishName": "Shoshannat HaAmaqim"
+  },
+  {
+    "cityName": "שזור",
+    "symbol": "527",
+    "englishCopy": "SHEZOR",
+    "englishName": "Shezor"
+  },
+  {
+    "cityName": "שחר",
+    "symbol": "7",
+    "englishCopy": "SHAHAR",
+    "englishName": "Shahar"
+  },
+  {
+    "cityName": "שחרות",
+    "symbol": "1266",
+    "englishCopy": "SHAHARUT",
+    "englishName": "Shaharut"
+  },
+  {
+    "cityName": "שיבולים",
+    "symbol": "865",
+    "englishCopy": "SHIBBOLIM",
+    "englishName": "Shibbolim "
+  },
+  {
+    "cityName": "שיטים",
+    "symbol": "1267",
+    "englishCopy": "SHITTIM",
+    "englishName": "Shittim"
+  },
+  {
+    "cityName": "שייח' דנון",
+    "symbol": "658",
+    "englishCopy": "SHEIKH DANNUN",
+    "englishName": "Sheikh Dannun"
+  },
+  {
+    "cityName": "שילה",
+    "symbol": "3641",
+    "englishCopy": "SHILO",
+    "englishName": "Shilo"
+  },
+  {
+    "cityName": "שילת",
+    "symbol": "1165",
+    "englishCopy": "SHILAT",
+    "englishName": "Shilat"
+  },
+  {
+    "cityName": "שכניה",
+    "symbol": "1160",
+    "englishCopy": "SHEKHANYA",
+    "englishName": "Shekhanya"
+  },
+  {
+    "cityName": "שלווה",
+    "symbol": "873",
+    "englishCopy": "SHALWA",
+    "englishName": "Shalwa"
+  },
+  {
+    "cityName": "שלווה במדבר",
+    "symbol": "1373",
+    "englishCopy": "SHALVA BAMIDBAR",
+    "englishName": "Shalva Bamidbar                                   "
+  },
+  {
+    "cityName": "שלוחות",
+    "symbol": "439",
+    "englishCopy": "SHELUHOT",
+    "englishName": "Sheluhot"
+  },
+  {
+    "cityName": "שלומי",
+    "symbol": "812",
+    "englishCopy": "SHELOMI",
+    "englishName": "Shelomi"
+  },
+  {
+    "cityName": "שלומית",
+    "symbol": "1364",
+    "englishCopy": "SHLOMIT",
+    "englishName": "Shlomit                                           "
+  },
+  {
+    "cityName": "שלומציון",
+    "symbol": "1793",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "שמיר",
+    "symbol": "366",
+    "englishCopy": "SHAMIR",
+    "englishName": "Shamir"
+  },
+  {
+    "cityName": "שמעה",
+    "symbol": "3784",
+    "englishCopy": "SHIM'A",
+    "englishName": "Shim'a"
+  },
+  {
+    "cityName": "שמרת",
+    "symbol": "432",
+    "englishCopy": "SHAMERAT",
+    "englishName": "Shamerat"
+  },
+  {
+    "cityName": "שמשית",
+    "symbol": "1337",
+    "englishCopy": "SHIMSHIT",
+    "englishName": "Shimshit"
+  },
+  {
+    "cityName": "שני",
+    "symbol": "1287",
+    "englishCopy": "SHANI",
+    "englishName": "Shani"
+  },
+  {
+    "cityName": "שניר",
+    "symbol": "1132",
+    "englishCopy": "SENIR",
+    "englishName": "Senir"
+  },
+  {
+    "cityName": "שעב",
+    "symbol": "538",
+    "englishCopy": "SHA'AB",
+    "englishName": "Sha'ab"
+  },
+  {
+    "cityName": "שעל",
+    "symbol": "4009",
+    "englishCopy": "SHA'AL",
+    "englishName": "Sha'al"
+  },
+  {
+    "cityName": "שעלבים",
+    "symbol": "856",
+    "englishCopy": "SHA'ALVIM",
+    "englishName": "Sha'alvim "
+  },
+  {
+    "cityName": "שער אפרים",
+    "symbol": "661",
+    "englishCopy": "SHA'AR EFRAYIM",
+    "englishName": "Sha'ar Efrayim"
+  },
+  {
+    "cityName": "שער הגולן",
+    "symbol": "264",
+    "englishCopy": "SHA'AR HAGOLAN",
+    "englishName": "Sha'ar HaGolan "
+  },
+  {
+    "cityName": "שער העמקים",
+    "symbol": "237",
+    "englishCopy": "SHA'AR HAAMAQIM",
+    "englishName": "Sha'ar HaAmaqim"
+  },
+  {
+    "cityName": "שער מנשה",
+    "symbol": "921",
+    "englishCopy": "SHA'AR MENASHE",
+    "englishName": "Sha'ar Menashe"
+  },
+  {
+    "cityName": "שערי תקווה",
+    "symbol": "3720",
+    "englishCopy": "SHA'ARE TIQWA",
+    "englishName": "Sha'are Tiqwa"
+  },
+  {
+    "cityName": "שפיים",
+    "symbol": "232",
+    "englishCopy": "SHEFAYIM",
+    "englishName": "Shefayim"
+  },
+  {
+    "cityName": "שפיר",
+    "symbol": "692",
+    "englishCopy": "SHAFIR",
+    "englishName": "Shafir"
+  },
+  {
+    "cityName": "שפלת יהודה מ\"א 26",
+    "symbol": "1803"
+  },
+  {
+    "cityName": "שפלת יהודה של\"ש",
+    "symbol": "1804"
+  },
+  {
+    "cityName": "שפר",
+    "symbol": "846",
+    "englishCopy": "SHEFER",
+    "englishName": "Shefer"
+  },
+  {
+    "cityName": "שפרעם",
+    "symbol": "8800",
+    "englishCopy": "SHEFAR'AM",
+    "englishName": "Shefar'am"
+  },
+  {
+    "cityName": "שקד",
+    "symbol": "3649",
+    "englishCopy": "SHAQED",
+    "englishName": "Shaqed"
+  },
+  {
+    "cityName": "שקף",
+    "symbol": "1233",
+    "englishCopy": "SHEQEF",
+    "englishName": "Sheqef"
+  },
+  {
+    "cityName": "שרונה",
+    "symbol": "292",
+    "englishCopy": "SHARONA",
+    "englishName": "Sharona"
+  },
+  {
+    "cityName": "שריגים (לי-און)",
+    "symbol": "1114",
+    "englishCopy": "SARIGIM (LI-ON)",
+    "englishName": "Sarigim (Li-On)"
+  },
+  {
+    "cityName": "שריד",
+    "symbol": "126",
+    "englishCopy": "SARID",
+    "englishName": "Sarid"
+  },
+  {
+    "cityName": "שרשרת",
+    "symbol": "398",
+    "englishCopy": "SHARSHERET",
+    "englishName": "Sharsheret"
+  },
+  {
+    "cityName": "שתולה",
+    "symbol": "1045",
+    "englishCopy": "SHETULA",
+    "englishName": "Shetula"
+  },
+  {
+    "cityName": "שתולים",
+    "symbol": "763",
+    "englishCopy": "SHETULIM",
+    "englishName": "Shetulim"
+  },
+  {
+    "cityName": "תאשור",
+    "symbol": "2062",
+    "englishCopy": "TE'ASHUR",
+    "englishName": "Te'ashur"
+  },
+  {
+    "cityName": "תדהר",
+    "symbol": "2061",
+    "englishCopy": "TIDHAR",
+    "englishName": "Tidhar"
+  },
+  {
+    "cityName": "תובל",
+    "symbol": "1172",
+    "englishCopy": "TUVAL",
+    "englishName": "Tuval"
+  },
+  {
+    "cityName": "תומר",
+    "symbol": "3558",
+    "englishCopy": "TOMER",
+    "englishName": "Tomer"
+  },
+  {
+    "cityName": "תושייה",
+    "symbol": "1083",
+    "englishCopy": "TUSHIYYA",
+    "englishName": "Tushiyya"
+  },
+  {
+    "cityName": "תימורים",
+    "symbol": "163",
+    "englishCopy": "TIMMORIM",
+    "englishName": "Timmorim"
+  },
+  {
+    "cityName": "תירוש",
+    "symbol": "10",
+    "englishCopy": "TIROSH",
+    "englishName": "Tirosh"
+  },
+  {
+    "cityName": "תל אביב -יפו",
+    "symbol": "5000",
+    "englishCopy": "TEL AVIV - YAFO",
+    "englishName": "Tel Aviv - Yafo"
+  },
+  {
+    "cityName": "תל חי (מכללה)",
+    "symbol": "1707",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תל יוסף",
+    "symbol": "84",
+    "englishCopy": "TEL YOSEF",
+    "englishName": "Tel Yosef"
+  },
+  {
+    "cityName": "תל יצחק",
+    "symbol": "287",
+    "englishCopy": "TEL YIZHAQ",
+    "englishName": "Tel Yizhaq"
+  },
+  {
+    "cityName": "תל מונד",
+    "symbol": "154",
+    "englishCopy": "TEL MOND",
+    "englishName": "Tel Mond"
+  },
+  {
+    "cityName": "תל עדשים",
+    "symbol": "103",
+    "englishCopy": "TEL ADASHIM",
+    "englishName": "Tel Adashim "
+  },
+  {
+    "cityName": "תל קציר",
+    "symbol": "719",
+    "englishCopy": "TEL QAZIR",
+    "englishName": "Tel Qazir"
+  },
+  {
+    "cityName": "תל שבע",
+    "symbol": "1054",
+    "englishCopy": "TEL SHEVA",
+    "englishName": "Tel Sheva"
+  },
+  {
+    "cityName": "תל תאומים",
+    "symbol": "1283",
+    "englishCopy": "TEL TE'OMIM",
+    "englishName": "Tel Te'omim "
+  },
+  {
+    "cityName": "תלם",
+    "symbol": "3719",
+    "englishCopy": "TELEM",
+    "englishName": "Telem"
+  },
+  {
+    "cityName": "תלמי אליהו",
+    "symbol": "1051",
+    "englishCopy": "TALME ELIYYAHU",
+    "englishName": "Talme Eliyyahu"
+  },
+  {
+    "cityName": "תלמי אלעזר",
+    "symbol": "2003",
+    "englishCopy": "TALME EL'AZAR",
+    "englishName": "Talme El'azar"
+  },
+  {
+    "cityName": "תלמי ביל\"ו",
+    "symbol": "2050",
+    "englishCopy": "TALME BILU",
+    "englishName": "Talme Bilu"
+  },
+  {
+    "cityName": "תלמי יוסף",
+    "symbol": "1237",
+    "englishCopy": "TALME YOSEF",
+    "englishName": "Talme Yosef"
+  },
+  {
+    "cityName": "תלמי יחיאל",
+    "symbol": "727",
+    "englishCopy": "TALME YEHI'EL",
+    "englishName": "Talme Yehi'el"
+  },
+  {
+    "cityName": "תלמי יפה",
+    "symbol": "744",
+    "englishCopy": "TALME YAFE",
+    "englishName": "Talme Yafe"
+  },
+  {
+    "cityName": "תלמים",
+    "symbol": "814",
+    "englishCopy": "TELAMIM",
+    "englishName": "Telamim"
+  },
+  {
+    "cityName": "תמרת",
+    "symbol": "1244",
+    "englishCopy": "TIMRAT",
+    "englishName": "Timrat"
+  },
+  {
+    "cityName": "תנובות",
+    "symbol": "2002",
+    "englishCopy": "TENUVOT",
+    "englishName": "Tenuvot"
+  },
+  {
+    "cityName": "תעוז",
+    "symbol": "752",
+    "englishCopy": "TA'OZ",
+    "englishName": "Ta'oz"
+  },
+  {
+    "cityName": "תעשיון בינימין*",
+    "symbol": "1744",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון השרון",
+    "symbol": "1741",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון חבל יבנה",
+    "symbol": "1750",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון חצב*",
+    "symbol": "1742",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון מבצע*",
+    "symbol": "1754",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון מיתרים",
+    "symbol": "1794",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון צריפין",
+    "symbol": "1749",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון ראם*",
+    "symbol": "1755",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיון שח\"ק",
+    "symbol": "1792",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תעשיות גליל תחתון",
+    "symbol": "1714",
+    "englishCopy": " "
+  },
+  {
+    "cityName": "תפרח",
+    "symbol": "709",
+    "englishCopy": "TIFRAH",
+    "englishName": "Tifrah"
+  },
+  {
+    "cityName": "תקומה",
+    "symbol": "665",
+    "englishCopy": "TEQUMA",
+    "englishName": "Tequma"
+  },
+  {
+    "cityName": "תקוע",
+    "symbol": "3563",
+    "englishCopy": "TEQOA",
+    "englishName": "Teqoa"
+  },
+  {
+    "cityName": "תראבין א-צאנע (שבט)",
+    "symbol": "970",
+    "englishCopy": "TARABIN AS-SANI",
+    "englishName": "Tarabin as-Sani'"
+  },
+  {
+    "cityName": "תרבין א-צאנע (יישוב)*",
+    "symbol": "1346",
+    "englishCopy": "TARABIN AS-SANI",
+    "englishName": "Tarabin As-Sani"
+  },
+  {
+    "cityName": "תרום",
+    "symbol": "778",
+    "englishCopy": "TARUM",
+    "englishName": "Tarum"
+  }
+]

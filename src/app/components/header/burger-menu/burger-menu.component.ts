@@ -11,8 +11,7 @@ export class BurgerMenuComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
   mobileMenuToggle() {
     const mobileMenuCont = document.querySelector('.mobile-menu-cont')
