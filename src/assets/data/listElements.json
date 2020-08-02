@@ -1,0 +1,1070 @@
+[
+  {
+    "id": 1,
+    "title": "Construction and decoration works",
+    "icon": "",
+    "data": [
+      {
+        "id": 101,
+        "subtitle": "Fix-it man, hourly rate",
+        "value": false
+      },
+      {
+        "id": 102,
+        "subtitle": "Turn-key home renovations",
+        "value": false
+      },
+      {
+        "id": 103,
+        "subtitle": "Construction and installation works",
+        "value": false
+      },
+      {
+        "id": 104,
+        "subtitle": "Dismantling works",
+        "value": false
+      },
+      {
+        "id": 105,
+        "subtitle": "Decoration works",
+        "value": false
+      },
+      {
+        "id": 106,
+        "subtitle": "Plumbing works",
+        "value": false
+      },
+      {
+        "id": 107,
+        "subtitle": "Electrical installation works",
+        "value": false
+      },
+      {
+        "id": 108,
+        "subtitle": "Roofing and facade works",
+        "value": false
+      },
+      {
+        "id": 109,
+        "subtitle": "Large-scale construction",
+        "value": false
+      },
+      {
+        "id": 110,
+        "subtitle": "Water supply system, wastewater disposal",
+        "value": false
+      },
+      {
+        "id": 111,
+        "subtitle": "Air conditioning and ventilation system",
+        "value": false
+      },
+      {
+        "id": 112,
+        "subtitle": "Interior design, landscape design",
+        "value": false
+      },
+      {
+        "id": 113,
+        "subtitle": "Architecture and project designing",
+        "value": false
+      },
+      {
+        "id": 114,
+        "subtitle": "Other construction works",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Everything for household",
+    "icon": "",
+    "data": [
+      {
+        "id": 201,
+        "subtitle": "Furniture manufacturing",
+        "value": false
+      },
+      {
+        "id": 202,
+        "subtitle": "Furniture assembly",
+        "value": false
+      },
+      {
+        "id": 203,
+        "subtitle": "Furniture repair and restoration",
+        "value": false
+      },
+      {
+        "id": 204,
+        "subtitle": "Kitchen and bathroom furniture",
+        "value": false
+      },
+      {
+        "id": 205,
+        "subtitle": "Installation and repair of air conditioners",
+        "value": false
+      },
+      {
+        "id": 206,
+        "subtitle": "Installation and repair of water heaters",
+        "value": false
+      },
+      {
+        "id": 207,
+        "subtitle": "Installation and repair of doors, locks",
+        "value": false
+      },
+      {
+        "id": 208,
+        "subtitle": "Windows, glass fixing works, balconies",
+        "value": false
+      },
+      {
+        "id": 209,
+        "subtitle": "Manufacturing and installation of blinds, curtains",
+        "value": false
+      },
+      {
+        "id": 210,
+        "subtitle": "Earthworks, gardening, works on land adjacent to the house",
+        "value": false
+      },
+      {
+        "id": 211,
+        "subtitle": "Other for household",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Household services",
+    "icon": "",
+    "data": [
+      {
+        "id": 301,
+        "subtitle": "Nursing services",
+        "value": false
+      },
+      {
+        "id": 302,
+        "subtitle": "Babysitting services",
+        "value": false
+      },
+      {
+        "id": 303,
+        "subtitle": "Cooking",
+        "value": false
+      },
+      {
+        "id": 304,
+        "subtitle": "Repair works of bags, watches, jewelry",
+        "value": false
+      },
+      {
+        "id": 305,
+        "subtitle": "Repairing and sewing of clothes",
+        "value": false
+      },
+      {
+        "id": 306,
+        "subtitle": "Shoe repairs",
+        "value": false
+      },
+      {
+        "id": 307,
+        "subtitle": "Washing and ironing of clothing",
+        "value": false
+      },
+      {
+        "id": 308,
+        "subtitle": "Tool sharpening",
+        "value": false
+      },
+      {
+        "id": 309,
+        "subtitle": "Other household services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cleaning",
+    "icon": "",
+    "data": [
+      {
+        "id": 401,
+        "subtitle": "Cleaning of apartments, houses",
+        "value": false
+      },
+      {
+        "id": 402,
+        "subtitle": "Cleaning after home renovation works",
+        "value": false
+      },
+      {
+        "id": 403,
+        "subtitle": "Office cleaning services",
+        "value": false
+      },
+      {
+        "id": 404,
+        "subtitle": "Cleaning of shops, restaurant",
+        "value": false
+      },
+      {
+        "id": 405,
+        "subtitle": "Washing of windows, facades",
+        "value": false
+      },
+      {
+        "id": 406,
+        "subtitle": "Eco-cleaning",
+        "value": false
+      },
+      {
+        "id": 407,
+        "subtitle": "Cleaning of adjacent areas",
+        "value": false
+      },
+      {
+        "id": 408,
+        "subtitle": "Disinfection of premises",
+        "value": false
+      },
+      {
+        "id": 409,
+        "subtitle": "Cleaning of industrial premises",
+        "value": false
+      },
+      {
+        "id": 410,
+        "subtitle": "Other cleaning",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Transportation services",
+    "icon": "",
+    "data": [
+      {
+        "id": 501,
+        "subtitle": "Apartment or office move",
+        "value": false
+      },
+      {
+        "id": 502,
+        "subtitle": "Transportation of furniture and equipment",
+        "value": false
+      },
+      {
+        "id": 503,
+        "subtitle": "Moving men services",
+        "value": false
+      },
+      {
+        "id": 504,
+        "subtitle": "Passenger transportation",
+        "value": false
+      },
+      {
+        "id": 505,
+        "subtitle": "Intercity transportation",
+        "value": false
+      },
+      {
+        "id": 506,
+        "subtitle": "Cargo transportation",
+        "value": false
+      },
+      {
+        "id": 507,
+        "subtitle": "Transportation of food products",
+        "value": false
+      },
+      {
+        "id": 508,
+        "subtitle": "Construction waste disposal service",
+        "value": false
+      },
+      {
+        "id": 509,
+        "subtitle": "Taxi service",
+        "value": false
+      },
+      {
+        "id": 510,
+        "subtitle": "Sober driver service",
+        "value": false
+      },
+      {
+        "id": 511,
+        "subtitle": "Packing, assembly and sorting services",
+        "value": false
+      },
+      {
+        "id": 512,
+        "subtitle": "Other transportation services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Courier services",
+    "icon": "",
+    "data": [
+      {
+        "id": 601,
+        "subtitle": "Courier delivery",
+        "value": false
+      },
+      {
+        "id": 602,
+        "subtitle": "Delivery of food products, ready-to-eat food",
+        "value": false
+      },
+      {
+        "id": 603,
+        "subtitle": "Delivery of gifts, flowers",
+        "value": false
+      },
+      {
+        "id": 604,
+        "subtitle": "Delivery of medicines",
+        "value": false
+      },
+      {
+        "id": 605,
+        "subtitle": "Courier service by car",
+        "value": false
+      },
+      {
+        "id": 606,
+        "subtitle": "Delivery of on-line shop goods",
+        "value": false
+      },
+      {
+        "id": 607,
+        "subtitle": "Delivery of documents",
+        "value": false
+      },
+      {
+        "id": 608,
+        "subtitle": "Pick up and send by mail service",
+        "value": false
+      },
+      {
+        "id": 609,
+        "subtitle": "Other courier services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Repair of appliances and tools",
+    "icon": "",
+    "data": [
+      {
+        "id": 701,
+        "subtitle": "Repair of large household appliances",
+        "value": false
+      },
+      {
+        "id": 702,
+        "subtitle": "Repair of phones, digital devices",
+        "value": false
+      },
+      {
+        "id": 703,
+        "subtitle": "Repair of computers and laptops",
+        "value": false
+      },
+      {
+        "id": 704,
+        "subtitle": "Repair of electric vehicles",
+        "value": false
+      },
+      {
+        "id": 705,
+        "subtitle": "Repair of bicycles, scooters",
+        "value": false
+      },
+      {
+        "id": 706,
+        "subtitle": "Repair of office equipment",
+        "value": false
+      },
+      {
+        "id": 707,
+        "subtitle": "Repair of beauty and care equipment",
+        "value": false
+      },
+      {
+        "id": 708,
+        "subtitle": "Repair of electric tools",
+        "value": false
+      },
+      {
+        "id": 709,
+        "subtitle": "Repair of medical equipment",
+        "value": false
+      },
+      {
+        "id": 710,
+        "subtitle": "Repair of gardening equipment",
+        "value": false
+      },
+      {
+        "id": 711,
+        "subtitle": "Maintenance of equipment",
+        "value": false
+      },
+      {
+        "id": 712,
+        "subtitle": "Setting up equipment, TV, Internet",
+        "value": false
+      },
+      {
+        "id": 713,
+        "subtitle": "Installation and repair of security systems, video surveillance systems",
+        "value": false
+      },
+      {
+        "id": 714,
+        "subtitle": "Installation and configuration of operating systems, programs",
+        "value": false
+      },
+      {
+        "id": 715,
+        "subtitle": "Consultations and training",
+        "value": false
+      },
+      {
+        "id": 716,
+        "subtitle": "Other repair of equipment",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Organization of celebratory events",
+    "icon": "",
+    "data": [
+      {
+        "id": 801,
+        "subtitle": "Host, animator services",
+        "value": false
+      },
+      {
+        "id": 802,
+        "subtitle": "Decoration service for events",
+        "value": false
+      },
+      {
+        "id": 803,
+        "subtitle": "Staff for events",
+        "value": false
+      },
+      {
+        "id": 804,
+        "subtitle": "DJ service",
+        "value": false
+      },
+      {
+        "id": 805,
+        "subtitle": "Entertainment",
+        "value": false
+      },
+      {
+        "id": 806,
+        "subtitle": "Catering service",
+        "value": false
+      },
+      {
+        "id": 807,
+        "subtitle": "Ordering cakes and desserts",
+        "value": false
+      },
+      {
+        "id": 808,
+        "subtitle": "Turn-key celebratory event",
+        "value": false
+      },
+      {
+        "id": 809,
+        "subtitle": "Other organization of celebratory events",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Beauty and health services",
+    "icon": "",
+    "data": [
+      {
+        "id": 901,
+        "subtitle": "Massage",
+        "value": false
+      },
+      {
+        "id": 902,
+        "subtitle": "Hairdressing services",
+        "value": false
+      },
+      {
+        "id": 903,
+        "subtitle": "Nail care",
+        "value": false
+      },
+      {
+        "id": 904,
+        "subtitle": "Cosmetology",
+        "value": false
+      },
+      {
+        "id": 905,
+        "subtitle": "Eyebrows, eyelashes beauty care",
+        "value": false
+      },
+      {
+        "id": 906,
+        "subtitle": "Depilation",
+        "value": false
+      },
+      {
+        "id": 907,
+        "subtitle": "Make-up stylist services",
+        "value": false
+      },
+      {
+        "id": 908,
+        "subtitle": "Personal coach",
+        "value": false
+      },
+      {
+        "id": 909,
+        "subtitle": "Makeup",
+        "value": false
+      },
+      {
+        "id": 910,
+        "subtitle": "Psychologist",
+        "value": false
+      },
+      {
+        "id": 911,
+        "subtitle": "Dieting expert",
+        "value": false
+      },
+      {
+        "id": 912,
+        "subtitle": "Other type of self care",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Photo and video services",
+    "icon": "",
+    "data": [
+      {
+        "id": 1001,
+        "subtitle": "Photographer",
+        "value": false
+      },
+      {
+        "id": 1002,
+        "subtitle": "Video operator",
+        "value": false
+      },
+      {
+        "id": 1003,
+        "subtitle": "Photo reworking",
+        "value": false
+      },
+      {
+        "id": 1004,
+        "subtitle": "Editing and reworking of video",
+        "value": false
+      },
+      {
+        "id": 1005,
+        "subtitle": "Other photo and video services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Business services",
+    "icon": "",
+    "data": [
+      {
+        "id": 1101,
+        "subtitle": "Real estate services",
+        "value": false
+      },
+      {
+        "id": 1102,
+        "subtitle": "Repatriation services",
+        "value": false
+      },
+      {
+        "id": 1103,
+        "subtitle": "HR services",
+        "value": false
+      },
+      {
+        "id": 1104,
+        "subtitle": "Financial services",
+        "value": false
+      },
+      {
+        "id": 1105,
+        "subtitle": "Accounting services",
+        "value": false
+      },
+      {
+        "id": 1106,
+        "subtitle": "Consulting services",
+        "value": false
+      },
+      {
+        "id": 1107,
+        "subtitle": "Security services",
+        "value": false
+      },
+      {
+        "id": 1108,
+        "subtitle": "Other business services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Legal services",
+    "icon": "",
+    "data": [
+      {
+        "id": 1201,
+        "subtitle": "Legal aid consultation",
+        "value": false
+      },
+      {
+        "id": 1202,
+        "subtitle": "Drafting and verification of contracts",
+        "value": false
+      },
+      {
+        "id": 1203,
+        "subtitle": "Drafting and filing complaints, claims",
+        "value": false
+      },
+      {
+        "id": 1204,
+        "subtitle": "Legal paperwork",
+        "value": false
+      },
+      {
+        "id": 1205,
+        "subtitle": "Registration, liquidation of companies",
+        "value": false
+      },
+      {
+        "id": 1206,
+        "subtitle": "Legal assistance for new repatriates",
+        "value": false
+      },
+      {
+        "id": 1207,
+        "subtitle": "Other legal services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Translation agency",
+    "icon": "",
+    "data": [
+      {
+        "id": 1301,
+        "subtitle": "Written translations",
+        "value": false
+      },
+      {
+        "id": 1302,
+        "subtitle": "Oral translations",
+        "value": false
+      },
+      {
+        "id": 1303,
+        "subtitle": "Technical translation",
+        "value": false
+      },
+      {
+        "id": 1304,
+        "subtitle": "Translation of documents",
+        "value": false
+      },
+      {
+        "id": 1305,
+        "subtitle": "Editing a translation",
+        "value": false
+      },
+      {
+        "id": 1306,
+        "subtitle": "Translation of audio and video material",
+        "value": false
+      },
+      {
+        "id": 1307,
+        "subtitle": "Other translation",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Tutors and teaching",
+    "icon": "",
+    "data": [
+      {
+        "id": 1401,
+        "subtitle": "Hebrew",
+        "value": false
+      },
+      {
+        "id": 1402,
+        "subtitle": "Arabic language",
+        "value": false
+      },
+      {
+        "id": 1403,
+        "subtitle": "English language",
+        "value": false
+      },
+      {
+        "id": 1404,
+        "subtitle": "Russian language",
+        "value": false
+      },
+      {
+        "id": 1405,
+        "subtitle": "Other foreign languages",
+        "value": false
+      },
+      {
+        "id": 1406,
+        "subtitle": "Subject teachers",
+        "value": false
+      },
+      {
+        "id": 1407,
+        "subtitle": "Programming and computer science",
+        "value": false
+      },
+      {
+        "id": 1408,
+        "subtitle": "Pre-school training and education services for junior grades students",
+        "value": false
+      },
+      {
+        "id": 1409,
+        "subtitle": "Music, dances, art",
+        "value": false
+      },
+      {
+        "id": 1410,
+        "subtitle": "Assistance for students",
+        "value": false
+      },
+      {
+        "id": 1411,
+        "subtitle": "Writing works",
+        "value": false
+      },
+      {
+        "id": 1412,
+        "subtitle": "Sports, coaches",
+        "value": false
+      },
+      {
+        "id": 1413,
+        "subtitle": "Driving instructors",
+        "value": false
+      },
+      {
+        "id": 1414,
+        "subtitle": "Other tutors and teaching",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Virtual assistant",
+    "icon": "",
+    "data": [
+      {
+        "id": 1501,
+        "subtitle": "Copywriting, typing ",
+        "value": false
+      },
+      {
+        "id": 1502,
+        "subtitle": "Data input",
+        "value": false
+      },
+      {
+        "id": 1503,
+        "subtitle": "Search and processing of information",
+        "value": false
+      },
+      {
+        "id": 1504,
+        "subtitle": "Placement of ads",
+        "value": false
+      },
+      {
+        "id": 1505,
+        "subtitle": "Work in Excel, Power Point, etc.",
+        "value": false
+      },
+      {
+        "id": 1506,
+        "subtitle": "Advertising and promotion on the Internet",
+        "value": false
+      },
+      {
+        "id": 1507,
+        "subtitle": "Calling database numbers",
+        "value": false
+      },
+      {
+        "id": 1508,
+        "subtitle": "Other virtual assistant",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Design services",
+    "icon": "",
+    "data": [
+      {
+        "id": 1601,
+        "subtitle": "Corporate identity style, logos, business cards",
+        "value": false
+      },
+      {
+        "id": 1602,
+        "subtitle": "Design of websites and applications",
+        "value": false
+      },
+      {
+        "id": 1603,
+        "subtitle": "Banner design, outdoor advertising",
+        "value": false
+      },
+      {
+        "id": 1604,
+        "subtitle": "Print design",
+        "value": false
+      },
+      {
+        "id": 1605,
+        "subtitle": "Illustrations, painting, graffiti",
+        "value": false
+      },
+      {
+        "id": 1606,
+        "subtitle": "Internet banners, social nets design",
+        "value": false
+      },
+      {
+        "id": 1607,
+        "subtitle": "Animation, 3d graphics",
+        "value": false
+      },
+      {
+        "id": 1608,
+        "subtitle": "Infographics, presentations, icons",
+        "value": false
+      },
+      {
+        "id": 1609,
+        "subtitle": "Other design",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Development of websites and applications",
+    "icon": "",
+    "data": [
+      {
+        "id": 1701,
+        "subtitle": "Programming and software development services",
+        "value": false
+      },
+      {
+        "id": 1702,
+        "subtitle": "Development of websites and Landing page",
+        "value": false
+      },
+      {
+        "id": 1703,
+        "subtitle": "Website improvement and support",
+        "value": false
+      },
+      {
+        "id": 1704,
+        "subtitle": "Website promotion",
+        "value": false
+      },
+      {
+        "id": 1705,
+        "subtitle": "Testing (QA)",
+        "value": false
+      },
+      {
+        "id": 1706,
+        "subtitle": "Development of mobile applications and games",
+        "value": false
+      },
+      {
+        "id": 1707,
+        "subtitle": "Creation and development of technical specifications",
+        "value": false
+      },
+      {
+        "id": 1708,
+        "subtitle": "Other IT services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Repair and maintenance of cars and motor vehicles",
+    "icon": "",
+    "data": [
+      {
+        "id": 1801,
+        "subtitle": "Car repair and maintenance",
+        "value": false
+      },
+      {
+        "id": 1802,
+        "subtitle": "Diagnostic troubleshooting and repair of the engine, gearbox and chassis",
+        "value": false
+      },
+      {
+        "id": 1803,
+        "subtitle": "Maintenance of air conditioning system",
+        "value": false
+      },
+      {
+        "id": 1804,
+        "subtitle": "Car wash, dry cleaning",
+        "value": false
+      },
+      {
+        "id": 1805,
+        "subtitle": "Repair and maintenance of motor vehicles",
+        "value": false
+      },
+      {
+        "id": 1806,
+        "subtitle": "Re-upholstery and repairs of car interior",
+        "value": false
+      },
+      {
+        "id": 1807,
+        "subtitle": "Repair of auto electrics",
+        "value": false
+      },
+      {
+        "id": 1808,
+        "subtitle": "Auto bodyworks and painting",
+        "value": false
+      },
+      {
+        "id": 1809,
+        "subtitle": "Tuning, styling, auto alarms",
+        "value": false
+      },
+      {
+        "id": 1810,
+        "subtitle": "Other auto services",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Pet services",
+    "icon": "",
+    "data": [
+      {
+        "id": 1901,
+        "subtitle": "Dog care",
+        "value": false
+      },
+      {
+        "id": 1902,
+        "subtitle": "Cat care",
+        "value": false
+      },
+      {
+        "id": 1903,
+        "subtitle": "Taking care of other pets",
+        "value": false
+      },
+      {
+        "id": 1904,
+        "subtitle": "Pet walking",
+        "value": false
+      },
+      {
+        "id": 1905,
+        "subtitle": "Pet grooming",
+        "value": false
+      },
+      {
+        "id": 1906,
+        "subtitle": "Transportation of pets",
+        "value": false
+      },
+      {
+        "id": 1907,
+        "subtitle": "Pet hotels",
+        "value": false
+      },
+      {
+        "id": 1908,
+        "subtitle": "Pet training",
+        "value": false
+      },
+      {
+        "id": 1909,
+        "subtitle": "Other pet services",
+        "value": false
+      }
+    ]
+  }
+]
