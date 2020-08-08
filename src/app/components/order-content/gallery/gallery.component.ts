@@ -24,6 +24,7 @@ export class GalleryComponent implements OnInit {
         width: '720px',
         previewZoom: true,
         previewCloseOnEsc: true,
+        previewCloseOnClick: true,
         previewRotate: true,
         imageAnimation: NgxGalleryAnimation.Slide,
         arrowPrevIcon: "fa fa-arrow-circle-o-left",
