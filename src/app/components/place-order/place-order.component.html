@@ -24,23 +24,51 @@
             {{item['subtitle']}}
           </ng-template>
         </ng-select>
+        <span class="error-message" *ngIf="section.invalid && (section.touched || isSubmit)">
+          Choose a section
+        </span>
       </div>
 
       <div class="section">
         <p>Heading</p>
-        <input type="text" placeholder="Heading" formControlName="Heading">
-        <span class="error-message" *ngIf="checkControlsValidity('Heading')">
+        <input
+          [style.borderColor]="heading.invalid && (heading.touched || isSubmit) ? 'red' : null"
+          formControlName="Heading"
+          type="text"
+          placeholder="Heading">
+        <span class="error-message" *ngIf="heading.invalid && (heading.touched || isSubmit)">
           {{ getErrorMessage('Heading') }}
         </span>
       </div>
     </div>
+
     <div class="section-description">
       <p>Description</p>
-      <textarea type="text" placeholder="Description" rows="12"></textarea>
+      <label>
+        <textarea
+          [style.borderColor]="description.invalid && (description.touched || isSubmit) ? 'red' : null"
+          formControlName="Description"
+          placeholder="Description"
+          rows="12">
+        </textarea>
+      </label>
+      <span class="error-message" *ngIf="description.invalid && (description.touched || isSubmit)">
+        {{ getErrorMessage('Description') }}
+      </span>
     </div>
     <div class="short-description">
       <p>Short description</p>
-      <textarea type="text" placeholder="Short Description" rows="3"></textarea>
+      <label>
+        <textarea
+          [style.borderColor]="shortDescription.invalid && (shortDescription.touched || isSubmit) ? 'red' : null"
+          formControlName="ShortDescription"
+          placeholder="Short Description"
+          rows="3">
+        </textarea>
+      </label>
+      <span class="error-message" *ngIf="shortDescription.invalid && (shortDescription.touched || isSubmit)">
+        {{ getErrorMessage('ShortDescription') }}
+      </span>
     </div>
 
     <div>
@@ -64,21 +92,43 @@
                    placeholder="Select city"
                    formControlName="City">
         </ng-select>
+        <span class="error-message" *ngIf="city.invalid && (city.touched || isSubmit)">
+          Select city
+        </span>
       </div>
       <div class="address">
         <p>Address (not necessary)</p>
-        <input type="text" placeholder="Your address">
+        <input type="text" placeholder="Your address" formControlName="Address">
       </div>
     </div>
     <div class="date-complete">
       <div class="date">
         <p>Order execution date</p>
-        <input type="text" placeholder="Deadline when an order must be completed">
+          <input [matDatepicker]="date"
+                 [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
+                 formControlName="ExecutionDate"
+                 type="text"
+                 placeholder="Deadline when an order must be completed"
+                 disabled>
+          <mat-datepicker-toggle matSuffix [for]="date">
+            <span class="material-icons" matDatepickerToggleIcon>keyboard_arrow_down</span>
+          </mat-datepicker-toggle>
+          <mat-datepicker #date disabled="false"></mat-datepicker>
+        <span class="error-message" *ngIf="executionDate.invalid && (executionDate.touched || isSubmit)">
+          Select date
+        </span>
       </div>
       <div class="price-checkbox">
         <div class="price">
           <p>Price</p>
-          <input type="text" placeholder="Price">
+          <input
+            [style.borderColor]="price.invalid && (price.touched || isSubmit) ? 'red' : null"
+            formControlName="Price"
+            type="text"
+            placeholder="Price">
+          <span class="error-message" *ngIf="price.invalid && (price.touched || isSubmit)">
+            {{ getErrorMessage('Price') }}
+          </span>
         </div>
         <div class="checkbox">
           <mat-checkbox></mat-checkbox>
@@ -89,7 +139,14 @@
     <div class="section-name">
       <div class="name">
         <p>Name</p>
-        <input type="text" placeholder="Your name">
+        <input
+          [style.borderColor]="name.invalid && (name.touched || isSubmit) ? 'red' : null"
+          formControlName="Name"
+          type="text"
+          placeholder="Your name">
+        <span class="error-message" *ngIf="name.invalid && (name.touched || isSubmit)">
+          {{ getErrorMessage('Name') }}
+        </span>
       </div>
       <div class="phone-checkbox">
         <div class="phone">
@@ -112,8 +169,8 @@
         <p>Phone for validation</p>
         <input type="text" placeholder="Your name">
       </div>
-      <button class="button-send">Send code</button>
-      <button class="button-order">Place an order</button>
+      <button class="button-send" type="button">Send code</button>
+      <button class="button-order" type="submit">Place an order</button>
     </div>
   </form>
 </div>

@@ -39,6 +39,8 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import {NgSelectModule} from "@ng-select/ng-select";
 import {CommonModule} from "@angular/common";
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MAT_DATE_LOCALE, MatNativeDateModule} from "@angular/material/core";
 
 @NgModule({
   declarations: [
@@ -84,9 +86,13 @@ import {CommonModule} from "@angular/common";
     NgSelectModule,
     ReactiveFormsModule,
     FormsModule,
-    CommonModule
+    CommonModule,
+    MatNativeDateModule,
+    MatDatepickerModule
   ],
-  providers: [],
+  providers: [
+    {provide: MAT_DATE_LOCALE, useValue: 'en-GB'}
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
