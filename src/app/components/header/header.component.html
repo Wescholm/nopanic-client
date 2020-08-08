@@ -4,7 +4,7 @@
     <header-search></header-search>
     <nav>
       <ul class="navigation">
-        <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" [routerLinkActive]="'active'">
+        <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" (click)="closeMenuClick()" [routerLinkActive]="'active'">
           <a [routerLink]="['/services']" >Services</a>
           <services-menu (click)="closeMenu()" *ngIf="this.popoverVisible"></services-menu>
         </li>

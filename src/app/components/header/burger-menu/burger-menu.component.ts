@@ -27,4 +27,9 @@ export class BurgerMenuComponent implements OnInit {
     }
   }
 
+  mobileMenuToggleContent() {
+    const mobileMenu = document.getElementById('dropdown-news-list');
+    mobileMenu.classList.toggle('open')
+  }
+
 }
