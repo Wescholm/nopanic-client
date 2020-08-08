@@ -6012,262 +6012,142 @@
     "russianName": ""
   },
   {
-    "id": 3768,
-    "cityName": "פדואל",
-    "englishName": "Pedu'el",
-    "russianName": ""
-  },
-  {
     "id": 750,
     "cityName": "פדויים",
     "englishName": "Peduyim",
-    "russianName": ""
+    "russianName": "Педуим"
   },
   {
     "id": 838,
     "cityName": "פדיה",
     "englishName": "Pedaya",
-    "russianName": ""
+    "russianName": "Педая"
   },
   {
     "id": 537,
     "cityName": "פוריידיס",
     "englishName": "Fureidis",
-    "russianName": ""
+    "russianName": "Фурейдис"
   },
   {
     "id": 1104,
     "cityName": "פורייה - כפר עבודה",
     "englishName": "Poriyya-Kefar Avoda",
-    "russianName": ""
-  },
-  {
-    "id": 1105,
-    "cityName": "פורייה - נווה עובד",
-    "englishName": "Poriyya-Newe Oved",
-    "russianName": ""
-  },
-  {
-    "id": 1313,
-    "cityName": "פורייה עילית",
-    "englishName": "Poriyya Illit",
-    "russianName": ""
+    "russianName": "Пория-Кфар-Авода"
   },
   {
     "id": 767,
     "cityName": "פורת",
     "englishName": "Porat",
-    "russianName": ""
-  },
-  {
-    "id": 749,
-    "cityName": "פטיש",
-    "englishName": "Pattish",
-    "russianName": ""
-  },
-  {
-    "id": 1185,
-    "cityName": "פלך",
-    "englishName": "Pelekh",
-    "russianName": ""
+    "russianName": "Порат"
   },
   {
     "id": 597,
     "cityName": "פלמחים",
     "englishName": "Palmahim",
-    "russianName": ""
-  },
-  {
-    "id": 3723,
-    "cityName": "פני חבר",
-    "englishName": "Pene Hever",
-    "russianName": ""
+    "russianName": "Пальмахим"
   },
   {
     "id": 3659,
     "cityName": "פסגות",
     "englishName": "Pesagot",
-    "russianName": ""
+    "russianName": "Псагот"
   },
   {
     "id": 535,
     "cityName": "פסוטה",
     "englishName": "Fassuta",
-    "russianName": ""
-  },
-  {
-    "id": 2059,
-    "cityName": "פעמי תש\"ז",
-    "englishName": "Pa'ame Tashaz",
-    "russianName": ""
-  },
-  {
-    "id": 3615,
-    "cityName": "פצאל",
-    "englishName": "Peza'el",
-    "russianName": ""
-  },
-  {
-    "id": 536,
-    "cityName": "פקיעין (בוקייעה)",
-    "englishName": "Peqi'in (Buqei'a)",
-    "russianName": ""
+    "russianName": "Фассута"
   },
   {
     "id": 281,
     "cityName": "פקיעין חדשה",
     "englishName": "Peqi'in Hadasha",
-    "russianName": ""
+    "russianName": "Пекиин-ха-Хадаша"
   },
   {
     "id": 7800,
     "cityName": "פרדס חנה-כרכור",
     "englishName": "Pardes Hanna-Karkur",
-    "russianName": ""
+    "russianName": "Пардес-Хана-Каркур"
   },
   {
     "id": 171,
     "cityName": "פרדסייה",
     "englishName": "Pardesiyya",
-    "russianName": ""
+    "russianName": "Пардесия"
   },
   {
     "id": 599,
     "cityName": "פרוד",
     "englishName": "Parod",
-    "russianName": ""
+    "russianName": "Парод"
   },
   {
     "id": 2053,
     "cityName": "פרזון",
     "englishName": "Perazon",
-    "russianName": ""
+    "russianName": "Празон"
   },
   {
     "id": 1231,
     "cityName": "פרי גן",
     "englishName": "Peri Gan",
-    "russianName": ""
+    "russianName": "При-Ган"
   },
   {
     "id": 7900,
     "cityName": "פתח תקווה",
     "englishName": "Petah Tiqwa",
-    "russianName": ""
+    "russianName": "Петах-Тиква"
   },
   {
     "id": 839,
     "cityName": "פתחיה",
     "englishName": "Petahya",
-    "russianName": ""
-  },
-  {
-    "id": 413,
-    "cityName": "צאלים",
-    "englishName": "Ze'elim",
-    "russianName": ""
-  },
-  {
-    "id": 1180,
-    "cityName": "צביה",
-    "englishName": "Zviyya",
-    "russianName": ""
+    "russianName": "Петахия"
   },
   {
     "id": 1213,
     "cityName": "צבעון",
     "englishName": "Ziv'on",
-    "russianName": ""
-  },
-  {
-    "id": 465,
-    "cityName": "צובה",
-    "englishName": "Zova",
-    "russianName": ""
+    "russianName": "Цивон"
   },
   {
     "id": 1136,
     "cityName": "צוחר",
     "englishName": "Zohar",
-    "russianName": ""
-  },
-  {
-    "id": 1111,
-    "cityName": "צופייה",
-    "englishName": "Zofiyya",
-    "russianName": ""
+    "russianName": "Зоар"
   },
   {
     "id": 3791,
     "cityName": "צופים",
     "englishName": "Zufim",
-    "russianName": ""
+    "russianName": "Цуфим"
   },
   {
     "id": 198,
     "cityName": "צופית",
     "englishName": "Zofit",
-    "russianName": ""
+    "russianName": "Тзофит"
   },
   {
     "id": 1150,
     "cityName": "צופר",
     "englishName": "Zofar",
-    "russianName": ""
-  },
-  {
-    "id": 1102,
-    "cityName": "צוקי ים",
-    "englishName": "Zuqi Yam",
-    "russianName": ""
-  },
-  {
-    "id": 1262,
-    "cityName": "צוקים",
-    "englishName": "Zuqim",
-    "russianName": ""
-  },
-  {
-    "id": 1113,
-    "cityName": "צור הדסה",
-    "englishName": "Zur Hadassa",
-    "russianName": ""
-  },
-  {
-    "id": 1345,
-    "cityName": "צור יצחק",
-    "englishName": "Zur Yizhaq",
-    "russianName": ""
+    "russianName": "Тзофар"
   },
   {
     "id": 276,
     "cityName": "צור משה",
     "englishName": "Zur Moshe",
-    "russianName": ""
-  },
-  {
-    "id": 1148,
-    "cityName": "צור נתן",
-    "englishName": "Zur Natan",
-    "russianName": ""
-  },
-  {
-    "id": 774,
-    "cityName": "צוריאל",
-    "englishName": "Zuri'el",
-    "russianName": ""
-  },
-  {
-    "id": 1221,
-    "cityName": "צורית",
-    "englishName": "Zurit",
-    "russianName": ""
+    "russianName": "Цур-Моше"
   },
   {
     "id": 613,
     "cityName": "ציפורי",
     "englishName": "Zippori",
-    "russianName": ""
+    "russianName": "Тслафон"
   },
   {
     "id": 796,
@@ -6276,526 +6156,436 @@
     "russianName": ""
   },
   {
-    "id": 636,
-    "cityName": "צנדלה",
-    "englishName": "Sandala",
-    "russianName": ""
-  },
-  {
-    "id": 594,
-    "cityName": "צפרייה",
-    "englishName": "Zafriyya",
-    "russianName": ""
-  },
-  {
-    "id": 1079,
-    "cityName": "צפרירים",
-    "englishName": "Zafririm",
-    "russianName": ""
-  },
-  {
     "id": 8000,
     "cityName": "צפת",
     "englishName": "Zefat",
-    "russianName": ""
-  },
-  {
-    "id": 612,
-    "cityName": "צרופה",
-    "englishName": "Zerufa",
-    "russianName": ""
-  },
-  {
-    "id": 567,
-    "cityName": "צרעה",
-    "englishName": "Zor'a",
-    "russianName": ""
-  },
-  {
-    "id": 1234,
-    "cityName": "קבועה (שבט)",
-    "englishName": "Kabbu'a",
-    "russianName": ""
+    "russianName": "Цфат"
   },
   {
     "id": 334,
     "cityName": "קבוצת יבנה",
     "englishName": "Qevuzat Yavne",
-    "russianName": ""
+    "russianName": "Квутзат-Явне"
   },
   {
     "id": 3557,
     "cityName": "קדומים",
     "englishName": "Qedumim",
-    "russianName": ""
+    "russianName": "Кедумим"
   },
   {
     "id": 195,
     "cityName": "קדימה-צורן",
     "englishName": "Qadima- Zoran",
-    "russianName": ""
+    "russianName": "Кадима-Цоран"
   },
   {
     "id": 392,
     "cityName": "קדמה",
     "englishName": "Qedma",
-    "russianName": ""
+    "russianName": "Кедма"
   },
   {
     "id": 4025,
     "cityName": "קדמת צבי",
     "englishName": "Qidmat Zevi",
-    "russianName": ""
-  },
-  {
-    "id": 3781,
-    "cityName": "קדר",
-    "englishName": "Qedar",
-    "russianName": ""
+    "russianName": "Кидмат-Цви"
   },
   {
     "id": 615,
     "cityName": "קדרון",
     "englishName": "Qidron",
-    "russianName": ""
+    "russianName": "Кидрон"
   },
   {
     "id": 1211,
     "cityName": "קדרים",
     "englishName": "Qaddarim",
-    "russianName": ""
-  },
-  {
-    "id": 964,
-    "cityName": "קודייראת א-צאנע (שבט)",
-    "englishName": "Kudayrat as-Sani'",
-    "russianName": ""
-  },
-  {
-    "id": 972,
-    "cityName": "קוואעין (שבט)",
-    "englishName": "Kawa'in",
-    "russianName": ""
-  },
-  {
-    "id": 766,
-    "cityName": "קוממיות",
-    "englishName": "Qomemiyyut",
-    "russianName": ""
+    "russianName": "Кадарим"
   },
   {
     "id": 1179,
     "cityName": "קורנית",
     "englishName": "Qoranit",
-    "russianName": ""
+    "russianName": "Корантин"
   },
   {
     "id": 1052,
     "cityName": "קטורה",
     "englishName": "Qetura",
-    "russianName": ""
+    "russianName": "Кетура"
   },
   {
     "id": 1167,
     "cityName": "קיסריה",
-    "englishName": "Qesaryya",
-    "russianName": ""
+    "englishName": "Caesarea",
+    "russianName": "Кесария"
   },
   {
     "id": 414,
     "cityName": "קלחים",
-    "englishName": "Qelahim",
-    "russianName": ""
-  },
-  {
-    "id": 3601,
-    "cityName": "קליה",
-    "englishName": "Qalya",
-    "russianName": ""
-  },
-  {
-    "id": 638,
-    "cityName": "קלנסווה",
-    "englishName": "Qalansawe",
-    "russianName": ""
-  },
-  {
-    "id": 4024,
-    "cityName": "קלע",
-    "englishName": "Qela",
+    "englishName": "Клахим",
     "russianName": ""
   },
   {
     "id": 1243,
     "cityName": "קציר",
     "englishName": "Qazir",
-    "russianName": ""
+    "russianName": "Катзир"
   },
   {
     "id": 1347,
     "cityName": "קצר א-סר",
     "englishName": "Qasr A-Sir",
-    "russianName": ""
+    "russianName": "Касар Аль-Сир"
   },
   {
     "id": 4100,
     "cityName": "קצרין",
     "englishName": "Qazrin",
-    "russianName": ""
+    "russianName": "Катзрин"
   },
   {
     "id": 2620,
     "cityName": "קריית אונו",
     "englishName": "Qiryat Ono",
-    "russianName": ""
+    "russianName": "Кирьят-Оно"
   },
   {
     "id": 3611,
     "cityName": "קריית ארבע",
     "englishName": "Qiryat Arba",
-    "russianName": ""
+    "russianName": "Кирьят-Арба"
   },
   {
     "id": 6800,
     "cityName": "קריית אתא",
     "englishName": "Qiryat Atta",
-    "russianName": ""
+    "russianName": "Кирьят-Ата"
   },
   {
     "id": 9500,
     "cityName": "קריית ביאליק",
     "englishName": "Qiryat Bialik",
-    "russianName": ""
+    "russianName": "Кирьят-Бялик"
   },
   {
     "id": 2630,
     "cityName": "קריית גת",
     "englishName": "Qiryat Gat",
-    "russianName": ""
+    "russianName": "Кирьят-Гат"
   },
   {
     "id": 2300,
     "cityName": "קריית טבעון",
     "englishName": "Qiryat Tiv'on",
-    "russianName": ""
+    "russianName": "Кирьят-Тивон"
   },
   {
     "id": 9600,
     "cityName": "קריית ים",
     "englishName": "Qiryat Yam",
-    "russianName": ""
+    "russianName": "Кирьят-Ям"
   },
   {
     "id": 1137,
     "cityName": "קריית יערים",
     "englishName": "Qiryat Ye'arim",
-    "russianName": ""
-  },
-  {
-    "id": 2039,
-    "cityName": "קריית יערים (מוסד)",
-    "englishName": "Qiryat Ye'arim(Institute)",
-    "russianName": ""
+    "russianName": "Кирьят-Йеарим"
   },
   {
     "id": 8200,
     "cityName": "קריית מוצקין",
     "englishName": "Qiryat Motzkin",
-    "russianName": ""
+    "russianName": "Кирьят-Моцкин"
   },
   {
     "id": 1034,
     "cityName": "קריית מלאכי",
     "englishName": "Qiryat Mal'akhi",
-    "russianName": ""
+    "russianName": "Кирьят-Малахи"
   },
   {
     "id": 3746,
     "cityName": "קריית נטפים",
     "englishName": "Qiryat Netafim",
-    "russianName": ""
+    "russianName": "Кирьят-Нетафим"
   },
   {
     "id": 78,
     "cityName": "קריית ענבים",
     "englishName": "Qiryat Anavim",
-    "russianName": ""
+    "russianName": "Кирьят-Анавим"
   },
   {
     "id": 469,
     "cityName": "קריית עקרון",
     "englishName": "Qiryat Eqron",
-    "russianName": ""
+    "russianName": "Кирьят-Экрон"
   },
   {
     "id": 412,
     "cityName": "קריית שלמה",
     "englishName": "Qiryat Shelomo",
-    "russianName": ""
+    "russianName": "Кирьят-Шеломо"
   },
   {
     "id": 2800,
     "cityName": "קריית שמונה",
     "englishName": "Qiryat Shemona",
-    "russianName": ""
+    "russianName": "Кирьят-Шмона"
   },
   {
     "id": 3640,
     "cityName": "קרני שומרון",
     "englishName": "Qarne Shomeron",
-    "russianName": ""
-  },
-  {
-    "id": 4006,
-    "cityName": "קשת",
-    "englishName": "Qeshet",
-    "russianName": ""
+    "russianName": "Кварн-Шомерон"
   },
   {
     "id": 543,
     "cityName": "ראמה",
     "englishName": "Rame",
-    "russianName": ""
+    "russianName": "Раме"
   },
   {
     "id": 1334,
     "cityName": "ראס אל-עין",
     "englishName": "Ras Al-Ein",
-    "russianName": ""
+    "russianName": "Рас-эль-Айн"
   },
   {
     "id": 990,
     "cityName": "ראס עלי",
     "englishName": "Ras Ali",
-    "russianName": ""
+    "russianName": "Рас-Али"
   },
   {
     "id": 2640,
     "cityName": "ראש העין",
     "englishName": "Rosh HaAyin",
-    "russianName": ""
+    "russianName": "Рош-ха-Аин"
   },
   {
     "id": 26,
     "cityName": "ראש פינה",
     "englishName": "Rosh Pinna",
-    "russianName": ""
+    "russianName": "Рош-Пина"
   },
   {
     "id": 3602,
     "cityName": "ראש צורים",
     "englishName": "Rosh Zurim",
-    "russianName": ""
+    "russianName": "Рош-Зурим"
   },
   {
     "id": 8300,
     "cityName": "ראשון לציון",
     "englishName": "Rishon LeZiyyon",
-    "russianName": ""
+    "russianName": "Ришон-ле-Цион"
   },
   {
     "id": 3795,
     "cityName": "רבבה",
     "englishName": "Revava",
-    "russianName": ""
+    "russianName": "Ревава"
   },
   {
     "id": 564,
     "cityName": "רבדים",
     "englishName": "Revadim",
-    "russianName": ""
+    "russianName": "Ревадим"
   },
   {
     "id": 354,
     "cityName": "רביבים",
     "englishName": "Revivim",
-    "russianName": ""
+    "russianName": "Ревивим"
   },
   {
     "id": 1225,
     "cityName": "רביד",
     "englishName": "Ravid",
-    "russianName": ""
+    "russianName": "Равид"
   },
   {
     "id": 390,
     "cityName": "רגבה",
     "englishName": "Regba",
-    "russianName": ""
+    "russianName": "Регба"
   },
   {
     "id": 444,
     "cityName": "רגבים",
     "englishName": "Regavim",
-    "russianName": ""
+    "russianName": "Регавим"
   },
   {
     "id": 1161,
     "cityName": "רהט",
     "englishName": "Rahat",
-    "russianName": ""
+    "russianName": "Рахат"
   },
   {
     "id": 2051,
     "cityName": "רווחה",
     "englishName": "Rewaha",
-    "russianName": ""
+    "russianName": "Реваха"
   },
   {
     "id": 2016,
     "cityName": "רוויה",
     "englishName": "Rewaya",
-    "russianName": ""
+    "russianName": "Ревая"
   },
   {
     "id": 1341,
     "cityName": "רוח מדבר",
     "englishName": "Ruah Midbar",
-    "russianName": ""
+    "russianName": "Руах-Мидбар"
   },
   {
     "id": 362,
     "cityName": "רוחמה",
     "englishName": "Ruhama",
-    "russianName": ""
+    "russianName": "Рухама"
   },
   {
     "id": 539,
     "cityName": "רומאנה",
     "englishName": "Rummane",
-    "russianName": ""
+    "russianName": "Румана"
   },
   {
     "id": 997,
     "cityName": "רומת הייב",
     "englishName": "Rumat Heib",
-    "russianName": ""
+    "russianName": "Румат-Хайб"
   },
   {
     "id": 3619,
     "cityName": "רועי",
     "englishName": "Ro'i",
-    "russianName": ""
+    "russianName": "Рои"
   },
   {
     "id": 3782,
     "cityName": "רותם",
     "englishName": "Rotem",
-    "russianName": ""
+    "russianName": "Ротем"
   },
   {
     "id": 854,
     "cityName": "רחוב",
     "englishName": "Rehov",
-    "russianName": ""
+    "russianName": "Рехов"
   },
   {
     "id": 8400,
     "cityName": "רחובות",
     "englishName": "Rehovot",
-    "russianName": ""
+    "russianName": "Реховот"
   },
   {
     "id": 3822,
     "cityName": "רחלים",
     "englishName": "Rehelim",
-    "russianName": ""
+    "russianName": "Рехелим"
   },
   {
     "id": 540,
     "cityName": "ריחאנייה",
     "englishName": "Reihaniyye",
-    "russianName": ""
+    "russianName": "Рейхани"
   },
   {
     "id": 3568,
     "cityName": "ריחן",
     "englishName": "Rehan",
-    "russianName": ""
+    "russianName": "Рехан"
   },
   {
     "id": 542,
     "cityName": "ריינה",
-    "englishName": "Reine",
-    "russianName": ""
+    "englishName": "Reineh",
+    "russianName": "Рейнех"
   },
   {
     "id": 3565,
     "cityName": "רימונים",
     "englishName": "Rimmonim",
-    "russianName": ""
+    "russianName": "Римоним"
   },
   {
     "id": 616,
     "cityName": "רינתיה",
     "englishName": "Rinnatya",
-    "russianName": ""
+    "russianName": "Риннатя"
   },
   {
     "id": 922,
     "cityName": "רכסים",
     "englishName": "Rekhasim",
-    "russianName": ""
+    "russianName": "Рехасим"
   },
   {
     "id": 1069,
     "cityName": "רם-און",
     "englishName": "Ram-On",
-    "russianName": ""
+    "russianName": "Рамон"
   },
   {
     "id": 4702,
     "cityName": "רמות",
     "englishName": "Ramot",
-    "russianName": ""
+    "russianName": "Рамот"
   },
   {
     "id": 206,
     "cityName": "רמות השבים",
     "englishName": "Ramot HaShavim",
-    "russianName": ""
+    "russianName": "Рамот-ха-Шавим"
   },
   {
     "id": 735,
     "cityName": "רמות מאיר",
     "englishName": "Ramot Me'ir",
-    "russianName": ""
+    "russianName": "Рамот-Меир"
   },
   {
     "id": 445,
     "cityName": "רמות מנשה",
     "englishName": "Ramot Menashe",
-    "russianName": ""
+    "russianName": "Рамот-Менаше"
   },
   {
     "id": 372,
     "cityName": "רמות נפתלי",
     "englishName": "Ramot Naftali",
-    "russianName": ""
+    "russianName": "Рамот-Нафтали"
   },
   {
     "id": 8500,
     "cityName": "רמלה",
     "englishName": "Ramla",
-    "russianName": ""
+    "russianName": "Рамла"
   },
   {
     "id": 8600,
     "cityName": "רמת גן",
     "englishName": "Ramat Gan",
-    "russianName": ""
+    "russianName": "Рамат-Ган"
   },
   {
     "id": 135,
     "cityName": "רמת דוד",
     "englishName": "Ramat Dawid",
-    "russianName": ""
+    "russianName": "Рамат-Давид"
   },
   {
     "id": 184,
     "cityName": "רמת הכובש",
     "englishName": "Ramat HaKovesh",
-    "russianName": ""
+    "russianName": "Рамат-ха-Шофет"
   },
   {
     "id": 335,
@@ -6807,325 +6597,319 @@
     "id": 2650,
     "cityName": "רמת השרון",
     "englishName": "Ramat HaSharon",
-    "russianName": ""
+    "russianName": "Рама́т-ха-Шаро́н"
   },
   {
     "id": 178,
     "cityName": "רמת יוחנן",
     "englishName": "Ramat Yohanan",
-    "russianName": ""
+    "russianName": "Рамат-Йоханан"
   },
   {
     "id": 122,
     "cityName": "רמת ישי",
     "englishName": "Ramat Yishay",
-    "russianName": ""
+    "russianName": "Рамат-Ишай"
   },
   {
     "id": 4701,
     "cityName": "רמת מגשימים",
     "englishName": "Ramat Magshimim",
-    "russianName": ""
+    "russianName": "Рамат-Магшимим"
   },
   {
     "id": 339,
     "cityName": "רמת צבי",
     "englishName": "Ramat Zevi",
-    "russianName": ""
+    "russianName": "Рамат-Цви"
   },
   {
     "id": 460,
     "cityName": "רמת רזיאל",
     "englishName": "Ramat Razi'el",
-    "russianName": ""
+    "russianName": "Рамат-Разиэль"
   },
   {
     "id": 127,
     "cityName": "רמת רחל",
     "englishName": "Ramat Rahel",
-    "russianName": ""
+    "russianName": "Рамат-Рахель"
   },
   {
     "id": 789,
     "cityName": "רנן",
     "englishName": "Rannen",
-    "russianName": ""
+    "russianName": "Ранен"
   },
   {
     "id": 713,
     "cityName": "רעים",
     "englishName": "Re'im",
-    "russianName": ""
+    "russianName": "Реим"
   },
   {
     "id": 8700,
     "cityName": "רעננה",
     "englishName": "Ra'annana",
-    "russianName": ""
+    "russianName": "Раанана"
   },
   {
     "id": 1228,
     "cityName": "רקפת",
     "englishName": "Raqqefet",
-    "russianName": ""
+    "russianName": "Ракефет"
   },
   {
     "id": 247,
     "cityName": "רשפון",
     "englishName": "Rishpon",
-    "russianName": ""
+    "russianName": "Ришпон"
   },
   {
     "id": 437,
     "cityName": "רשפים",
     "englishName": "Reshafim",
-    "russianName": ""
+    "russianName": "Решавим"
   },
   {
     "id": 1260,
     "cityName": "רתמים",
     "englishName": "Retamim",
-    "russianName": ""
+    "russianName": "Ретамим"
   },
   {
     "id": 324,
     "cityName": "שאר ישוב",
     "englishName": "She'ar Yashuv",
-    "russianName": ""
+    "russianName": "Шеар-Яшув"
   },
   {
     "id": 1377,
     "cityName": "שבי דרום",
     "englishName": "Shave Darom",
-    "russianName": ""
+    "russianName": "Шаве-Даром"
   },
   {
     "id": 282,
     "cityName": "שבי ציון",
     "englishName": "Shave Ziyyon",
-    "russianName": ""
+    "russianName": "Шаве-Цион"
   },
   {
     "id": 3571,
     "cityName": "שבי שומרון",
     "englishName": "Shave Shomeron",
-    "russianName": ""
+    "russianName": "Шаве-Шомерон"
   },
   {
     "id": 913,
     "cityName": "שבלי - אום אל-גנם",
     "englishName": "Shibli-Umm Al-Ghanam",
-    "russianName": ""
+    "russianName": "Шибли-Умм Аль-Ганам"
   },
   {
     "id": 1286,
     "cityName": "שגב-שלום",
     "englishName": "Segev-Shalom",
-    "russianName": ""
+    "russianName": "Сегев-Шалом"
   },
   {
     "id": 721,
     "cityName": "שדה אילן",
     "englishName": "Sede Ilan",
-    "russianName": ""
+    "russianName": "Сде-Илан"
   },
   {
     "id": 304,
     "cityName": "שדה אליהו",
     "englishName": "Sede Eliyyahu",
-    "russianName": ""
+    "russianName": "Сде-Элияху"
   },
   {
     "id": 861,
     "cityName": "שדה אליעזר",
     "englishName": "Sede Eli'ezer",
-    "russianName": ""
-  },
-  {
-    "id": 885,
-    "cityName": "שדה בוקר",
-    "englishName": "Sede Boqer",
-    "russianName": ""
+    "russianName": "Сде-Элиэзер"
   },
   {
     "id": 36,
     "cityName": "שדה דוד",
-    "englishName": "Sede Dawid",
-    "russianName": ""
+    "englishName": "Sde Dawid",
+    "russianName": "Сде-Давид"
   },
   {
     "id": 284,
     "cityName": "שדה ורבורג",
-    "englishName": "Sede Warburg",
-    "russianName": ""
+    "englishName": "Sde Warburg",
+    "russianName": "Сде-Варбург"
   },
   {
     "id": 293,
     "cityName": "שדה יואב",
     "englishName": "Sede Yo'av",
-    "russianName": ""
+    "russianName": "Сде-Йоав"
   },
   {
     "id": 142,
     "cityName": "שדה יעקב",
     "englishName": "Sede Ya'aqov",
-    "russianName": ""
+    "russianName": "Сде-Яаков"
   },
   {
     "id": 2008,
     "cityName": "שדה יצחק",
-    "englishName": "Sede Yizhaq",
-    "russianName": ""
+    "englishName": "Sde Yizhaq",
+    "russianName": "Сде-Яков"
   },
   {
     "id": 18,
     "cityName": "שדה משה",
-    "englishName": "Sede Moshe",
-    "russianName": ""
+    "englishName": "Sde Moshe",
+    "russianName": "Сде-Моше"
   },
   {
     "id": 259,
     "cityName": "שדה נחום",
     "englishName": "Sede Nahum",
-    "russianName": ""
+    "russianName": "Седе-Нахум"
   },
   {
     "id": 329,
     "cityName": "שדה נחמיה",
     "englishName": "Sede Nehemya",
-    "russianName": ""
+    "russianName": "Седе-Нехемья"
   },
   {
     "id": 1058,
     "cityName": "שדה ניצן",
     "englishName": "Sede Nizzan",
-    "russianName": ""
+    "russianName": "Сде-Ницан"
   },
   {
     "id": 739,
     "cityName": "שדה עוזיהו",
     "englishName": "Sede Uzziyyahu",
-    "russianName": ""
+    "russianName": "Сде-Узиягу"
   },
   {
     "id": 2049,
     "cityName": "שדה צבי",
     "englishName": "Sede Zevi",
-    "russianName": ""
+    "russianName": "Сде-Цви"
   },
   {
     "id": 327,
     "cityName": "שדות ים",
     "englishName": "Sedot Yam",
-    "russianName": ""
+    "russianName": "Седот-Ям"
   },
   {
     "id": 27,
     "cityName": "שדות מיכה",
     "englishName": "Sedot Mikha",
-    "russianName": ""
+    "russianName": "Седот-Миха"
   },
   {
     "id": 1223,
     "cityName": "שדי אברהם",
     "englishName": "Sede Avraham",
-    "russianName": ""
+    "russianName": "Седе-Аврахам"
   },
   {
     "id": 2015,
     "cityName": "שדי חמד",
     "englishName": "Sede Hemed",
-    "russianName": ""
+    "russianName": "Седе-Хемед"
   },
   {
     "id": 2057,
     "cityName": "שדי תרומות",
     "englishName": "Sede Terumot",
-    "russianName": ""
+    "russianName": "Седе-Терумот"
   },
   {
     "id": 555,
     "cityName": "שדמה",
-    "englishName": "Shedema",
-    "russianName": ""
+    "englishName": "Shdema",
+    "russianName": "Шдема"
   },
   {
     "id": 306,
     "cityName": "שדמות דבורה",
     "englishName": "Shadmot Devora",
-    "russianName": ""
+    "russianName": "Шадмот-Девора"
   },
   {
     "id": 3578,
     "cityName": "שדמות מחולה",
     "englishName": "Shadmot Mehola",
-    "russianName": ""
+    "russianName": "Шадмот-Мехола"
   },
   {
     "id": 1031,
     "cityName": "שדרות",
-    "englishName": "Sederot",
-    "russianName": ""
+    "englishName": "Sderot",
+    "russianName": "Сдерот"
   },
   {
     "id": 741,
     "cityName": "שואבה",
     "englishName": "Sho'eva",
-    "russianName": ""
+    "russianName": "Шоева"
   },
   {
     "id": 761,
     "cityName": "שובה",
     "englishName": "Shuva",
-    "russianName": ""
+    "russianName": "Шува"
   },
   {
     "id": 394,
     "cityName": "שובל",
     "englishName": "Shoval",
-    "russianName": ""
+    "russianName": "Шовал"
   },
   {
     "id": 1304,
     "cityName": "שוהם",
     "englishName": "Shoham",
-    "russianName": ""
+    "russianName": "Шохам"
   },
   {
     "id": 614,
     "cityName": "שומרה",
     "englishName": "Shomera",
-    "russianName": ""
+    "russianName": "Шомера"
   },
   {
     "id": 1265,
     "cityName": "שומרייה",
     "englishName": "Shomeriyya",
-    "russianName": ""
+    "russianName": "Шомира"
   },
   {
     "id": 415,
     "cityName": "שוקדה",
     "englishName": "Shoqeda",
-    "russianName": ""
+    "russianName": "Шокеда"
   },
   {
     "id": 456,
     "cityName": "שורש",
     "englishName": "Shoresh",
-    "russianName": ""
+    "russianName": "Шореш"
   },
   {
     "id": 1235,
     "cityName": "שורשים",
     "englishName": "Shorashim",
-    "russianName": ""
+    "russianName": "Шорашим"
   },
   {
     "id": 224,
     "cityName": "שושנת העמקים",
     "englishName": "Shoshannat HaAmaqim",
-    "russianName": ""
+    "russianName": "Шошанат ха-Амаким"
   },
   {
     "id": 527,

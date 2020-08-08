@@ -30,11 +30,15 @@ import {BurgerMenuContentComponent} from "./components/header/burger-menu-conten
 import {ServicesMenuComponent} from "./components/header/services-menu/services-menu.component";
 import {GalleryComponent} from "./components/order-content/gallery/gallery.component";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {HttpClientModule} from "@angular/common/http";
 import {NgxGalleryModule} from "@kolkov/ngx-gallery";
+import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
+import {NgSelectModule} from "@ng-select/ng-select";
+import {CommonModule} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -74,7 +78,13 @@ import {NgxGalleryModule} from "@kolkov/ngx-gallery";
     ReactiveFormsModule,
     NgxSpinnerModule,
     HttpClientModule,
-    NgxGalleryModule
+    NgxGalleryModule,
+    MatInputModule,
+    MatSelectModule,
+    NgSelectModule,
+    ReactiveFormsModule,
+    FormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

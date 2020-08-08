@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {AuthService} from "./auth/services/auth.service";
 import {LoggedUser} from "./auth/models/loggedUser";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import {LoggedUser} from "./auth/models/loggedUser";
 })
 export class AppComponent implements OnInit{
 
-  constructor(private authService: AuthService) { }
+  constructor(private authService: AuthService, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.loginAttempt();

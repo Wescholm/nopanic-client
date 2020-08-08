@@ -265,6 +265,16 @@
   }
 }
 
+.error-message {
+  @include medium-text;
+  position: absolute;
+  top: 100%;
+  text-align: start;
+  font-size: 14px;
+  margin-top: 3px;
+  color: #0DC5D5;
+}
+
 // Customizing material checkbox
 ::ng-deep .mat-checkbox .mat-checkbox-frame {
   border: 1px solid $third-color;

@@ -8,14 +8,30 @@
 <div class="form">
   <form [formGroup]="orderForm" (ngSubmit)="submit()">
     <div class="section-caption">
+
       <div class="section">
-        <p>Section</p>
-        <span class="material-icons arrow">keyboard_arrow_down</span>
-        <input type="text" placeholder="Section">
+        <ng-select [items]="sectionsList"
+                   formControlName="Section"
+                   bindLabel="subtitle"
+                   groupBy="data"
+                   placeholder="Select a section"
+                   notFoundText="Section not found"
+                   clearAllText="Clear">
+          <ng-template ng-optgroup-tmp let-item="item">
+            {{item['title']}}
+          </ng-template>
+          <ng-template ng-option-tmp let-item="item">
+            {{item['subtitle']}}
+          </ng-template>
+        </ng-select>
       </div>
+
       <div class="section">
-        <p>Caption</p>
-        <input type="text" placeholder="Caption">
+        <p>Heading</p>
+        <input type="text" placeholder="Heading" formControlName="Heading">
+        <span class="error-message" *ngIf="checkControlsValidity('Heading')">
+          {{ getErrorMessage('Heading') }}
+        </span>
       </div>
     </div>
     <div class="section-description">
@@ -41,8 +57,13 @@
 
     <div class="section-address">
       <div class="address">
-        <p>City</p>
-        <input type="text" placeholder="City">
+<!--        <p>City</p>-->
+        <ng-select [items]="citiesList"
+                   [selectOnTab]="true"
+                   bindLabel="englishName"
+                   placeholder="Select city"
+                   formControlName="City">
+        </ng-select>
       </div>
       <div class="address">
         <p>Address (not necessary)</p>
