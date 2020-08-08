@@ -35,4 +35,8 @@ export class HeaderComponent implements OnInit {
     this.menu.classList.remove('down');
   }
 
+  closeMenuClick() {
+    this.menu.classList.remove('down');
+  }
+
 }

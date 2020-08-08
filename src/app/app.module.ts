@@ -26,7 +26,6 @@ import {OrderContentComponent} from "./components/order-content/order-content.co
 import {OrdersNavigationMobileComponent} from "./components/service-content/orders-navigation-mobile/orders-navigation-mobile.component";
 import {AuthModule} from "./auth/auth.module";
 import {BurgerMenuComponent} from "./components/header/burger-menu/burger-menu.component";
-import {BurgerMenuContentComponent} from "./components/header/burger-menu-content/burger-menu-content.component";
 import {ServicesMenuComponent} from "./components/header/services-menu/services-menu.component";
 import {GalleryComponent} from "./components/order-content/gallery/gallery.component";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
@@ -62,7 +61,6 @@ import {CommonModule} from "@angular/common";
     ResponseComponent,
     OrderContentComponent,
     BurgerMenuComponent,
-    BurgerMenuContentComponent,
     ServicesMenuComponent,
     GalleryComponent
   ],
