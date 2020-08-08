@@ -6,7 +6,7 @@
       <ul class="navigation">
         <li id="services-btn" (mouseover)="menuOpen()" (mouseout)="menuClose()" [routerLinkActive]="'active'">
           <a [routerLink]="['/services']" >Services</a>
-          <services-menu (click)="closeMenu()"></services-menu>
+          <services-menu (click)="closeMenu()" *ngIf="this.popoverVisible"></services-menu>
         </li>
         <li>
           <a [routerLink]="['/marketplace']">Marketplace</a>
