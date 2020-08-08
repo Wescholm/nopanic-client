@@ -23,13 +23,13 @@
         <p>Or with name and email</p>
         <form [formGroup]="logForm" (ngSubmit)="submit()">
           <div class="log-in-input-container">
-            <input type="email" placeholder="E-mail or Username" formControlName="Email"/>
+            <input type="email" placeholder="E-mail or Username" formControlName="Email" autocomplete="username"/>
             <div class="log-in-main-input">
               <span class="material-icons">email</span>
             </div>
           </div>
           <div class="log-in-input-container">
-            <input type="password" placeholder="Password" formControlName="Password" autocomplete="on"/>
+            <input type="password" placeholder="Password" formControlName="Password" autocomplete="current-password"/>
             <div class="log-in-main-input">
               <span class="material-icons">lock</span>
             </div>

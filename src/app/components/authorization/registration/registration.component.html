@@ -21,9 +21,9 @@
       </div>
       <div class="registration-main-container">
         <p>Or with username or email</p>
-        <form [formGroup]="regForm" (ngSubmit)="submit()">
+        <form [formGroup]="regForm" (ngSubmit)="submit()" autocomplete="on">
           <div class="input-container">
-            <input type="text" placeholder="Username" formControlName="UserName"/>
+            <input type="text" placeholder="Username" formControlName="UserName" autocomplete="username"/>
             <div class="registration-main-input">
               <span class="material-icons">person</span>
               <ngx-spinner
@@ -43,7 +43,7 @@
             </span>
           </div>
           <div class="input-container">
-            <input type="email" placeholder="E-mail" formControlName="Email"/>
+            <input type="email" placeholder="E-mail" formControlName="Email" autocomplete="email"/>
             <div class="registration-main-input">
               <span class="material-icons">email</span>
               <ngx-spinner
@@ -63,7 +63,7 @@
             </span>
           </div>
           <div class="input-container">
-            <input type="password" placeholder="Password" formControlName="Password" autocomplete="on"/>
+            <input type="password" placeholder="Password" formControlName="Password" autocomplete="new-password"/>
             <div class="registration-main-input">
               <span class="material-icons">lock</span>
             </div>
@@ -72,7 +72,7 @@
             </span>
           </div>
           <div class="input-container">
-            <input type="password" placeholder="Repeat password" formControlName="ConfirmPassword" autocomplete="on"/>
+            <input type="password" placeholder="Repeat password" formControlName="ConfirmPassword" autocomplete="new-password"/>
             <div class="registration-main-input">
               <span class="material-icons">lock</span>
             </div>

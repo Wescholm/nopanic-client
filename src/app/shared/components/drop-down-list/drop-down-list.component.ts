@@ -13,8 +13,11 @@ export class DropDownListComponent {
 
   dropDownToggle(id) {
     const isOpen = this.elementIsOpen(id)
+    console.log(id)
     const listContent: HTMLElement = document.getElementById('el_' + id)
+    console.log('listContent', listContent)
     const listArrow: HTMLElement = document.getElementById('arr_' + id);
+
     listContent.className = isOpen
       ? listContent.className.replace("open", "close")
       : listContent.className.replace("close", "open")
