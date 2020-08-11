@@ -46,6 +46,11 @@
       border-radius: 50px;
       padding: 17px 35px;
     }
+    input:focus {
+      outline: 0;
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+    }
   }
   .section, .short-description, .address, .date, .name, .phone-valid, .phone, .price {
     width: 49%;
@@ -59,6 +64,19 @@
       background: white;
       padding: 0 3px;
     }
+    input {
+      background-color: white;
+    }
+    input:focus {
+      outline: 0;
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+    }
+    .date-picker {
+        left: 494px;
+        position: absolute;
+        top: 5px;
+      }
   }
   .price-checkbox, .phone-checkbox {
     width: 49%;
@@ -95,6 +113,10 @@
       outline: none;
       padding: 18px 35px;
     }
+    textarea:focus {
+      outline: 0;
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);    }
   }
   .short-description {
     textarea {
@@ -107,6 +129,10 @@
       outline: none;
       padding: 18px 35px;
     }
+    textarea:focus {
+      outline: 0;
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);    }
   }
   .files {
     @include semi-bold-text;
@@ -272,7 +298,9 @@
   text-align: start;
   font-size: 14px;
   margin-top: 3px;
-  color: #0DC5D5;
+  color: red;
+  padding-left: 35px;
+  left: 0;
 }
 
 // Customizing material checkbox
@@ -286,4 +314,7 @@
 ::ng-deep .mat-ripple {
   display: none;
 }
+//.arrow::ng-deep .mat-datepicker-toggle .date-picker .mat-datepicker-toggle-active {
+//  transform: rotate(180deg);
+//}
 

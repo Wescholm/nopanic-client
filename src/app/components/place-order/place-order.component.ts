@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, Directive, Input, OnDestroy, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {ICitiesList, IMenuElements} from "../../interfaces/data-services-interfaces";
 import {Subscription} from "rxjs";
@@ -14,6 +14,7 @@ import {
   templateUrl: './place-order.component.html',
   styleUrls: ['./place-order.component.scss']
 })
+
 export class PlaceOrderComponent implements OnInit, OnDestroy {
 
   public orderForm: FormGroup;
@@ -22,6 +23,7 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
   public sectionsList: IMenuElements;
   public citiesList: ICitiesList[];
   public isSubmit: boolean;
+  public isRotate: boolean;
 
   get section() { return this.orderForm.get('Section'); }
   get heading() { return this.orderForm.get('Heading'); }
@@ -77,6 +79,14 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
       .subscribe((data: ICitiesList[]) => {
         this.citiesList = data.sort((a, b) => (a.englishName > b.englishName) ? 1 : -1);
       })
+  }
+
+  openDate(date) {
+    date.open();
+    const listArrow: HTMLElement = document.getElementById('arrow');
+    listArrow.style.transform = this.isRotate ? 'rotate(0deg)' : 'rotate(180deg)';
+    this.isRotate = !this.isRotate;
+    console.log(this.isRotate)
   }
 
   ngOnDestroy(): void {
