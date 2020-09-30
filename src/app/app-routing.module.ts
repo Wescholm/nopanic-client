@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'password-recovery', component: PasswordRecoveryComponent},
   {path: 'services', component: ServiceContentComponent},
   {path: 'order-content', component: OrderContentComponent},
-  {path: 'place-order', component: PlaceOrderComponent},
+  {path: 'place-order', component: PlaceOrderComponent, canActivate: [AuthGuard]},
 ];
 
 @NgModule({

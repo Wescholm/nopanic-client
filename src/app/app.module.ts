@@ -86,11 +86,9 @@ import {MAT_DATE_LOCALE, MatNativeDateModule} from "@angular/material/core";
     FormsModule,
     CommonModule,
     MatNativeDateModule,
-    MatDatepickerModule
+    MatDatepickerModule,
   ],
-  providers: [
-    {provide: MAT_DATE_LOCALE, useValue: 'en-GB'}
-    ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
