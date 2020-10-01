@@ -35,6 +35,7 @@ import {NgxGalleryModule} from "@kolkov/ngx-gallery";
 import {NgSelectModule} from "@ng-select/ng-select";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {CommonModule} from "@angular/common";
+import {PrimengModule} from "./primeng.module";
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import {CommonModule} from "@angular/common";
     MaterialModule,
     SharedModule,
     CommonModule,
+    PrimengModule,
     NgxSpinnerModule,
     HttpClientModule,
     NgxGalleryModule,
@@ -76,7 +78,7 @@ import {CommonModule} from "@angular/common";
     FormsModule,
     ReactiveFormsModule,
     ReactiveFormsModule,
-    FontAwesomeModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

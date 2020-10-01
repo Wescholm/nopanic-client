@@ -17,7 +17,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.loginAttempt();
-    console.log(this.authService.loggedUser)
   }
 
   private loginAttempt(): void {
