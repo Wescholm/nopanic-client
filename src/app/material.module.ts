@@ -1,14 +1,20 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import {ReactiveFormsModule} from "@angular/forms";
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatSelectModule} from "@angular/material/select";
+import {MatNativeDateModule} from "@angular/material/core";
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatInputModule} from "@angular/material/input";
+
+const modules = [
+  MatSelectModule,
+  MatNativeDateModule,
+  MatDatepickerModule,
+  MatInputModule,
+  MatCheckboxModule,
+]
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    MatCheckboxModule
-  ]
+  imports: modules,
+  exports: modules
 })
 export class MaterialModule { }

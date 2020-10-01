@@ -30,16 +30,11 @@ import {ServicesMenuComponent} from "./components/header/services-menu/services-
 import {GalleryComponent} from "./components/order-content/gallery/gallery.component";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import {MatCheckboxModule} from "@angular/material/checkbox";
 import {NgxSpinnerModule} from "ngx-spinner";
 import {HttpClientModule} from "@angular/common/http";
 import {NgxGalleryModule} from "@kolkov/ngx-gallery";
-import {MatInputModule} from "@angular/material/input";
-import {MatSelectModule} from "@angular/material/select";
 import {NgSelectModule} from "@ng-select/ng-select";
-import {CommonModule} from "@angular/common";
-import {MatDatepickerModule} from "@angular/material/datepicker";
-import {MAT_DATE_LOCALE, MatNativeDateModule} from "@angular/material/core";
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -71,22 +66,17 @@ import {MAT_DATE_LOCALE, MatNativeDateModule} from "@angular/material/core";
     BrowserAnimationsModule,
     AppRoutingModule,
     AuthModule,
-    SharedModule,
-    CoreModule,
     MaterialModule,
-    MatCheckboxModule,
-    ReactiveFormsModule,
+    CoreModule,
+    SharedModule,
     NgxSpinnerModule,
     HttpClientModule,
     NgxGalleryModule,
-    MatInputModule,
-    MatSelectModule,
     NgSelectModule,
-    ReactiveFormsModule,
     FormsModule,
-    CommonModule,
-    MatNativeDateModule,
-    MatDatepickerModule,
+    ReactiveFormsModule,
+    ReactiveFormsModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -17,9 +17,10 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.loginAttempt();
+    console.log(this.authService.loggedUser)
   }
 
-  loginAttempt(): void {
+  private loginAttempt(): void {
     const token = this.authService.getJwtToken();
     if (token) {
       const dateNow = Math.floor(Date.now() / 1000);
