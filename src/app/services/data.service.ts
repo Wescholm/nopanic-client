@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {ICitiesList, IMenuElements} from "../../interfaces/data-services-interfaces";
+import {ICitiesList, IMenuElements} from "../interfaces/data-services-interfaces";
 
 @Injectable({
   providedIn: 'root'

@@ -2,7 +2,7 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {ICitiesList, IMenuElements} from "../../interfaces/data-services-interfaces";
 import {Subscription} from "rxjs";
-import {DataService} from "../../core/services/data.service";
+import {DataService} from "../../services/data.service";
 import {
   validateDescription,
   validateHeading, validateName, validatePrice,

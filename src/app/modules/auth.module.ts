@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
-import {TokenInterceptor} from "./token.interceptor";
-import {AuthGuard} from "./guards/auth.guard";
-import {AuthService} from "./services/auth.service";
+import {TokenInterceptor} from "../auth/token.interceptor";
+import {AuthGuard} from "../auth/guards/auth.guard";
+import {AuthService} from "../auth/services/auth.service";
 
 @NgModule({
   declarations: [],
