@@ -96,27 +96,33 @@
           Select city
         </span>
       </div>
-      <div class="address">
-        <p>Address (not necessary)</p>
-        <input type="text" placeholder="Your address" formControlName="Address">
-      </div>
-    </div>
-    <div class="date-complete">
-      <div class="date"  (click)="this.openDate(date);">
-        <p>Order execution date</p>
-              <input [matDatepicker]="date"
-                     [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
-                     formControlName="ExecutionDate"
-                     type="text"
-                     placeholder="Deadline when an order must be completed"
-                     disabled>
-              <mat-datepicker-toggle matSuffix [for]="date" class="date-picker">
-                <span class="material-icons" matDatepickerToggleIcon id="arrow">keyboard_arrow_down</span>
-              </mat-datepicker-toggle>
-              <mat-datepicker #date disabled="false"></mat-datepicker>
+      <div class="date" >
+        <p>Date</p>
+        <input [matDatepicker]="date"
+               [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
+               formControlName="ExecutionDate"
+               type="text"
+               placeholder="Order execution date"
+               disabled>
+        <mat-datepicker-toggle matSuffix [for]="date" class="date-picker">
+          <span class="material-icons" matDatepickerToggleIcon id="arrow">keyboard_arrow_down</span>
+        </mat-datepicker-toggle>
+        <mat-datepicker
+          #date
+          disabled="false"
+          (opened)="streamOpened(date)"
+          (closed)="streamClosed(date)">
+        </mat-datepicker>
         <span class="error-message" *ngIf="executionDate.invalid && (executionDate.touched || isSubmit)">
           Select date
         </span>
+        <div class="visible">When an order must be completed</div>
+      </div>
+    </div>
+    <div class="date-complete">
+      <div class="address">
+        <p>Address (not necessary)</p>
+        <input type="text" placeholder="Your address" formControlName="Address">
       </div>
       <div class="price-checkbox">
         <div class="price">

@@ -32,4 +32,14 @@ export class BurgerMenuComponent implements OnInit {
     mobileMenu.classList.toggle('open')
   }
 
+  onResize(e) {
+    if (e.target.innerWidth > 1002) {
+      const mobileMenuCont = document.querySelector('.mobile-menu-cont')
+      const toggleButton = document.querySelector('.toggle-button')
+      toggleButton.classList.remove('open')
+      mobileMenuCont.classList.remove('open')
+      this.click = false
+    }
+  }
+
 }

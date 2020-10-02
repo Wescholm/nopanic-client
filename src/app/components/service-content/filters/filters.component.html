@@ -3,6 +3,8 @@
   <div class="content">
     <drop-down-list
       [data]="listElements"
+      [partId]="'main_'"
+      [arrowId]="'arr_'"
       (changedValue)="changed($event)">
     </drop-down-list>
   </div>

@@ -52,7 +52,7 @@
       box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
     }
   }
-  .section, .short-description, .address, .date, .name, .phone-valid, .phone, .price {
+  .section, .short-description, .address, .name, .phone-valid, .phone, .price {
     width: 49%;
     position: relative;
     p {
@@ -72,11 +72,49 @@
       border-color: #007eff;
       box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
     }
+  }
+  .date {
+    width: 49%;
+    @include base-flex;
+    justify-content: space-between;
+    position: relative;
+    p {
+      @include semi-bold-text;
+      font-size: 18px;
+      position: absolute;
+      left: 35px;
+      top: -10px;
+      background: white;
+      padding: 0 3px;
+    }
+    input {
+      width: 49%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      background-color: white;
+      cursor: pointer;
+    }
+    input:focus {
+      outline: 0;
+      border-color: #007eff;
+      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+    }
     .date-picker {
-        left: 494px;
-        position: absolute;
-        top: 5px;
-      }
+      left: 218px;
+      position: absolute;
+      top: 5px;
+    } .date-picker:focus {
+       outline: 0;
+       border-color: #007eff;
+       box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+     }
+    .visible {
+      @include light-text;
+      font-size: 14px;
+    }
+
   }
   .price-checkbox, .phone-checkbox {
     width: 49%;
@@ -255,7 +293,7 @@
         margin: 0;
       }
     }
-    .section, .short-description, .date, .address, .name, .checkbox, .phone-valid {
+    .section, .short-description, .address, .name, .checkbox, .phone-valid {
       width: 100%;
       padding-bottom: 30px;
       margin-bottom: 0;
@@ -314,7 +352,19 @@
 ::ng-deep .mat-ripple {
   display: none;
 }
-//.arrow::ng-deep .mat-datepicker-toggle .date-picker .mat-datepicker-toggle-active {
-//  transform: rotate(180deg);
-//}
+::ng-deep .mat-datepicker-content .mat-calendar {
+  width: 264px !important;
+}
+
+::ng-deep .form[_ngcontent-itp-c137] .date[_ngcontent-itp-c137] .date-picker[_ngcontent-itp-c137]:focus {
+  outline: 0;
+  border-color: transparent;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity:1;
+}
+::ng-deep .mat-focus-indicator .mat-icon-button {
+  background-color: transparent !important;
+}
 

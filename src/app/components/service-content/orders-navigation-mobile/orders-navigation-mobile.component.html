@@ -12,7 +12,9 @@
           <h3>Search filter</h3>
           <div class="content">
             <drop-down-list
-              [data]="listElements"
+              [data]="orderItems"
+              [partId]="'mob_'"
+              [arrowId]="'ar_'"
               (changedValue)="changed($event)">
             </drop-down-list>
           </div>
