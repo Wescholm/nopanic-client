@@ -10,7 +10,6 @@
   visibility: hidden;
   opacity: 0;
   background-color: white;
-  height: 100%;
   color: #505050;
   transition: all 0.5s;
   transform: scaleY(0);
@@ -22,7 +21,8 @@
     }
   }
   .dropdown-inner{
-    @include base-flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 1140px;
     margin: 0 auto 80px auto;
@@ -30,13 +30,13 @@
     .main-navigation{
       flex-basis: 28%;
       padding: 0 10px 0 10px;
-      .icon {
+      margin-bottom: 50px;
+      .menu-icon {
         margin-right: 10px;
         font-size: 36px;
         color: #1e5083;;
         height: 36px;
       }
-
       display: flex;
       .dropdown-title{
         @include medium-text;

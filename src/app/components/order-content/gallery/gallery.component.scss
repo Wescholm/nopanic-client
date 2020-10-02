@@ -6,4 +6,10 @@
 ::ng-deep .ngx-gallery-thumbnail {
   border-radius: 15px;
 }
+::ng-deep .ngx-gallery-thumbnails[_ngcontent-umv-c73] .ngx-gallery-thumbnail[_ngcontent-umv-c73] {
+  border: none;
+}
+::ng-deep .ngx-gallery-thumbnail .ngx-gallery-clickable {
+  border: 1px solid black;
+}
 
