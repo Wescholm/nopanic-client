@@ -31,6 +31,7 @@
     "font-awesome": "^4.7.0",
     "ngx-spinner": "^10.0.1",
     "normalize.css": "^8.0.1",
+    "primeicons": "^4.0.0",
     "primeng": "^10.0.2",
     "rxjs": "~6.5.5",
     "tslib": "^1.10.0",

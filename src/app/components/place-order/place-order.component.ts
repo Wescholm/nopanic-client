@@ -16,6 +16,7 @@ import {
 })
 export class PlaceOrderComponent implements OnInit, OnDestroy {
 
+  test
   public orderForm: FormGroup;
   private getSectionsRequests: Subscription;
   private getCitiesRequests: Subscription;

@@ -37,7 +37,9 @@
   .section-caption, .section-address, .date-complete, .section-name, .place-order {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    div {
+      @include base-flex;
+    }
     input {
       @include light-text;
       font-size: 14px;
@@ -45,6 +47,12 @@
       border: 1px solid #ddd;
       border-radius: 50px;
       padding: 17px 35px;
+    }
+    mat-datepicker-toggle {
+      position: absolute;
+      right: 0;
+      width: 100%;
+      text-align: end;
     }
   }
   .section, .short-description, .address, .date, .name, .phone-valid, .phone, .price {

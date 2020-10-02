@@ -104,16 +104,15 @@
     <div class="date-complete">
       <div class="date">
         <p>Order execution date</p>
-          <input [matDatepicker]="date"
-                 [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
-                 formControlName="ExecutionDate"
-                 type="text"
-                 placeholder="Deadline when an order must be completed"
-                 disabled>
-          <mat-datepicker-toggle matSuffix [for]="date">
-            <span class="material-icons" matDatepickerToggleIcon>keyboard_arrow_down</span>
-          </mat-datepicker-toggle>
-          <mat-datepicker #date disabled="false"></mat-datepicker>
+        <input [matDatepicker]="date"
+               [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
+               formControlName="ExecutionDate"
+               type="text"
+               placeholder="Deadline when an order must be completed">
+        <mat-datepicker-toggle (click)="date.open()" matSuffix [for]="date">
+          <span class="material-icons" matDatepickerToggleIcon style="width: 100% !important;">keyboard_arrow_down</span>
+        </mat-datepicker-toggle>
+        <mat-datepicker #date disabled="false"></mat-datepicker>
         <span class="error-message" *ngIf="executionDate.invalid && (executionDate.touched || isSubmit)">
           Select date
         </span>

@@ -1,6 +1,10 @@
 @import '../node_modules/normalize.css';
 @import "~@ng-select/ng-select/themes/default.theme.css";
 @import url(../node_modules/font-awesome/css/font-awesome.css);
+@import "src/app/styles/custom-primeng";
+@import "~primeng/resources/themes/bootstrap4-light-purple/theme.css";
+@import "~primeng/resources/primeng.min.css";
+@import '~primeicons/primeicons.css';
 
 input {
   outline: none;
