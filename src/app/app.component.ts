@@ -15,6 +15,10 @@ export class AppComponent implements OnInit, OnDestroy {
 
   private subscription: Subscription;
 
+  get isFullscreenPage(): boolean {
+    return ['/registration', '/login', '/password-recovery'].includes(location.pathname)
+  }
+
   ngOnInit(): void {
     this.loginAttempt();
   }

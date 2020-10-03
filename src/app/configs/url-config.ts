@@ -1,4 +1,4 @@
-export const config = {
+export const urlConfig = {
   apiUrl: 'http://localhost:5000/API',
   regUrl: '/authorization/register',
   loginUrl: '/authorization/login',

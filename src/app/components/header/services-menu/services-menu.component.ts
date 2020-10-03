@@ -1,7 +1,7 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
 import {IMenuElements} from "../../../interfaces/data-services-interfaces";
-import {DataService} from "../../../core/services/data.service";
 import {Subscription} from "rxjs";
+import {DataService} from "../../../services/data.service";
 
 @Component({
   selector: 'services-menu',
