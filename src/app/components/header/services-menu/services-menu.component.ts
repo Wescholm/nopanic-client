@@ -1,4 +1,4 @@
-import {Component, OnInit, OnDestroy} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {IMenuElements} from "../../../interfaces/data-services-interfaces";
 import {Subscription} from "rxjs";
 import {DataService} from "../../../services/data.service";

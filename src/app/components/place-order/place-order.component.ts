@@ -1,4 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Component, Directive, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {ICitiesList, IMenuElements} from "../../interfaces/data-services-interfaces";
 import {Subscription} from "rxjs";
@@ -14,6 +14,7 @@ import {
   templateUrl: './place-order.component.html',
   styleUrls: ['./place-order.component.scss']
 })
+
 export class PlaceOrderComponent implements OnInit, OnDestroy {
 
   test
@@ -23,6 +24,7 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
   public sectionsList: IMenuElements;
   public citiesList: ICitiesList[];
   public isSubmit: boolean;
+  public isRotate: boolean = false;
 
   get section() { return this.orderForm.get('Section'); }
   get heading() { return this.orderForm.get('Heading'); }
@@ -37,6 +39,9 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
     private formBuilder: FormBuilder,
     private dataService: DataService
   ) { }
+
+  @Output('closed') closedStream: EventEmitter<void>
+  @Output('opened') openedStream: EventEmitter<void>
 
   ngOnInit(): void {
     this.importData();
@@ -79,6 +84,29 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
         this.citiesList = data.sort((a, b) => (a.englishName > b.englishName) ? 1 : -1);
       })
   }
+
+  openDate(date) {
+    const listArrow: HTMLElement = document.getElementById('arrow');
+    this.isRotate = !this.isRotate;
+    listArrow.style.transform = this.isRotate ? 'rotate(180deg)' : 'rotate(0deg)';
+    if (this.isRotate) date.open();
+    if (!this.isRotate) date.close();
+  }
+
+  streamOpened(date) {
+    const listArrow: HTMLElement = document.getElementById('arrow');
+    listArrow.style.transform = 'rotate(180deg)';
+    date.open()
+    console.log('open')
+  }
+
+  streamClosed(date) {
+    // const listArrow: HTMLElement = document.getElementById('arrow');
+    // listArrow.style.transform = 'rotate(0deg)';
+    // date.close()
+    console.log('close')
+  }
+
 
   ngOnDestroy(): void {
     this.getCitiesRequests.unsubscribe();

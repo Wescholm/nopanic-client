@@ -1,8 +1,8 @@
 @import "src/app/styles/config";
 
 .filters-content {
-  width: 100%;
-  height: 880px;
+  width: 250px;
+  height: fit-content;
   background: $fourth-color;
   border-radius: 10px;
   h3 {

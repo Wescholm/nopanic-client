@@ -5,10 +5,19 @@
   font-size: 14px;
   padding: 12px 0;
   cursor: pointer;
-  div {
+  .div {
     @include base-flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 4px;
+    &:hover {
+      color: $seventh-color;
+    }
+  }
+  .item-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     margin-bottom: 4px;
     &:hover {
       color: $seventh-color;
@@ -23,9 +32,9 @@
     max-height: 0;
     visibility: hidden;
     opacity: 0;
-    transition: max-height .2s ease,visibility .2s ease,opacity .2s ease;
+    transition: max-height 0.2s ease, visibility 0.4s ease, opacity 0.3s ease;
     li {
-      @include base-flex;
+      display: flex;
       flex-wrap: nowrap;
       margin: 3px 0;
       &:hover {

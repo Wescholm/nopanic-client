@@ -5,7 +5,9 @@
     <!--        <span [routerLink]="['/registration']">Register</span>-->
     <!--      </div>-->
 
-    <div class="header-profile-container">
+    <div class="header-profile-container"
+    (window:resize)="onResize($event)"
+    >
       <div class="profile-preview">
         <div class="top">
           <img class="avatar" src="../../../../assets/data/images/default-avatar.svg" alt="avatar">
@@ -137,6 +139,7 @@
 
 
   </div>
+
   <div class="toggle-button" (click)="mobileMenuToggle()">
     <span class="inner">
       <div></div>

@@ -16,7 +16,7 @@ export class HeaderProfileComponent implements AfterViewInit {
 
   profileToggle() {
     const dropdown = document.getElementById('dropdown');
-    dropdown.classList.toggle('down');
+    dropdown.classList.add('down');
   }
 
   getUserInfo() {
