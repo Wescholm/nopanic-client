@@ -2,7 +2,7 @@ import {Component, Directive, EventEmitter, Input, OnDestroy, OnInit, Output} fr
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {ICitiesList, IMenuElements} from "../../interfaces/data-services-interfaces";
 import {Subscription} from "rxjs";
-import {DataService} from "../../core/services/data.service";
+import {DataService} from "../../services/data.service";
 import {
   validateDescription,
   validateHeading, validateName, validatePrice,
@@ -17,6 +17,7 @@ import {
 
 export class PlaceOrderComponent implements OnInit, OnDestroy {
 
+  test
   public orderForm: FormGroup;
   private getSectionsRequests: Subscription;
   private getCitiesRequests: Subscription;

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Subscription} from "rxjs";
-import {DataService} from "../../../core/services/data.service";
+import {DataService} from "../../../services/data.service";
 
 @Component({
   selector: 'orders-navigation-mobile',

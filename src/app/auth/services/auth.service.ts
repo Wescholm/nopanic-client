@@ -18,7 +18,7 @@ export class AuthService {
 
   constructor(private http: HttpClient) { }
 
-  register(data: any) {
+  register(data: any): Observable<any> {
     return this.http.post<any>(`${config.apiUrl}${config.regUrl}`, data)
       .pipe(
         catchError(error => {
@@ -38,11 +38,9 @@ export class AuthService {
         }));
   }
 
-  getJwtPayload(token) {
+  getJwtPayload(token): LoggedUser {
     const base64Url = token.split('.')[1];
-    const base64 = base64Url
-      .replace(/-/g, '+')
-      .replace(/_/g, '/');
+    const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
     const jsonPayload = decodeURIComponent(atob(base64).split('').map((c) => {
       return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
     }).join(''));
@@ -54,28 +52,28 @@ export class AuthService {
       .pipe(tap(() => this.doLogoutUser()))
   }
 
-  getJwtToken() {
+  getJwtToken(): string {
     return localStorage.getItem(this.at);
   }
 
-  isLoggedIn() {
+  isLoggedIn(): boolean {
     return !!this.getJwtToken();
   }
 
-  refreshToken() {
+  refreshToken(): Observable<any> {
     return this.http.post<any>(`${config.apiUrl}${config.refreshTokenUrl}`, null)
       .pipe(tap((userInfo: UserInfo) => {
       this.doLoginUser(userInfo);
     }));
   }
 
-  private doLoginUser(userInfo: UserInfo) {
+  private doLoginUser(userInfo: UserInfo): void {
     this.loggedUser = this.getJwtPayload(userInfo.jwt);
     this.storeJwtToken(userInfo.jwt);
-    this.storeProfileGradient(userInfo.profileGradient);
+    AuthService.storeProfileGradient(userInfo.profileGradient);
   }
 
-  getUserAvailability(data: string, type: string) {
+  getUserAvailability(data: string, type: string): Observable<any> {
     return this.http.get<any>(`${config.apiUrl}${config.userAvailabilityUrl}`, {
       params: {
         data: data,
@@ -89,24 +87,24 @@ export class AuthService {
       )
   }
 
-  public doLogoutUser() {
+  public doLogoutUser(): void {
     this.loggedUser = null;
     this.removeToken();
     location.reload();
   }
 
-  private storeJwtToken(jwt: string) {
+  private storeJwtToken(jwt: string): void {
     localStorage.setItem(this.at, jwt);
   }
 
-  private storeProfileGradient(profileGradient: any): void {
+  private static storeProfileGradient(profileGradient: any): void {
     if (profileGradient) {
       const { firstColor, secondColor, defaultColor } = profileGradient;
       localStorage.setItem("pg", `${firstColor}&${secondColor}&${defaultColor}`)
     }
   }
 
-  private removeToken() {
+  private removeToken(): void {
     localStorage.removeItem(this.at);
   }
 

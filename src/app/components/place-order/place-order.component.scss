@@ -31,13 +31,19 @@
   max-width: 1140px;
   margin: 0 auto;
   padding: 36px 20px 100px 20px;
+
   p {
     margin: 0;
   }
+
   .section-caption, .section-address, .date-complete, .section-name, .place-order {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
+    div {
+      @include base-flex;
+    }
+
     input {
       @include light-text;
       font-size: 14px;
@@ -46,15 +52,18 @@
       border-radius: 50px;
       padding: 17px 35px;
     }
+
     input:focus {
       outline: 0;
       border-color: #007eff;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
     }
   }
+
   .section, .short-description, .address, .name, .phone-valid, .phone, .price {
     width: 49%;
     position: relative;
+
     p {
       @include semi-bold-text;
       font-size: 18px;
@@ -64,281 +73,328 @@
       background: white;
       padding: 0 3px;
     }
+
     input {
       background-color: white;
     }
+
     input:focus {
       outline: 0;
       border-color: #007eff;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+
+      mat-datepicker-toggle {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        text-align: end;
+      }
     }
-  }
-  .date {
-    width: 49%;
-    @include base-flex;
-    justify-content: space-between;
-    position: relative;
-    p {
-      @include semi-bold-text;
-      font-size: 18px;
-      position: absolute;
-      left: 35px;
-      top: -10px;
-      background: white;
-      padding: 0 3px;
-    }
-    input {
+
+    .date {
       width: 49%;
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
+      @include base-flex;
       justify-content: space-between;
-      background-color: white;
-      cursor: pointer;
-    }
-    input:focus {
-      outline: 0;
-      border-color: #007eff;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
-    }
-    .date-picker {
-      left: 218px;
-      position: absolute;
-      top: 5px;
-    } .date-picker:focus {
-       outline: 0;
-       border-color: #007eff;
-       box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);
-     }
-    .visible {
-      @include light-text;
-      font-size: 14px;
-    }
+      position: relative;
 
-  }
-  .price-checkbox, .phone-checkbox {
-    width: 49%;
-    @include base-flex;
-    justify-content: space-between;
-  }
-  .short-description {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .section-address, .date-complete {
-    margin-bottom: 38px;
-  }
-  .section-description {
-    width: 100%;
-    position: relative;
-    p {
-      @include semi-bold-text;
-      font-size: 18px;
-      position: absolute;
-      left: 35px;
-      top: 27px;
-      background: white;
-      padding: 0 3px;
-    }
-    textarea {
-      @include light-text;
-      font-size: 14px;
-      width: 100%;
-      margin: 38px 0;
-      border-radius: 26px;
-      border: 1px solid #ddd;
-      resize: none;
-      outline: none;
-      padding: 18px 35px;
-    }
-    textarea:focus {
-      outline: 0;
-      border-color: #007eff;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);    }
-  }
-  .short-description {
-    textarea {
-      @include light-text;
-      font-size: 14px;
-      width: 100%;
-      border-radius: 26px;
-      border: 1px solid #ddd;
-      resize: none;
-      outline: none;
-      padding: 18px 35px;
-    }
-    textarea:focus {
-      outline: 0;
-      border-color: #007eff;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 0 3px rgba(0,126,255,0.1);    }
-  }
-  .files {
-    @include semi-bold-text;
-    margin-bottom: 20px;
-  }
-  .photo-format {
-    @include light-text;
-  }
-  .order-photo {
-    display: flex;
-    margin: 20px 0 38px 0;
-  }
-  .photo {
-    width: 125px;
-    height: 125px;
-    background-color: #2196f352;
-    border-radius: 10px;
-    margin-right: 25px;
-  }
-  .add-photo {
-    width: 125px;
-    height: 125px;
-    background-color: $fourth-color;
-    border-radius: 10px;
-    line-height: 125px;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-  }
-
-  .price {
-    position: relative;
-    p {
-      @include semi-bold-text;
-      font-size: 18px;
-      position: absolute;
-      left: 35px;
-      top: -10px;
-      background: white;
-    }
-  }
-  .checkbox {
-    display: flex;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    p {
-      @include medium-text;
-      font-size: 16px;
-      padding-left: 15px;
-    }
-  }
-  .visible {
-    @include light-text;
-    font-size: 14px;
-  }
-  .verification {
-    border: 1px solid $fifth-color;
-    border-radius: 10px;
-    margin: 30px 0 38px 0;
-    padding: 23px 30px;
-    background-color: $fourth-color;
-  }
-  .check {
-    @include bold-text;
-    font-size: 18px;
-    margin-bottom: 18px;
-  }
-  .send-code {
-    @include regular-text;
-    font-size: 16px;
-    margin: 0;
-  }
-  .place-order {
-    button {
-      @include semi-bold-text;
-      font-size: 18px;
-      width: 23%;
-      border: 2px solid $fifth-color;
-      color: $fifth-color;
-      border-radius: 50px;
-      background-color: #fff;
-    }
-    button:hover {
-      color: #fff;
-      background-color: $fifth-color;
-    }
-  }
-  .arrow {
-    position: absolute;
-    top: 11px;
-    right: 31px;
-    font-size: 30px;
-}
-
-  @media screen and (max-width: 1000px) {
-    .visible {
-      width: 35%;
-    }
-  }
-
-  @media screen and (max-width: 570px) {
-    padding: 36px 20px 30px 20px;
-    p{
-      @include semi-bold-text;
-      font-size: 18px;
-    }
-    .section-caption {
-      display: block;
-      .section {
-        padding-bottom: 30px;
-      }
-    }
-    .section-description {
-      padding-bottom: 30px;
       p {
+        @include semi-bold-text;
+        font-size: 18px;
+        position: absolute;
+        left: 35px;
         top: -10px;
+        background: white;
+        padding: 0 3px;
       }
-      textarea {
-        margin: 0;
+
+      input {
+        width: 49%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: white;
+        cursor: pointer;
       }
+
+      input:focus {
+        outline: 0;
+        border-color: #007eff;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      }
+
+      .date-picker {
+        left: 218px;
+        position: absolute;
+        top: 5px;
+      }
+
+      .date-picker:focus {
+        outline: 0;
+        border-color: #007eff;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      }
+
+      .visible {
+        @include light-text;
+        font-size: 14px;
+      }
+
     }
-    .section, .short-description, .address, .name, .checkbox, .phone-valid {
-      width: 100%;
-      padding-bottom: 30px;
-      margin-bottom: 0;
-    }
-    .price {
-      width: 100%;
-      padding-bottom: 10px;
-    }
-    .phone {
-      width: 100%;
-      padding-bottom: 10px;
-    }
-    .section-address, .date-complete {
-      margin-bottom: 0;
-    }
+
     .price-checkbox, .phone-checkbox {
-      width: 100%;
+      width: 49%;
+      @include base-flex;
+      justify-content: space-between;
     }
-    .visible {
+
+    .short-description {
       width: 100%;
+      margin-bottom: 30px;
     }
-    .place-order {
-      .phone-valid {
-        width: 100%;
-        padding-bottom: 20px;
+
+    .section-address, .date-complete {
+      margin-bottom: 38px;
+    }
+
+    .section-description {
+      width: 100%;
+      position: relative;
+
+      p {
+        @include semi-bold-text;
+        font-size: 18px;
+        position: absolute;
+        left: 35px;
+        top: 27px;
+        background: white;
+        padding: 0 3px;
       }
-      button {
+
+      textarea {
+        @include light-text;
+        font-size: 14px;
         width: 100%;
-        margin-bottom: 20px;
-        padding: 20px 0;
+        margin: 38px 0;
+        border-radius: 26px;
+        border: 1px solid #ddd;
+        resize: none;
+        outline: none;
+        padding: 18px 35px;
+      }
+
+      textarea:focus {
+        outline: 0;
+        border-color: #007eff;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      }
+    }
+
+    .short-description {
+      textarea {
+        @include light-text;
+        font-size: 14px;
+        width: 100%;
+        border-radius: 26px;
+        border: 1px solid #ddd;
+        resize: none;
+        outline: none;
+        padding: 18px 35px;
+      }
+
+      textarea:focus {
+        outline: 0;
+        border-color: #007eff;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+      }
+    }
+
+    .files {
+      @include semi-bold-text;
+      margin-bottom: 20px;
+    }
+
+    .photo-format {
+      @include light-text;
+    }
+
+    .order-photo {
+      display: flex;
+      margin: 20px 0 38px 0;
+    }
+
+    .photo {
+      width: 125px;
+      height: 125px;
+      background-color: #2196f352;
+      border-radius: 10px;
+      margin-right: 25px;
+    }
+
+    .add-photo {
+      width: 125px;
+      height: 125px;
+      background-color: $fourth-color;
+      border-radius: 10px;
+      line-height: 125px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .price {
+      position: relative;
+
+      p {
+        @include semi-bold-text;
+        font-size: 18px;
+        position: absolute;
+        left: 35px;
+        top: -10px;
+        background: white;
+      }
+    }
+
+    .checkbox {
+      display: flex;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+
+      p {
+        @include medium-text;
+        font-size: 16px;
+        padding-left: 15px;
+      }
+    }
+
+    .visible {
+      @include light-text;
+      font-size: 14px;
+    }
+
+    .verification {
+      border: 1px solid $fifth-color;
+      border-radius: 10px;
+      margin: 30px 0 38px 0;
+      padding: 23px 30px;
+      background-color: $fourth-color;
+    }
+
+    .check {
+      @include bold-text;
+      font-size: 18px;
+      margin-bottom: 18px;
+    }
+
+    .send-code {
+      @include regular-text;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    .place-order {
+      button {
+        @include semi-bold-text;
+        font-size: 18px;
+        width: 23%;
+        border: 2px solid $fifth-color;
+        color: $fifth-color;
+        border-radius: 50px;
+        background-color: #fff;
+      }
+
+      button:hover {
+        color: #fff;
+        background-color: $fifth-color;
+      }
+    }
+
+    .arrow {
+      position: absolute;
+      top: 11px;
+      right: 31px;
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 1000px) {
+      .visible {
+        width: 35%;
+      }
+    }
+
+    @media screen and (max-width: 570px) {
+      padding: 36px 20px 30px 20px;
+      p {
+        @include semi-bold-text;
+        font-size: 18px;
+      }
+      .section-caption {
+        display: block;
+
+        .section {
+          padding-bottom: 30px;
+        }
+      }
+      .section-description {
+        padding-bottom: 30px;
+
+        p {
+          top: -10px;
+        }
+
+        textarea {
+          margin: 0;
+        }
+      }
+      .section, .short-description, .address, .name, .checkbox, .phone-valid {
+        width: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 0;
+      }
+      .price {
+        width: 100%;
+        padding-bottom: 10px;
+      }
+      .phone {
+        width: 100%;
+        padding-bottom: 10px;
+      }
+      .section-address, .date-complete {
+        margin-bottom: 0;
+      }
+      .price-checkbox, .phone-checkbox {
+        width: 100%;
+      }
+      .visible {
+        width: 100%;
+      }
+      .place-order {
+        .phone-valid {
+          width: 100%;
+          padding-bottom: 20px;
+        }
+
+        button {
+          width: 100%;
+          margin-bottom: 20px;
+          padding: 20px 0;
+        }
       }
     }
   }
-}
 
-.error-message {
-  @include medium-text;
-  position: absolute;
-  top: 100%;
-  text-align: start;
-  font-size: 14px;
-  margin-top: 3px;
-  color: red;
-  padding-left: 35px;
-  left: 0;
+  .error-message {
+    @include medium-text;
+    position: absolute;
+    top: 100%;
+    text-align: start;
+    font-size: 14px;
+    margin-top: 3px;
+    color: red;
+    padding-left: 35px;
+    left: 0;
+  }
 }
 
 // Customizing material checkbox
