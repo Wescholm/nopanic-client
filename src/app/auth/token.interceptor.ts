@@ -8,7 +8,7 @@ import {
 import {BehaviorSubject, Observable, throwError} from 'rxjs';
 import {AuthService} from "./services/auth.service";
 import {catchError, filter, switchMap, take} from "rxjs/operators";
-import {config} from "../config";
+import {urlConfig} from "../configs/url-config";
 
 @Injectable()
 export class TokenInterceptor implements HttpInterceptor {
@@ -27,7 +27,7 @@ export class TokenInterceptor implements HttpInterceptor {
       if (error instanceof HttpErrorResponse && error.status === 401 && !this.isHandlerAllowed(error.url)) {
         return this.handle401Error(request, next);
       } else {
-        if (error.url.includes(config.refreshTokenUrl)) {
+        if (error.url.includes(urlConfig.refreshTokenUrl)) {
           this.authService.doLogoutUser()
         }
         return throwError(error);
@@ -36,7 +36,7 @@ export class TokenInterceptor implements HttpInterceptor {
   }
 
   isHandlerAllowed(url: string) {
-    const handlerException: string[] = [config.apiUrl + config.loginUrl, config.apiUrl + config.refreshTokenUrl];
+    const handlerException: string[] = [urlConfig.apiUrl + urlConfig.loginUrl, urlConfig.apiUrl + urlConfig.refreshTokenUrl];
     return handlerException.includes(url);
   }
 
