@@ -14,7 +14,7 @@ export class DataService {
     return this.http.get<IMenuElements>("./assets/data/menu-list-elements.json")
   }
 
-  getCities() {
-    return this.http.get<ICitiesList[]>("./assets/data/israel-cities.json")
+  getCitiesEng() {
+    return this.http.get("./assets/data/israel-cities-en.json")
   }
 }

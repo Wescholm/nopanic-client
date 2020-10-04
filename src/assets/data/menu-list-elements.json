@@ -1,1069 +1,1256 @@
 [
   {
     "id": 1,
-    "title": "Construction and decoration works",
-    "icon": "./assets/data/images/icons-menu/construction-work.png",
-    "data": [
+    "label": "Construction and decoration works",
+    "icon": "./assets/items/images/icons-menu/construction-work.png",
+    "items": [
       {
         "id": 101,
-        "subtitle": "Fix-it man, hourly rate",
-        "value": false
+        "label": "Fix-it man, hourly rate",
+        "value": "Fix-it man, hourly rate",
+        "isSelected": false
       },
       {
         "id": 102,
-        "subtitle": "Turn-key home renovations",
-        "value": false
+        "label": "Turn-key home renovations",
+        "value": "Turn-key home renovations",
+        "isSelected": false
       },
       {
         "id": 103,
-        "subtitle": "Construction and installation works",
-        "value": false
+        "label": "Construction and installation works",
+        "value": "Construction and installation works",
+        "isSelected": false
       },
       {
         "id": 104,
-        "subtitle": "Dismantling works",
-        "value": false
+        "label": "Dismantling works",
+        "value": "Dismantling works",
+        "isSelected": false
       },
       {
         "id": 105,
-        "subtitle": "Decoration works",
-        "value": false
+        "label": "Decoration works",
+        "value": "Decoration works",
+        "isSelected": false
       },
       {
         "id": 106,
-        "subtitle": "Plumbing works",
-        "value": false
+        "label": "Plumbing works",
+        "value": "Plumbing works",
+        "isSelected": false
       },
       {
         "id": 107,
-        "subtitle": "Electrical installation works",
-        "value": false
+        "label": "Electrical installation works",
+        "value": "Electrical installation works",
+        "isSelected": false
       },
       {
         "id": 108,
-        "subtitle": "Roofing and facade works",
-        "value": false
+        "label": "Roofing and facade works",
+        "value": "Roofing and facade works",
+        "isSelected": false
       },
       {
         "id": 109,
-        "subtitle": "Large-scale construction",
-        "value": false
+        "label": "Large-scale construction",
+        "value": "Large-scale construction",
+        "isSelected": false
       },
       {
         "id": 110,
-        "subtitle": "Water supply system, wastewater disposal",
-        "value": false
+        "label": "Water supply system, wastewater disposal",
+        "value": "Water supply system, wastewater disposal",
+        "isSelected": false
       },
       {
         "id": 111,
-        "subtitle": "Air conditioning and ventilation system",
-        "value": false
+        "label": "Air conditioning and ventilation system",
+        "value": "Air conditioning and ventilation system",
+        "isSelected": false
       },
       {
         "id": 112,
-        "subtitle": "Interior design, landscape design",
-        "value": false
+        "label": "Interior design, landscape design",
+        "value": "Interior design, landscape design",
+        "isSelected": false
       },
       {
         "id": 113,
-        "subtitle": "Architecture and project designing",
-        "value": false
+        "label": "Architecture and project designing",
+        "value": "Architecture and project designing",
+        "isSelected": false
       },
       {
         "id": 114,
-        "subtitle": "Other construction works",
-        "value": false
+        "label": "Other construction works",
+        "value": "Other construction works",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 2,
-    "title": "Everything for household",
-    "icon": "./assets/data/images/icons-menu/household-all.png",
-    "data": [
+    "label": "Everything for household",
+    "icon": "./assets/items/images/icons-menu/household-all.png",
+    "items": [
       {
         "id": 201,
-        "subtitle": "Furniture manufacturing",
-        "value": false
+        "label": "Furniture manufacturing",
+        "value": "Furniture manufacturing",
+        "isSelected": false
       },
       {
         "id": 202,
-        "subtitle": "Furniture assembly",
-        "value": false
+        "label": "Furniture assembly",
+        "value": "Furniture assembly",
+        "isSelected": false
       },
       {
         "id": 203,
-        "subtitle": "Furniture repair and restoration",
-        "value": false
+        "label": "Furniture repair and restoration",
+        "value": "Furniture repair and restoration",
+        "isSelected": false
       },
       {
         "id": 204,
-        "subtitle": "Kitchen and bathroom furniture",
-        "value": false
+        "label": "Kitchen and bathroom furniture",
+        "value": "Kitchen and bathroom furniture",
+        "isSelected": false
       },
       {
         "id": 205,
-        "subtitle": "Installation and repair of air conditioners",
-        "value": false
+        "label": "Installation and repair of air conditioners",
+        "value": "Installation and repair of air conditioners",
+        "isSelected": false
       },
       {
         "id": 206,
-        "subtitle": "Installation and repair of water heaters",
-        "value": false
+        "label": "Installation and repair of water heaters",
+        "value": "Installation and repair of water heaters",
+        "isSelected": false
       },
       {
         "id": 207,
-        "subtitle": "Installation and repair of doors, locks",
-        "value": false
+        "label": "Installation and repair of doors, locks",
+        "value": "Installation and repair of doors, locks",
+        "isSelected": false
       },
       {
         "id": 208,
-        "subtitle": "Windows, glass fixing works, balconies",
-        "value": false
+        "label": "Windows, glass fixing works, balconies",
+        "value": "Windows, glass fixing works, balconies",
+        "isSelected": false
       },
       {
         "id": 209,
-        "subtitle": "Manufacturing and installation of blinds, curtains",
-        "value": false
+        "label": "Manufacturing and installation of blinds, curtains",
+        "value": "Manufacturing and installation of blinds, curtains",
+        "isSelected": false
       },
       {
         "id": 210,
-        "subtitle": "Earthworks, gardening, works on land adjacent to the house",
-        "value": false
+        "label": "Earthworks, gardening, works on land adjacent to the house",
+        "value": "Earthworks, gardening, works on land adjacent to the house",
+        "isSelected": false
       },
       {
         "id": 211,
-        "subtitle": "Other for household",
-        "value": false
+        "label": "Other for household",
+        "value": "Other for household",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 3,
-    "title": "Household services",
-    "icon": "./assets/data/images/icons-menu/household-services.png",
-    "data": [
+    "label": "Household services",
+    "icon": "./assets/items/images/icons-menu/household-services.png",
+    "items": [
       {
         "id": 301,
-        "subtitle": "Nursing services",
-        "value": false
+        "label": "Nursing services",
+        "value": "Nursing services",
+        "isSelected": false
       },
       {
         "id": 302,
-        "subtitle": "Babysitting services",
-        "value": false
+        "label": "Babysitting services",
+        "value": "Babysitting services",
+        "isSelected": false
       },
       {
         "id": 303,
-        "subtitle": "Cooking",
-        "value": false
+        "label": "Cooking",
+        "value": "Cooking",
+        "isSelected": false
       },
       {
         "id": 304,
-        "subtitle": "Repair works of bags, watches, jewelry",
-        "value": false
+        "label": "Repair works of bags, watches, jewelry",
+        "value": "Repair works of bags, watches, jewelry",
+        "isSelected": false
       },
       {
         "id": 305,
-        "subtitle": "Repairing and sewing of clothes",
-        "value": false
+        "label": "Repairing and sewing of clothes",
+        "value": "Repairing and sewing of clothes",
+        "isSelected": false
       },
       {
         "id": 306,
-        "subtitle": "Shoe repairs",
-        "value": false
+        "label": "Shoe repairs",
+        "value": "Shoe repairs",
+        "isSelected": false
       },
       {
         "id": 307,
-        "subtitle": "Washing and ironing of clothing",
-        "value": false
+        "label": "Washing and ironing of clothing",
+        "value": "Washing and ironing of clothing",
+        "isSelected": false
       },
       {
         "id": 308,
-        "subtitle": "Tool sharpening",
-        "value": false
+        "label": "Tool sharpening",
+        "value": "Tool sharpening",
+        "isSelected": false
       },
       {
         "id": 309,
-        "subtitle": "Other household services",
-        "value": false
+        "label": "Other household services",
+        "value": "Other household services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 4,
-    "title": "Cleaning",
-    "icon": "./assets/data/images/icons-menu/cleaning.png",
-    "data": [
+    "label": "Cleaning",
+    "icon": "./assets/items/images/icons-menu/cleaning.png",
+    "items": [
       {
         "id": 401,
-        "subtitle": "Cleaning of apartments, houses",
-        "value": false
+        "label": "Cleaning of apartments, houses",
+        "value": "Cleaning of apartments, houses",
+        "isSelected": false
       },
       {
         "id": 402,
-        "subtitle": "Cleaning after home renovation works",
-        "value": false
+        "label": "Cleaning after home renovation works",
+        "value": "Cleaning after home renovation works",
+        "isSelected": false
       },
       {
         "id": 403,
-        "subtitle": "Office cleaning services",
-        "value": false
+        "label": "Office cleaning services",
+        "value": "Office cleaning services",
+        "isSelected": false
       },
       {
         "id": 404,
-        "subtitle": "Cleaning of shops, restaurant",
-        "value": false
+        "label": "Cleaning of shops, restaurant",
+        "value": "Cleaning of shops, restaurant",
+        "isSelected": false
       },
       {
         "id": 405,
-        "subtitle": "Washing of windows, facades",
-        "value": false
+        "label": "Washing of windows, facades",
+        "value": "Washing of windows, facades",
+        "isSelected": false
       },
       {
         "id": 406,
-        "subtitle": "Eco-cleaning",
-        "value": false
+        "label": "Eco-cleaning",
+        "value": "Eco-cleaning",
+        "isSelected": false
       },
       {
         "id": 407,
-        "subtitle": "Cleaning of adjacent areas",
-        "value": false
+        "label": "Cleaning of adjacent areas",
+        "value": "Cleaning of adjacent areas",
+        "isSelected": false
       },
       {
         "id": 408,
-        "subtitle": "Disinfection of premises",
-        "value": false
+        "label": "Disinfection of premises",
+        "value": "Disinfection of premises",
+        "isSelected": false
       },
       {
         "id": 409,
-        "subtitle": "Cleaning of industrial premises",
-        "value": false
+        "label": "Cleaning of industrial premises",
+        "value": "Cleaning of industrial premises",
+        "isSelected": false
       },
       {
         "id": 410,
-        "subtitle": "Other cleaning",
-        "value": false
+        "label": "Other cleaning",
+        "value": "Other cleaning",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 5,
-    "title": "Transportation services",
-    "icon": "./assets/data/images/icons-menu/transportation.png",
-    "data": [
+    "label": "Transportation services",
+    "icon": "./assets/items/images/icons-menu/transportation.png",
+    "items": [
       {
         "id": 501,
-        "subtitle": "Apartment or office move",
-        "value": false
+        "label": "Apartment or office move",
+        "value": "Apartment or office move",
+        "isSelected": false
       },
       {
         "id": 502,
-        "subtitle": "Transportation of furniture and equipment",
-        "value": false
+        "label": "Transportation of furniture and equipment",
+        "value": "Transportation of furniture and equipment",
+        "isSelected": false
       },
       {
         "id": 503,
-        "subtitle": "Moving men services",
-        "value": false
+        "label": "Moving men services",
+        "value": "Moving men services",
+        "isSelected": false
       },
       {
         "id": 504,
-        "subtitle": "Passenger transportation",
-        "value": false
+        "label": "Passenger transportation",
+        "value": "Passenger transportation",
+        "isSelected": false
       },
       {
         "id": 505,
-        "subtitle": "Intercity transportation",
-        "value": false
+        "label": "Intercity transportation",
+        "value": "Intercity transportation",
+        "isSelected": false
       },
       {
         "id": 506,
-        "subtitle": "Cargo transportation",
-        "value": false
+        "label": "Cargo transportation",
+        "value": "Cargo transportation",
+        "isSelected": false
       },
       {
         "id": 507,
-        "subtitle": "Transportation of food products",
-        "value": false
+        "label": "Transportation of food products",
+        "value": "Transportation of food products",
+        "isSelected": false
       },
       {
         "id": 508,
-        "subtitle": "Construction waste disposal service",
-        "value": false
+        "label": "Construction waste disposal service",
+        "value": "Construction waste disposal service",
+        "isSelected": false
       },
       {
         "id": 509,
-        "subtitle": "Taxi service",
-        "value": false
+        "label": "Taxi service",
+        "value": "Taxi service",
+        "isSelected": false
       },
       {
         "id": 510,
-        "subtitle": "Sober driver service",
-        "value": false
+        "label": "Sober driver service",
+        "value": "Sober driver service",
+        "isSelected": false
       },
       {
         "id": 511,
-        "subtitle": "Packing, assembly and sorting services",
-        "value": false
+        "label": "Packing, assembly and sorting services",
+        "value": "Packing, assembly and sorting services",
+        "isSelected": false
       },
       {
         "id": 512,
-        "subtitle": "Other transportation services",
-        "value": false
+        "label": "Other transportation services",
+        "value": "Other transportation services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 6,
-    "title": "Courier services",
-    "icon": "./assets/data/images/icons-menu/courier.png",
-    "data": [
+    "label": "Courier services",
+    "icon": "./assets/items/images/icons-menu/courier.png",
+    "items": [
       {
         "id": 601,
-        "subtitle": "Courier delivery",
-        "value": false
+        "label": "Courier delivery",
+        "value": "Courier delivery",
+        "isSelected": false
       },
       {
         "id": 602,
-        "subtitle": "Delivery of food products, ready-to-eat food",
-        "value": false
+        "label": "Delivery of food products, ready-to-eat food",
+        "value": "Delivery of food products, ready-to-eat food",
+        "isSelected": false
       },
       {
         "id": 603,
-        "subtitle": "Delivery of gifts, flowers",
-        "value": false
+        "label": "Delivery of gifts, flowers",
+        "value": "Delivery of gifts, flowers",
+        "isSelected": false
       },
       {
         "id": 604,
-        "subtitle": "Delivery of medicines",
-        "value": false
+        "label": "Delivery of medicines",
+        "value": "Delivery of medicines",
+        "isSelected": false
       },
       {
         "id": 605,
-        "subtitle": "Courier service by car",
-        "value": false
+        "label": "Courier service by car",
+        "value": "Courier service by car",
+        "isSelected": false
       },
       {
         "id": 606,
-        "subtitle": "Delivery of on-line shop goods",
-        "value": false
+        "label": "Delivery of on-line shop goods",
+        "value": "Delivery of on-line shop goods",
+        "isSelected": false
       },
       {
         "id": 607,
-        "subtitle": "Delivery of documents",
-        "value": false
+        "label": "Delivery of documents",
+        "value": "Delivery of documents",
+        "isSelected": false
       },
       {
         "id": 608,
-        "subtitle": "Pick up and send by mail service",
-        "value": false
+        "label": "Pick up and send by mail service",
+        "value": "Pick up and send by mail service",
+        "isSelected": false
       },
       {
         "id": 609,
-        "subtitle": "Other courier services",
-        "value": false
+        "label": "Other courier services",
+        "value": "Other courier services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 7,
-    "title": "Repair of appliances and tools",
-    "icon": "./assets/data/images/icons-menu/repair-tools.png",
-    "data": [
+    "label": "Repair of appliances and tools",
+    "icon": "./assets/items/images/icons-menu/repair-tools.png",
+    "items": [
       {
         "id": 701,
-        "subtitle": "Repair of large household appliances",
-        "value": false
+        "label": "Repair of large household appliances",
+        "value": "Repair of large household appliances",
+        "isSelected": false
       },
       {
         "id": 702,
-        "subtitle": "Repair of phones, digital devices",
-        "value": false
+        "label": "Repair of phones, digital devices",
+        "value": "Repair of phones, digital devices",
+        "isSelected": false
       },
       {
         "id": 703,
-        "subtitle": "Repair of computers and laptops",
-        "value": false
+        "label": "Repair of computers and laptops",
+        "value": "Repair of computers and laptops",
+        "isSelected": false
       },
       {
         "id": 704,
-        "subtitle": "Repair of electric vehicles",
-        "value": false
+        "label": "Repair of electric vehicles",
+        "value": "Repair of electric vehicles",
+        "isSelected": false
       },
       {
         "id": 705,
-        "subtitle": "Repair of bicycles, scooters",
-        "value": false
+        "label": "Repair of bicycles, scooters",
+        "value": "Repair of bicycles, scooters",
+        "isSelected": false
       },
       {
         "id": 706,
-        "subtitle": "Repair of office equipment",
-        "value": false
+        "label": "Repair of office equipment",
+        "value": "Repair of office equipment",
+        "isSelected": false
       },
       {
         "id": 707,
-        "subtitle": "Repair of beauty and care equipment",
-        "value": false
+        "label": "Repair of beauty and care equipment",
+        "value": "Repair of beauty and care equipment",
+        "isSelected": false
       },
       {
         "id": 708,
-        "subtitle": "Repair of electric tools",
-        "value": false
+        "label": "Repair of electric tools",
+        "value": "Repair of electric tools",
+        "isSelected": false
       },
       {
         "id": 709,
-        "subtitle": "Repair of medical equipment",
-        "value": false
+        "label": "Repair of medical equipment",
+        "value": "Repair of medical equipment",
+        "isSelected": false
       },
       {
         "id": 710,
-        "subtitle": "Repair of gardening equipment",
-        "value": false
+        "label": "Repair of gardening equipment",
+        "value": "Repair of gardening equipment",
+        "isSelected": false
       },
       {
         "id": 711,
-        "subtitle": "Maintenance of equipment",
-        "value": false
+        "label": "Maintenance of equipment",
+        "value": "Maintenance of equipment",
+        "isSelected": false
       },
       {
         "id": 712,
-        "subtitle": "Setting up equipment, TV, Internet",
-        "value": false
+        "label": "Setting up equipment, TV, Internet",
+        "value": "Setting up equipment, TV, Internet",
+        "isSelected": false
       },
       {
         "id": 713,
-        "subtitle": "Installation and repair of security systems, video surveillance systems",
-        "value": false
+        "label": "Installation and repair of security systems, video surveillance systems",
+        "value": "Installation and repair of security systems, video surveillance systems",
+        "isSelected": false
       },
       {
         "id": 714,
-        "subtitle": "Installation and configuration of operating systems, programs",
-        "value": false
+        "label": "Installation and configuration of operating systems, programs",
+        "value": "Installation and configuration of operating systems, programs",
+        "isSelected": false
       },
       {
         "id": 715,
-        "subtitle": "Consultations and training",
-        "value": false
+        "label": "Consultations and training",
+        "value": "Consultations and training",
+        "isSelected": false
       },
       {
         "id": 716,
-        "subtitle": "Other repair of equipment",
-        "value": false
+        "label": "Other repair of equipment",
+        "value": "Other repair of equipment",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 8,
-    "title": "Organization of celebratory events",
-    "icon": "./assets/data/images/icons-menu/events.png",
-    "data": [
+    "label": "Organization of celebratory events",
+    "icon": "./assets/items/images/icons-menu/events.png",
+    "items": [
       {
         "id": 801,
-        "subtitle": "Host, animator services",
-        "value": false
+        "label": "Host, animator services",
+        "value": "Host, animator services",
+        "isSelected": false
       },
       {
         "id": 802,
-        "subtitle": "Decoration service for events",
-        "value": false
+        "label": "Decoration service for events",
+        "value": "Decoration service for events",
+        "isSelected": false
       },
       {
         "id": 803,
-        "subtitle": "Staff for events",
-        "value": false
+        "label": "Staff for events",
+        "value": "Staff for events",
+        "isSelected": false
       },
       {
         "id": 804,
-        "subtitle": "DJ service",
-        "value": false
+        "label": "DJ service",
+        "value": "DJ service",
+        "isSelected": false
       },
       {
         "id": 805,
-        "subtitle": "Entertainment",
-        "value": false
+        "label": "Entertainment",
+        "value": "Entertainment",
+        "isSelected": false
       },
       {
         "id": 806,
-        "subtitle": "Catering service",
-        "value": false
+        "label": "Catering service",
+        "value": "Catering service",
+        "isSelected": false
       },
       {
         "id": 807,
-        "subtitle": "Ordering cakes and desserts",
-        "value": false
+        "label": "Ordering cakes and desserts",
+        "value": "Ordering cakes and desserts",
+        "isSelected": false
       },
       {
         "id": 808,
-        "subtitle": "Turn-key celebratory event",
-        "value": false
+        "label": "Turn-key celebratory event",
+        "value": "Turn-key celebratory event",
+        "isSelected": false
       },
       {
         "id": 809,
-        "subtitle": "Other organization of celebratory events",
-        "value": false
+        "label": "Other organization of celebratory events",
+        "value": "Other organization of celebratory events",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 9,
-    "title": "Beauty and health services",
-    "icon": "./assets/data/images/icons-menu/beauty-health.png",
-    "data": [
+    "label": "Beauty and health services",
+    "icon": "./assets/items/images/icons-menu/beauty-health.png",
+    "items": [
       {
         "id": 901,
-        "subtitle": "Massage",
-        "value": false
+        "label": "Massage",
+        "value": "Massage",
+        "isSelected": false
       },
       {
         "id": 902,
-        "subtitle": "Hairdressing services",
-        "value": false
+        "label": "Hairdressing services",
+        "value": "Hairdressing services",
+        "isSelected": false
       },
       {
         "id": 903,
-        "subtitle": "Nail care",
-        "value": false
+        "label": "Nail care",
+        "value": "Nail care",
+        "isSelected": false
       },
       {
         "id": 904,
-        "subtitle": "Cosmetology",
-        "value": false
+        "label": "Cosmetology",
+        "value": "Cosmetology",
+        "isSelected": false
       },
       {
         "id": 905,
-        "subtitle": "Eyebrows, eyelashes beauty care",
-        "value": false
+        "label": "Eyebrows, eyelashes beauty care",
+        "value": "Eyebrows, eyelashes beauty care",
+        "isSelected": false
       },
       {
         "id": 906,
-        "subtitle": "Depilation",
-        "value": false
+        "label": "Depilation",
+        "value": "Depilation",
+        "isSelected": false
       },
       {
         "id": 907,
-        "subtitle": "Make-up stylist services",
-        "value": false
+        "label": "Make-up stylist services",
+        "value": "Make-up stylist services",
+        "isSelected": false
       },
       {
         "id": 908,
-        "subtitle": "Personal coach",
-        "value": false
+        "label": "Personal coach",
+        "value": "Personal coach",
+        "isSelected": false
       },
       {
         "id": 909,
-        "subtitle": "Makeup",
-        "value": false
+        "label": "Makeup",
+        "value": "Makeup",
+        "isSelected": false
       },
       {
         "id": 910,
-        "subtitle": "Psychologist",
-        "value": false
+        "label": "Psychologist",
+        "value": "Psychologist",
+        "isSelected": false
       },
       {
         "id": 911,
-        "subtitle": "Dieting expert",
-        "value": false
+        "label": "Dieting expert",
+        "value": "Dieting expert",
+        "isSelected": false
       },
       {
         "id": 912,
-        "subtitle": "Other type of self care",
-        "value": false
+        "label": "Other type of self care",
+        "value": "Other type of self care",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 10,
-    "title": "Photo and video services",
-    "icon": "./assets/data/images/icons-menu/photo-video.png",
-    "data": [
+    "label": "Photo and video services",
+    "icon": "./assets/items/images/icons-menu/photo-video.png",
+    "items": [
       {
         "id": 1001,
-        "subtitle": "Photographer",
-        "value": false
+        "label": "Photographer",
+        "value": "Photographer",
+        "isSelected": false
       },
       {
         "id": 1002,
-        "subtitle": "Video operator",
-        "value": false
+        "label": "Video operator",
+        "value": "Video operator",
+        "isSelected": false
       },
       {
         "id": 1003,
-        "subtitle": "Photo reworking",
-        "value": false
+        "label": "Photo reworking",
+        "value": "Photo reworking",
+        "isSelected": false
       },
       {
         "id": 1004,
-        "subtitle": "Editing and reworking of video",
-        "value": false
+        "label": "Editing and reworking of video",
+        "value": "Editing and reworking of video",
+        "isSelected": false
       },
       {
         "id": 1005,
-        "subtitle": "Other photo and video services",
-        "value": false
+        "label": "Other photo and video services",
+        "value": "Other photo and video services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 11,
-    "title": "Business services",
-    "icon": "./assets/data/images/icons-menu/business-services.png",
-    "data": [
+    "label": "Business services",
+    "icon": "./assets/items/images/icons-menu/business-services.png",
+    "items": [
       {
         "id": 1101,
-        "subtitle": "Real estate services",
-        "value": false
+        "label": "Real estate services",
+        "value": "Real estate services",
+        "isSelected": false
       },
       {
         "id": 1102,
-        "subtitle": "Repatriation services",
-        "value": false
+        "label": "Repatriation services",
+        "value": "Repatriation services",
+        "isSelected": false
       },
       {
         "id": 1103,
-        "subtitle": "HR services",
-        "value": false
+        "label": "HR services",
+        "value": "HR services",
+        "isSelected": false
       },
       {
         "id": 1104,
-        "subtitle": "Financial services",
-        "value": false
+        "label": "Financial services",
+        "value": "Financial services",
+        "isSelected": false
       },
       {
         "id": 1105,
-        "subtitle": "Accounting services",
-        "value": false
+        "label": "Accounting services",
+        "value": "Accounting services",
+        "isSelected": false
       },
       {
         "id": 1106,
-        "subtitle": "Consulting services",
-        "value": false
+        "label": "Consulting services",
+        "value": "Consulting services",
+        "isSelected": false
       },
       {
         "id": 1107,
-        "subtitle": "Security services",
-        "value": false
+        "label": "Security services",
+        "value": "Security services",
+        "isSelected": false
       },
       {
         "id": 1108,
-        "subtitle": "Other business services",
-        "value": false
+        "label": "Other business services",
+        "value": "Other business services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 12,
-    "title": "Legal services",
-    "icon": "./assets/data/images/icons-menu/legal-services.png",
-    "data": [
+    "label": "Legal services",
+    "icon": "./assets/items/images/icons-menu/legal-services.png",
+    "items": [
       {
         "id": 1201,
-        "subtitle": "Legal aid consultation",
-        "value": false
+        "label": "Legal aid consultation",
+        "value": "Legal aid consultation",
+        "isSelected": false
       },
       {
         "id": 1202,
-        "subtitle": "Drafting and verification of contracts",
-        "value": false
+        "label": "Drafting and verification of contracts",
+        "value": "Drafting and verification of contracts",
+        "isSelected": false
       },
       {
         "id": 1203,
-        "subtitle": "Drafting and filing complaints, claims",
-        "value": false
+        "label": "Drafting and filing complaints, claims",
+        "value": "Drafting and filing complaints, claims",
+        "isSelected": false
       },
       {
         "id": 1204,
-        "subtitle": "Legal paperwork",
-        "value": false
+        "label": "Legal paperwork",
+        "value": "Legal paperwork",
+        "isSelected": false
       },
       {
         "id": 1205,
-        "subtitle": "Registration, liquidation of companies",
-        "value": false
+        "label": "Registration, liquidation of companies",
+        "value": "Registration, liquidation of companies",
+        "isSelected": false
       },
       {
         "id": 1206,
-        "subtitle": "Legal assistance for new repatriates",
-        "value": false
+        "label": "Legal assistance for new repatriates",
+        "value": "Legal assistance for new repatriates",
+        "isSelected": false
       },
       {
         "id": 1207,
-        "subtitle": "Other legal services",
-        "value": false
+        "label": "Other legal services",
+        "value": "Other legal services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 13,
-    "title": "Translation agency",
-    "icon": "./assets/data/images/icons-menu/translation.png",
-    "data": [
+    "label": "Translation agency",
+    "icon": "./assets/items/images/icons-menu/translation.png",
+    "items": [
       {
         "id": 1301,
-        "subtitle": "Written translations",
-        "value": false
+        "label": "Written translations",
+        "value": "Written translations",
+        "isSelected": false
       },
       {
         "id": 1302,
-        "subtitle": "Oral translations",
-        "value": false
+        "label": "Oral translations",
+        "value": "Oral translations",
+        "isSelected": false
       },
       {
         "id": 1303,
-        "subtitle": "Technical translation",
-        "value": false
+        "label": "Technical translation",
+        "value": "Technical translation",
+        "isSelected": false
       },
       {
         "id": 1304,
-        "subtitle": "Translation of documents",
-        "value": false
+        "label": "Translation of documents",
+        "value": "Translation of documents",
+        "isSelected": false
       },
       {
         "id": 1305,
-        "subtitle": "Editing a translation",
-        "value": false
+        "label": "Editing a translation",
+        "value": "Editing a translation",
+        "isSelected": false
       },
       {
         "id": 1306,
-        "subtitle": "Translation of audio and video material",
-        "value": false
+        "label": "Translation of audio and video material",
+        "value": "Translation of audio and video material",
+        "isSelected": false
       },
       {
         "id": 1307,
-        "subtitle": "Other translation",
-        "value": false
+        "label": "Other translation",
+        "value": "Other translation",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 14,
-    "title": "Tutors and teaching",
-    "icon": "./assets/data/images/icons-menu/tutors-teachers.png",
-    "data": [
+    "label": "Tutors and teaching",
+    "icon": "./assets/items/images/icons-menu/tutors-teachers.png",
+    "items": [
       {
         "id": 1401,
-        "subtitle": "Hebrew",
-        "value": false
+        "label": "Hebrew",
+        "value": "Hebrew",
+        "isSelected": false
       },
       {
         "id": 1402,
-        "subtitle": "Arabic language",
-        "value": false
+        "label": "Arabic language",
+        "value": "Arabic language",
+        "isSelected": false
       },
       {
         "id": 1403,
-        "subtitle": "English language",
-        "value": false
+        "label": "English language",
+        "value": "English language",
+        "isSelected": false
       },
       {
         "id": 1404,
-        "subtitle": "Russian language",
-        "value": false
+        "label": "Russian language",
+        "value": "Russian language",
+        "isSelected": false
       },
       {
         "id": 1405,
-        "subtitle": "Other foreign languages",
-        "value": false
+        "label": "Other foreign languages",
+        "value": "Other foreign languages",
+        "isSelected": false
       },
       {
         "id": 1406,
-        "subtitle": "Subject teachers",
-        "value": false
+        "label": "Subject teachers",
+        "value": "Subject teachers",
+        "isSelected": false
       },
       {
         "id": 1407,
-        "subtitle": "Programming and computer science",
-        "value": false
+        "label": "Programming and computer science",
+        "value": "Programming and computer science",
+        "isSelected": false
       },
       {
         "id": 1408,
-        "subtitle": "Pre-school training and education services for junior grades students",
-        "value": false
+        "label": "Pre-school training and education services for junior grades students",
+        "value": "Pre-school training and education services for junior grades students",
+        "isSelected": false
       },
       {
         "id": 1409,
-        "subtitle": "Music, dances, art",
-        "value": false
+        "label": "Music, dances, art",
+        "value": "Music, dances, art",
+        "isSelected": false
       },
       {
         "id": 1410,
-        "subtitle": "Assistance for students",
-        "value": false
+        "label": "Assistance for students",
+        "value": "Assistance for students",
+        "isSelected": false
       },
       {
         "id": 1411,
-        "subtitle": "Writing works",
-        "value": false
+        "label": "Writing works",
+        "value": "Writing works",
+        "isSelected": false
       },
       {
         "id": 1412,
-        "subtitle": "Sports, coaches",
-        "value": false
+        "label": "Sports, coaches",
+        "value": "Sports, coaches",
+        "isSelected": false
       },
       {
         "id": 1413,
-        "subtitle": "Driving instructors",
-        "value": false
+        "label": "Driving instructors",
+        "value": "Driving instructors",
+        "isSelected": false
       },
       {
         "id": 1414,
-        "subtitle": "Other tutors and teaching",
-        "value": false
+        "label": "Other tutors and teaching",
+        "value": "Other tutors and teaching",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 15,
-    "title": "Virtual assistant",
-    "icon": "./assets/data/images/icons-menu/virtual-assistant.png",
-    "data": [
+    "label": "Virtual assistant",
+    "icon": "./assets/items/images/icons-menu/virtual-assistant.png",
+    "items": [
       {
         "id": 1501,
-        "subtitle": "Copywriting, typing ",
-        "value": false
+        "label": "Copywriting, typing ",
+        "value": "Copywriting, typing ",
+        "isSelected": false
       },
       {
         "id": 1502,
-        "subtitle": "Data input",
-        "value": false
+        "label": "Data input",
+        "value": "Data input",
+        "isSelected": false
       },
       {
         "id": 1503,
-        "subtitle": "Search and processing of information",
-        "value": false
+        "label": "Search and processing of information",
+        "value": "Search and processing of information",
+        "isSelected": false
       },
       {
         "id": 1504,
-        "subtitle": "Placement of ads",
-        "value": false
+        "label": "Placement of ads",
+        "value": "Placement of ads",
+        "isSelected": false
       },
       {
         "id": 1505,
-        "subtitle": "Work in Excel, Power Point, etc.",
-        "value": false
+        "label": "Work in Excel, Power Point, etc.",
+        "value": "Work in Excel, Power Point, etc.",
+        "isSelected": false
       },
       {
         "id": 1506,
-        "subtitle": "Advertising and promotion on the Internet",
-        "value": false
+        "label": "Advertising and promotion on the Internet",
+        "value": "Advertising and promotion on the Internet",
+        "isSelected": false
       },
       {
         "id": 1507,
-        "subtitle": "Calling database numbers",
-        "value": false
+        "label": "Calling database numbers",
+        "value": "Calling database numbers",
+        "isSelected": false
       },
       {
         "id": 1508,
-        "subtitle": "Other virtual assistant",
-        "value": false
+        "label": "Other virtual assistant",
+        "value": "Other virtual assistant",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 16,
-    "title": "Design services",
-    "icon": "./assets/data/images/icons-menu/design.png",
-    "data": [
+    "label": "Design services",
+    "icon": "./assets/items/images/icons-menu/design.png",
+    "items": [
       {
         "id": 1601,
-        "subtitle": "Corporate identity style, logos, business cards",
-        "value": false
+        "label": "Corporate identity style, logos, business cards",
+        "value": "Corporate identity style, logos, business cards",
+        "isSelected": false
       },
       {
         "id": 1602,
-        "subtitle": "Design of websites and applications",
-        "value": false
+        "label": "Design of websites and applications",
+        "value": "Design of websites and applications",
+        "isSelected": false
       },
       {
         "id": 1603,
-        "subtitle": "Banner design, outdoor advertising",
-        "value": false
+        "label": "Banner design, outdoor advertising",
+        "value": "Banner design, outdoor advertising",
+        "isSelected": false
       },
       {
         "id": 1604,
-        "subtitle": "Print design",
-        "value": false
+        "label": "Print design",
+        "value": "Print design",
+        "isSelected": false
       },
       {
         "id": 1605,
-        "subtitle": "Illustrations, painting, graffiti",
-        "value": false
+        "label": "Illustrations, painting, graffiti",
+        "value": "Illustrations, painting, graffiti",
+        "isSelected": false
       },
       {
         "id": 1606,
-        "subtitle": "Internet banners, social nets design",
-        "value": false
+        "label": "Internet banners, social nets design",
+        "value": "Internet banners, social nets design",
+        "isSelected": false
       },
       {
         "id": 1607,
-        "subtitle": "Animation, 3d graphics",
-        "value": false
+        "label": "Animation, 3d graphics",
+        "value": "Animation, 3d graphics",
+        "isSelected": false
       },
       {
         "id": 1608,
-        "subtitle": "Infographics, presentations, icons",
-        "value": false
+        "label": "Infographics, presentations, icons",
+        "value": "Infographics, presentations, icons",
+        "isSelected": false
       },
       {
         "id": 1609,
-        "subtitle": "Other design",
-        "value": false
+        "label": "Other design",
+        "value": "Other design",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 17,
-    "title": "Development of websites and applications",
-    "icon": "./assets/data/images/icons-menu/web-application.png",
-    "data": [
+    "label": "Development of websites and applications",
+    "icon": "./assets/items/images/icons-menu/web-application.png",
+    "items": [
       {
         "id": 1701,
-        "subtitle": "Programming and software development services",
-        "value": false
+        "label": "Programming and software development services",
+        "value": "Programming and software development services",
+        "isSelected": false
       },
       {
         "id": 1702,
-        "subtitle": "Development of websites and Landing page",
-        "value": false
+        "label": "Development of websites and Landing page",
+        "value": "Development of websites and Landing page",
+        "isSelected": false
       },
       {
         "id": 1703,
-        "subtitle": "Website improvement and support",
-        "value": false
+        "label": "Website improvement and support",
+        "value": "Website improvement and support",
+        "isSelected": false
       },
       {
         "id": 1704,
-        "subtitle": "Website promotion",
-        "value": false
+        "label": "Website promotion",
+        "value": "Website promotion",
+        "isSelected": false
       },
       {
         "id": 1705,
-        "subtitle": "Testing (QA)",
-        "value": false
+        "label": "Testing (QA)",
+        "value": "Testing (QA)",
+        "isSelected": false
       },
       {
         "id": 1706,
-        "subtitle": "Development of mobile applications and games",
-        "value": false
+        "label": "Development of mobile applications and games",
+        "value": "Development of mobile applications and games",
+        "isSelected": false
       },
       {
         "id": 1707,
-        "subtitle": "Creation and development of technical specifications",
-        "value": false
+        "label": "Creation and development of technical specifications",
+        "value": "Creation and development of technical specifications",
+        "isSelected": false
       },
       {
         "id": 1708,
-        "subtitle": "Other IT services",
-        "value": false
+        "label": "Other IT services",
+        "value": "Other IT services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 18,
-    "title": "Repair and maintenance of cars and motor vehicles",
-    "icon": "./assets/data/images/icons-menu/car-moto.png",
-    "data": [
+    "label": "Repair and maintenance of cars and motor vehicles",
+    "icon": "./assets/items/images/icons-menu/car-moto.png",
+    "items": [
       {
         "id": 1801,
-        "subtitle": "Car repair and maintenance",
-        "value": false
+        "label": "Car repair and maintenance",
+        "value": "Car repair and maintenance",
+        "isSelected": false
       },
       {
         "id": 1802,
-        "subtitle": "Diagnostic troubleshooting and repair of the engine, gearbox and chassis",
-        "value": false
+        "label": "Diagnostic troubleshooting and repair of the engine, gearbox and chassis",
+        "value": "Diagnostic troubleshooting and repair of the engine, gearbox and chassis",
+        "isSelected": false
       },
       {
         "id": 1803,
-        "subtitle": "Maintenance of air conditioning system",
-        "value": false
+        "label": "Maintenance of air conditioning system",
+        "value": "Maintenance of air conditioning system",
+        "isSelected": false
       },
       {
         "id": 1804,
-        "subtitle": "Car wash, dry cleaning",
-        "value": false
+        "label": "Car wash, dry cleaning",
+        "value": "Car wash, dry cleaning",
+        "isSelected": false
       },
       {
         "id": 1805,
-        "subtitle": "Repair and maintenance of motor vehicles",
-        "value": false
+        "label": "Repair and maintenance of motor vehicles",
+        "value": "Repair and maintenance of motor vehicles",
+        "isSelected": false
       },
       {
         "id": 1806,
-        "subtitle": "Re-upholstery and repairs of car interior",
-        "value": false
+        "label": "Re-upholstery and repairs of car interior",
+        "value": "Re-upholstery and repairs of car interior",
+        "isSelected": false
       },
       {
         "id": 1807,
-        "subtitle": "Repair of auto electrics",
-        "value": false
+        "label": "Repair of auto electrics",
+        "value": "Repair of auto electrics",
+        "isSelected": false
       },
       {
         "id": 1808,
-        "subtitle": "Auto bodyworks and painting",
-        "value": false
+        "label": "Auto bodyworks and painting",
+        "value": "Auto bodyworks and painting",
+        "isSelected": false
       },
       {
         "id": 1809,
-        "subtitle": "Tuning, styling, auto alarms",
-        "value": false
+        "label": "Tuning, styling, auto alarms",
+        "value": "Tuning, styling, auto alarms",
+        "isSelected": false
       },
       {
         "id": 1810,
-        "subtitle": "Other auto services",
-        "value": false
+        "label": "Other auto services",
+        "value": "Other auto services",
+        "isSelected": false
       }
     ]
   },
   {
     "id": 19,
-    "title": "Pet services",
-    "icon": "./assets/data/images/icons-menu/pets.png",
-    "data": [
+    "label": "Pet services",
+    "icon": "./assets/items/images/icons-menu/pets.png",
+    "items": [
       {
         "id": 1901,
-        "subtitle": "Dog care",
-        "value": false
+        "label": "Dog care",
+        "value": "Dog care",
+        "isSelected": false
       },
       {
         "id": 1902,
-        "subtitle": "Cat care",
-        "value": false
+        "label": "Cat care",
+        "value": "Cat care",
+        "isSelected": false
       },
       {
         "id": 1903,
-        "subtitle": "Taking care of other pets",
-        "value": false
+        "label": "Taking care of other pets",
+        "value": "Taking care of other pets",
+        "isSelected": false
       },
       {
         "id": 1904,
-        "subtitle": "Pet walking",
-        "value": false
+        "label": "Pet walking",
+        "value": "Pet walking",
+        "isSelected": false
       },
       {
         "id": 1905,
-        "subtitle": "Pet grooming",
-        "value": false
+        "label": "Pet grooming",
+        "value": "Pet grooming",
+        "isSelected": false
       },
       {
         "id": 1906,
-        "subtitle": "Transportation of pets",
-        "value": false
+        "label": "Transportation of pets",
+        "value": "Transportation of pets",
+        "isSelected": false
       },
       {
         "id": 1907,
-        "subtitle": "Pet hotels",
-        "value": false
+        "label": "Pet hotels",
+        "value": "Pet hotels",
+        "isSelected": false
       },
       {
         "id": 1908,
-        "subtitle": "Pet training",
-        "value": false
+        "label": "Pet training",
+        "value": "Pet training",
+        "isSelected": false
       },
       {
         "id": 1909,
-        "subtitle": "Other pet services",
-        "value": false
+        "label": "Other pet services",
+        "value": "Other pet services",
+        "isSelected": false
       }
     ]
   }

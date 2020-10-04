@@ -1,0 +1,81 @@
+@import "config";
+
+//  Global primeng styles
+.p-highlight, .p-focus, .p-inputtext {
+  box-shadow: none !important;
+  //border-color: $fifth-color;
+  &:focus {
+    border-color: $fifth-color;
+  }
+}
+
+//  Custom checkbox
+.base-checkbox .p-checkbox {
+  div {
+    &.p-checkbox-box:not(.p-disabled) {
+      border-color: #ced4da;
+    }
+    &.p-checkbox-box.p-highlight {
+      border-color: $fifth-color;
+      background: $fifth-color;
+      &:focus {
+        border-color: $fifth-color;
+        background: $fifth-color;
+      }
+      &:hover {
+        background: $fifth-color;
+        border-color: $fifth-color;
+      }
+    }
+  }
+}
+
+//Custom calendar
+.base-calendar .p-calendar {
+    width: inherit;
+    &.p-calendar .p-inputtext {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      cursor: pointer;
+      border-radius: 50px;
+      padding: 17px 35px;
+      &:focus {
+        box-shadow: none;
+        border-color: $fifth-color;
+      }
+    }
+
+  .p-datepicker table td > span.p-highlight {
+    background: $fifth-color;
+  }
+}
+
+//Custom autocomplete
+.base-autocomplete .p-dropdown {
+  width: inherit;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 8px 35px;
+  &.p-dropdown .p-dropdown-panel {
+    width: inherit;
+  }
+  &.p-dropdown-panel .p-dropdown-header .p-dropdown-filter {
+    border-color: $fifth-color;
+  }
+  .p-inputtext {
+    padding-left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    &:focus {
+      border-color: $fifth-color;
+    }
+  }
+  &.p-dropdown:not(.p-disabled).p-focus {
+    border-color: $fifth-color;
+  }
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+    background: $fifth-color;
+  }
+}

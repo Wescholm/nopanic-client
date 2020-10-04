@@ -9,6 +9,7 @@ import {
   validateShortDescription
 } from "../../validators/place-order-validators";
 
+
 @Component({
   selector: 'place-order',
   templateUrl: './place-order.component.html',
@@ -17,14 +18,16 @@ import {
 
 export class PlaceOrderComponent implements OnInit, OnDestroy {
 
-  test
   public orderForm: FormGroup;
   private getSectionsRequests: Subscription;
   private getCitiesRequests: Subscription;
-  public sectionsList: IMenuElements;
-  public citiesList: ICitiesList[];
+  public sectionsList;
+  public citiesList;
   public isSubmit: boolean;
-  public isRotate: boolean = false;
+  minDate: Date = new Date();
+  selectedSection: string;
+  selectedCity: string;
+
 
   get section() { return this.orderForm.get('Section'); }
   get heading() { return this.orderForm.get('Heading'); }
@@ -79,32 +82,12 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
   }
 
   importCities(): void  {
-    this.getCitiesRequests = this.dataService.getCities()
-      .subscribe((data: ICitiesList[]) => {
-        this.citiesList = data.sort((a, b) => (a.englishName > b.englishName) ? 1 : -1);
+    this.getCitiesRequests = this.dataService.getCitiesEng()
+      .subscribe((data: any) => {
+        console.log('data', data)
+        this.citiesList = data.sort((a, b) => (a.value > b.value) ? 1 : -1);
+        // console.log('this.citiesList', this.citiesList)
       })
-  }
-
-  openDate(date) {
-    const listArrow: HTMLElement = document.getElementById('arrow');
-    this.isRotate = !this.isRotate;
-    listArrow.style.transform = this.isRotate ? 'rotate(180deg)' : 'rotate(0deg)';
-    if (this.isRotate) date.open();
-    if (!this.isRotate) date.close();
-  }
-
-  streamOpened(date) {
-    const listArrow: HTMLElement = document.getElementById('arrow');
-    listArrow.style.transform = 'rotate(180deg)';
-    date.open()
-    console.log('open')
-  }
-
-  streamClosed(date) {
-    // const listArrow: HTMLElement = document.getElementById('arrow');
-    // listArrow.style.transform = 'rotate(0deg)';
-    // date.close()
-    console.log('close')
   }
 
 

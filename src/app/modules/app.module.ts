@@ -36,6 +36,8 @@ import {NgSelectModule} from "@ng-select/ng-select";
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {CommonModule} from "@angular/common";
 import {PrimengModule} from "./primeng.module";
+import {CheckboxModule} from "primeng/checkbox";
+import {DropdownModule} from "primeng/dropdown";
 
 @NgModule({
   declarations: [
@@ -78,7 +80,9 @@ import {PrimengModule} from "./primeng.module";
     FormsModule,
     ReactiveFormsModule,
     ReactiveFormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    CheckboxModule,
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]

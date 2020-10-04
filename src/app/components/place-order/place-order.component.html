@@ -10,20 +10,30 @@
     <div class="section-caption">
 
       <div class="section">
-        <ng-select [items]="sectionsList"
-                   formControlName="Section"
-                   bindLabel="subtitle"
-                   groupBy="data"
-                   placeholder="Select a section"
-                   notFoundText="Section not found"
-                   clearAllText="Clear">
-          <ng-template ng-optgroup-tmp let-item="item">
-            {{item['title']}}
+
+        <p>Section</p>
+
+        <p-dropdown
+          class="base-autocomplete"
+          [options]="sectionsList"
+          formControlName="Section"
+          placeholder="Select a section"
+          [group]="true"
+          [(ngModel)]="selectedSection"
+          [filter]="true">
+          <ng-template pTemplate="selectedItem">
+            <div *ngIf="selectedSection">
+<!--              <img src="assets/showcase/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + selectedCountry.code.toLowerCase()" />-->
+              <div>{{selectedSection}}</div>
+            </div>
           </ng-template>
-          <ng-template ng-option-tmp let-item="item">
-            {{item['subtitle']}}
+          <ng-template let-group pTemplate="group">
+            <div class="p-d-flex p-ai-center">
+<!--              <img src="" [class]="'p-mr-2 flag flag-' + group.value" style="width: 20px"/>-->
+              <span>{{group.label}}</span>
+            </div>
           </ng-template>
-        </ng-select>
+        </p-dropdown>
         <span class="error-message" *ngIf="section.invalid && (section.touched || isSubmit)">
           Choose a section
         </span>
@@ -35,7 +45,8 @@
           [style.borderColor]="heading.invalid && (heading.touched || isSubmit) ? 'red' : null"
           formControlName="Heading"
           type="text"
-          placeholder="Heading">
+          placeholder="Heading"
+        >
         <span class="error-message" *ngIf="heading.invalid && (heading.touched || isSubmit)">
           {{ getErrorMessage('Heading') }}
         </span>
@@ -52,7 +63,7 @@
           rows="12">
         </textarea>
       </label>
-      <span class="error-message" *ngIf="description.invalid && (description.touched || isSubmit)">
+      <span class="error-message-textarea" *ngIf="description.invalid && (description.touched || isSubmit)">
         {{ getErrorMessage('Description') }}
       </span>
     </div>
@@ -66,9 +77,10 @@
           rows="3">
         </textarea>
       </label>
-      <span class="error-message" *ngIf="shortDescription.invalid && (shortDescription.touched || isSubmit)">
+      <span class="error-message-textarea" *ngIf="shortDescription.invalid && (shortDescription.touched || isSubmit)">
         {{ getErrorMessage('ShortDescription') }}
       </span>
+
     </div>
 
     <div>
@@ -85,13 +97,28 @@
 
     <div class="section-address">
       <div class="address">
-<!--        <p>City</p>-->
-        <ng-select [items]="citiesList"
-                   [selectOnTab]="true"
-                   bindLabel="englishName"
-                   placeholder="Select city"
-                   formControlName="City">
-        </ng-select>
+        <p>City</p>
+        <p-dropdown
+          class="base-autocomplete"
+          [options]="citiesList"
+          formControlName="City"
+          placeholder="Select city"
+          [group]="true"
+          [(ngModel)]="selectedCity"
+          [filter]="true">
+          <ng-template pTemplate="selectedItem">
+            <div *ngIf="selectedCity">
+              <!--              <img src="assets/showcase/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + selectedCountry.code.toLowerCase()" />-->
+              <div>{{selectedCity}}</div>
+            </div>
+          </ng-template>
+          <ng-template let-group pTemplate="group">
+            <div class="p-d-flex p-ai-center">
+<!--              <img src="" [class]="'p-mr-2 flag flag-' + group.value" style="width: 20px"/>-->
+              <span>{{group.label}}</span>
+            </div>
+          </ng-template>
+        </p-dropdown>
         <span class="error-message" *ngIf="city.invalid && (city.touched || isSubmit)">
           Select city
         </span>
@@ -104,15 +131,12 @@
     <div class="date-complete">
       <div class="date">
         <p>Order execution date</p>
-        <input [matDatepicker]="date"
-               [style.borderColor]="executionDate.invalid && (executionDate.touched || isSubmit) ? 'red' : null"
-               formControlName="ExecutionDate"
-               type="text"
-               placeholder="Deadline when an order must be completed">
-        <mat-datepicker-toggle (click)="date.open()" matSuffix [for]="date">
-          <span class="material-icons" matDatepickerToggleIcon style="width: 100% !important;">keyboard_arrow_down</span>
-        </mat-datepicker-toggle>
-        <mat-datepicker #date disabled="false"></mat-datepicker>
+        <p-calendar
+          class="base-calendar"
+          [placeholder]="'Deadline when an order must be completed'"
+          [minDate]="this.minDate"
+          >
+        </p-calendar>
         <span class="error-message" *ngIf="executionDate.invalid && (executionDate.touched || isSubmit)">
           Select date
         </span>
@@ -130,7 +154,7 @@
           </span>
         </div>
         <div class="checkbox">
-          <mat-checkbox></mat-checkbox>
+          <p-checkbox class="base-checkbox"></p-checkbox>
           <p>Agreed</p>
         </div>
       </div>
