@@ -23,13 +23,13 @@
           [filter]="true">
           <ng-template pTemplate="selectedItem">
             <div *ngIf="selectedSection">
-<!--              <img src="assets/showcase/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + selectedCountry.code.toLowerCase()" />-->
+<!--              <img [src]="icon" style="width: 22px;margin-right: 7px;"/>-->
               <div>{{selectedSection}}</div>
             </div>
           </ng-template>
           <ng-template let-group pTemplate="group">
             <div class="p-d-flex p-ai-center">
-<!--              <img src="" [class]="'p-mr-2 flag flag-' + group.value" style="width: 20px"/>-->
+              <img [src]="group.icon" style="width: 22px;margin-right: 7px;"/>
               <span>{{group.label}}</span>
             </div>
           </ng-template>
@@ -105,16 +105,16 @@
           placeholder="Select city"
           [group]="true"
           [(ngModel)]="selectedCity"
-          [filter]="true">
+          [filter]="true"
+          [virtualScroll]="true"
+          [itemSize]="30">
           <ng-template pTemplate="selectedItem">
             <div *ngIf="selectedCity">
-              <!--              <img src="assets/showcase/images/demo/flag/flag_placeholder.png" [class]="'flag flag-' + selectedCountry.code.toLowerCase()" />-->
               <div>{{selectedCity}}</div>
             </div>
           </ng-template>
           <ng-template let-group pTemplate="group">
             <div class="p-d-flex p-ai-center">
-<!--              <img src="" [class]="'p-mr-2 flag flag-' + group.value" style="width: 20px"/>-->
               <span>{{group.label}}</span>
             </div>
           </ng-template>

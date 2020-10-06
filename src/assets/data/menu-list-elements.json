@@ -2,7 +2,7 @@
   {
     "id": 1,
     "label": "Construction and decoration works",
-    "icon": "./assets/items/images/icons-menu/construction-work.png",
+    "icon": "assets/data/images/icons-menu/construction-work.png",
     "items": [
       {
         "id": 101,
@@ -93,7 +93,7 @@
   {
     "id": 2,
     "label": "Everything for household",
-    "icon": "./assets/items/images/icons-menu/household-all.png",
+    "icon": "./assets/data/images/icons-menu/household-all.png",
     "items": [
       {
         "id": 201,
@@ -166,7 +166,7 @@
   {
     "id": 3,
     "label": "Household services",
-    "icon": "./assets/items/images/icons-menu/household-services.png",
+    "icon": "./assets/data/images/icons-menu/household-services.png",
     "items": [
       {
         "id": 301,
@@ -227,7 +227,7 @@
   {
     "id": 4,
     "label": "Cleaning",
-    "icon": "./assets/items/images/icons-menu/cleaning.png",
+    "icon": "./assets/data/images/icons-menu/cleaning.png",
     "items": [
       {
         "id": 401,
@@ -294,7 +294,7 @@
   {
     "id": 5,
     "label": "Transportation services",
-    "icon": "./assets/items/images/icons-menu/transportation.png",
+    "icon": "./assets/data/images/icons-menu/transportation.png",
     "items": [
       {
         "id": 501,
@@ -373,7 +373,7 @@
   {
     "id": 6,
     "label": "Courier services",
-    "icon": "./assets/items/images/icons-menu/courier.png",
+    "icon": "./assets/data/images/icons-menu/courier.png",
     "items": [
       {
         "id": 601,
@@ -434,7 +434,7 @@
   {
     "id": 7,
     "label": "Repair of appliances and tools",
-    "icon": "./assets/items/images/icons-menu/repair-tools.png",
+    "icon": "./assets/data/images/icons-menu/repair-tools.png",
     "items": [
       {
         "id": 701,
@@ -537,7 +537,7 @@
   {
     "id": 8,
     "label": "Organization of celebratory events",
-    "icon": "./assets/items/images/icons-menu/events.png",
+    "icon": "./assets/data/images/icons-menu/events.png",
     "items": [
       {
         "id": 801,
@@ -598,7 +598,7 @@
   {
     "id": 9,
     "label": "Beauty and health services",
-    "icon": "./assets/items/images/icons-menu/beauty-health.png",
+    "icon": "./assets/data/images/icons-menu/beauty-health.png",
     "items": [
       {
         "id": 901,
@@ -677,7 +677,7 @@
   {
     "id": 10,
     "label": "Photo and video services",
-    "icon": "./assets/items/images/icons-menu/photo-video.png",
+    "icon": "./assets/data/images/icons-menu/photo-video.png",
     "items": [
       {
         "id": 1001,
@@ -714,7 +714,7 @@
   {
     "id": 11,
     "label": "Business services",
-    "icon": "./assets/items/images/icons-menu/business-services.png",
+    "icon": "./assets/data/images/icons-menu/business-services.png",
     "items": [
       {
         "id": 1101,
@@ -769,7 +769,7 @@
   {
     "id": 12,
     "label": "Legal services",
-    "icon": "./assets/items/images/icons-menu/legal-services.png",
+    "icon": "./assets/data/images/icons-menu/legal-services.png",
     "items": [
       {
         "id": 1201,
@@ -818,7 +818,7 @@
   {
     "id": 13,
     "label": "Translation agency",
-    "icon": "./assets/items/images/icons-menu/translation.png",
+    "icon": "./assets/data/images/icons-menu/translation.png",
     "items": [
       {
         "id": 1301,
@@ -867,7 +867,7 @@
   {
     "id": 14,
     "label": "Tutors and teaching",
-    "icon": "./assets/items/images/icons-menu/tutors-teachers.png",
+    "icon": "./assets/data/images/icons-menu/tutors-teachers.png",
     "items": [
       {
         "id": 1401,
@@ -958,7 +958,7 @@
   {
     "id": 15,
     "label": "Virtual assistant",
-    "icon": "./assets/items/images/icons-menu/virtual-assistant.png",
+    "icon": "./assets/data/images/icons-menu/virtual-assistant.png",
     "items": [
       {
         "id": 1501,
@@ -1013,7 +1013,7 @@
   {
     "id": 16,
     "label": "Design services",
-    "icon": "./assets/items/images/icons-menu/design.png",
+    "icon": "./assets/data/images/icons-menu/design.png",
     "items": [
       {
         "id": 1601,
@@ -1074,7 +1074,7 @@
   {
     "id": 17,
     "label": "Development of websites and applications",
-    "icon": "./assets/items/images/icons-menu/web-application.png",
+    "icon": "./assets/data/images/icons-menu/web-application.png",
     "items": [
       {
         "id": 1701,
@@ -1129,7 +1129,7 @@
   {
     "id": 18,
     "label": "Repair and maintenance of cars and motor vehicles",
-    "icon": "./assets/items/images/icons-menu/car-moto.png",
+    "icon": "./assets/data/images/icons-menu/car-moto.png",
     "items": [
       {
         "id": 1801,
@@ -1196,7 +1196,7 @@
   {
     "id": 19,
     "label": "Pet services",
-    "icon": "./assets/items/images/icons-menu/pets.png",
+    "icon": "./assets/data/images/icons-menu/pets.png",
     "items": [
       {
         "id": 1901,

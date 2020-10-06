@@ -3,9 +3,9 @@
     <div class="main-navigation" *ngFor="let section of this.sectionList">
      <img class="menu-icon" [src]="section['icon']" alt="">
       <div class="dropdown-common">
-        <div class="dropdown-title">{{section['title']}}</div>
+        <div class="dropdown-title">{{section['label']}}</div>
         <ul class="dropdown-news-list">
-          <li class="dropdown-news-item" [routerLink]="['/place-order']" *ngFor="let item of section.data">{{item['subtitle']}}</li>
+          <li class="dropdown-news-item" [routerLink]="['/place-order']" *ngFor="let item of section.items">{{item['label']}}</li>
         </ul>
       </div>
     </div>

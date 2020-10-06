@@ -21,12 +21,13 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
   public orderForm: FormGroup;
   private getSectionsRequests: Subscription;
   private getCitiesRequests: Subscription;
-  public sectionsList;
+  public sectionsList: IMenuElements[];
   public citiesList;
   public isSubmit: boolean;
   minDate: Date = new Date();
   selectedSection: string;
   selectedCity: string;
+  pathIcon: IMenuElements;
 
 
   get section() { return this.orderForm.get('Section'); }
@@ -71,8 +72,12 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
 
   importSections(): void  {
     this.getSectionsRequests = this.dataService.getMenuElements()
-      .subscribe((data: IMenuElements) => {
+      .subscribe((data: any) => {
         this.sectionsList = data;
+        this.sectionsList.forEach(element => {
+          this.pathIcon = element;
+          console.log(element.icon)
+        })
       })
   }
 
@@ -84,9 +89,10 @@ export class PlaceOrderComponent implements OnInit, OnDestroy {
   importCities(): void  {
     this.getCitiesRequests = this.dataService.getCitiesEng()
       .subscribe((data: any) => {
-        console.log('data', data)
-        this.citiesList = data.sort((a, b) => (a.value > b.value) ? 1 : -1);
-        // console.log('this.citiesList', this.citiesList)
+        this.citiesList = data;
+
+        // data.forEach(element => {
+        // })
       })
   }
 

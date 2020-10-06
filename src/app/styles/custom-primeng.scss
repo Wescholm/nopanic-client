@@ -68,8 +68,16 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 14px;
+    //&::placeholder {
+    //  font-size: 19px
+    //}
     &:focus {
       border-color: $fifth-color;
+    }
+  }
+  .p-dropdown-panel {
+    input {
+      padding-left: 10px;
     }
   }
   &.p-dropdown:not(.p-disabled).p-focus {
@@ -77,5 +85,13 @@
   }
   .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
     background: $fifth-color;
+  }
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item-group {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
   }
 }

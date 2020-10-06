@@ -42,13 +42,22 @@
     }
     input {
       @include light-text;
-      font-size: 14px;
+      font-size: 18px;
       width: 100%;
       border: 1px solid #ddd;
       border-radius: 50px;
       padding: 17px 35px;
       &:focus {
         border: 1px solid $fifth-color;
+      }
+      &::placeholder {
+        font-size: 14px;
+      }
+    }
+    .base-autocomplete {
+      width: 539px !important;
+      &::placeholder {
+        font-size: 14px;
       }
     }
     mat-datepicker-toggle {
@@ -73,6 +82,9 @@
     }
     .base-autocomplete {
       width: 539px !important;
+      &::placeholder {
+        font-size: 14px;
+      }
     }
     .base-calendar {
       width: 539px !important;
@@ -104,7 +116,7 @@
     }
     textarea {
       @include light-text;
-      font-size: 14px;
+      font-size: 18px;
       width: 100%;
       margin: 38px 0;
       border-radius: 26px;
@@ -115,12 +127,15 @@
       &:focus {
         border: 1px solid $fifth-color;
       }
+      &::placeholder {
+        font-size: 14px;
+      }
     }
   }
   .short-description {
     textarea {
       @include light-text;
-      font-size: 14px;
+      font-size: 18px;
       width: 100%;
       border-radius: 26px;
       border: 1px solid #ddd;
@@ -129,6 +144,9 @@
       padding: 18px 35px;
       &:focus {
         border: 1px solid $fifth-color;
+      }
+      &::placeholder {
+        font-size: 14px;
       }
     }
   }
