@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import {Subscription} from "rxjs";
 import {DataService} from "../../../services/data.service";
-import {log} from "util";
 
 @Component({
   selector: 'filters',
@@ -24,8 +23,8 @@ export class FiltersComponent implements OnInit {
   importSections() {
     this.getSectionsRequests = this.dataService.getMenuElements()
       .subscribe((data) => {
-        console.log('data', data)
         this.listElements = data;
+        console.log(data)
       })
   }
 

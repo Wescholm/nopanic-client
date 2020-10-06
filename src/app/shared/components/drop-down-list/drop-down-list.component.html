@@ -6,9 +6,8 @@
     </div>
     <ul id="{{this.partId + listIndex}}" class="close">
       <li *ngFor="let element of list.items; let elementIndex = index">
-        <mat-checkbox [(ngModel)]="element.value" (ngModelChange)="this.changedValue.emit(this.data)">
-        </mat-checkbox>
-        <a (click)="valueChanged(listIndex, elementIndex)">{{element["value"]}}</a>
+        <p-checkbox class="base-checkbox" [(ngModel)]="element.isSelected" (ngModelChange)="this.changedValue.emit(this.data)"></p-checkbox>
+        <a (click)="valueChanged(listIndex, elementIndex)">{{element["label"]}}</a>
       </li>
     </ul>
   </div>

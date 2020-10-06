@@ -42,6 +42,10 @@
           color: $seventh-color;
         }
       }
+      .base-checkbox {
+        width: 17px;
+        height: 17px;
+      }
       a {
         width: 100%;
         color: black;
@@ -59,6 +63,8 @@
       max-height: 0;
       visibility: hidden;
     }
+
+
   }
 }
 

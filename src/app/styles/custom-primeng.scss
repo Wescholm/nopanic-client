@@ -11,6 +11,15 @@
 
 //  Custom checkbox
 .base-checkbox .p-checkbox {
+    &.p-component {
+      width: inherit;
+      height: inherit;
+    }
+    &.p-checkbox .p-checkbox-box {
+    width: inherit;
+    height: inherit;
+    }
+
   div {
     &.p-checkbox-box:not(.p-disabled) {
       border-color: #ced4da;
@@ -68,9 +77,6 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 14px;
-    //&::placeholder {
-    //  font-size: 19px
-    //}
     &:focus {
       border-color: $fifth-color;
     }

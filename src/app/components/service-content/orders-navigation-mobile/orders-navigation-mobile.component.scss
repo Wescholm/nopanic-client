@@ -28,9 +28,9 @@
     position: relative;
     padding: 0 10px;
     button{
-      @include regular-text;
-      font-size: 18px;
-      color: #A8A8A8;
+      @include medium-text;
+      font-size: 19px;
+      color: #A8A8A9;
       text-decoration: none;
       background: none;
       border: 0;
@@ -97,7 +97,7 @@
       }
     }
   }
-  @media screen and (max-width: 922px) {
+  @media screen and (max-width: 1074px) {
     display: block;
   }
 }
